@@ -1,0 +1,136 @@
+{
+ "source": "panadew",
+ "date": "2026-11-07",
+ "count": 8,
+ "incomplete": false,
+ "listings": [
+  {
+   "key": "panadew|319907",
+   "address": "79 Queen Street, Unit 2, Kingston",
+   "unit": "",
+   "beds": 2,
+   "baths": 1,
+   "rent": 1795,
+   "basis": "unit",
+   "available": "October 1st 2026",
+   "status": "listed",
+   "url": "https://panadew.managebuilding.com/Resident/public/rentals/319907",
+   "rent_text": "$1,795/month + utilities",
+   "photos": [
+    "/Resident/api/public/files/download?fileName=4428b8bccc434a5498ecda6a1689b8b7_406x539.jpg&isPreview=true"
+   ]
+  },
+  {
+   "key": "panadew|186148",
+   "address": "80 Pembroke Street, Unit 1, Kingston",
+   "unit": "",
+   "beds": 5,
+   "baths": 2,
+   "rent": 845,
+   "basis": "bed",
+   "available": "October 1st, 2026",
+   "status": "listed",
+   "url": "https://panadew.managebuilding.com/Resident/public/rentals/186148",
+   "rent_text": "$845/month per room (utilities included)",
+   "photos": [
+    "/Resident/api/public/files/download?fileName=ddc4dd25dafe46e2bfb289228441a747_406x539.jpg&isPreview=true"
+   ]
+  },
+  {
+   "key": "panadew|295851",
+   "address": "86 Park Street, Unit 2, Kingston",
+   "unit": "",
+   "beds": 2,
+   "baths": 1,
+   "rent": 1531,
+   "basis": "unit",
+   "available": "October 1st 2026",
+   "status": "listed",
+   "url": "https://panadew.managebuilding.com/Resident/public/rentals/295851",
+   "rent_text": "$1,531/month (plus electricity, averaging $35/month; heat and water included)",
+   "photos": [
+    "/Resident/api/public/files/download?fileName=69393b980184439fb29a52a9aa2aedcd_406x539.jpg&isPreview=true"
+   ]
+  },
+  {
+   "key": "panadew|212331",
+   "address": "262 Wellington Street, Unit 1, Kingston",
+   "unit": "",
+   "beds": 2,
+   "baths": 2,
+   "rent": 2750,
+   "basis": "unit",
+   "available": "October 1st 2026",
+   "status": "listed",
+   "url": "https://panadew.managebuilding.com/Resident/public/rentals/212331",
+   "rent_text": "$2,750/month (plus electricity and water/sewer, averaging $195)",
+   "photos": [
+    "/Resident/api/public/files/download?fileName=3fced3bd4d7f49aba47c1f1be3e41248_406x539.jpg&isPreview=true"
+   ]
+  },
+  {
+   "key": "panadew|186154",
+   "address": "333 Barrie Street, Unit 2, Kingston",
+   "unit": "",
+   "beds": 0,
+   "baths": 1,
+   "rent": 1575,
+   "basis": "unit",
+   "available": "October 1st, 2026",
+   "status": "listed",
+   "url": "https://panadew.managebuilding.com/Resident/public/rentals/186154",
+   "rent_text": "$1,575/month (utilities included)",
+   "photos": [
+    "/Resident/api/public/files/download?fileName=251119673ea949468652c3b4469f15cb_406x539.jpg&isPreview=true"
+   ]
+  },
+  {
+   "key": "panadew|186172",
+   "address": "334 University Avenue, Unit 1, Kingston",
+   "unit": "",
+   "beds": 1,
+   "baths": 1,
+   "rent": 800,
+   "basis": "bed",
+   "available": "October 1st 2026",
+   "status": "listed",
+   "url": "https://panadew.managebuilding.com/Resident/public/rentals/186172",
+   "rent_text": "$800/month per room (all inclusive)",
+   "photos": [
+    "/Resident/api/public/files/download?fileName=9cf1a15ce151497ea4ceb6c1682b4f02_406x539.jpg&isPreview=true"
+   ]
+  },
+  {
+   "key": "panadew|94201",
+   "address": "406 Barrie Street, Unit 3, Kingston",
+   "unit": "",
+   "beds": 2,
+   "baths": 1,
+   "rent": 1640,
+   "basis": "unit",
+   "available": "October 1st, 2026",
+   "status": "listed",
+   "url": "https://panadew.managebuilding.com/Resident/public/rentals/94201",
+   "rent_text": "$1,640/month (plus electricity, averaging $132/month)",
+   "photos": [
+    "/Resident/api/public/files/download?fileName=668bc2f64af34322947294aedf4292ed_406x539.jpg&isPreview=true"
+   ]
+  },
+  {
+   "key": "panadew|302824",
+   "address": "555 Division Street, Unit 1, Kingston",
+   "unit": "",
+   "beds": 3,
+   "baths": 1,
+   "rent": 1995,
+   "basis": "unit",
+   "available": "November 1st 2026",
+   "status": "listed",
+   "url": "https://panadew.managebuilding.com/Resident/public/rentals/302824",
+   "rent_text": "$1995/month (utilities included)",
+   "photos": [
+    "/Resident/api/public/files/download?fileName=7b5420a33ec24fd59d7195bde7a61fe4_406x539.jpg&isPreview=true"
+   ]
+  }
+ ]
+}

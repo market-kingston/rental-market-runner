@@ -1,0 +1,893 @@
+{
+ "date": "2026-11-07",
+ "sources": {
+  "amberpeak": {
+   "source": "amberpeak",
+   "pages": [
+    {
+     "url": "https://marketplace-server.fly.dev/api/units?take=500&skip=0",
+     "ok": true,
+     "status": 200,
+     "file": "marketplace-server-fly-dev-api-units-take-500-skip-0.json",
+     "bytes": 186805,
+     "sha256": "947f876b9533cc6090f72e147705761a4fa3b69964247163accdef1ad398c044"
+    }
+   ],
+   "ok": 1,
+   "failed": 0
+  },
+  "axon": {
+   "source": "axon",
+   "pages": [
+    {
+     "url": "https://www.axonproperties.ca/residential-rentals/cities/kingston",
+     "ok": true,
+     "status": 200,
+     "final_url": "https://www.axonproperties.ca/residential-rentals/cities/kingston",
+     "file": "www-axonproperties-ca-residential-rentals-cities-kingston.html",
+     "bytes": 224939,
+     "sha256": "d457c33b52a9237de05efc5b0ef72f08cb278b585e64d4b106a9288a66a89f4c"
+    }
+   ],
+   "ok": 1,
+   "failed": 0
+  },
+  "queens_als": {
+   "source": "queens_als",
+   "pages": [
+    {
+     "url": "https://listingservice.housing.queensu.ca/index.php/public/getByFilter?property_type_id=&lease_type_id=&num_items=10&show_test=0&page=1",
+     "ok": true,
+     "status": 200,
+     "file": "listingservice-housing-queensu-ca-index-php-public-getByFilter-property-type-id-lease-type-id-num-items-10-show-test-0-page-1.json",
+     "bytes": 11522,
+     "sha256": "93aca299e96bf34c2d40d5d87adb163b5db4a25d827866261bc384f71559f246"
+    },
+    {
+     "url": "https://listingservice.housing.queensu.ca/index.php/public/getByFilter?property_type_id=&lease_type_id=&num_items=10&show_test=0&page=2",
+     "ok": true,
+     "status": 200,
+     "file": "listingservice-housing-queensu-ca-index-php-public-getByFilter-property-type-id-lease-type-id-num-items-10-show-test-0-page-2.json",
+     "bytes": 10621,
+     "sha256": "9385016ef831736e0c176da452a23b78aec1087c15df6443f1b096a48b19e70b"
+    },
+    {
+     "url": "https://listingservice.housing.queensu.ca/index.php/public/getByFilter?property_type_id=&lease_type_id=&num_items=10&show_test=0&page=3",
+     "ok": true,
+     "status": 200,
+     "file": "listingservice-housing-queensu-ca-index-php-public-getByFilter-property-type-id-lease-type-id-num-items-10-show-test-0-page-3.json",
+     "bytes": 10659,
+     "sha256": "9a8a7815e354946df5a040980c1485076d365d1482c1367de3dc4d464acb8454"
+    },
+    {
+     "url": "https://listingservice.housing.queensu.ca/index.php/public/getByFilter?property_type_id=&lease_type_id=&num_items=10&show_test=0&page=4",
+     "ok": true,
+     "status": 200,
+     "file": "listingservice-housing-queensu-ca-index-php-public-getByFilter-property-type-id-lease-type-id-num-items-10-show-test-0-page-4.json",
+     "bytes": 10691,
+     "sha256": "b335e878afec0cf12b04cc8f5a48dc8e51d0aa95188d45d1d3003bbfd678cbc2"
+    },
+    {
+     "url": "https://listingservice.housing.queensu.ca/index.php/public/getByFilter?property_type_id=&lease_type_id=&num_items=10&show_test=0&page=5",
+     "ok": true,
+     "status": 200,
+     "file": "listingservice-housing-queensu-ca-index-php-public-getByFilter-property-type-id-lease-type-id-num-items-10-show-test-0-page-5.json",
+     "bytes": 10732,
+     "sha256": "4e94c18f617dd4f6f06fc118baf9a5a92628cb874e864926c1f840974aeb6a07"
+    },
+    {
+     "url": "https://listingservice.housing.queensu.ca/index.php/public/getByFilter?property_type_id=&lease_type_id=&num_items=10&show_test=0&page=6",
+     "ok": true,
+     "status": 200,
+     "file": "listingservice-housing-queensu-ca-index-php-public-getByFilter-property-type-id-lease-type-id-num-items-10-show-test-0-page-6.json",
+     "bytes": 10704,
+     "sha256": "7986f96e138e74081e1127b266b2696d52cbac47bc603c91955931f428677a28"
+    },
+    {
+     "url": "https://listingservice.housing.queensu.ca/index.php/public/getByFilter?property_type_id=&lease_type_id=&num_items=10&show_test=0&page=7",
+     "ok": true,
+     "status": 200,
+     "file": "listingservice-housing-queensu-ca-index-php-public-getByFilter-property-type-id-lease-type-id-num-items-10-show-test-0-page-7.json",
+     "bytes": 10711,
+     "sha256": "e229d2a6aed527aa46f00ef44fb343c080fb35efa82acb3aa0b9f6a52cd660e9"
+    },
+    {
+     "url": "https://listingservice.housing.queensu.ca/index.php/public/getByFilter?property_type_id=&lease_type_id=&num_items=10&show_test=0&page=8",
+     "ok": true,
+     "status": 200,
+     "file": "listingservice-housing-queensu-ca-index-php-public-getByFilter-property-type-id-lease-type-id-num-items-10-show-test-0-page-8.json",
+     "bytes": 10615,
+     "sha256": "b8b78597303801beb2753c192c9be0337be16126d78d6d37cdd0a3858d838902"
+    },
+    {
+     "url": "https://listingservice.housing.queensu.ca/index.php/public/getByFilter?property_type_id=&lease_type_id=&num_items=10&show_test=0&page=9",
+     "ok": true,
+     "status": 200,
+     "file": "listingservice-housing-queensu-ca-index-php-public-getByFilter-property-type-id-lease-type-id-num-items-10-show-test-0-page-9.json",
+     "bytes": 10610,
+     "sha256": "59f127999fbf0a1c6c0d24a8b076a43365a9c6ace2db3d8446ba7574c1d24244"
+    },
+    {
+     "url": "https://listingservice.housing.queensu.ca/index.php/public/getByFilter?property_type_id=&lease_type_id=&num_items=10&show_test=0&page=10",
+     "ok": true,
+     "status": 200,
+     "file": "listingservice-housing-queensu-ca-index-php-public-getByFilter-property-type-id-lease-type-id-num-items-10-show-test-0-page-10.json",
+     "bytes": 10762,
+     "sha256": "60f1b2ba68065e3dcbaf14ce506c38bfd5093011692cb60251613a23c0de4555"
+    },
+    {
+     "url": "https://listingservice.housing.queensu.ca/index.php/public/getByFilter?property_type_id=&lease_type_id=&num_items=10&show_test=0&page=11",
+     "ok": true,
+     "status": 200,
+     "file": "listingservice-housing-queensu-ca-index-php-public-getByFilter-property-type-id-lease-type-id-num-items-10-show-test-0-page-11.json",
+     "bytes": 10663,
+     "sha256": "5223f7c4ab1a45156542a84af7cfcdcc8c011247bf91eaabce0e38c8a3c1bdc6"
+    },
+    {
+     "url": "https://listingservice.housing.queensu.ca/index.php/public/getByFilter?property_type_id=&lease_type_id=&num_items=10&show_test=0&page=12",
+     "ok": true,
+     "status": 200,
+     "file": "listingservice-housing-queensu-ca-index-php-public-getByFilter-property-type-id-lease-type-id-num-items-10-show-test-0-page-12.json",
+     "bytes": 10685,
+     "sha256": "333d00517829c449a50ae8ede4dcc9d8d073cd967b069b504a265fe11b09a867"
+    },
+    {
+     "url": "https://listingservice.housing.queensu.ca/index.php/public/getByFilter?property_type_id=&lease_type_id=&num_items=10&show_test=0&page=13",
+     "ok": true,
+     "status": 200,
+     "file": "listingservice-housing-queensu-ca-index-php-public-getByFilter-property-type-id-lease-type-id-num-items-10-show-test-0-page-13.json",
+     "bytes": 4488,
+     "sha256": "634c1f10644811d3e327d32a2ecfc6c7e56e7f2f012b31cc705e0479ce72212d"
+    },
+    {
+     "url": "https://listingservice.housing.queensu.ca/index.php/public/getByFilter?property_type_id=&lease_type_id=&num_items=10&show_test=0&page=14",
+     "ok": true,
+     "status": 200,
+     "file": "listingservice-housing-queensu-ca-index-php-public-getByFilter-property-type-id-lease-type-id-num-items-10-show-test-0-page-14.json",
+     "bytes": 1967,
+     "sha256": "0e7b7286624c89167230ed6b116e08c0af4e6fec7639f5508326a432a1ceaba2"
+    }
+   ],
+   "ok": 14,
+   "failed": 0
+  },
+  "casa": {
+   "source": "casa",
+   "pages": [
+    {
+     "url": "https://livecasa.ca/",
+     "ok": true,
+     "status": 200,
+     "final_url": "https://livecasa.ca/",
+     "file": "livecasa-ca.html",
+     "bytes": 23797,
+     "sha256": "fdbff75f83c330489037a77b4ab7f132eb2b3ddea1a692a80b982c6472b5bff4"
+    }
+   ],
+   "ok": 1,
+   "failed": 0
+  },
+  "limestone": {
+   "source": "limestone",
+   "pages": [
+    {
+     "url": "https://limestonepropertymanagement.ca/student-rentals/",
+     "ok": true,
+     "status": 200,
+     "final_url": "https://limestonepropertymanagement.ca/student-rentals/",
+     "file": "limestonepropertymanagement-ca-student-rentals.html",
+     "bytes": 191230,
+     "sha256": "44dd756013b4215112cddadf7729ecb119cc4925d54ad1df0258857b1e1a43ed"
+    },
+    {
+     "url": "https://limestonepropertymanagement.ca/kingston-ontario-listings/",
+     "ok": true,
+     "status": 200,
+     "final_url": "https://limestonepropertymanagement.ca/kingston-ontario-listings/",
+     "file": "limestonepropertymanagement-ca-kingston-ontario-listings.html",
+     "bytes": 193012,
+     "sha256": "1ee7ede854db3719f777b63d32200ec58ff6fd41ba2b91548ce2dd21583f7a98"
+    },
+    {
+     "url": "https://limestonepropertymanagement.ca/kingston-ontario-listings/page/2/",
+     "ok": true,
+     "status": 200,
+     "final_url": "https://limestonepropertymanagement.ca/kingston-ontario-listings/page/2/",
+     "file": "limestonepropertymanagement-ca-kingston-ontario-listings-page-2.html",
+     "bytes": 194814,
+     "sha256": "3d22b26e171c06db9be502e292f19bdc5302971f29349f1e7a4de8edd8362058"
+    },
+    {
+     "url": "https://limestonepropertymanagement.ca/kingston-ontario-listings/page/5/",
+     "ok": true,
+     "status": 200,
+     "final_url": "https://limestonepropertymanagement.ca/kingston-ontario-listings/page/5/",
+     "file": "limestonepropertymanagement-ca-kingston-ontario-listings-page-5.html",
+     "bytes": 150022,
+     "sha256": "887fe44cd8d7e54f4adf85f98b8e6c73a5f32cc22c91a603f91fd1a5c706a40a"
+    },
+    {
+     "url": "https://limestonepropertymanagement.ca/kingston-ontario-listings/page/1/",
+     "ok": true,
+     "status": 200,
+     "final_url": "https://limestonepropertymanagement.ca/kingston-ontario-listings/",
+     "file": "limestonepropertymanagement-ca-kingston-ontario-listings-page-1.html",
+     "bytes": 193011,
+     "sha256": "e35f53dc1f85d53baa2abaa34c445f3236dc621ebf41fab2e688fd475800fdee"
+    },
+    {
+     "url": "https://limestonepropertymanagement.ca/kingston-ontario-listings/page/3/",
+     "ok": true,
+     "status": 200,
+     "final_url": "https://limestonepropertymanagement.ca/kingston-ontario-listings/page/3/",
+     "file": "limestonepropertymanagement-ca-kingston-ontario-listings-page-3.html",
+     "bytes": 193941,
+     "sha256": "77ed08f6edcb0ea7f9ca4e0610ad686d64f74cda9e3ce0d45a2358b4a2145103"
+    },
+    {
+     "url": "https://limestonepropertymanagement.ca/kingston-ontario-listings/page/4/",
+     "ok": true,
+     "status": 200,
+     "final_url": "https://limestonepropertymanagement.ca/kingston-ontario-listings/page/4/",
+     "file": "limestonepropertymanagement-ca-kingston-ontario-listings-page-4.html",
+     "bytes": 193609,
+     "sha256": "b566279c53ebfad3696753a1baf8a880a8274381ffd3862a096fe61fea0dedde"
+    }
+   ],
+   "ok": 7,
+   "failed": 0
+  },
+  "panadew": {
+   "source": "panadew",
+   "pages": [
+    {
+     "url": "https://panadew.managebuilding.com/Resident/public/rentals",
+     "ok": true,
+     "status": 200,
+     "final_url": "https://panadew.managebuilding.com/Resident/public/rentals",
+     "file": "panadew-managebuilding-com-Resident-public-rentals.html",
+     "bytes": 117307,
+     "sha256": "a843507b8ca6b1e2d1e0380088f3a5fea621b8e5a4b2c2646a614f300f50c9dc"
+    }
+   ],
+   "ok": 1,
+   "failed": 0
+  },
+  "geo_central": {
+   "source": "geo_central",
+   "pages": [
+    {
+     "url": "https://geokingston.ca/geo-central/",
+     "ok": true,
+     "status": 200,
+     "final_url": "https://geokingston.ca/geo-central/",
+     "file": "geokingston-ca-geo-central.html",
+     "bytes": 312649,
+     "sha256": "3ddde28e70d64aad7969bf106e446f5d4836a6ce8eae46834ef2b31a28fdcdb6"
+    }
+   ],
+   "ok": 1,
+   "failed": 0
+  },
+  "unity_place": {
+   "source": "unity_place",
+   "pages": [
+    {
+     "url": "https://liveunity.ca/unity-place/",
+     "ok": true,
+     "status": 200,
+     "final_url": "https://liveunity.ca/unity-place/",
+     "file": "liveunity-ca-unity-place.html",
+     "bytes": 345695,
+     "sha256": "7c0ecd580715dc406ad01f693776b39f76e07be105ccae58413e524997c8d99c"
+    }
+   ],
+   "ok": 1,
+   "failed": 0
+  },
+  "unity_point": {
+   "source": "unity_point",
+   "pages": [
+    {
+     "url": "https://liveunity.ca/unity-point/",
+     "ok": true,
+     "status": 200,
+     "final_url": "https://liveunity.ca/unity-point/",
+     "file": "liveunity-ca-unity-point.html",
+     "bytes": 341420,
+     "sha256": "0e784aecb670cb24a574941a3572d21779a7b85a555265964ba8eb0ae077da8d"
+    }
+   ],
+   "ok": 1,
+   "failed": 0
+  },
+  "homestead": {
+   "source": "homestead",
+   "pages": [
+    {
+     "url": "https://www.homestead.ca/residential/346-brock-street-kingston",
+     "ok": true,
+     "status": 200,
+     "final_url": "https://www.homestead.ca/residential/346-brock-street-kingston",
+     "file": "www-homestead-ca-residential-346-brock-street-kingston.html",
+     "bytes": 453208,
+     "sha256": "8caf4f7b5245344b94e4ced13a11eb905e1c9ce6d56110d25914295bdcd24af1"
+    },
+    {
+     "url": "https://www.homestead.ca/residential/322-brock-street-kingston",
+     "ok": true,
+     "status": 200,
+     "final_url": "https://www.homestead.ca/residential/322-brock-street-kingston",
+     "file": "www-homestead-ca-residential-322-brock-street-kingston.html",
+     "bytes": 458351,
+     "sha256": "845686b0b39e3f323e9445cf96658b0c1269249b8f0f474cad6c1916509eeaaf"
+    },
+    {
+     "url": "https://www.homestead.ca/residential/117-park-street-kingston",
+     "ok": true,
+     "status": 200,
+     "final_url": "https://www.homestead.ca/residential/117-park-street-kingston",
+     "file": "www-homestead-ca-residential-117-park-street-kingston.html",
+     "bytes": 433329,
+     "sha256": "f6340520efc43e043a70ad20463d8ea492357e1869593afe3bcbd416c1b8eb25"
+    },
+    {
+     "url": "https://www.homestead.ca/residential/32-ontario-street-kingston",
+     "ok": true,
+     "status": 200,
+     "final_url": "https://www.homestead.ca/residential/32-ontario-street-kingston",
+     "file": "www-homestead-ca-residential-32-ontario-street-kingston.html",
+     "bytes": 440442,
+     "sha256": "77da162bbd0b50089d12c10e57343654b5f5fbadc538193daea423d9e0acf220"
+    },
+    {
+     "url": "https://www.homestead.ca/residential/64-ontario-street-kingston",
+     "ok": true,
+     "status": 200,
+     "final_url": "https://www.homestead.ca/residential/64-ontario-street-kingston",
+     "file": "www-homestead-ca-residential-64-ontario-street-kingston.html",
+     "bytes": 442793,
+     "sha256": "037a8695288e6f869f1687e53938b99e88d8d64538f64e5254ebe372039f1ef9"
+    },
+    {
+     "url": "https://www.homestead.ca/residential/85-ontario-street-kingston",
+     "ok": true,
+     "status": 200,
+     "final_url": "https://www.homestead.ca/residential/85-ontario-street-kingston",
+     "file": "www-homestead-ca-residential-85-ontario-street-kingston.html",
+     "bytes": 443265,
+     "sha256": "fd324bc833234bb62ae6d4c6a82e62434ead2cefd92792a25694c915cc42a7d7"
+    },
+    {
+     "url": "https://www.homestead.ca/residential/135-ontario-street-kingston",
+     "ok": true,
+     "status": 200,
+     "final_url": "https://www.homestead.ca/residential/135-ontario-street-kingston",
+     "file": "www-homestead-ca-residential-135-ontario-street-kingston.html",
+     "bytes": 441392,
+     "sha256": "552e41bf9f83ec7d73293708e0ea52138af474d8bdbeceaabca9f50f163bc21e"
+    },
+    {
+     "url": "https://www.homestead.ca/residential/33-ontario-street-kingston",
+     "ok": true,
+     "status": 200,
+     "final_url": "https://www.homestead.ca/residential/33-ontario-street-kingston",
+     "file": "www-homestead-ca-residential-33-ontario-street-kingston.html",
+     "bytes": 478143,
+     "sha256": "f0298049d80b001a163a8e92c0690af43a2c47535b69350260db096a404354f1"
+    },
+    {
+     "url": "https://www.homestead.ca/residential/91-king-street-east-kingston",
+     "ok": true,
+     "status": 200,
+     "final_url": "https://www.homestead.ca/residential/91-king-street-east-kingston",
+     "file": "www-homestead-ca-residential-91-king-street-east-kingston.html",
+     "bytes": 439460,
+     "sha256": "2029d6e48700cd2419bf0b8e73b9bbd11a7f1c81b968fa954a3a9b410f7372c6"
+    },
+    {
+     "url": "https://www.homestead.ca/residential/27-elmwood-street-kingston",
+     "ok": true,
+     "status": 200,
+     "final_url": "https://www.homestead.ca/residential/27-elmwood-street-kingston",
+     "file": "www-homestead-ca-residential-27-elmwood-street-kingston.html",
+     "bytes": 434111,
+     "sha256": "a100f8c06c8b806a5c345b371fcf4e6627b7b380b539d3e51fe20de3c0fd307c"
+    },
+    {
+     "url": "https://www.homestead.ca/residential/310-bath-road-kingston",
+     "ok": true,
+     "status": 200,
+     "final_url": "https://www.homestead.ca/residential/310-bath-road-kingston",
+     "file": "www-homestead-ca-residential-310-bath-road-kingston.html",
+     "bytes": 435861,
+     "sha256": "492b1cc6f83dd7b97ea74576bb6658bc3e31a9a31ec21b5f247bb6ef0e954d36"
+    }
+   ],
+   "ok": 11,
+   "failed": 0
+  },
+  "frontenac_pm": {
+   "source": "frontenac_pm",
+   "pages": [
+    {
+     "url": "https://www.frontenacproperty.com/",
+     "ok": true,
+     "status": 200,
+     "final_url": "https://www.frontenacproperty.com/",
+     "file": "www-frontenacproperty-com.html",
+     "bytes": 308820,
+     "sha256": "6eca91bab73916eba84394205b7566aecc126ee87f6752a6d86a83bea063ea67"
+    },
+    {
+     "url": "https://www.frontenacproperty.com/family-rentals",
+     "ok": true,
+     "status": 200,
+     "final_url": "https://www.frontenacproperty.com/family-rentals",
+     "file": "www-frontenacproperty-com-family-rentals.html",
+     "bytes": 401205,
+     "sha256": "322ed0db91a68b0ceff1b0c11de0af62e399fc43859d90fcd03a841b33a10f1a"
+    },
+    {
+     "url": "https://www.frontenacproperty.com/student-rentals",
+     "ok": true,
+     "status": 200,
+     "final_url": "https://www.frontenacproperty.com/student-rentals",
+     "file": "www-frontenacproperty-com-student-rentals.html",
+     "bytes": 446426,
+     "sha256": "6ef75bc1fbe214314b6c37bf729a2f085ad20fb08a0299663199d4b384dc25c4"
+    },
+    {
+     "url": "https://www.frontenacproperty.com/2027-student-rentals",
+     "ok": true,
+     "status": 200,
+     "final_url": "https://www.frontenacproperty.com/2027-student-rentals",
+     "file": "www-frontenacproperty-com-2027-student-rentals.html",
+     "bytes": 392877,
+     "sha256": "5a07288a1646238cd440ac4b1b6eea891023b93eafbb4ce7e35e68aa46a3bae8"
+    },
+    {
+     "url": "https://www.frontenacproperty.com/condo-apartment-rentals",
+     "ok": true,
+     "status": 200,
+     "final_url": "https://www.frontenacproperty.com/condo-apartment-rentals",
+     "file": "www-frontenacproperty-com-condo-apartment-rentals.html",
+     "bytes": 446627,
+     "sha256": "28fa3e44c1b9f24a17ad10296fd56da72743456a5eece07e3563442dd99fab32"
+    }
+   ],
+   "ok": 5,
+   "failed": 0
+  },
+  "williamsville": {
+   "source": "williamsville",
+   "pages": [
+    {
+     "url": "https://www.williamsvilleproperties.com/properties",
+     "ok": true,
+     "status": 200,
+     "final_url": "https://www.williamsvilleproperties.com/properties",
+     "file": "www-williamsvilleproperties-com-properties.html",
+     "bytes": 71611,
+     "sha256": "fa245745a7488d15a458bdaabe3daa33954a1a2f86b425f594ba8cbdfd60ec4e"
+    }
+   ],
+   "ok": 1,
+   "failed": 0
+  },
+  "foundry_mack": {
+   "source": "foundry_mack",
+   "pages": [
+    {
+     "url": "https://www.foundrymack.ca/kingston/foundry-mack/student/",
+     "ok": false,
+     "status": 403,
+     "final_url": "https://www.foundrymack.ca/kingston/foundry-mack/student/",
+     "file": "www-foundrymack-ca-kingston-foundry-mack-student.html",
+     "bytes": 44927,
+     "sha256": "0ac34a94c9c9fe8a9cb238f167714fb859c21053fad0c82ef5727df7f018807c"
+    }
+   ],
+   "ok": 0,
+   "failed": 1,
+   "pass": 2
+  },
+  "kshc": {
+   "source": "kshc",
+   "pages": [
+    {
+     "url": "https://www.studenthousingkingston.ca/pricing/",
+     "ok": true,
+     "status": 200,
+     "final_url": "https://www.studenthousingkingston.ca/pricing/",
+     "file": "www-studenthousingkingston-ca-pricing.html",
+     "bytes": 74055,
+     "sha256": "83326e15f18624d4e7c6ef4bc4d38f0c00fd332bd55e521fa0445d99e05d2ff9"
+    }
+   ],
+   "ok": 1,
+   "failed": 0
+  },
+  "mackinnondev": {
+   "source": "mackinnondev",
+   "pages": [
+    {
+     "url": "https://mackinnondev.ca/",
+     "ok": true,
+     "status": 200,
+     "final_url": "https://mackinnondev.ca/",
+     "file": "mackinnondev-ca.html",
+     "bytes": 193861,
+     "sha256": "1d4d3eaa536d947f0be0bc26c53a67942585f5679d396baa0e6fe2afd5334d6c"
+    },
+    {
+     "url": "https://mackinnondev.ca/available.html",
+     "ok": true,
+     "status": 200,
+     "final_url": "https://mackinnondev.ca/available.html",
+     "file": "mackinnondev-ca-available-html.html",
+     "bytes": 154145,
+     "sha256": "042a9e77ccc44094a56f728703ca7e8a37555d4c6b7b86a4429609d23df9b781"
+    },
+    {
+     "url": "https://mackinnondev.ca/parking.html",
+     "ok": true,
+     "status": 200,
+     "final_url": "https://mackinnondev.ca/parking.html",
+     "file": "mackinnondev-ca-parking-html.html",
+     "bytes": 67701,
+     "sha256": "6ad750e0c938dbbb06fbb98c8625c38292f81fea1007858604a0d74fbda8598e"
+    },
+    {
+     "url": "https://mackinnondev.ca/about.html",
+     "ok": true,
+     "status": 200,
+     "final_url": "https://mackinnondev.ca/about.html",
+     "file": "mackinnondev-ca-about-html.html",
+     "bytes": 111843,
+     "sha256": "07c58fac24dc57c9d0b8b9ef1da844f8e9851c515ada249c86b2f2bf8c384966"
+    },
+    {
+     "url": "https://mackinnondev.ca/faq.html",
+     "ok": true,
+     "status": 200,
+     "final_url": "https://mackinnondev.ca/faq.html",
+     "file": "mackinnondev-ca-faq-html.html",
+     "bytes": 69300,
+     "sha256": "229bddb1cb89c577972974495ef96b07588855d1132c28295fb30b013830109c"
+    },
+    {
+     "url": "https://mackinnondev.ca/maintenance.html",
+     "ok": true,
+     "status": 200,
+     "final_url": "https://mackinnondev.ca/maintenance.html",
+     "file": "mackinnondev-ca-maintenance-html.html",
+     "bytes": 57933,
+     "sha256": "0705431acebcd5ddc9b0ec37c7cf7c85006be859163f7ebb11f1ed61cafebb83"
+    },
+    {
+     "url": "https://mackinnondev.ca/contact.html",
+     "ok": true,
+     "status": 200,
+     "final_url": "https://mackinnondev.ca/contact.html",
+     "file": "mackinnondev-ca-contact-html.html",
+     "bytes": 56940,
+     "sha256": "a0cf8a20e1025f0ddc575cfdcae4ef7c195d5dcc6768ee5a3b4f95b2d09da903"
+    },
+    {
+     "url": "https://mackinnondev.ca/2-149-collingwood-street.html",
+     "ok": true,
+     "status": 200,
+     "final_url": "https://mackinnondev.ca/2-149-collingwood-street.html",
+     "file": "mackinnondev-ca-2-149-collingwood-street-html.html",
+     "bytes": 88487,
+     "sha256": "553777a52d133396dac6b3ad6303808fe7626a7d595e4fb8221087a9f5a29650"
+    },
+    {
+     "url": "https://mackinnondev.ca/396-johnson-street.html",
+     "ok": true,
+     "status": 200,
+     "final_url": "https://mackinnondev.ca/396-johnson-street.html",
+     "file": "mackinnondev-ca-396-johnson-street-html.html",
+     "bytes": 84931,
+     "sha256": "129709439638d18ebf0caf0d729c869ce299afc693ced7c678717c91f60eaaf6"
+    },
+    {
+     "url": "https://mackinnondev.ca/204-union-street-west.html",
+     "ok": true,
+     "status": 200,
+     "final_url": "https://mackinnondev.ca/204-union-street-west.html",
+     "file": "mackinnondev-ca-204-union-street-west-html.html",
+     "bytes": 85475,
+     "sha256": "377fe9f6a8fcb47863227a097f8257f06a8f225cc5391ab483cf4a1d8d5a8f0e"
+    },
+    {
+     "url": "https://mackinnondev.ca/3-230-brock-street.html",
+     "ok": true,
+     "status": 200,
+     "final_url": "https://mackinnondev.ca/3-230-brock-street.html",
+     "file": "mackinnondev-ca-3-230-brock-street-html.html",
+     "bytes": 82654,
+     "sha256": "0c95f2ff7e6f04ac7bd6d9b396f2ba7b15202bf1335b1ba0697ef5cdd455fdd7"
+    },
+    {
+     "url": "https://mackinnondev.ca/398-johnson-street.html",
+     "ok": true,
+     "status": 200,
+     "final_url": "https://mackinnondev.ca/398-johnson-street.html",
+     "file": "mackinnondev-ca-398-johnson-street-html.html",
+     "bytes": 84737,
+     "sha256": "cc15055f8306f4ff0fb93499bd03fb6a1b537b279a9af62e81a818a29c29be05"
+    },
+    {
+     "url": "https://mackinnondev.ca/2-228-brock-street.html",
+     "ok": true,
+     "status": 200,
+     "final_url": "https://mackinnondev.ca/2-228-brock-street.html",
+     "file": "mackinnondev-ca-2-228-brock-street-html.html",
+     "bytes": 84106,
+     "sha256": "f73a827449cdb3625873500f871f466631264ce3c2d75b838169c7b2dc5b1a2d"
+    },
+    {
+     "url": "https://mackinnondev.ca/202-union-street-west.html",
+     "ok": true,
+     "status": 200,
+     "final_url": "https://mackinnondev.ca/202-union-street-west.html",
+     "file": "mackinnondev-ca-202-union-street-west-html.html",
+     "bytes": 85729,
+     "sha256": "0224c6c572c762e5b4ef3ec61dcbcbb1ce977001a3b74951c3c88b3eb646a58c"
+    },
+    {
+     "url": "https://mackinnondev.ca/2-200-union-street-west.html",
+     "ok": true,
+     "status": 200,
+     "final_url": "https://mackinnondev.ca/2-200-union-street-west.html",
+     "file": "mackinnondev-ca-2-200-union-street-west-html.html",
+     "bytes": 81981,
+     "sha256": "f875baeab4a6b50a80d1270463ff070f543f7d586b037e946815eaee6d84d29f"
+    },
+    {
+     "url": "https://mackinnondev.ca/243-university-avenue.html",
+     "ok": true,
+     "status": 200,
+     "final_url": "https://mackinnondev.ca/243-university-avenue.html",
+     "file": "mackinnondev-ca-243-university-avenue-html.html",
+     "bytes": 84373,
+     "sha256": "5541f5ffa01539ffec9f606363aa9d7161bb311df0c16351940937b0df483d11"
+    },
+    {
+     "url": "https://mackinnondev.ca/132-colborne-street.html",
+     "ok": true,
+     "status": 200,
+     "final_url": "https://mackinnondev.ca/132-colborne-street.html",
+     "file": "mackinnondev-ca-132-colborne-street-html.html",
+     "bytes": 84958,
+     "sha256": "d2eec0f8c192c9650425cd5ef7c04653f1ceda1d1e6d95398db91b0d9eac4dc2"
+    },
+    {
+     "url": "https://mackinnondev.ca/188-union-street-west.html",
+     "ok": true,
+     "status": 200,
+     "final_url": "https://mackinnondev.ca/188-union-street-west.html",
+     "file": "mackinnondev-ca-188-union-street-west-html.html",
+     "bytes": 85643,
+     "sha256": "d7f9b6f24a792ddc410c741d0fdaf563f6141722e6a702abf1cb3cbeac3ec6a5"
+    },
+    {
+     "url": "https://mackinnondev.ca/1-149-collingwood-street.html",
+     "ok": true,
+     "status": 200,
+     "final_url": "https://mackinnondev.ca/1-149-collingwood-street.html",
+     "file": "mackinnondev-ca-1-149-collingwood-street-html.html",
+     "bytes": 86360,
+     "sha256": "de093dccb20f489d33f18dfd3528a03ccd4f69d186d69e66762392dba58fd32d"
+    },
+    {
+     "url": "https://mackinnondev.ca/302-122-sydenham-street.html",
+     "ok": true,
+     "status": 200,
+     "final_url": "https://mackinnondev.ca/302-122-sydenham-street.html",
+     "file": "mackinnondev-ca-302-122-sydenham-street-html.html",
+     "bytes": 83927,
+     "sha256": "062a7e20f53b6dfad94985e7352ad512eb9583e26961fcc4779c052da0c75619"
+    },
+    {
+     "url": "https://mackinnondev.ca/112-nelson-street.html",
+     "ok": true,
+     "status": 200,
+     "final_url": "https://mackinnondev.ca/112-nelson-street.html",
+     "file": "mackinnondev-ca-112-nelson-street-html.html",
+     "bytes": 83891,
+     "sha256": "77bf7c78658fa494dfca8006f18635e82e99a30a0ca6703d25f417a0af3459af"
+    },
+    {
+     "url": "https://mackinnondev.ca/251-university-avenue.html",
+     "ok": true,
+     "status": 200,
+     "final_url": "https://mackinnondev.ca/251-university-avenue.html",
+     "file": "mackinnondev-ca-251-university-avenue-html.html",
+     "bytes": 86601,
+     "sha256": "87b1ea89970555d369042d8cd534e671734a93c08b9d1246dc2bd42f8d945adc"
+    },
+    {
+     "url": "https://mackinnondev.ca/198-union-street-west.html",
+     "ok": true,
+     "status": 200,
+     "final_url": "https://mackinnondev.ca/198-union-street-west.html",
+     "file": "mackinnondev-ca-198-union-street-west-html.html",
+     "bytes": 84163,
+     "sha256": "5de26c260f224e14e56ad7c88a45684645441ccb029be1e17b7f14056ea9b995"
+    },
+    {
+     "url": "https://mackinnondev.ca/402-122-sydenham-street.html",
+     "ok": true,
+     "status": 200,
+     "final_url": "https://mackinnondev.ca/402-122-sydenham-street.html",
+     "file": "mackinnondev-ca-402-122-sydenham-street-html.html",
+     "bytes": 83341,
+     "sha256": "384f2ca858779f20a7e1dfac218d63c3fe7611f2da215322baf75ab445611998"
+    },
+    {
+     "url": "https://mackinnondev.ca/410-johnson-street.html",
+     "ok": true,
+     "status": 200,
+     "final_url": "https://mackinnondev.ca/410-johnson-street.html",
+     "file": "mackinnondev-ca-410-johnson-street-html.html",
+     "bytes": 84437,
+     "sha256": "22f160c666508da8d5e43600094b4ae267768eaa365939523bd0089887c50970"
+    },
+    {
+     "url": "https://mackinnondev.ca/2-400-johnson-street.html",
+     "ok": true,
+     "status": 200,
+     "final_url": "https://mackinnondev.ca/2-400-johnson-street.html",
+     "file": "mackinnondev-ca-2-400-johnson-street-html.html",
+     "bytes": 81689,
+     "sha256": "c17fc7ea439b3dbd48b518f1ddf0ed1ce6e8ffbdbf3c74a17a5291eda27f28d2"
+    },
+    {
+     "url": "https://mackinnondev.ca/1-200-union-street-west.html",
+     "ok": true,
+     "status": 200,
+     "final_url": "https://mackinnondev.ca/1-200-union-street-west.html",
+     "file": "mackinnondev-ca-1-200-union-street-west-html.html",
+     "bytes": 82033,
+     "sha256": "93b576f67ce95c97040ceeae33f87bcbc016aa52cdec759ab841147f7133d1b0"
+    },
+    {
+     "url": "https://mackinnondev.ca/1-230-brock-street.html",
+     "ok": true,
+     "status": 200,
+     "final_url": "https://mackinnondev.ca/1-230-brock-street.html",
+     "file": "mackinnondev-ca-1-230-brock-street-html.html",
+     "bytes": 81794,
+     "sha256": "6a2e1e2854c110a3282c2ba2233bdfb3e72753109f5b77a5e3836444611ef2a1"
+    },
+    {
+     "url": "https://mackinnondev.ca/101-122_sydenham_street.html",
+     "ok": true,
+     "status": 200,
+     "final_url": "https://mackinnondev.ca/101-122_sydenham_street.html",
+     "file": "mackinnondev-ca-101-122-sydenham-street-html.html",
+     "bytes": 86409,
+     "sha256": "f95216ccfb53eed8943091759e0c1b34cb7b20fa5614f0c7b5d9e6b4bb19d93f"
+    },
+    {
+     "url": "https://mackinnondev.ca/2-196-union-street-west.html",
+     "ok": true,
+     "status": 200,
+     "final_url": "https://mackinnondev.ca/2-196-union-street-west.html",
+     "file": "mackinnondev-ca-2-196-union-street-west-html.html",
+     "bytes": 82823,
+     "sha256": "86abe98d80f322f8bf3ae0244571a29518d2fd2bc994c2e8729b4ef1e3848aa3"
+    },
+    {
+     "url": "https://mackinnondev.ca/1-188-5-union-street-west.html",
+     "ok": true,
+     "status": 200,
+     "final_url": "https://mackinnondev.ca/1-188-5-union-street-west.html",
+     "file": "mackinnondev-ca-1-188-5-union-street-west-html.html",
+     "bytes": 84852,
+     "sha256": "a54430e826aa31e125998c29455ef6e5c70efb61ab2a613ab8f1ce70eb83c719"
+    },
+    {
+     "url": "https://mackinnondev.ca/1-400-johnson-street.html",
+     "ok": true,
+     "status": 200,
+     "final_url": "https://mackinnondev.ca/1-400-johnson-street.html",
+     "file": "mackinnondev-ca-1-400-johnson-street-html.html",
+     "bytes": 85121,
+     "sha256": "38f8147fd4a592c46804aa1d599c62f897e1828e6bb8e4206ce1779362299cff"
+    },
+    {
+     "url": "https://mackinnondev.ca/136-colborne-street.html",
+     "ok": true,
+     "status": 200,
+     "final_url": "https://mackinnondev.ca/136-colborne-street.html",
+     "file": "mackinnondev-ca-136-colborne-street-html.html",
+     "bytes": 83017,
+     "sha256": "47a002dce0bd3782857d97e368195388efe716102cc8bc8f60262d8ed1a95054"
+    },
+    {
+     "url": "https://mackinnondev.ca/privacy.html",
+     "ok": true,
+     "status": 200,
+     "final_url": "https://mackinnondev.ca/privacy.html",
+     "file": "mackinnondev-ca-privacy-html.html",
+     "bytes": 61375,
+     "sha256": "0257647a8a4f8c10812361c535e95b46ec4e6d1ab8b4fda729c33e49c71388ba"
+    }
+   ],
+   "ok": 34,
+   "failed": 0
+  },
+  "sage": {
+   "source": "sage",
+   "pages": [
+    {
+     "url": "https://condos.ca/pricehistory?offer=Rent&addressId=2739680&suiteNumber=&bedTypeNum=-1",
+     "ok": true,
+     "status": 200,
+     "final_url": "https://condos.ca/pricehistory?offer=Rent&addressId=2739680&suiteNumber=&bedTypeNum=-1",
+     "file": "condos-ca-pricehistory-offer-Rent-addressId-2739680-suiteNumber-bedTypeNum-1.html",
+     "bytes": 415007,
+     "sha256": "38a12166834b7ffb09344f2da6567b5ce8ed9d091aa6e1329b5931cb574647da"
+    },
+    {
+     "url": "https://condos.ca/addresses/652-princess-street-kingston?offer=Rent",
+     "ok": true,
+     "status": 200,
+     "final_url": "https://condos.ca/addresses/652-princess-street-kingston?offer=Rent",
+     "file": "condos-ca-addresses-652-princess-street-kingston-offer-Rent.html",
+     "bytes": 210079,
+     "sha256": "ca9e4c769cc994790c8015f8d723852b9fcbba3f3365816c88a4603783019f3c"
+    }
+   ],
+   "ok": 2,
+   "failed": 0
+  },
+  "crown": {
+   "source": "crown",
+   "pages": [
+    {
+     "url": "https://condos.ca/pricehistory?offer=Rent&addressId=2851106&suiteNumber=&bedTypeNum=-1",
+     "ok": true,
+     "status": 200,
+     "final_url": "https://condos.ca/pricehistory?offer=Rent&addressId=2851106&suiteNumber=&bedTypeNum=-1",
+     "file": "condos-ca-pricehistory-offer-Rent-addressId-2851106-suiteNumber-bedTypeNum-1.html",
+     "bytes": 414096,
+     "sha256": "377f8b38389991827063467e4c6ec88fa0cfbed57510b64c6b69537a205a0085"
+    },
+    {
+     "url": "https://condos.ca/addresses/223-princess-street-kingston?offer=Rent",
+     "ok": true,
+     "status": 200,
+     "final_url": "https://condos.ca/addresses/223-princess-street-kingston?offer=Rent",
+     "file": "condos-ca-addresses-223-princess-street-kingston-offer-Rent.html",
+     "bytes": 223253,
+     "sha256": "cf82a03a77f4dd75e084fae317244e8271b50a8fdeea1ea89cbfa6cd6af302ce"
+    }
+   ],
+   "ok": 2,
+   "failed": 0
+  }
+ },
+ "parsed": {
+  "amberpeak": 27,
+  "axon": 50,
+  "casa": 10,
+  "crown": 14,
+  "frontenac_pm": 206,
+  "geo_central": 16,
+  "homestead": 35,
+  "kshc": 6,
+  "limestone": 49,
+  "mackinnondev": 46,
+  "panadew": 8,
+  "queens_als": 120,
+  "sage": 15,
+  "unity_place": 11,
+  "unity_point": 10,
+  "williamsville": 8
+ }
+}

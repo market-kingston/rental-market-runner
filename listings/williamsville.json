@@ -1,0 +1,113 @@
+{
+ "source": "williamsville",
+ "date": "2026-11-07",
+ "count": 8,
+ "incomplete": false,
+ "listings": [
+  {
+   "key": "williamsville|565princessstreet",
+   "address": "565 Princess Street",
+   "unit": "",
+   "beds": 3,
+   "baths": null,
+   "rent": 1195,
+   "basis": "bed-from",
+   "available": "September 2026",
+   "status": "Leasing for September 2026",
+   "url": "",
+   "bed_range": "3–4",
+   "new_build": true
+  },
+  {
+   "key": "williamsville|18elmstreet",
+   "address": "18 Elm Street",
+   "unit": "",
+   "beds": 3,
+   "baths": null,
+   "rent": 750,
+   "basis": "bed-from",
+   "available": "",
+   "status": "unstated",
+   "url": "",
+   "bed_range": "3"
+  },
+  {
+   "key": "williamsville|24elmstreet",
+   "address": "24 Elm Street",
+   "unit": "",
+   "beds": 3,
+   "baths": null,
+   "rent": 750,
+   "basis": "bed-from",
+   "available": "",
+   "status": "unstated",
+   "url": "",
+   "bed_range": "3–4"
+  },
+  {
+   "key": "williamsville|394alfredstreet",
+   "address": "394 Alfred Street",
+   "unit": "",
+   "beds": 4,
+   "baths": null,
+   "rent": null,
+   "basis": "bed-from",
+   "available": "",
+   "status": "Fully Leased",
+   "url": "",
+   "bed_range": "Bachelor–4"
+  },
+  {
+   "key": "williamsville|630princessstreet",
+   "address": "630 Princess Street",
+   "unit": "",
+   "beds": 2,
+   "baths": null,
+   "rent": 900,
+   "basis": "bed-from",
+   "available": "",
+   "status": "Now Leasing",
+   "url": "",
+   "bed_range": "2–4"
+  },
+  {
+   "key": "williamsville|501frontenacstreet",
+   "address": "501 Frontenac Street",
+   "unit": "",
+   "beds": 2,
+   "baths": null,
+   "rent": 850,
+   "basis": "bed-from",
+   "available": "",
+   "status": "Now Leasing",
+   "url": "",
+   "bed_range": "2–4"
+  },
+  {
+   "key": "williamsville|353alfredstreet",
+   "address": "353 Alfred Street",
+   "unit": "",
+   "beds": 5,
+   "baths": null,
+   "rent": null,
+   "basis": "bed-from",
+   "available": "",
+   "status": "Fully Leased",
+   "url": "",
+   "bed_range": "5–7"
+  },
+  {
+   "key": "williamsville|203colbornestreet",
+   "address": "203 Colborne Street",
+   "unit": "",
+   "beds": 4,
+   "baths": null,
+   "rent": null,
+   "basis": "bed-from",
+   "available": "",
+   "status": "Fully Leased",
+   "url": "",
+   "bed_range": "4–6"
+  }
+ ]
+}

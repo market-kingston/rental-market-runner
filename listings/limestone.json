@@ -1,0 +1,853 @@
+{
+ "source": "limestone",
+ "date": "2026-11-07",
+ "count": 49,
+ "incomplete": false,
+ "listings": [
+  {
+   "key": "limestone|67gardinerstreet",
+   "address": "67/69 Gardiner Street",
+   "unit": "",
+   "beds": 1,
+   "baths": 1,
+   "rent": 995,
+   "basis": "unit",
+   "available": "Available now",
+   "status": "listed",
+   "url": "https://limestonepropertymanagement.ca/property/67-gardiner-street/",
+   "category": "Students",
+   "title": "Student studios - gorgeous and all inclusive!",
+   "student": true,
+   "photos": [
+    "https://limestonepropertymanagement.ca/wp-content/uploads/2025/04/67-69-Gardiner-Front-300x180.jpg"
+   ]
+  },
+  {
+   "key": "limestone|299marystreet",
+   "address": "2-99 Mary Street",
+   "unit": "",
+   "beds": 3,
+   "baths": 1,
+   "rent": 2195,
+   "basis": "unit",
+   "available": "Available now",
+   "status": "listed",
+   "url": "https://limestonepropertymanagement.ca/property/2-99-mary-street/",
+   "category": "Condo-Apartments",
+   "title": "All inclusive with internet steps to St. Lawrence College and Providence Care Hospital!",
+   "photos": [
+    "https://limestonepropertymanagement.ca/wp-content/uploads/2025/05/Front-door-300x225.png"
+   ]
+  },
+  {
+   "key": "limestone|270bricelandstreet",
+   "address": "2-70 Briceland Street",
+   "unit": "",
+   "beds": 1,
+   "baths": 1,
+   "rent": 1595,
+   "basis": "unit",
+   "available": "December 1",
+   "status": "listed",
+   "url": "https://limestonepropertymanagement.ca/property/2-70-briceland-street/",
+   "category": "Condo-Apartments",
+   "title": "Charming 1-bedroom with easy access to the 401 and CFB Kingston",
+   "photos": [
+    "https://limestonepropertymanagement.ca/wp-content/uploads/2025/05/IMG_0859-300x261.jpg"
+   ]
+  },
+  {
+   "key": "limestone|109740augustadrive",
+   "address": "109-740 Augusta Drive",
+   "unit": "",
+   "beds": 2,
+   "baths": 2,
+   "rent": 2199,
+   "basis": "unit",
+   "available": "Available now",
+   "status": "listed",
+   "url": "https://limestonepropertymanagement.ca/property/109-740-augusta-drive/",
+   "category": "Condo-Apartments",
+   "title": "Immaculate 2 bedroom condo in quiet and beautiful central Kingston building!",
+   "photos": [
+    "https://limestonepropertymanagement.ca/wp-content/uploads/2025/05/5c1bbb98ebcb7-300x200.jpg"
+   ]
+  },
+  {
+   "key": "limestone|518dunlopstreet",
+   "address": "5-18 Dunlop Street",
+   "unit": "",
+   "beds": 2,
+   "baths": 1,
+   "rent": 1595,
+   "basis": "unit",
+   "available": "Available now",
+   "status": "listed",
+   "url": "https://limestonepropertymanagement.ca/property/5-18-dunlop-street/",
+   "category": "Condo-Apartments",
+   "title": "Great downtown apartment on quiet side street - parking and laundry!",
+   "photos": [
+    "https://limestonepropertymanagement.ca/wp-content/uploads/2025/05/Photo-2016-06-07-1-10-57-PM-768x576-1-300x225.webp"
+   ]
+  },
+  {
+   "key": "limestone|623johnstreet",
+   "address": "6-23 John Street",
+   "unit": "",
+   "beds": 2,
+   "baths": 1,
+   "rent": 1595,
+   "basis": "unit",
+   "available": "January 1",
+   "status": "listed",
+   "url": "https://limestonepropertymanagement.ca/property/6-23-john-street/",
+   "category": "Condo-Apartments",
+   "title": "Enjoy convenient living just minutes from downtown Kingston!",
+   "photos": [
+    "https://limestonepropertymanagement.ca/wp-content/uploads/2025/05/IMG_1585-300x225.webp"
+   ]
+  },
+  {
+   "key": "limestone|2301elmwoodstreet",
+   "address": "2-301 Elmwood Street",
+   "unit": "",
+   "beds": 3,
+   "baths": 1,
+   "rent": 2195,
+   "basis": "unit",
+   "available": "May 1",
+   "status": "listed",
+   "url": "https://limestonepropertymanagement.ca/property/2-301-elmwood-street/",
+   "category": "Students",
+   "title": "Bright three-bedroom top floor unit in Central Kingston!",
+   "student": true,
+   "photos": [
+    "https://limestonepropertymanagement.ca/wp-content/uploads/2025/05/DSC09660_JPG-300x200.webp"
+   ]
+  },
+  {
+   "key": "limestone|241divisionstreet",
+   "address": "241 Division Street",
+   "unit": "",
+   "beds": 3,
+   "baths": 2.5,
+   "rent": 2100,
+   "basis": "unit",
+   "available": "Available now",
+   "status": "listed",
+   "url": "https://limestonepropertymanagement.ca/property/241-division-street/",
+   "category": "Condo-Apartments",
+   "title": "SPECIAL SHORT TERM LEASE!",
+   "photos": [
+    "https://limestonepropertymanagement.ca/wp-content/uploads/2025/05/Image-56-300x225.jpg"
+   ]
+  },
+  {
+   "key": "limestone|302171princessstreet",
+   "address": "302-171 Princess Street",
+   "unit": "",
+   "beds": 2,
+   "baths": 1,
+   "rent": 1795,
+   "basis": "unit",
+   "available": "May 1",
+   "status": "listed",
+   "url": "https://limestonepropertymanagement.ca/property/302-171-princess-street/",
+   "category": "Condo-Apartments",
+   "title": "Downtown Kingston Living with modern amenities and style!",
+   "photos": [
+    "https://limestonepropertymanagement.ca/wp-content/uploads/2025/05/Building-PHoto-1-300x294.jpg"
+   ]
+  },
+  {
+   "key": "limestone|1126collingwoodstreet",
+   "address": "1-126 Collingwood Street",
+   "unit": "",
+   "beds": 4,
+   "baths": 2,
+   "rent": 4200,
+   "basis": "unit",
+   "available": "May 1",
+   "status": "listed",
+   "url": "https://limestonepropertymanagement.ca/property/1-126-collingwood-street/",
+   "category": "Students",
+   "title": "Student living with waterfront trails - enjoy it all!",
+   "student": true,
+   "photos": [
+    "https://limestonepropertymanagement.ca/wp-content/uploads/2025/05/20241104_131553-300x225.jpg"
+   ]
+  },
+  {
+   "key": "limestone|316223princessstreet",
+   "address": "316-223 Princess Street",
+   "unit": "",
+   "beds": 1,
+   "baths": 1,
+   "rent": 2000,
+   "basis": "unit",
+   "available": "Available now",
+   "status": "listed",
+   "url": "https://limestonepropertymanagement.ca/property/316-223-princess-street/",
+   "category": "Condo-Apartments",
+   "title": "FIRST MONTH FREE WITH LEASE SIGNED BY NOVEMBER 30",
+   "photos": [
+    "https://limestonepropertymanagement.ca/wp-content/uploads/2025/06/Crown-Condos-kingston-331-007-cam1-05-300x214.jpg"
+   ]
+  },
+  {
+   "key": "limestone|301223princessstreet",
+   "address": "301-223 Princess Street",
+   "unit": "",
+   "beds": 2,
+   "baths": 2,
+   "rent": 2495,
+   "basis": "unit",
+   "available": "Available now",
+   "status": "listed",
+   "url": "https://limestonepropertymanagement.ca/property/301-223-princess-street/",
+   "category": "Condo-Apartments",
+   "title": "SPECIAL OFFER! SEE LISTING DETAILS!",
+   "photos": [
+    "https://limestonepropertymanagement.ca/wp-content/uploads/2025/06/Crown-Condos-kingston-331-007-cam1-05-300x214.jpg"
+   ]
+  },
+  {
+   "key": "limestone|1542stellaavenue",
+   "address": "1-542 Stella Avenue",
+   "unit": "",
+   "beds": 3,
+   "baths": 1,
+   "rent": 2395,
+   "basis": "unit",
+   "available": "December 1",
+   "status": "listed",
+   "url": "https://limestonepropertymanagement.ca/property/1-542-stella-avenue/",
+   "category": "Condo-Apartments",
+   "title": "Country living with unbeatable convenience",
+   "photos": [
+    "https://limestonepropertymanagement.ca/wp-content/uploads/2025/07/f7af609f-9b3e-4303-b1e5-19138bb66f1d-300x225.jpg"
+   ]
+  },
+  {
+   "key": "limestone|103yorkstreet",
+   "address": "103 York Street",
+   "unit": "",
+   "beds": 4,
+   "baths": 1.5,
+   "rent": 2800,
+   "basis": "unit",
+   "available": "May 1",
+   "status": "listed",
+   "url": "https://limestonepropertymanagement.ca/property/103-york-street/",
+   "category": "Students",
+   "title": "Step into a one-of-a-kind home filled with rich natural wood and unique character around every corner",
+   "student": true,
+   "photos": [
+    "https://limestonepropertymanagement.ca/wp-content/uploads/2025/07/PXL_20250724_150634818-300x225.jpg"
+   ]
+  },
+  {
+   "key": "limestone|267ellesmeerave",
+   "address": "267 Ellesmeer Ave",
+   "unit": "",
+   "beds": 3,
+   "baths": 2.5,
+   "rent": 2450,
+   "basis": "unit",
+   "available": "November 16",
+   "status": "listed",
+   "url": "https://limestonepropertymanagement.ca/property/267-ellesmeer-ave/",
+   "category": "Homes",
+   "title": "Charming Cataraqui North townhome with expansive layout - perfect for families or work from home!",
+   "photos": [
+    "https://limestonepropertymanagement.ca/wp-content/uploads/2025/08/PXL_20250724_181721549-300x226.jpg"
+   ]
+  },
+  {
+   "key": "limestone|2126collingwoodstreet",
+   "address": "2-126 Collingwood Street",
+   "unit": "",
+   "beds": 4,
+   "baths": 2,
+   "rent": 4400,
+   "basis": "unit",
+   "available": "May 1",
+   "status": "listed",
+   "url": "https://limestonepropertymanagement.ca/property/2-126-collingwood-street/",
+   "category": "Students",
+   "title": "Student living right on campus - enjoy the water and a huge backyard!",
+   "student": true,
+   "photos": [
+    "https://limestonepropertymanagement.ca/wp-content/uploads/2025/05/20241104_131553-300x225.jpg"
+   ]
+  },
+  {
+   "key": "limestone|120torontostreet",
+   "address": "120 Toronto Street",
+   "unit": "",
+   "beds": 4,
+   "baths": 2,
+   "rent": 4400,
+   "basis": "unit",
+   "available": "May 1",
+   "status": "listed",
+   "url": "https://limestonepropertymanagement.ca/property/120-toronto-street/",
+   "category": "Students",
+   "title": "SPECIAL OFFER! Spacious 4-Bedroom, 2-Bathroom in prime Queen's area location!",
+   "student": true,
+   "photos": [
+    "https://limestonepropertymanagement.ca/wp-content/uploads/2025/10/Image-2-1-300x225.jpg"
+   ]
+  },
+  {
+   "key": "limestone|3340mackstreet",
+   "address": "3-340 Mack Street",
+   "unit": "",
+   "beds": 1,
+   "baths": 1,
+   "rent": 1650,
+   "basis": "unit",
+   "available": "May 1",
+   "status": "listed",
+   "url": "https://limestonepropertymanagement.ca/property/3-340-mack-street/",
+   "category": "Students",
+   "title": "Charming apartment in perfect proximity to campus!",
+   "student": true,
+   "photos": [
+    "https://limestonepropertymanagement.ca/wp-content/uploads/2025/10/photos-3-300x225.png"
+   ]
+  },
+  {
+   "key": "limestone|147bordnancestreet",
+   "address": "147B Ordnance Street",
+   "unit": "",
+   "beds": 3,
+   "baths": 1,
+   "rent": 1695,
+   "basis": "unit",
+   "available": "Available now",
+   "status": "listed",
+   "url": "https://limestonepropertymanagement.ca/property/147b-ordnance-street/",
+   "category": "Condo-Apartments",
+   "title": "SPECIAL OFFER - FIRST MONTH FREE!",
+   "photos": [
+    "https://limestonepropertymanagement.ca/wp-content/uploads/2026/01/front-photo-147-princess-2026-2-300x225.jpg"
+   ]
+  },
+  {
+   "key": "limestone|196ordnancestreet",
+   "address": "196 Ordnance Street",
+   "unit": "",
+   "beds": 3,
+   "baths": 1.5,
+   "rent": 2895,
+   "basis": "unit",
+   "available": "May 1",
+   "status": "listed",
+   "url": "https://limestonepropertymanagement.ca/property/196-ordnance-street/",
+   "category": "Homes",
+   "title": "Character filled home with unexpected extras!",
+   "photos": [
+    "https://limestonepropertymanagement.ca/wp-content/uploads/2026/01/Image-72-300x225.jpeg"
+   ]
+  },
+  {
+   "key": "limestone|172ontariostreetunit2",
+   "address": "172 Ontario Street – Unit 2",
+   "unit": "",
+   "beds": 2,
+   "baths": 1,
+   "rent": 2095,
+   "basis": "unit",
+   "available": "Available now",
+   "status": "listed",
+   "url": "https://limestonepropertymanagement.ca/property/172-ontario-street-unit-2/",
+   "category": "Condo-Apartments",
+   "title": "SPECIAL SHORT TERM LEASE!",
+   "photos": [
+    "https://limestonepropertymanagement.ca/wp-content/uploads/2026/02/Unit-2_172-Ontario_01-300x225.jpg"
+   ]
+  },
+  {
+   "key": "limestone|3258princessstreet",
+   "address": "3-258 Princess Street",
+   "unit": "",
+   "beds": 3,
+   "baths": 1,
+   "rent": 2250,
+   "basis": "unit",
+   "available": "May 1",
+   "status": "listed",
+   "url": "https://limestonepropertymanagement.ca/property/3-258-princess-street/",
+   "category": "Condo-Apartments",
+   "title": "Modern and stylish upper level apartment with private deck and in-suite laundry!",
+   "photos": [
+    "https://limestonepropertymanagement.ca/wp-content/uploads/2026/02/258-Princess-1-300x292.jpg"
+   ]
+  },
+  {
+   "key": "limestone|2301elmwoodstreet2",
+   "address": "2-301 Elmwood Street",
+   "unit": "",
+   "beds": 1,
+   "baths": 1,
+   "rent": 785,
+   "basis": "unit",
+   "available": "Available now",
+   "status": "listed",
+   "url": "https://limestonepropertymanagement.ca/property/2-301-elmwood-street-2/",
+   "category": "Students",
+   "title": "Roommate Opportunity!! Join the last room in an existing tenancy!",
+   "student": true,
+   "photos": [
+    "https://limestonepropertymanagement.ca/wp-content/uploads/2025/05/DSC09660_JPG-300x200.webp"
+   ]
+  },
+  {
+   "key": "limestone|1244earlstreet",
+   "address": "1-244 Earl Street",
+   "unit": "",
+   "beds": 6,
+   "baths": 1.5,
+   "rent": 6300,
+   "basis": "unit",
+   "available": "May 1",
+   "status": "listed",
+   "url": "https://limestonepropertymanagement.ca/property/1-244-earl-street/",
+   "category": "Students",
+   "title": "Incredible student home under 5 minutes from Queens A.R.C!",
+   "student": true,
+   "photos": [
+    "https://limestonepropertymanagement.ca/wp-content/uploads/2025/10/IMG_6167-300x225.jpg"
+   ]
+  },
+  {
+   "key": "limestone|1a197queenstreet",
+   "address": "1A-197 Queen Street",
+   "unit": "",
+   "beds": 2,
+   "baths": 1,
+   "rent": 1995,
+   "basis": "unit",
+   "available": "May 1",
+   "status": "listed",
+   "url": "https://limestonepropertymanagement.ca/property/1a-197-queen-street/",
+   "category": "Condo-Apartments",
+   "title": "Charming main level 2-bedroom apartment with modern finishes throughout",
+   "photos": [
+    "https://limestonepropertymanagement.ca/wp-content/uploads/2026/05/197-Queen-300x200.jpg"
+   ]
+  },
+  {
+   "key": "limestone|3197queenstreet",
+   "address": "3-197 Queen Street",
+   "unit": "",
+   "beds": 2,
+   "baths": 1,
+   "rent": 1795,
+   "basis": "unit",
+   "available": "May 1",
+   "status": "listed",
+   "url": "https://limestonepropertymanagement.ca/property/3-197-queen-street/",
+   "category": "Condo-Apartments",
+   "title": "Gorgeous top floor loft with hardwood floors and stunning natural light!",
+   "photos": [
+    "https://limestonepropertymanagement.ca/wp-content/uploads/2026/05/197-Queen-300x200.jpg"
+   ]
+  },
+  {
+   "key": "limestone|2154divisionstreet",
+   "address": "2-154 Division Street",
+   "unit": "",
+   "beds": 2,
+   "baths": 1,
+   "rent": 2400,
+   "basis": "unit",
+   "available": "Available now",
+   "status": "listed",
+   "url": "https://limestonepropertymanagement.ca/property/2-154-division-street/",
+   "category": "Condo-Apartments",
+   "title": "SPECIAL OFFER - FIRST MONTH FREE!",
+   "photos": [
+    "https://limestonepropertymanagement.ca/wp-content/uploads/2026/07/image-1-300x205.png"
+   ]
+  },
+  {
+   "key": "limestone|14122princessstreet",
+   "address": "14-122 Princess Street",
+   "unit": "",
+   "beds": 2,
+   "baths": 1,
+   "rent": 1695,
+   "basis": "unit",
+   "available": "Available now",
+   "status": "listed",
+   "url": "https://limestonepropertymanagement.ca/property/14-122-princess-street/",
+   "category": "Condo-Apartments",
+   "title": "Two bedroom 1 bathroom top floor apartment in excellent central downtown location!",
+   "photos": [
+    "https://limestonepropertymanagement.ca/wp-content/uploads/2026/07/IMG_2766-300x225.jpg"
+   ]
+  },
+  {
+   "key": "limestone|2556brockstreet",
+   "address": "2-556 Brock Street",
+   "unit": "",
+   "beds": 2,
+   "baths": 1,
+   "rent": 1200,
+   "basis": "unit",
+   "available": "Available now!",
+   "status": "listed",
+   "url": "https://limestonepropertymanagement.ca/property/2-556-brock-street/",
+   "category": "Condo-Apartments",
+   "title": "SPECIAL SHORT TERM LEASE!",
+   "photos": [
+    "https://limestonepropertymanagement.ca/wp-content/uploads/2026/07/PXL_20260723_144401041-300x226.jpg"
+   ]
+  },
+  {
+   "key": "limestone|411316kingsdaleavenue",
+   "address": "411-316 Kingsdale Avenue",
+   "unit": "",
+   "beds": 2,
+   "baths": 1,
+   "rent": 1895,
+   "basis": "unit",
+   "available": "Available now",
+   "status": "listed",
+   "url": "https://limestonepropertymanagement.ca/property/411-316-kingsdale-avenue/",
+   "category": "Condo-Apartments",
+   "title": "2 bedroom top floor condo with ample storage!",
+   "photos": [
+    "https://limestonepropertymanagement.ca/wp-content/uploads/2026/08/Ext-1-300x200.png"
+   ]
+  },
+  {
+   "key": "limestone|1207queenstreet",
+   "address": "1-207 Queen Street",
+   "unit": "",
+   "beds": 2,
+   "baths": 1,
+   "rent": 2195,
+   "basis": "unit",
+   "available": "Available now",
+   "status": "listed",
+   "url": "https://limestonepropertymanagement.ca/property/1-207-queen-street/",
+   "category": "Condo-Apartments",
+   "title": "Large 2-bedroom full of charm and excellently located!",
+   "photos": [
+    "https://limestonepropertymanagement.ca/wp-content/uploads/2026/08/PXL_20260804_164948257-300x226.jpg"
+   ]
+  },
+  {
+   "key": "limestone|547bagotstreet",
+   "address": "547 Bagot Street",
+   "unit": "",
+   "beds": 2,
+   "baths": 1,
+   "rent": 2100,
+   "basis": "unit",
+   "available": "Available now",
+   "status": "listed",
+   "url": "https://limestonepropertymanagement.ca/property/547-bagot-street/",
+   "category": "Homes",
+   "title": "SPECIAL OFFER - FIRST MONTH FREE!",
+   "photos": [
+    "https://limestonepropertymanagement.ca/wp-content/uploads/2026/08/IMG_4629-225x300.jpeg"
+   ]
+  },
+  {
+   "key": "limestone|236sydenhamstreet",
+   "address": "236 Sydenham Street",
+   "unit": "",
+   "beds": 3,
+   "baths": 2,
+   "rent": 2795,
+   "basis": "unit",
+   "available": "Available now",
+   "status": "listed",
+   "url": "https://limestonepropertymanagement.ca/property/236-sydenham-street/",
+   "category": "Homes",
+   "title": "Stunning executive townhome with historic charm throughout!",
+   "photos": [
+    "https://limestonepropertymanagement.ca/wp-content/uploads/2026/08/Image-43-300x225.jpg"
+   ]
+  },
+  {
+   "key": "limestone|215westdaleavenue",
+   "address": "2-15 Westdale Avenue",
+   "unit": "",
+   "beds": 1,
+   "baths": 1,
+   "rent": 1550,
+   "basis": "unit",
+   "available": "Available now",
+   "status": "listed",
+   "url": "https://limestonepropertymanagement.ca/property/2-15-westdale-avenue/",
+   "category": "Condo-Apartments",
+   "title": "Stunning and modern apartment in Central Kingston!",
+   "photos": [
+    "https://limestonepropertymanagement.ca/wp-content/uploads/2026/09/IMG_2204-300x225.jpg"
+   ]
+  },
+  {
+   "key": "limestone|1104wilsonstreet",
+   "address": "1-104 Wilson Street",
+   "unit": "",
+   "beds": 3,
+   "baths": 1,
+   "rent": 1945,
+   "basis": "unit",
+   "available": "Available now",
+   "status": "listed",
+   "url": "https://limestonepropertymanagement.ca/property/1-104-wilson-street/",
+   "category": "Condo-Apartments",
+   "title": "SPECIAL OFFER - SEE DETAILS WITHIN LISTING!",
+   "photos": [
+    "https://limestonepropertymanagement.ca/wp-content/uploads/2026/09/01-300x200.jpg"
+   ]
+  },
+  {
+   "key": "limestone|10176pinestreet",
+   "address": "101-76 Pine Street",
+   "unit": "",
+   "beds": 1,
+   "baths": 1,
+   "rent": 1345,
+   "basis": "unit",
+   "available": "Available now",
+   "status": "listed",
+   "url": "https://limestonepropertymanagement.ca/property/101-76-pine-street/",
+   "category": "Condo-Apartments",
+   "title": "Bright and Spacious 1-Bedroom Apartment with A/C!",
+   "photos": [
+    "https://limestonepropertymanagement.ca/wp-content/uploads/2026/09/IMG_0489-300x225.jpeg"
+   ]
+  },
+  {
+   "key": "limestone|100ellerbeckstreet",
+   "address": "100 Ellerbeck Street",
+   "unit": "",
+   "beds": 6,
+   "baths": 2,
+   "rent": 6000,
+   "basis": "unit",
+   "available": "May 1",
+   "status": "listed",
+   "url": "https://limestonepropertymanagement.ca/property/100-ellerbeck-street/",
+   "category": "Students",
+   "title": "Prime Queen’s student location — close to campus, the ARC, and downtown Kingston!",
+   "student": true,
+   "photos": [
+    "https://limestonepropertymanagement.ca/wp-content/uploads/2026/09/IMG_E5269-225x300.jpg"
+   ]
+  },
+  {
+   "key": "limestone|241divisionstreet2",
+   "address": "241 Division Street",
+   "unit": "",
+   "beds": 6,
+   "baths": 2.5,
+   "rent": 5970,
+   "basis": "unit",
+   "available": "May 1",
+   "status": "listed",
+   "url": "https://limestonepropertymanagement.ca/property/241-division-street-2/",
+   "category": "Students",
+   "title": "Gorgeous 6-bedroom student home available for May 1!",
+   "student": true,
+   "photos": [
+    "https://limestonepropertymanagement.ca/wp-content/uploads/2025/05/Image-56-300x225.jpg"
+   ]
+  },
+  {
+   "key": "limestone|333friarhillcrescent",
+   "address": "333 Friarhill Crescent",
+   "unit": "",
+   "beds": 4,
+   "baths": 3,
+   "rent": 2895,
+   "basis": "unit",
+   "available": "Available now",
+   "status": "listed",
+   "url": "https://limestonepropertymanagement.ca/property/333-friarhill-crescent/",
+   "category": "Homes",
+   "title": "Beautiful and well-maintained west-end bungalow.",
+   "photos": [
+    "https://limestonepropertymanagement.ca/wp-content/uploads/2026/10/1-300x226.jpg"
+   ]
+  },
+  {
+   "key": "limestone|1239regentstreet",
+   "address": "1-239 Regent Street",
+   "unit": "",
+   "beds": 2,
+   "baths": 1,
+   "rent": 1600,
+   "basis": "unit",
+   "available": "December 1",
+   "status": "listed",
+   "url": "https://limestonepropertymanagement.ca/property/1-239-regent-street/",
+   "category": "Condo-Apartments",
+   "title": "Modern two bedroom unit in central Kingston!",
+   "photos": [
+    "https://limestonepropertymanagement.ca/wp-content/uploads/2026/10/Front-225x300.png"
+   ]
+  },
+  {
+   "key": "limestone|2122princessstreet",
+   "address": "2-122 Princess Street",
+   "unit": "",
+   "beds": 2,
+   "baths": 1,
+   "rent": 1750,
+   "basis": "unit",
+   "available": "December 1",
+   "status": "listed",
+   "url": "https://limestonepropertymanagement.ca/property/2-122-princess-street/",
+   "category": "Condo-Apartments",
+   "title": "Modern comfort meets historic downtown charm!",
+   "photos": [
+    "https://limestonepropertymanagement.ca/wp-content/uploads/2026/10/IMG_2766-300x225.jpg"
+   ]
+  },
+  {
+   "key": "limestone|197wilsonstreet",
+   "address": "97A Wilson Street",
+   "unit": "",
+   "beds": 3,
+   "baths": 1,
+   "rent": 2200,
+   "basis": "unit",
+   "available": "December 1",
+   "status": "listed",
+   "url": "https://limestonepropertymanagement.ca/property/1-97-wilson-street/",
+   "category": "Condo-Apartments",
+   "title": "Quiet, Bright & Contemporary 3-Bedroom Upper-Level Bungalow",
+   "photos": [
+    "https://limestonepropertymanagement.ca/wp-content/uploads/2026/10/1-1-300x226.jpg"
+   ]
+  },
+  {
+   "key": "limestone|4308helenstreet",
+   "address": "4-308 Helen Street",
+   "unit": "",
+   "beds": 1,
+   "baths": 1,
+   "rent": 1500,
+   "basis": "unit",
+   "available": "January 1",
+   "status": "listed",
+   "url": "https://limestonepropertymanagement.ca/property/4-308-helen-street/",
+   "category": "Condo-Apartments",
+   "title": "Charming apartment in Central Kingston with laundry in building!",
+   "photos": [
+    "https://limestonepropertymanagement.ca/wp-content/uploads/2026/10/Edit-300x293.jpg"
+   ]
+  },
+  {
+   "key": "limestone|2172ontariostreet",
+   "address": "2-172 Ontario Street",
+   "unit": "",
+   "beds": 2,
+   "baths": 1,
+   "rent": 2295,
+   "basis": "unit",
+   "available": "May 1",
+   "status": "listed",
+   "url": "https://limestonepropertymanagement.ca/property/2-172-ontario-street/",
+   "category": "Students",
+   "title": "Exciting rental opportunity in unmatched downtown location!",
+   "student": true,
+   "photos": [
+    "https://limestonepropertymanagement.ca/wp-content/uploads/2026/02/Unit-2_172-Ontario_01-300x225.jpg"
+   ]
+  },
+  {
+   "key": "limestone|258princessstreetunit3",
+   "address": "258 Princess Street – Unit 3",
+   "unit": "",
+   "beds": 3,
+   "baths": 1,
+   "rent": 2095,
+   "basis": "unit",
+   "available": "Available now",
+   "status": "listed",
+   "url": "https://limestonepropertymanagement.ca/property/258-princess-street-unit-3/",
+   "category": "Condo-Apartments",
+   "title": "SPECIAL SHORT TERM LEASE!",
+   "photos": [
+    "https://limestonepropertymanagement.ca/wp-content/uploads/2026/02/258-Princess-1-300x292.jpg"
+   ]
+  },
+  {
+   "key": "limestone|197queenstreetunit1a",
+   "address": "197 Queen Street – Unit 1A",
+   "unit": "",
+   "beds": 2,
+   "baths": 1,
+   "rent": 1695,
+   "basis": "unit",
+   "available": "Available now",
+   "status": "listed",
+   "url": "https://limestonepropertymanagement.ca/property/197-queen-street-unit-1a/",
+   "category": "Condo-Apartments",
+   "title": "SPECIAL SHORT TERM LEASE!",
+   "photos": [
+    "https://limestonepropertymanagement.ca/wp-content/uploads/2026/05/197-Queen-300x200.jpg"
+   ]
+  },
+  {
+   "key": "limestone|197queenstreetunit3",
+   "address": "197 Queen Street – Unit 3",
+   "unit": "",
+   "beds": 2,
+   "baths": 1,
+   "rent": 1595,
+   "basis": "unit",
+   "available": "Available now!",
+   "status": "listed",
+   "url": "https://limestonepropertymanagement.ca/property/197-queen-street-unit-3/",
+   "category": "Condo-Apartments",
+   "title": "SPECIAL SHORT TERM LEASE!",
+   "photos": [
+    "https://limestonepropertymanagement.ca/wp-content/uploads/2026/05/197-Queen-300x200.jpg"
+   ]
+  },
+  {
+   "key": "limestone|2171bricelandstreet",
+   "address": "2-171 Briceland Street",
+   "unit": "",
+   "beds": 1,
+   "baths": 1,
+   "rent": 1750,
+   "basis": "unit",
+   "available": "Available now",
+   "status": "listed",
+   "url": "https://limestonepropertymanagement.ca/property/2-171-briceland-street/",
+   "category": "Condo-Apartments",
+   "title": "Highly affordable all-inclusive unit with large backyard and private patio",
+   "photos": [
+    "https://limestonepropertymanagement.ca/wp-content/uploads/2026/10/1-300x226.png"
+   ]
+  },
+  {
+   "key": "limestone|298johnstreet",
+   "address": "298 John Street",
+   "unit": "",
+   "beds": 3,
+   "baths": 1.5,
+   "rent": 2295,
+   "basis": "unit",
+   "available": "Available now",
+   "status": "listed",
+   "url": "https://limestonepropertymanagement.ca/property/298-john-street/",
+   "category": "Homes",
+   "title": "Fall in love with the charm of this character-filled home!",
+   "photos": [
+    "https://limestonepropertymanagement.ca/wp-content/uploads/2026/11/5-300x226.jpg"
+   ]
+  }
+ ]
+}
