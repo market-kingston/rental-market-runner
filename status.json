@@ -1,0 +1,357 @@
+{
+ "date": "2026-11-16",
+ "sources": {
+  "mackinnondev": {
+   "source": "mackinnondev",
+   "pages": [
+    {
+     "url": "https://mackinnondev.ca/",
+     "ok": true,
+     "status": 200,
+     "final_url": "https://mackinnondev.ca/",
+     "file": "mackinnondev-ca.html",
+     "bytes": 215402,
+     "sha256": "0f9f178422a77b73bfd4887f9985b758d3bbba3bffcde2ee74049c5f600ec840"
+    },
+    {
+     "url": "https://mackinnondev.ca/available.html",
+     "ok": true,
+     "status": 200,
+     "final_url": "https://mackinnondev.ca/available.html",
+     "file": "mackinnondev-ca-available-html.html",
+     "bytes": 165039,
+     "sha256": "45356ba0532e18a81cd007ec383c6afe7b827d11577d9e22d2c3b3c48ad9c969"
+    },
+    {
+     "url": "https://mackinnondev.ca/parking.html",
+     "ok": true,
+     "status": 200,
+     "final_url": "https://mackinnondev.ca/parking.html",
+     "file": "mackinnondev-ca-parking-html.html",
+     "bytes": 90604,
+     "sha256": "18c224cb7938d88eda1ce433ab3e089d471fb1badbd8cbf55a50d0eabb59bf0c"
+    },
+    {
+     "url": "https://mackinnondev.ca/about.html",
+     "ok": true,
+     "status": 200,
+     "final_url": "https://mackinnondev.ca/about.html",
+     "file": "mackinnondev-ca-about-html.html",
+     "bytes": 117101,
+     "sha256": "f48a8e77689c9c7d878cf2c9b3de450cfda44c4cf26c16ca14550be7393f3e95"
+    },
+    {
+     "url": "https://mackinnondev.ca/faq.html",
+     "ok": true,
+     "status": 200,
+     "final_url": "https://mackinnondev.ca/faq.html",
+     "file": "mackinnondev-ca-faq-html.html",
+     "bytes": 74537,
+     "sha256": "b11a33093314c013bf3e8ff2474a5fe6e4e5b78015a593893769513352757847"
+    },
+    {
+     "url": "https://mackinnondev.ca/maintenance.html",
+     "ok": true,
+     "status": 200,
+     "final_url": "https://mackinnondev.ca/maintenance.html",
+     "file": "mackinnondev-ca-maintenance-html.html",
+     "bytes": 63201,
+     "sha256": "a005210de3f7e0a7df3159b701a7b0485612afe267bf1ee3a122ec43f8f0fea4"
+    },
+    {
+     "url": "https://mackinnondev.ca/contact.html",
+     "ok": true,
+     "status": 200,
+     "final_url": "https://mackinnondev.ca/contact.html",
+     "file": "mackinnondev-ca-contact-html.html",
+     "bytes": 62197,
+     "sha256": "b676cd5ec84b19d22597181c92eebacba2e0a2a98d572c6ae53612b04660b31d"
+    },
+    {
+     "url": "https://mackinnondev.ca/2-149-collingwood-street.html",
+     "ok": true,
+     "status": 200,
+     "final_url": "https://mackinnondev.ca/2-149-collingwood-street.html",
+     "file": "mackinnondev-ca-2-149-collingwood-street-html.html",
+     "bytes": 93712,
+     "sha256": "48a6066bb7ea7a5b879cba0b5138415bd41e2e224034b78d55f7eb3944929d4d"
+    },
+    {
+     "url": "https://mackinnondev.ca/396-johnson-street.html",
+     "ok": true,
+     "status": 200,
+     "final_url": "https://mackinnondev.ca/396-johnson-street.html",
+     "file": "mackinnondev-ca-396-johnson-street-html.html",
+     "bytes": 90159,
+     "sha256": "d7439e09c11e876591753162aee3b2fef80c045d05591389f286a07cbfcf423f"
+    },
+    {
+     "url": "https://mackinnondev.ca/204-union-street-west.html",
+     "ok": true,
+     "status": 200,
+     "final_url": "https://mackinnondev.ca/204-union-street-west.html",
+     "file": "mackinnondev-ca-204-union-street-west-html.html",
+     "bytes": 90713,
+     "sha256": "403ac29acab3e148048945c645ec4bfe89a98af5ac00bdf24c4bf29dafedbb57"
+    },
+    {
+     "url": "https://mackinnondev.ca/3-230-brock-street.html",
+     "ok": true,
+     "status": 200,
+     "final_url": "https://mackinnondev.ca/3-230-brock-street.html",
+     "file": "mackinnondev-ca-3-230-brock-street-html.html",
+     "bytes": 87871,
+     "sha256": "b6dc4b8b869a3c06be47c286ba8af0627cd40bfa2812579f416189be4f87613d"
+    },
+    {
+     "url": "https://mackinnondev.ca/398-johnson-street.html",
+     "ok": true,
+     "status": 200,
+     "final_url": "https://mackinnondev.ca/398-johnson-street.html",
+     "file": "mackinnondev-ca-398-johnson-street-html.html",
+     "bytes": 89955,
+     "sha256": "87edabb3b12755ee7c56fa2b2c856527180a18ea664aa69e47c192cd5d212a86"
+    },
+    {
+     "url": "https://mackinnondev.ca/2-228-brock-street.html",
+     "ok": true,
+     "status": 200,
+     "final_url": "https://mackinnondev.ca/2-228-brock-street.html",
+     "file": "mackinnondev-ca-2-228-brock-street-html.html",
+     "bytes": 89333,
+     "sha256": "3b712558791f57e70866777889178d0aa6f1d99955d5e4021b459de8b6ded9d1"
+    },
+    {
+     "url": "https://mackinnondev.ca/202-union-street-west.html",
+     "ok": true,
+     "status": 200,
+     "final_url": "https://mackinnondev.ca/202-union-street-west.html",
+     "file": "mackinnondev-ca-202-union-street-west-html.html",
+     "bytes": 90977,
+     "sha256": "c27910a1935af204240949f84f356cc988f5e64f9dd44070103b27a164c23447"
+    },
+    {
+     "url": "https://mackinnondev.ca/2-200-union-street-west.html",
+     "ok": true,
+     "status": 200,
+     "final_url": "https://mackinnondev.ca/2-200-union-street-west.html",
+     "file": "mackinnondev-ca-2-200-union-street-west-html.html",
+     "bytes": 90020,
+     "sha256": "275e8957cc389b930e6868a8863e2d37924d7f3a7391cb64352287f9d6b8ef56"
+    },
+    {
+     "url": "https://mackinnondev.ca/243-university-avenue.html",
+     "ok": true,
+     "status": 200,
+     "final_url": "https://mackinnondev.ca/243-university-avenue.html",
+     "file": "mackinnondev-ca-243-university-avenue-html.html",
+     "bytes": 89620,
+     "sha256": "8f5c58573ea0d1ce43f34838952b517264e32da15f572daa934ff29a3878163a"
+    },
+    {
+     "url": "https://mackinnondev.ca/132-colborne-street.html",
+     "ok": true,
+     "status": 200,
+     "final_url": "https://mackinnondev.ca/132-colborne-street.html",
+     "file": "mackinnondev-ca-132-colborne-street-html.html",
+     "bytes": 93030,
+     "sha256": "9ae3f3a4b25bada8408f123c575b521fe92cc817953d60fa7871e6a48063be76"
+    },
+    {
+     "url": "https://mackinnondev.ca/188-union-street-west.html",
+     "ok": true,
+     "status": 200,
+     "final_url": "https://mackinnondev.ca/188-union-street-west.html",
+     "file": "mackinnondev-ca-188-union-street-west-html.html",
+     "bytes": 89561,
+     "sha256": "407fef35f126b71641aa8bdfeb5b57ac3e554bb0db58260d9dacecf322c44fbd"
+    },
+    {
+     "url": "https://mackinnondev.ca/1-149-collingwood-street.html",
+     "ok": true,
+     "status": 200,
+     "final_url": "https://mackinnondev.ca/1-149-collingwood-street.html",
+     "file": "mackinnondev-ca-1-149-collingwood-street-html.html",
+     "bytes": 91599,
+     "sha256": "d211bed150f237182a206f202e843e519f7e8479b16e107ca297acb15d41d298"
+    },
+    {
+     "url": "https://mackinnondev.ca/302-122-sydenham-street.html",
+     "ok": true,
+     "status": 200,
+     "final_url": "https://mackinnondev.ca/302-122-sydenham-street.html",
+     "file": "mackinnondev-ca-302-122-sydenham-street-html.html",
+     "bytes": 89165,
+     "sha256": "3e5dd318e7cf264e7cae57b0b55f74cf90657258f27b967b2e2918e35aab65a6"
+    },
+    {
+     "url": "https://mackinnondev.ca/112-nelson-street.html",
+     "ok": true,
+     "status": 200,
+     "final_url": "https://mackinnondev.ca/112-nelson-street.html",
+     "file": "mackinnondev-ca-112-nelson-street-html.html",
+     "bytes": 89139,
+     "sha256": "99396803fae897b8fa590ea06189cfa48060e739ed1f585e20724c46984ecfa0"
+    },
+    {
+     "url": "https://mackinnondev.ca/251-university-avenue.html",
+     "ok": true,
+     "status": 200,
+     "final_url": "https://mackinnondev.ca/251-university-avenue.html",
+     "file": "mackinnondev-ca-251-university-avenue-html.html",
+     "bytes": 91829,
+     "sha256": "db63a1e8882b202b6d1e01404622941d286786a3193d7fe9272756123d88e586"
+    },
+    {
+     "url": "https://mackinnondev.ca/198-union-street-west.html",
+     "ok": true,
+     "status": 200,
+     "final_url": "https://mackinnondev.ca/198-union-street-west.html",
+     "file": "mackinnondev-ca-198-union-street-west-html.html",
+     "bytes": 89399,
+     "sha256": "331e7ed8a767839f2930e6ff70919782423acb5eded888e51c052df99aca3052"
+    },
+    {
+     "url": "https://mackinnondev.ca/402-122-sydenham-street.html",
+     "ok": true,
+     "status": 200,
+     "final_url": "https://mackinnondev.ca/402-122-sydenham-street.html",
+     "file": "mackinnondev-ca-402-122-sydenham-street-html.html",
+     "bytes": 90957,
+     "sha256": "74540b45da2ef8a355cdab2ddf1357e302a8ac845d526d1c8b349357c8d28d0c"
+    },
+    {
+     "url": "https://mackinnondev.ca/410-johnson-street.html",
+     "ok": true,
+     "status": 200,
+     "final_url": "https://mackinnondev.ca/410-johnson-street.html",
+     "file": "mackinnondev-ca-410-johnson-street-html.html",
+     "bytes": 89676,
+     "sha256": "01748cf0f5fadf0b98e1c42bd115c0f33cbab3d2a5503a02c62f982f5f897934"
+    },
+    {
+     "url": "https://mackinnondev.ca/2-400-johnson-street.html",
+     "ok": true,
+     "status": 200,
+     "final_url": "https://mackinnondev.ca/2-400-johnson-street.html",
+     "file": "mackinnondev-ca-2-400-johnson-street-html.html",
+     "bytes": 86927,
+     "sha256": "777deef704d7251e582a2478702ec4edeaa7e06736c1fe2e500ccedbfed1245d"
+    },
+    {
+     "url": "https://mackinnondev.ca/1-200-union-street-west.html",
+     "ok": true,
+     "status": 200,
+     "final_url": "https://mackinnondev.ca/1-200-union-street-west.html",
+     "file": "mackinnondev-ca-1-200-union-street-west-html.html",
+     "bytes": 87270,
+     "sha256": "9a2456130f033badad3bb875d6c97dfa066f30dd3b1ed362e494d492fe66aeca"
+    },
+    {
+     "url": "https://mackinnondev.ca/1-230-brock-street.html",
+     "ok": true,
+     "status": 200,
+     "final_url": "https://mackinnondev.ca/1-230-brock-street.html",
+     "file": "mackinnondev-ca-1-230-brock-street-html.html",
+     "bytes": 87022,
+     "sha256": "5234bf05b7ee05a31a4338d63a9548afe19952faefe9fb1a364edd59473b9013"
+    },
+    {
+     "url": "https://mackinnondev.ca/101-122_sydenham_street.html",
+     "ok": true,
+     "status": 200,
+     "final_url": "https://mackinnondev.ca/101-122_sydenham_street.html",
+     "file": "mackinnondev-ca-101-122-sydenham-street-html.html",
+     "bytes": 89499,
+     "sha256": "577ae64acdd88592071147950de32039521c62cac1cdb22a2f7dec3fa6a6e524"
+    },
+    {
+     "url": "https://mackinnondev.ca/2-196-union-street-west.html",
+     "ok": true,
+     "status": 200,
+     "final_url": "https://mackinnondev.ca/2-196-union-street-west.html",
+     "file": "mackinnondev-ca-2-196-union-street-west-html.html",
+     "bytes": 88051,
+     "sha256": "05712445df630ac10cc09aedc9d2d498157bd89581a6bab6f7ac54ca8ce75a62"
+    },
+    {
+     "url": "https://mackinnondev.ca/1-188-5-union-street-west.html",
+     "ok": true,
+     "status": 200,
+     "final_url": "https://mackinnondev.ca/1-188-5-union-street-west.html",
+     "file": "mackinnondev-ca-1-188-5-union-street-west-html.html",
+     "bytes": 92900,
+     "sha256": "b91527c38adce6e2a3876e8244f8b11358b3e9ddc1d297a04fdb3ecb0431f7db"
+    },
+    {
+     "url": "https://mackinnondev.ca/1-400-johnson-street.html",
+     "ok": true,
+     "status": 200,
+     "final_url": "https://mackinnondev.ca/1-400-johnson-street.html",
+     "file": "mackinnondev-ca-1-400-johnson-street-html.html",
+     "bytes": 90336,
+     "sha256": "8145bcd4b9c11d619fd5c83fdbdb88c227d1250ab4865ddc66cb9b65ce791b7a"
+    },
+    {
+     "url": "https://mackinnondev.ca/136-colborne-street.html",
+     "ok": true,
+     "status": 200,
+     "final_url": "https://mackinnondev.ca/136-colborne-street.html",
+     "file": "mackinnondev-ca-136-colborne-street-html.html",
+     "bytes": 88245,
+     "sha256": "d29743f39e6307a9f4b91cf0d6b638e189936a93c719916bc4ad8c4cf3c43532"
+    },
+    {
+     "url": "https://mackinnondev.ca/privacy.html",
+     "ok": true,
+     "status": 200,
+     "final_url": "https://mackinnondev.ca/privacy.html",
+     "file": "mackinnondev-ca-privacy-html.html",
+     "bytes": 67371,
+     "sha256": "b383d16a5d41ec39674be36ba587e8df5179aff0266b3720dfef7432cf73706a"
+    },
+    {
+     "url": "https://mackinnondev.ca/parking-union-albert.html",
+     "ok": true,
+     "status": 200,
+     "final_url": "https://mackinnondev.ca/parking-union-albert.html",
+     "file": "mackinnondev-ca-parking-union-albert-html.html",
+     "bytes": 87577,
+     "sha256": "ae4f1ba3f73e0f4cfd02c5c2288f33c0133f9b597352abd534583789663fd324"
+    },
+    {
+     "url": "https://mackinnondev.ca/parking-johnson-university.html",
+     "ok": true,
+     "status": 200,
+     "final_url": "https://mackinnondev.ca/parking-johnson-university.html",
+     "file": "mackinnondev-ca-parking-johnson-university-html.html",
+     "bytes": 87443,
+     "sha256": "a60f877b159a44abb0427374ce51e699a2a8a57bc773d72cd86c12f874892a12"
+    },
+    {
+     "url": "https://mackinnondev.ca/parking-colborne-division.html",
+     "ok": true,
+     "status": 200,
+     "final_url": "https://mackinnondev.ca/parking-colborne-division.html",
+     "file": "mackinnondev-ca-parking-colborne-division-html.html",
+     "bytes": 85290,
+     "sha256": "5d2f8d07169402149111dbd84f8a0fc2640c387727e138c6fc71e52f727e80c9"
+    },
+    {
+     "url": "https://mackinnondev.ca/parking-brock-sydenham.html",
+     "ok": true,
+     "status": 200,
+     "final_url": "https://mackinnondev.ca/parking-brock-sydenham.html",
+     "file": "mackinnondev-ca-parking-brock-sydenham-html.html",
+     "bytes": 85355,
+     "sha256": "2c0734034d9cb8f5658cce2007723478f35263dc8586348f7e68397ebb8e88c1"
+    }
+   ],
+   "ok": 38,
+   "failed": 0
+  }
+ },
+ "parsed": {
+  "mackinnondev": 41
+ }
+}
