@@ -1,0 +1,1593 @@
+<!DOCTYPE html><html lang="en"><head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Queen's student housing available now and coming up for May 2027: houses and apartments near campus. Book a tour or get on the list.">
+<meta name="theme-color" content="#0F2F44">
+<title>Available Now :: Queen's Student Housing</title>
+<link rel="canonical" href="https://mackinnondev.ca/available.html">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;display=swap"><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;display=swap" rel="stylesheet" media="all" onload="this.media='all'"><noscript><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet"></noscript>
+<link rel="icon" href="/favicon.ico" sizes="48x48">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="icon" href="/favicon-96.png" sizes="96x96" type="image/png">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<script src="/config.js"></script>
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" crossorigin="" media="all" onload="this.media='all'"><noscript><link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" crossorigin=""></noscript>
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" crossorigin="" defer=""></script>
+<style>
+  *, *::before, *::after { box-sizing: border-box; }
+  html, body { margin: 0; padding: 0; }
+  body {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    color: #2C2C2A;
+    background: #ffffff;
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+  }
+  a { color: #0F2F44; text-decoration: none; }
+  a:hover { color: #5B9CC5; }
+  .top { background: #0F2F44; padding: 14px 24px; display: flex; align-items: center; justify-content: space-between; }
+  .top-brand { display: flex; align-items: center; }
+  .top-brand img { height: 40px; width: auto; display: block; }
+  .top-contact { color: #b8c5d4; font-size: 14px; }
+  .top-contact a { color: #ffffff; font-weight: 500; }
+  .hero { position: relative; min-height: 78vh; display: flex; align-items: center; justify-content: center; padding: 80px 24px; overflow: hidden; background: #0F2F44; }
+  .hero-bg { position: absolute; inset: 0; background-image: url('/images/t/properties/112-nelson-street/112_nelson_FOYER1.jpg'); background-size: cover; background-position: center; z-index: 0; }
+  .hero-bg::after { content: ""; position: absolute; inset: 0; background: linear-gradient(135deg, rgba(15,47,68,0.85) 0%, rgba(15,47,68,0.65) 100%); }
+  .hero-inner { position: relative; z-index: 1; max-width: 720px; text-align: center; color: #ffffff; }
+  .hero-eyebrow { display: inline-block; font-size: 11px; letter-spacing: 0.25em; color: #5BD4A8; font-weight: 600; margin-bottom: 28px; padding: 6px 16px; border: 1px solid rgba(91,212,168,0.35); border-radius: 0; text-transform: uppercase; }
+  .hero h1 { font-size: clamp(36px, 6vw, 60px); font-weight: 600; line-height: 1.05; margin: 0 0 24px 0; letter-spacing: -0.02em; }
+  .hero h1 em { font-style: normal; color: #5BD4A8; }
+  .hero-sub { font-size: clamp(15px, 1.6vw, 18px); color: rgba(255,255,255,0.85); margin: 0 auto 36px; max-width: 540px; line-height: 1.55; }
+  .hero-actions { display: flex; gap: 12px; justify-content: center; flex-wrap: wrap; }
+  .btn { display: inline-block; padding: 14px 26px; border-radius: 0; font-weight: 600; font-size: 15px; cursor: pointer; border: none; transition: transform 0.15s ease, box-shadow 0.15s ease; text-align: center; }
+  .btn:hover { transform: translateY(-1px); }
+  .btn-primary { background: #5BD4A8; color: #04342C; }
+  .btn-primary:hover { background: #6FE0B4; box-shadow: 0 6px 20px rgba(91,212,168,0.3); }
+  .btn-ghost { background: transparent; color: #ffffff; border: 1px solid rgba(255,255,255,0.4); }
+  .btn-ghost:hover { background: rgba(255,255,255,0.08); border-color: #ffffff; }
+  .intro { padding: 80px 24px; background: #ffffff; }
+  .intro-inner { max-width: 720px; margin: 0 auto; text-align: left; }
+  .door-mark { height: 72px; margin: 0 auto 28px; display: block; }
+  .intro h2 { font-size: clamp(24px, 3vw, 32px); font-weight: 600; color: #0F2F44; line-height: 1.25; margin: 0 0 20px 0; letter-spacing: -0.01em; }
+  .intro p { font-size: 17px; color: #444441; margin: 0 0 18px 0; line-height: 1.7; }
+  .signature { margin-top: 32px; font-style: italic; color: #5d8bb3; font-size: 16px; }
+  .signature strong { font-style: normal; font-weight: 600; color: #0F2F44; }
+  .stats { background: #f7f9fb; padding: 56px 24px; border-top: 1px solid #e5e7eb; border-bottom: 1px solid #e5e7eb; }
+  .stats-inner { max-width: 900px; margin: 0 auto; display: grid; grid-template-columns: repeat(3, 1fr); gap: 32px; text-align: center; }
+  .stat-num { font-size: clamp(36px, 4.5vw, 48px); font-weight: 600; color: #0F2F44; line-height: 1; margin-bottom: 8px; letter-spacing: -0.02em; }
+  .stat-label { font-size: 13px; color: #5f5e5a; letter-spacing: 0.08em; text-transform: uppercase; font-weight: 500; }
+  .strip { display: grid; grid-template-columns: repeat(4, 1fr); height: 280px; }
+  .strip > div { background-size: cover; background-position: center; }
+  .waitlist { background: linear-gradient(180deg, #0F2F44 0%, #1a4a6a 100%); color: #ffffff; padding: 80px 24px; }
+  .waitlist-inner { max-width: 560px; margin: 0 auto; text-align: center; }
+  .waitlist-eyebrow { color: #5BD4A8; font-size: 11px; letter-spacing: 0.25em; font-weight: 600; text-transform: uppercase; margin-bottom: 18px; }
+  .waitlist h2 { font-size: clamp(26px, 3.5vw, 36px); font-weight: 600; margin: 0 0 8px 0; line-height: 1.2; letter-spacing: -0.01em; }
+  .waitlist h3 { font-size: clamp(18px, 2.2vw, 22px); font-weight: 500; margin: 0 0 16px 0; line-height: 1.3; color: #5BD4A8; }
+  .waitlist-sub { color: rgba(255,255,255,0.8); font-size: 16px; margin: 0 0 36px 0; line-height: 1.6; }
+  form { display: flex; flex-direction: column; gap: 14px; text-align: left; }
+  .form-row { display: flex; gap: 14px; }
+  .form-row > * { flex: 1; }
+  .field-wrap { display: flex; flex-direction: column; }
+  label { font-size: 12px; font-weight: 500; color: rgba(255,255,255,0.85); margin-bottom: 6px; display: block; letter-spacing: 0.02em; }
+  input, select { width: 100%; padding: 13px 14px; border-radius: 0; border: 1px solid rgba(255,255,255,0.2); background: rgba(255,255,255,0.06); color: #ffffff; font-size: 15px; font-family: inherit; transition: border-color 0.15s, background 0.15s; }
+  input::placeholder { color: rgba(255,255,255,0.4); }
+  input:focus, select:focus { outline: none; border-color: #5BD4A8; background: rgba(255,255,255,0.1); }
+  input.invalid, select.invalid { border-color: #ff8888; background: rgba(231,75,75,0.12); }
+  .checkbox-row.invalid { background: rgba(231,75,75,0.12); border: 1px solid #ff8888; border-radius: 0; padding: 10px 12px; margin-left: -12px; margin-right: -12px; }
+  .field-error { display: none; color: #ffaaaa; font-size: 12px; margin-top: 4px; }
+  .field-error.show { display: block; }
+  select { appearance: none; -webkit-appearance: none; cursor: pointer; background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='12' height='8' viewBox='0 0 12 8'><path fill='%23ffffff' opacity='0.6' d='M6 8L0 0h12z'/></svg>"); background-repeat: no-repeat; background-position: right 14px center; padding-right: 38px; }
+  select option { color: #2C2C2A; background: #ffffff; }
+  .bedrooms-row {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    gap: 6px;
+  }
+  .bedroom-pill {
+    padding: 10px 0;
+    border-radius: 0;
+    border: 1px solid rgba(255,255,255,0.2);
+    background: rgba(255,255,255,0.06);
+    color: rgba(255,255,255,0.8);
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+    text-align: center;
+    transition: background 0.12s, border-color 0.12s, color 0.12s, transform 0.08s;
+    user-select: none;
+    -webkit-user-select: none;
+    -webkit-tap-highlight-color: transparent;
+    touch-action: manipulation;
+  }
+  .bedroom-pill:hover { background: rgba(255,255,255,0.1); border-color: rgba(255,255,255,0.35); }
+  .bedroom-pill:active { transform: scale(0.97); }
+  .bedroom-pill.selected {
+    background: #5BD4A8;
+    color: #04342C;
+    border-color: #5BD4A8;
+    font-weight: 600;
+  }
+  .bedrooms-hint {
+    font-size: 11px;
+    color: rgba(255,255,255,0.5);
+    margin-top: 6px;
+    font-style: italic;
+  }
+  .checkbox-row { display: flex; align-items: flex-start; gap: 10px; margin-top: 6px; font-size: 13px; color: rgba(255,255,255,0.75); line-height: 1.5; transition: background 0.15s, border-color 0.15s; }
+  .checkbox-row input[type="checkbox"] { width: 16px; height: 16px; margin-top: 2px; accent-color: #5BD4A8; flex-shrink: 0; }
+  .checkbox-row label { margin: 0; font-size: 13px; color: rgba(255,255,255,0.75); font-weight: 400; letter-spacing: 0; }
+  .checkbox-row a { color: #5BD4A8; text-decoration: underline; }
+  button[type="submit"] { margin-top: 8px; padding: 16px; background: #5BD4A8; color: #04342C; border: none; border-radius: 0; font-size: 16px; font-weight: 600; cursor: pointer; transition: background 0.15s, transform 0.15s; font-family: inherit; }
+  button[type="submit"]:hover { background: #6FE0B4; transform: translateY(-1px); }
+  button[type="submit"]:disabled { opacity: 0.6; cursor: wait; transform: none; }
+  .form-note { text-align: center; margin-top: 16px; font-size: 12px; color: rgba(255,255,255,0.6); }
+  .success { display: none; text-align: center; padding: 32px 24px; background: rgba(91,212,168,0.12); border: 1px solid rgba(91,212,168,0.4); border-radius: 0; }
+  .success.show { display: block; }
+  .success h3 { color: #5BD4A8; margin: 0 0 8px 0; font-size: 20px; font-weight: 600; }
+  .success p { color: rgba(255,255,255,0.85); margin: 0; font-size: 15px; }
+  .form-error { display: none; background: rgba(231,75,75,0.15); border: 1px solid rgba(231,75,75,0.4); color: #ffaaaa; padding: 12px 14px; border-radius: 0; font-size: 13px; margin-bottom: 8px; }
+  .form-error.show { display: block; }
+  .contact { background: #ffffff; padding: 80px 24px; }
+  .contact-inner { max-width: 720px; margin: 0 auto; text-align: center; }
+  .contact h2 { font-size: clamp(24px, 3vw, 32px); color: #0F2F44; font-weight: 600; margin: 0 0 12px 0; letter-spacing: -0.01em; }
+  .contact-sub { color: #5f5e5a; margin: 0 0 36px 0; font-size: 16px; }
+  .contact-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 16px; max-width: 520px; margin: 0 auto; }
+  .contact-card { background: #f7f9fb; border: 1px solid #e5e7eb; border-radius: 0; padding: 24px 18px; transition: border-color 0.15s, transform 0.15s; display: block; }
+  .contact-card:hover { border-color: #5B9CC5; transform: translateY(-2px); }
+  .contact-icon { width: 36px; height: 36px; margin: 0 auto 12px; color: #5B9CC5; display: block; }
+  .contact-label { font-size: 12px; color: #888780; margin-bottom: 6px; letter-spacing: 0.05em; text-transform: uppercase; font-weight: 500; }
+  .contact-value { color: #0F2F44; font-weight: 600; font-size: 16px; word-break: break-word; }
+  footer { background: #0F2F44; color: rgba(255,255,255,0.7); padding: 48px 24px 32px; text-align: center; font-size: 13px; }
+  footer a { color: rgba(255,255,255,0.85); }
+  .footer-tagline { margin-bottom: 14px; color: #5BD4A8; font-size: 11px; letter-spacing: 0.25em; text-transform: uppercase; font-weight: 600; }
+  .footer-meta { margin-top: 16px; font-size: 11px; color: rgba(255,255,255,0.45); line-height: 1.7; }
+  .footer-mark { height: 36px; margin-bottom: 18px; opacity: 0.85; }
+  @media (max-width: 640px) {
+    .top { padding: 12px 16px; }
+    .top-brand img { height: 26px; }
+    .top-contact { font-size: 12px; }
+    .listings { padding: 48px 20px; }
+    .listings-grid { grid-template-columns: 1fr; gap: 18px; }
+    .hero { padding: 60px 20px; min-height: 70vh; }
+    .hero-bg { background-position: right center; }
+    .intro, .waitlist, .contact { padding: 56px 20px; }
+    .stats { padding: 40px 20px; }
+    .stats-inner { gap: 16px; }
+    .strip { height: 180px; }
+    .form-row { flex-direction: column; gap: 14px; }
+    .contact-grid { grid-template-columns: 1fr; }
+    .hero-actions { flex-direction: column; align-items: stretch; }
+    .btn { width: 100%; }
+    .door-mark { height: 56px; }
+    .bedrooms-row { grid-template-columns: repeat(8, 1fr); gap: 4px; }
+    .bedroom-pill { padding: 8px 0; font-size: 13px; }
+  }
+
+  /* Available listings */
+  .listings { background: #f7f9fb; padding: 72px 24px; border-bottom: 1px solid #e5e7eb; }
+  .listings-inner { max-width: 1100px; margin: 0 auto; }
+  .listings-head { text-align: center; margin-bottom: 36px; }
+  .listings-eyebrow { color: #1FBA94; font-size: 11px; letter-spacing: 0.25em; font-weight: 600; text-transform: uppercase; margin-bottom: 12px; }
+  .listings-head h2 { font-size: clamp(24px, 3vw, 32px); font-weight: 600; color: #0F2F44; margin: 0 0 10px 0; letter-spacing: -0.01em; }
+  .listings-head p { color: #5f5e5a; font-size: 16px; margin: 0; }
+  .listings-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 340px)); gap: 24px; justify-content: center; }
+  .listing-card {
+    display: block; background: #ffffff; border: 1px solid #e5e7eb; border-radius: 0;
+    overflow: hidden; text-decoration: none; color: inherit;
+    transition: transform 0.18s ease, box-shadow 0.18s ease, border-color 0.18s ease;
+  }
+  .listing-card:hover { transform: translateY(-3px); box-shadow: 0 10px 28px rgba(15,47,68,0.12); border-color: #5B9CC5; color: inherit; }
+  .listing-photo { width: 100%; aspect-ratio: 16/10; object-fit: cover; display: block; background: #e5e7eb; }
+  .listing-body { padding: 20px 20px 22px; }
+  .listing-status { display: inline-block; font-size: 10px; letter-spacing: 0.14em; text-transform: uppercase; font-weight: 600; color: #12805F; background: rgba(31,186,148,0.12); border: 1px solid rgba(31,186,148,0.35); border-radius: 0; padding: 4px 10px; margin-bottom: 12px; }
+  .listing-title { font-size: 19px; font-weight: 600; color: #0F2F44; margin: 0 0 8px 0; letter-spacing: -0.01em; line-height: 1.3; }
+  .listing-meta { display: flex; flex-wrap: wrap; gap: 9px 18px; margin: 0 0 12px 0; }
+  .lm { display: inline-flex; align-items: center; gap: 6px; font-size: 15px; font-weight: 600; color: #0F2F44; }
+  .listing-meta .ic { width: 18px; height: 18px; flex: none; color: #5B9CC5; --icon-badge-bg: #ffffff; }
+  .listing-actions { display: flex; flex-direction: column; align-items: flex-start; gap: 8px; }
+  .listing-bftk, .listing-tour { font-size: 14px; font-weight: 600; color: #12805F; cursor: pointer; }
+  .listing-bftk:hover, .listing-tour:hover { color: #0F2F44; }
+  .listing-bftk.added { color: #12805F; }
+  .listing-price { font-size: 22px; font-weight: 700; color: #0F2F44; margin: 0 0 10px 0; line-height: 1.2; }
+  .listing-price span { font-size: 14px; font-weight: 500; color: #5f6b78; }
+  .listing-blurb { font-size: 14px; color: #5f5e5a; margin: 0 0 16px 0; line-height: 1.55; }
+  .listing-link { font-size: 14px; font-weight: 600; color: #0F2F44; }
+  .listing-card:hover .listing-link { color: #5B9CC5; }
+  .listings-sub { grid-column: 1 / -1; margin: 28px 0 -4px; font-size: 22px; font-weight: 600; color: #0F2F44; text-align: center; }
+  .listings-more { text-align: center; margin: 32px 0 0; font-size: 17px; color: #444441; }
+  .listings-more a { color: #0F2F44; font-weight: 700; text-decoration: underline; text-underline-offset: 3px; }
+  .listing-status.pending { color: #7a5d00; background: rgba(230,180,0,0.12); border-color: rgba(230,180,0,0.45); }
+
+  /* Interim building list, one tile per unit (Coming soon) */
+  .buildings { background: #ffffff; padding: 72px 24px; border-bottom: 1px solid #e5e7eb; }
+  .buildings-inner { max-width: 1100px; margin: 0 auto; }
+  .buildings .listings-head p { max-width: 600px; margin: 0 auto; }
+  .area { margin-top: 36px; }
+  .area-head { display: flex; align-items: baseline; justify-content: space-between; gap: 12px; flex-wrap: wrap; border-bottom: 1px solid #e5e7eb; padding-bottom: 10px; margin-bottom: 14px; }
+  .area-head h3 { margin: 0; font-size: 18px; font-weight: 600; color: #0F2F44; letter-spacing: -0.01em; }
+  .area-walk { display: inline-flex; align-items: center; gap: 6px; font-size: 13px; font-weight: 600; color: #12805F; }
+  .area-walk .ic, .bld-beds .ic { width: 16px; height: 16px; flex: none; color: #5B9CC5; --icon-badge-bg: #ffffff; }
+  .bld-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(230px, 1fr)); gap: 12px; }
+  .bld { position: relative; display: flex; flex-direction: column; align-items: stretch; padding: 0; overflow: hidden; gap: 0; text-align: left;
+    font-family: inherit; cursor: pointer; background: #f7f9fb; border: 1px solid #e5e7eb; border-radius: 0; color: #0F2F44;
+    transition: border-color 0.15s ease, background 0.15s ease, transform 0.15s ease; }
+  .bld:hover { border-color: #5B9CC5; transform: translateY(-1px); }
+  .bld .bld-photo { width: 100%; aspect-ratio: 4/3; object-fit: cover; display: block; background: #e5e7eb; }
+  .bld .bld-nophoto { display: flex; align-items: center; justify-content: center; text-align: center; padding: 12px;
+    background: linear-gradient(135deg, #0F2F44 0%, #1a4a6a 100%); color: rgba(255,255,255,0.85);
+    font-size: 12px; font-weight: 600; letter-spacing: 0.14em; text-transform: uppercase; }
+  .bld-badge { position: absolute; top: 10px; left: 10px; background: #1FBA94; color: #ffffff; font-size: 11px; font-weight: 700;
+    letter-spacing: 0.04em; padding: 4px 8px; border-radius: 0; }
+  .bld-text { display: flex; flex-direction: column; align-items: flex-start; gap: 5px; padding: 12px 16px 14px; }
+  .bld-addr { font-size: 15px; font-weight: 600; line-height: 1.3; }
+  .bld-beds { display: inline-flex; align-items: center; gap: 6px; font-size: 13px; color: #5f5e5a; }
+  .bld-kind { font-size: 12px; color: #888780; }
+  .bld-cta { margin-top: 4px; font-size: 13px; font-weight: 600; color: #0F2F44; }
+  .bld-added { display: none; color: #12805F; }
+  .bld.selected { background: rgba(31,186,148,0.08); border-color: #1FBA94; }
+  .bld.selected .bld-add { display: none; }
+  .bld.selected .bld-added { display: inline; }
+  .bld.filtered-out, .area.filtered-out { display: none; }
+  .buildings-cta { display: flex; justify-content: center; margin: 18px 0 4px; }
+  .buildings-foot { margin-top: 36px; display: flex; flex-direction: column; align-items: center; gap: 10px; }
+  .buildings-count { font-size: 13px; color: #5f5e5a; min-height: 18px; }
+  .picked-row { display: flex; flex-wrap: wrap; gap: 6px; }
+  .picked-chip { display: inline-flex; align-items: center; gap: 6px; padding: 6px 10px; border-radius: 0; font-size: 13px;
+    background: rgba(91,212,168,0.15); border: 1px solid rgba(91,212,168,0.5); color: #ffffff; cursor: pointer; font-family: inherit; }
+  .picked-hint { font-size: 12px; color: rgba(255,255,255,0.55); margin-top: 6px; }
+  /* Bedroom filter */
+  .bedfilter { display: flex; flex-wrap: wrap; align-items: center; justify-content: center; gap: 8px; margin: 28px 0 0; }
+  .bedfilter-label { font-size: 13px; font-weight: 600; color: #0F2F44; margin-right: 4px; }
+  .bf-pill { min-width: 40px; padding: 8px 12px; border-radius: 0; border: 1px solid #d5dee6; background: #ffffff;
+    color: #0F2F44; font: 600 14px 'Inter', -apple-system, sans-serif; cursor: pointer; transition: background 0.12s, border-color 0.12s; }
+  .bf-pill:hover { border-color: #5B9CC5; }
+  .bf-pill.on { background: #0F2F44; border-color: #0F2F44; color: #ffffff; }
+  .bedfilter-count { width: 100%; text-align: center; font-size: 13px; color: #5f5e5a; min-height: 18px; margin-top: 2px; }
+  /* Temporary building map (Leaflet + OpenStreetMap) */
+  .bmap { height: 400px; border-radius: 0; border: 1px solid #e5e7eb; margin: 16px 0 8px; background: #eef2f5; z-index: 0; }
+  .leaflet-popup-content-wrapper, .leaflet-popup-tip, .leaflet-bar, .leaflet-bar a, .leaflet-control-attribution { border-radius: 0 !important; }
+  .bmap-note { font-size: 12px; color: #888780; text-align: center; margin: 0 0 4px; }
+  .bmap-pop { font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; min-width: 200px; }
+  .bmap-pop img { display: block; width: 100%; height: 130px; object-fit: cover; border-radius: 0; margin-bottom: 8px; background: #e5e7eb; }
+  .bmap-pop strong { display: block; font-size: 14px; color: #0F2F44; margin-bottom: 2px; }
+  .bmap-pop .pop-sub { display: block; font-size: 12px; color: #5f5e5a; margin-bottom: 6px; }
+  .bmap-pop .pop-unit { display: flex; width: 100%; justify-content: space-between; align-items: center; gap: 8px; margin-top: 5px;
+    padding: 6px 9px; border-radius: 0; border: 1px solid #1FBA94; background: #ffffff; color: #0F2F44;
+    font: 600 12px 'Inter', sans-serif; cursor: pointer; text-align: left; }
+  .bmap-pop .pop-unit.on { background: rgba(31,186,148,0.12); color: #12805F; }
+  .bmap-pop .pop-unit em { font-style: normal; font-weight: 600; white-space: nowrap; }
+  @media (max-width: 640px) {
+    .buildings { padding: 48px 20px; }
+    .bld-grid { grid-template-columns: 1fr 1fr; gap: 8px; }
+    .bld-text { padding: 10px 12px 12px; }
+    .bld-addr { font-size: 14px; }
+    .bmap { height: 320px; }
+  }
+
+  /* Form fallback: email my details */
+  .mdc-fallback { margin-top: 10px; }
+  .mdc-fallback a.mdc-fallback-btn { display: inline-block; margin-top: 10px; padding: 10px 18px; background: #ffffff;
+    color: #1A3757; border: 1px solid #1A3757; text-decoration: none; font-weight: 700; border-radius: 0; }
+  .mdc-fallback a.mdc-fallback-btn:hover { background: #e8eef4; }
+  .mdc-fallback .mdc-fallback-small { display: block; margin-top: 8px; font-size: 13px; }
+
+  /* Honeypot: off screen, never seen by people */
+  .mdc-hp { position: absolute !important; left: -10000px !important; top: auto !important;
+    width: 1px !important; height: 1px !important; overflow: hidden !important; }
+
+  /* View unit tiles and the picked-homes bar (2026-10-26) */
+  .bld-view { color: #0F2F44; font-weight: 700; }
+  .bld-badge.pending { background: #F2C230; color: #3a2c00; }
+  .bld[data-link]:hover .bld-view { color: #5B9CC5; }
+  .pickbar { position: fixed; left: 0; right: 0; bottom: 0; z-index: 900; background: #0F2F44; color: #ffffff;
+    display: none; align-items: center; justify-content: center; gap: 16px; padding: 12px 16px;
+    box-shadow: 0 -6px 20px rgba(0,0,0,0.18); font-size: 15px; }
+  .pickbar.show { display: flex; }
+  .pickbar button { background: #5BD4A8; color: #04342C; border: none; border-radius: 0; padding: 10px 18px;
+    font: inherit; font-weight: 700; cursor: pointer; }
+  .pickbar button:hover { background: #7de0bb; }
+  .bld-cta { display: flex; flex-wrap: wrap; gap: 4px 14px; }
+  .bld-details { color: #0F2F44; font-weight: 700; text-decoration: underline; text-underline-offset: 3px; }
+  .bld-details:hover { color: #5B9CC5; }
+  .bld-badge.leased { background: #e7ebef; color: #4a5866; }
+
+  /* Hero opening line (rev 23) */
+  .hero-sub { color: rgba(255,255,255,0.92); font-size: 18px; line-height: 1.5; max-width: 600px; margin: 16px auto 28px; }
+  @media (max-width: 640px) { .hero-sub { font-size: 16px; margin: 12px auto 22px; } }
+  .consent-privacy { color: #5BD4A8; text-decoration: underline; text-underline-offset: 2px; }
+
+  /* Sticky header (2026-10-27) */
+  header.top { position: sticky; top: 0; z-index: 60; }
+  html { scroll-padding-top: 80px; }
+  @media (max-width: 640px) { html { scroll-padding-top: 64px; } }
+  .bmap { position: relative; z-index: 0; }
+
+  /* Hero contrast (2026-10-28) */
+  .hero-bg::after { background: linear-gradient(180deg, rgba(15,47,68,0.25) 0%, rgba(15,47,68,0.55) 40%, rgba(15,47,68,0.92) 100%) !important; }
+  .hero-inner h1, .hero-meta, .hero-status { text-shadow: 0 1px 3px rgba(0,0,0,0.45); }
+
+  /* Swipeable photo strip (rev 46) */
+  .photostrip { position: relative; background: #0F2F44; }
+  .ps-track { display: flex; gap: 4px; overflow-x: auto; scroll-snap-type: x mandatory; scrollbar-width: none; -webkit-overflow-scrolling: touch; }
+  .ps-track::-webkit-scrollbar { display: none; }
+  .ps-item { position: relative; flex: 0 0 auto; height: 300px; aspect-ratio: 3 / 2; scroll-snap-align: start; display: block; overflow: hidden; background: #1b3a50; }
+  .ps-item img { width: 100%; height: 100%; object-fit: cover; display: block; transition: transform .25s; }
+  .ps-item:hover img, .ps-item:focus-visible img { transform: scale(1.03); }
+  .ps-item:focus-visible { outline: 3px solid #5BD4A8; outline-offset: -3px; }
+  .ps-label { position: absolute; left: 0; bottom: 0; padding: 6px 10px; background: rgba(15,47,68,0.82); color: #ffffff; font-size: 13px; font-weight: 600; }
+  .ps-nav { position: absolute; top: 50%; transform: translateY(-50%); z-index: 2; width: 44px; height: 44px; border: 0; border-radius: 0; background: rgba(15,47,68,0.85); color: #ffffff; font-size: 20px; cursor: pointer; }
+  .ps-nav:hover, .ps-nav:focus-visible { background: #1FBA94; color: #0F2F44; outline: none; }
+  .ps-prev { left: 8px; } .ps-next { right: 8px; }
+  @media (max-width: 640px) { .ps-item { height: 200px; } .ps-nav { display: none; } }
+  @media (prefers-reduced-motion: reduce) { .ps-item img { transition: none; } }
+
+  /* Rev 45 layout (2026-11-05) */
+  .mapband { background: #ffffff; padding: 40px 24px 36px; }
+  .mapband-inner { max-width: 1100px; margin: 0 auto; }
+  .mapband .bmap { margin-top: 0; }
+  .avail-prompt { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 14px 24px; margin: 22px 0 0; padding: 18px 22px; background: #0F2F44; color: #ffffff; }
+  .avail-prompt-text { display: flex; flex-direction: column; gap: 2px; }
+  .avail-prompt-text strong { font-size: 22px; color: #5BD4A8; letter-spacing: -0.01em; }
+  .avail-prompt-text span { font-size: 15px; color: rgba(255,255,255,0.88); }
+  .bld-cta .bld-tour { color: #12805F; font-weight: 700; }
+  .bld-cta .bld-view, .bld-cta .bld-details { color: #0F2F44; font-weight: 700; }
+  .bld { cursor: pointer; }
+  .about-short { background: #F4F7F9; padding: 48px 24px; }
+  .about-short-inner { max-width: 760px; margin: 0 auto; text-align: center; }
+  .about-short-inner p { font-size: clamp(18px, 2.2vw, 22px); color: #0F2F44; margin: 0 0 12px 0; line-height: 1.45; }
+  .about-short-inner a { color: #0F2F44; font-weight: 700; text-decoration: underline; text-underline-offset: 3px; }
+  .ff-row { display: flex; flex-wrap: wrap; align-items: center; justify-content: center; gap: 8px; width: 100%; margin-top: 6px; }
+  .ff-pill { background: #ffffff; border: 1px solid #c9d3dc; color: #0F2F44; font: 600 13px 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; padding: 7px 12px; border-radius: 0; cursor: pointer; }
+  .ff-pill.on { background: #0F2F44; border-color: #0F2F44; color: #ffffff; }
+  .ff-pill:focus-visible { outline: 2px solid #1FBA94; outline-offset: 2px; }
+  .status-group-note { text-align: center; color: #5f5e5a; margin: -4px 0 14px; font-size: 14px; }
+  @media (max-width: 640px) { .mapband { padding: 24px 16px 24px; } .avail-prompt { padding: 16px; } .about-short { padding: 36px 16px; } }
+</style>
+<!-- Google Analytics (GA4) -->
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-2EDX9H6T24"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag("js", new Date());
+  try{var _q=location.search;if((localStorage.getItem("mdc_internal")==="1"&&!/[?&]mdc_internal=0/.test(_q))||/[?&]mdc_internal=1/.test(_q))gtag("set",{traffic_type:"internal"});}catch(e){}
+gtag("config", "G-2EDX9H6T24");
+  // mdcTrack: safe event helper. Never send names, emails or phone numbers.
+  window.mdcTrack = function (name, params) { try { gtag("event", name, params || {}); } catch (e) {} };
+  // Email and phone taps anywhere on the page
+  document.addEventListener("click", function (e) {
+    var a = e.target.closest ? e.target.closest('a[href^="mailto:"], a[href^="tel:"]') : null;
+    if (!a) return;
+    var where = a.closest("header") ? "header" : a.closest("footer") ? "footer" : "page";
+    window.mdcTrack(a.getAttribute("href").indexOf("tel:") === 0 ? "contact_phone" : "contact_email", { link_location: where });
+  });
+</script>
+<script>
+/* Lead source + internal flag (rev 22) */
+(function () {
+  var KEY = "mdc_src", IKEY = "mdc_internal", DAYS = 90;
+  function get(k) { try { return localStorage.getItem(k); } catch (e) { return null; } }
+  function put(k, v) { try { localStorage.setItem(k, v); } catch (e) {} }
+  function del(k) { try { localStorage.removeItem(k); } catch (e) {} }
+  var q; try { q = new URLSearchParams(location.search); } catch (e) { q = { get: function () { return null; } }; }
+  if (q.get("mdc_internal") === "1") put(IKEY, "1");
+  if (q.get("mdc_internal") === "0") del(IKEY);
+  var internal = get(IKEY) === "1";
+
+  var AI = ["chatgpt.com", "chat.openai.com", "perplexity.ai", "gemini.google.com",
+            "copilot.microsoft.com", "claude.ai", "meta.ai", "you.com"];
+  var SEARCH = ["google.", "bing.com", "duckduckgo.com", "search.yahoo.", "ecosia.org", "search.brave.com"];
+  var SOCIAL = ["facebook.com", "instagram.com", "tiktok.com", "reddit.com", "linkedin.com", "x.com", "t.co"];
+  function has(list, host) { for (var i = 0; i < list.length; i++) if (host.indexOf(list[i]) !== -1) return list[i]; return ""; }
+  function day() { return new Date().toISOString().slice(0, 10); }
+
+  var touch = null, gclid = q.get("gclid");
+  var us = q.get("utm_source"), um = q.get("utm_medium");
+  if (us || um || gclid) {
+    touch = { s: us || (gclid ? "google" : ""), m: um || (gclid ? "cpc" : ""),
+              c: q.get("utm_campaign") || "", t: q.get("utm_term") || "", x: q.get("utm_content") || "" };
+  } else if (document.referrer) {
+    var host = "";
+    try { host = new URL(document.referrer).hostname.replace(/^www\./, ""); } catch (e) {}
+    if (host && host.indexOf("mackinnondev.ca") === -1) {
+      var a = has(AI, host), s = has(SEARCH, host), so = has(SOCIAL, host);
+      if (a) touch = { s: a, m: "ai" };
+      else if (s) touch = { s: s.replace(/\.$/, ""), m: "organic" };
+      else if (so) touch = { s: so.replace(".com", ""), m: "social" };
+      else touch = { s: host, m: "referral" };
+    }
+  }
+  var now = Date.now(), saved = null;
+  try { saved = JSON.parse(get(KEY) || "null"); } catch (e) {}
+  if (saved && now - (saved.at || 0) > DAYS * 864e5) saved = null;
+  if (touch) {
+    touch.at = now; touch.lp = location.pathname + " (" + day() + ")";
+    saved = touch; put(KEY, JSON.stringify(saved));
+  } else if (!saved) {
+    saved = { s: "(direct)", m: "(none)", at: now, lp: location.pathname + " (" + day() + ")" };
+    put(KEY, JSON.stringify(saved));
+  }
+  var parts = [saved.s, saved.m, saved.c, saved.t, saved.x].filter(function (p) { return p; });
+  window.mdcSource = function () { return (internal ? "[internal] " : "") + parts.join(" / "); };
+  window.mdcLanding = function () { return saved.lp || ""; };
+})();
+</script>
+
+<script>
+/* Honeypot and timing check (2026-10-26). Flags, never blocks. */
+window.mdcLoadedAt = Date.now();
+window.mdcSpamCheck = function (form) {
+  var hp = form.querySelector('input[name="faculty"]');
+  var reasons = [];
+  if (hp && hp.value && hp.value.trim() !== "") reasons.push("honeypot");
+  if (Date.now() - window.mdcLoadedAt < 2000) reasons.push("too_fast");
+  return { spam_suspected: reasons.length > 0, spam_reason: reasons.join(",") };
+};
+</script>
+<!-- reversed-logo -->
+<!-- home-seo -->
+<!-- bed-pricing -->
+<!-- privacy-link -->
+<!-- sticky-header -->
+<!-- source-capture -->
+<!-- hero-contrast -->
+<link rel="preload" as="image" href="/images/t/properties/112-nelson-street/112_nelson_FOYER1.jpg" fetchpriority="high">
+<!-- thumbs -->
+<!-- async-css -->
+<style>
+  .faq { background: #F4F7F9; padding: 80px 24px; }
+  .faq-inner { max-width: 760px; margin: 0 auto; }
+  .faq h2 { font-size: clamp(24px, 3vw, 32px); color: #0F2F44; font-weight: 600; margin: 0 0 24px 0; letter-spacing: -0.01em; }
+  .faq details { background: #ffffff; border: 1px solid #e5e7eb; border-radius: 0; margin: 0 0 8px 0; }
+  .faq summary { cursor: pointer; list-style: none; padding: 18px 48px 18px 20px; font-size: 17px; font-weight: 600; color: #0F2F44; position: relative; }
+  .faq summary::-webkit-details-marker { display: none; }
+  .faq summary::after { content: "+"; position: absolute; right: 20px; top: 50%; transform: translateY(-50%); font-size: 22px; font-weight: 400; color: #1FBA94; }
+  .faq details[open] summary::after { content: "\2212"; }
+  .faq details p { margin: 0; padding: 0 20px 18px 20px; font-size: 16px; line-height: 1.65; color: #444441; }
+  .faq details p a { color: #0F2F44; font-weight: 600; }
+  .faq-more { margin: 18px 0 0 0; font-size: 16px; } .faq-more a { color: #0F2F44; font-weight: 700; text-decoration: underline; text-underline-offset: 3px; }
+  @media (max-width: 640px) { .faq { padding: 56px 20px; } .faq summary { font-size: 16px; } }
+</style>
+<!-- faq -->
+<style>
+  .reviews { background: #ffffff; padding: 24px 24px 80px; }
+  .reviews-inner { max-width: 1100px; margin: 0 auto; }
+  .reviews h2 { font-size: clamp(24px, 3vw, 32px); color: #0F2F44; font-weight: 600; margin: 0 0 8px 0; letter-spacing: -0.01em; }
+  .reviews-sub { color: #5f5e5a; margin: 0 0 28px 0; font-size: 16px; }
+  .reviews-grid { columns: 3 300px; column-gap: 16px; }
+  .review { break-inside: avoid; background: #F4F7F9; border: 1px solid #e5e7eb; border-left: 3px solid #1FBA94; border-radius: 0; padding: 20px 22px; margin: 0 0 16px 0; }
+  .review blockquote { margin: 0 0 12px 0; font-size: 15px; line-height: 1.6; color: #2C2C2A; }
+  .review .who { font-size: 13px; color: #5f5e5a; }
+  .review .who strong { color: #0F2F44; }
+  .reviews-sub a { color: #0F2F44; font-weight: 600; }
+  .reviews-grid.collapsed .review-more { display: none; }
+  .reviews-more-wrap { margin: 8px 0 0 0; }
+  .reviews-more-wrap { display: flex; flex-wrap: wrap; align-items: center; gap: 12px 22px; }
+  .reviews-more-btn { display: inline-block; background: #ffffff; border: 2px solid #0F2F44; border-radius: 0; color: #0F2F44; font: inherit; font-weight: 600; font-size: 15px; padding: 12px 22px; cursor: pointer; text-decoration: none; }
+  .reviews-google { color: #0F2F44; font-weight: 600; text-decoration: underline; text-underline-offset: 3px; }
+  @media (max-width: 640px) { .reviews { padding: 8px 20px 56px; } }
+</style>
+<!-- reviews -->
+<!-- structured-data -->
+<!-- rev45 -->
+<style>
+  /* Rev 47: less space above Our Buildings */
+  .mapband { padding-bottom: 24px; }
+  .buildings { padding-top: 32px; }
+  .listings-head { margin-bottom: 8px; }
+  @media (max-width: 640px) { .mapband { padding-bottom: 16px; } .buildings { padding-top: 24px; } }
+  /* Rev 47: filters, smaller and part of the page (one light bar, no boxes) */
+  .bedfilter { width: fit-content; max-width: 100%; margin: 18px auto 0; padding: 8px 10px; gap: 6px 0; background: #F4F7F9; justify-content: center; }
+  .bedfilter .ff-row { width: auto; margin: 0; gap: 2px; padding: 0 14px; flex-wrap: nowrap; }
+  .bedfilter .ff-row + .ff-row { border-left: 1px solid #d9e1e8; }
+  .bedfilter-label { font-size: 11px; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; color: #6b7a88; margin: 0 6px 0 0; white-space: nowrap; }
+  .bedfilter .bf-pill, .bedfilter .ff-pill { min-width: 0; padding: 4px 8px; border: 0; background: transparent; color: #33475a; font: 500 13px 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; line-height: 1.4; cursor: pointer; transition: background 0.12s, color 0.12s; }
+  .bedfilter .bf-pill:hover, .bedfilter .ff-pill:hover { background: #e3eaf0; }
+  .bedfilter .bf-pill.on, .bedfilter .ff-pill.on { background: #0F2F44; color: #ffffff; }
+  .bedfilter .bf-pill:focus-visible, .bedfilter .ff-pill:focus-visible { outline: 2px solid #1FBA94; outline-offset: 1px; }
+  .bedfilter-count { margin: 8px 0 0; }
+  @media (max-width: 760px) {
+    .bedfilter { width: 100%; padding: 6px 8px; }
+    .bedfilter .ff-row { width: 100%; padding: 6px 2px; flex-wrap: wrap; justify-content: flex-start; }
+    .bedfilter .ff-row + .ff-row { border-left: 0; border-top: 1px solid #d9e1e8; }
+    .bedfilter-label { width: 100%; margin: 0 0 4px 4px; }
+    .bedfilter .bf-pill, .bedfilter .ff-pill { padding: 6px 10px; font-size: 14px; }
+  }
+</style>
+<!-- rev47 -->
+<style>
+  /* Top bar menu (rev 45) */
+  .topnav { position: relative; display: flex; align-items: center; }
+  .topnav-list { list-style: none; margin: 0; padding: 0; display: flex; align-items: center; gap: 4px; }
+  .topnav-list a { display: block; padding: 8px 10px; color: #ffffff; font-size: 14px; font-weight: 500; text-decoration: none; border-bottom: 2px solid transparent; }
+  .topnav-list a:hover, .topnav-list a:focus-visible { border-bottom-color: #5BD4A8; outline: none; }
+  .topnav-list a[aria-current="page"] { border-bottom-color: #5BD4A8; }
+  .topnav-list a.topnav-hot { color: #5BD4A8; font-weight: 600; }
+  .topnav-toggle { display: none; background: transparent; color: #ffffff; border: 1px solid rgba(255,255,255,0.55); border-radius: 0; font: 600 14px 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; padding: 8px 14px; cursor: pointer; }
+  .topnav-toggle:focus-visible { outline: 2px solid #5BD4A8; outline-offset: 2px; }
+  @media (max-width: 1000px) {
+    .topnav-toggle { display: inline-flex; align-items: center; gap: 8px; }
+    .topnav-toggle::after { content: ""; width: 14px; height: 10px; background: linear-gradient(#fff 0 2px, transparent 2px 4px, #fff 4px 6px, transparent 6px 8px, #fff 8px 10px); }
+    .topnav-list { display: none; position: absolute; right: 0; top: calc(100% + 12px); flex-direction: column; align-items: stretch; gap: 0; background: #0F2F44; border: 1px solid rgba(255,255,255,0.18); min-width: 220px; padding: 6px 0; box-shadow: 0 10px 24px rgba(0,0,0,0.25); z-index: 80; }
+    .topnav.open .topnav-list { display: flex; }
+    .topnav-list a { padding: 12px 18px; font-size: 16px; border-bottom: 0; border-left: 3px solid transparent; }
+    .topnav-list a[aria-current="page"], .topnav-list a:hover { border-left-color: #5BD4A8; }
+  }
+</style>
+<!-- menu45 -->
+<script type="text/javascript" async="" src="https://googleads.g.doubleclick.net/pagead/viewthroughconversion/18204219902/?random=1794250762396&amp;cv=11&amp;fst=1794250762396&amp;bg=ffffff&amp;guid=ON&amp;async=1&amp;en=gtag.config&amp;gtm=45je6b50v9136289838za208zd9136289838xecxf1&amp;gcd=13l3l3l3l1l1&amp;dma=0&amp;tag_exp=115938465~115938469~118897920~118897930~119860443~120213116~120385423~120412528~120420416~120469145~120469153~121191153~121246026~121246034~123814183&amp;u_w=1366&amp;u_h=900&amp;url=https%3A%2F%2Fmackinnondev.ca%2Favailable.html&amp;rcb=3&amp;frm=0&amp;tiba=Available%20Now%20%3A%3A%20Queen's%20Student%20Housing&amp;hn=www.googleadservices.com&amp;npa=0&amp;pscdl=noapi&amp;auid=1387855082.1794250760&amp;uaa=x64&amp;uab=64&amp;uafvl=Chromium%3B130.0.6723.31%7CHeadlessChrome%3B130.0.6723.31%7CNot%253FA_Brand%3B99.0.0.0&amp;uamb=0&amp;uam=&amp;uap=Windows&amp;uapv=&amp;uaw=0&amp;data=event%3Dgtag.config&amp;ept=9&amp;rfmt=3&amp;fmt=4"></script></head>
+<body>
+
+<svg xmlns="http://www.w3.org/2000/svg" style="display:none">
+  <symbol id="icon-fridge" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+    <title>Fridge</title>
+  <rect x="5" y="2.5" width="14" height="19" rx="2.2"></rect>
+  <path d="M5 9.5h14"></path>
+  <path d="M8.6 5.4v2.2M8.6 12v2.8"></path>
+  </symbol>
+  <symbol id="icon-stove" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+    <title>Stove / Range</title>
+  <rect x="3.5" y="3.5" width="17" height="17" rx="2.2"></rect>
+  <circle cx="8.6" cy="8.6" r="1.7"></circle>
+  <circle cx="15.4" cy="8.6" r="1.7"></circle>
+  <circle cx="8.6" cy="15.4" r="1.7"></circle>
+  <circle cx="15.4" cy="15.4" r="1.7"></circle>
+  </symbol>
+  <symbol id="icon-oven" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+    <title>Oven</title>
+  <rect x="3.5" y="3.5" width="17" height="17" rx="2.2"></rect>
+  <path d="M3.5 8.5h17"></path>
+  <circle cx="7.2" cy="6" r="0.9" fill="currentColor" stroke="none"></circle>
+  <circle cx="10.6" cy="6" r="0.9" fill="currentColor" stroke="none"></circle>
+  <rect x="7" y="11.5" width="10" height="6" rx="1.2"></rect>
+  </symbol>
+  <symbol id="icon-microwave" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+    <title>Microwave</title>
+  <rect x="2.5" y="5.5" width="19" height="13" rx="2"></rect>
+  <rect x="5" y="8" width="10" height="8" rx="1.2"></rect>
+  <circle cx="18.2" cy="9.2" r="0.85" fill="currentColor" stroke="none"></circle>
+  <circle cx="18.2" cy="12" r="0.85" fill="currentColor" stroke="none"></circle>
+  <path d="M17.2 15.4h2"></path>
+  </symbol>
+  <symbol id="icon-dishwasher" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+    <title>Dishwasher</title>
+  <rect x="4" y="2.5" width="16" height="19" rx="2.2"></rect>
+  <path d="M4 7.5h16"></path>
+  <circle cx="7.3" cy="5" r="0.85" fill="currentColor" stroke="none"></circle>
+  <circle cx="10.3" cy="5" r="0.85" fill="currentColor" stroke="none"></circle>
+  <path d="M8.5 11.5h7M9.5 14.5h5M10.5 17.5h3"></path>
+  </symbol>
+  <symbol id="icon-washer" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+    <title>Washer</title>
+  <rect x="4" y="2.5" width="16" height="19" rx="2.2"></rect>
+  <path d="M4 7.5h16"></path>
+  <circle cx="7.3" cy="5" r="0.85" fill="currentColor" stroke="none"></circle>
+  <circle cx="12" cy="14.5" r="4.2"></circle>
+  <path d="M9.2 14.5c1 -1.1 1.9 -1.1 2.8 0s1.8 1.1 2.8 0"></path>
+  </symbol>
+  <symbol id="icon-dryer" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+    <title>Dryer</title>
+  <rect x="4" y="2.5" width="16" height="19" rx="2.2"></rect>
+  <path d="M4 7.5h16"></path>
+  <circle cx="7.3" cy="5" r="0.85" fill="currentColor" stroke="none"></circle>
+  <circle cx="12" cy="14.5" r="4.2"></circle>
+  <circle cx="12" cy="14.5" r="1.1" fill="currentColor" stroke="none"></circle>
+  </symbol>
+  <symbol id="icon-laundry-in-suite" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+    <title>In-suite laundry</title>
+  <rect x="2.5" y="4" width="9" height="16" rx="1.8"></rect>
+  <rect x="12.5" y="4" width="9" height="16" rx="1.8"></rect>
+  <path d="M2.5 8h9M12.5 8h9"></path>
+  <circle cx="7" cy="14" r="2.6"></circle>
+  <circle cx="17" cy="14" r="2.6"></circle>
+  </symbol>
+  <symbol id="icon-laundry-in-building" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+    <title>Laundry in building</title>
+  <rect x="3" y="2.5" width="11" height="19" rx="1.8"></rect>
+  <path d="M3 6.5h11"></path>
+  <circle cx="8.5" cy="13.5" r="3.2"></circle>
+  <path d="M17 21.5v-7.2a2 2 0 0 1 2-2h1.5"></path>
+  <circle cx="18.6" cy="7.4" r="3.4"></circle>
+  <path d="M19.8 6.1a1.6 1.6 0 1 0 -1.2 2.7 1.6 1.6 0 1 1 -1.2 2.7"></path>
+  </symbol>
+  <symbol id="icon-heat" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+    <title>Heat</title>
+  <path d="M12 2.6c.7 2.5 2.1 3.8 3.4 5.2 1.3 1.5 1.9 3 1.9 4.7a5.3 5.3 0 0 1 -10.6 0c0-1.6.6-2.8 1.5-3.9.4 1 1 1.6 1.8 1.9-.3-2.6.5-5.3 2-7.9z"></path>
+  </symbol>
+  <symbol id="icon-radiator" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+    <title>Heat (radiator)</title>
+  <rect x="3.5" y="7" width="17" height="10.5" rx="1.6"></rect>
+  <path d="M8 7v10.5M12 7v10.5M16 7v10.5"></path>
+  <path d="M6 17.5v2.5M18 17.5v2.5"></path>
+  <path d="M6.5 4.5c0-1 1.5-1 1.5-2M11.5 4.5c0-1 1.5-1 1.5-2M16.5 4.5c0-1 1.5-1 1.5-2"></path>
+  </symbol>
+  <symbol id="icon-hydro" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+    <title>Hydro / Electricity</title>
+  <path d="M13.2 2.5 4.8 13.4h6.3l-1 8.1 8.9-11.2h-6.2z"></path>
+  </symbol>
+  <symbol id="icon-water" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+    <title>Water</title>
+  <path d="M12 2.8c3.2 3.7 6 6.7 6 10.2a6 6 0 0 1 -12 0c0-3.5 2.8-6.5 6-10.2z"></path>
+  </symbol>
+  <symbol id="icon-internet" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+    <title>Internet / Wi-Fi</title>
+  <path d="M4.2 9.4a11 11 0 0 1 15.6 0"></path>
+  <path d="M7.4 12.9a6.5 6.5 0 0 1 9.2 0"></path>
+  <path d="M10.4 16.3a2.3 2.3 0 0 1 3.2 0"></path>
+  <circle cx="12" cy="19.4" r="1.1" fill="currentColor" stroke="none"></circle>
+  </symbol>
+  <symbol id="icon-cable" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+    <title>Cable / TV</title>
+  <rect x="2.5" y="4.5" width="19" height="12.5" rx="2"></rect>
+  <path d="M8.5 20.5h7M12 17v3.5"></path>
+  </symbol>
+  <symbol id="icon-ac" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+    <title>Air conditioning</title>
+  <path d="M12 2.8v18.4"></path>
+  <path d="M4.1 7.4 19.9 16.6"></path>
+  <path d="M19.9 7.4 4.1 16.6"></path>
+  <path d="M12 6.4 9.9 4.7M12 6.4l2.1-1.7M12 17.6l-2.1 1.7M12 17.6l2.1 1.7"></path>
+  <path d="M7.5 9.1 5 8.7M7.5 14.9 5 15.3M16.5 9.1 19 8.7M16.5 14.9 19 15.3"></path>
+  </symbol>
+  <symbol id="icon-parking" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+    <title>Parking (extra)</title>
+  <rect x="2.5" y="2.5" width="19" height="19" rx="3.4"></rect>
+  <path d="M8.8 17.5V7h3.9a3.1 3.1 0 0 1 0 6.2H8.8"></path>
+  <circle cx="18.1" cy="18.1" r="4.4" fill="var(--icon-badge-bg, #ffffff)"></circle>
+  <text x="18.1" y="20.8" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="8.2" font-weight="700" fill="currentColor" stroke="none">$</text>
+  </symbol>
+  <symbol id="icon-parking-included" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+    <title>Parking (included)</title>
+  <rect x="2.5" y="2.5" width="19" height="19" rx="3.4"></rect>
+  <path d="M8.8 17.5V7h3.9a3.1 3.1 0 0 1 0 6.2H8.8"></path>
+  </symbol>
+  <symbol id="icon-furnished" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+    <title>Furnished</title>
+  <path d="M5 12V9.2A2.2 2.2 0 0 1 7.2 7h9.6A2.2 2.2 0 0 1 19 9.2V12"></path>
+  <rect x="2.5" y="12" width="19" height="6.2" rx="2"></rect>
+  <path d="M6 18.2v2M18 18.2v2"></path>
+  </symbol>
+  <symbol id="icon-bed" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+    <title>Bedrooms</title>
+  <path d="M3 19.5V6.5"></path>
+  <path d="M3 19.5v-4.2a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2v4.2"></path>
+  <path d="M3 15.3h18"></path>
+  <path d="M7 13.3v-1.8a1.2 1.2 0 0 1 1.2-1.2h3a1.2 1.2 0 0 1 1.2 1.2v1.8"></path>
+  </symbol>
+  <symbol id="icon-bath" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+    <title>Bathrooms</title>
+  <path d="M2.5 12.5h19v2.6a4.4 4.4 0 0 1 -4.4 4.4H6.9a4.4 4.4 0 0 1 -4.4-4.4z"></path>
+  <path d="M6.5 12.5V6.2a2 2 0 0 1 2-2 2 2 0 0 1 2 2"></path>
+  <path d="M6 19.5 5 21.5M18 19.5l1 2"></path>
+  </symbol>
+  <symbol id="icon-sqft" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+    <title>Square feet</title>
+  <rect x="3" y="3" width="18" height="18" rx="2.2"></rect>
+  <path d="M8 8h3.2M8 8v3.2M8 8l3.6 3.6"></path>
+  <path d="M16 16h-3.2M16 16v-3.2M16 16l-3.6-3.6"></path>
+  </symbol>
+  <symbol id="icon-secure-entry" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+    <title>Secure entry</title>
+  <rect x="3.8" y="10.5" width="16.4" height="11" rx="2.2"></rect>
+  <path d="M7.8 10.5V7.6a4.2 4.2 0 0 1 8.4 0v2.9"></path>
+  <circle cx="12" cy="15.8" r="1.4" fill="currentColor" stroke="none"></circle>
+  </symbol>
+  <symbol id="icon-hardwood" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+    <title>Hardwood floors</title>
+  <rect x="2.5" y="5" width="19" height="14" rx="1.8"></rect>
+  <path d="M2.5 9.7h19M2.5 14.3h19"></path>
+  <path d="M9 5v4.7M15.5 9.7v4.6M7.5 14.3V19M16 14.3V19"></path>
+  </symbol>
+  <symbol id="icon-walk" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+    <title>Walk to campus</title>
+  <circle cx="13.4" cy="4.6" r="2"></circle>
+  <path d="M11.2 21.5l1.9-5.4-2.4-2.2.9-4.6"></path>
+  <path d="M11.6 9.3 8.2 11l-.9 3.2"></path>
+  <path d="M11.6 9.3l3.3 1.5 1.4 3.1 2.6.7"></path>
+  <path d="M13.1 16.1l2.7 2.3 1 3.1"></path>
+  </symbol>
+  <symbol id="icon-lease" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+    <title>Lease term</title>
+  <rect x="3" y="4.8" width="18" height="16.2" rx="2.2"></rect>
+  <path d="M3 9.6h18"></path>
+  <path d="M8 2.8v4M16 2.8v4"></path>
+  <path d="M7.5 13.6h4M7.5 17h9"></path>
+  </symbol>
+  <symbol id="icon-rent" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+    <title>Monthly rent</title>
+  <circle cx="12" cy="12" r="9.2"></circle>
+  <path d="M14.6 8.8a3 3 0 0 0 -2.6-1.3c-1.6 0-2.7.9-2.7 2.1 0 3 5.6 1.6 5.6 4.7 0 1.3-1.2 2.2-2.9 2.2a3.2 3.2 0 0 1 -2.8-1.4"></path>
+  <path d="M12 5.6v12.8"></path>
+  </symbol>
+  <symbol id="icon-snow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+    <title>Snow removal</title>
+  <path d="M12 3v18"></path>
+  <path d="M4.4 7.5 19.6 16.5"></path>
+  <path d="M19.6 7.5 4.4 16.5"></path>
+  <path d="M12 7 9.7 5.3M12 7l2.3-1.7M12 17l-2.3 1.7M12 17l2.3 1.7"></path>
+  </symbol>
+  <symbol id="icon-lawn" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+    <title>Lawn care</title>
+  <path d="M2.5 20.5h19"></path>
+  <path d="M5 20.5v-4.2c0-1.2.6-2.2 1.6-2.8"></path>
+  <path d="M9 20.5v-5.8c0-1.6.9-2.9 2.3-3.5"></path>
+  <path d="M13.4 20.5v-4.6c0-1.3.7-2.4 1.8-3"></path>
+  <path d="M17.6 20.5v-3.4c0-1 .5-1.9 1.4-2.4"></path>
+  </symbol>
+</svg>
+
+
+  <header class="top">
+    <div class="top-brand">
+      <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzNzguMCA1NC40Ij48ZyB0cmFuc2Zvcm09InNjYWxlKDAuNTAxMzgpIHRyYW5zbGF0ZSgtMjQ2LjcgLTI4OC4yKSI+PHBhdGggZmlsbD0iIzVDOUJDMSIgZD0iTSAyNjYuOTcgMzczLjAyIEwgMjg1LjU3IDM2NC4zOSBMIDI4NS41NyAzNDMuMjEgTCAyNjYuOTcgMzMyLjkxIFogTSAyNjYuOTcgMzczLjAyICIvPjxwYXRoIGZpbGw9IiM1QzlCQzEiIGQ9Ik0gMzY0LjgzIDM2MS4yNyBMIDM2NC41NiAyOTkuMTAgTCAzMDUuNzYgMzI5LjYyIEwgMzA1LjY5IDMyOS42NiBMIDMwNS42OSAzOTYuNjYgTCAzMjYuMjAgMzg0LjU2IEwgMzI2LjI2IDM4NC41MiBMIDMyNi4yNiAzNDMuMzUgTCAzNDQuMzYgMzMzLjMzIEwgMzQ0LjM2IDM3My4wNSBaIE0gMzY0LjgzIDM2MS4yNyAiLz48cGF0aCBmaWxsPSIjRkZGRkZGIiBkPSJNIDMyNS45OSAzNjQuMzkgTCAzNDQuNTggMzczLjAyIEwgMzQ0LjU4IDMzMi45MSBMIDMyNS45OSAzNDMuMjEgWiBNIDMyNS45OSAzNjQuMzkgIi8+PHBhdGggZmlsbD0iI0ZGRkZGRiIgZD0iTSAzNjQuNzIgMjk5LjMwIEwgMzQwLjAyIDI4OC4xOCBMIDMwNS43OCAzMDUuOTIgTCAyNzEuNTMgMjg4LjE4IEwgMjQ3LjEyIDI5OS4xNyBMIDI0NyAyOTkuMTAgTCAyNDcgMjk5LjIzIEwgMjQ2LjgzIDI5OS4zMCBMIDI0NyAyOTkuMzkgTCAyNDYuNzMgMzYxLjE5IEwgMjQ2LjczIDM2MS4yNyBMIDI2Ny4xOSAzNzMuMDUgTCAyNjcuMTkgMzMzLjMzIEwgMjg1LjI5IDM0My4zNSBMIDI4NS4yOSAzODQuNTIgTCAzMDUuODcgMzk2LjY2IEwgMzA1Ljg3IDMyOS44NCBaIE0gMzY0LjcyIDI5OS4zMCAiLz48L2c+PGcgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLTgwLjE5IC00MTUuNCkiPjxwYXRoIGZpbGw9IiNGRkZGRkYiIGQ9Ik0gMTc4LjQ1IDQxNS40NCBMIDE4NS44MiA0MTUuNDQgTCAxODUuODIgNDQyLjIxIEwgMTc4LjczIDQ0Mi4yMSBMIDE3OC43MyA0MjYuNSBMIDE2OS42MCA0MzkuNDQgTCAxNjAuNDMgNDI2LjUgTCAxNjAuNDMgNDQyLjIxIEwgMTUzLjM5IDQ0Mi4yMSBMIDE1My4zOSA0MTUuNDQgTCAxNjAuNzEgNDE1LjQ0IEwgMTY5LjYwIDQyOC4yMCBaIE0gMTc4LjQ1IDQxNS40NCAiLz48cGF0aCBmaWxsPSIjRkZGRkZGIiBkPSJNIDIxNi43NiA0MjIuNTMgTCAyMDIuNDggNDIyLjUzIEwgMjAyLjQ4IDQyOC44MCBMIDIxNi43NiA0MjguODAgWiBNIDIxNy4xMyA0MTUuNDggQyAyMTguMDUgNDE1LjQ4IDIxOC45MiA0MTUuNjYgMjE5LjczIDQxNi4wMSBDIDIyMC41NSA0MTYuMzcgMjIxLjI1IDQxNi44NSAyMjEuODUgNDE3LjQ2IEMgMjIyLjQ1IDQxOC4wOCAyMjIuOTMgNDE4Ljc4IDIyMy4yOCA0MTkuNTggQyAyMjMuNjQgNDIwLjM4IDIyMy44MSA0MjEuMjQgMjIzLjgxIDQyMi4xNiBMIDIyMy44MSA0NDIuMjEgTCAyMTYuNzYgNDQyLjIxIEwgMjE2Ljc2IDQzNS44NSBMIDIwMi40OCA0MzUuODUgTCAyMDIuNDggNDQyLjIxIEwgMTk1LjQzIDQ0Mi4yMSBMIDE5NS40MyA0MjIuMTYgQyAxOTUuNDMgNDIxLjI0IDE5NS42MCA0MjAuMzggMTk1Ljk2IDQxOS41OCBDIDE5Ni4zMSA0MTguNzggMTk2LjgwIDQxOC4wOCAxOTcuNDEgNDE3LjQ2IEMgMTk4LjAyIDQxNi44NSAxOTguNzQgNDE2LjM3IDE5OS41NSA0MTYuMDEgQyAyMDAuMzcgNDE1LjY2IDIwMS4yMyA0MTUuNDggMjAyLjE2IDQxNS40OCBaIE0gMjE3LjEzIDQxNS40OCAiLz48cGF0aCBmaWxsPSIjRkZGRkZGIiBkPSJNIDI0MC4wOCA0MjIuNDkgTCAyNDAuMDggNDM1LjE2IEwgMjYwLjA3IDQzNS4xNiBMIDI2MC4wNyA0NDIuMjEgTCAyMzkuNzEgNDQyLjIxIEMgMjM4Ljc4IDQ0Mi4yMSAyMzcuOTIgNDQyLjAzIDIzNy4xMCA0NDEuNjcgQyAyMzYuMjkgNDQxLjMyIDIzNS41OCA0NDAuODQgMjM0Ljk4IDQ0MC4yMyBDIDIzNC4zOSA0MzkuNjEgMjMzLjkxIDQzOC45MSAyMzMuNTUgNDM4LjEwIEMgMjMzLjIwIDQzNy4zMSAyMzMuMDMgNDM2LjQ1IDIzMy4wMyA0MzUuNTMgTCAyMzMuMDMgNDIyLjE2IEMgMjMzLjAzIDQyMS4yNCAyMzMuMjAgNDIwLjM3IDIzMy41NSA0MTkuNTYgQyAyMzMuOTEgNDE4Ljc1IDIzNC4zOSA0MTguMDMgMjM0Ljk4IDQxNy40MiBDIDIzNS41OCA0MTYuODAgMjM2LjI5IDQxNi4zMiAyMzcuMTAgNDE1Ljk3IEMgMjM3LjkyIDQxNS42MSAyMzguNzggNDE1LjQ0IDIzOS43MSA0MTUuNDQgTCAyNjAuMDcgNDE1LjQ0IEwgMjYwLjA3IDQyMi40OSBaIE0gMjQwLjA4IDQyMi40OSAiLz48cGF0aCBmaWxsPSIjRkZGRkZGIiBkPSJNIDI5Ni4wNiA0MTUuNDggTCAyOTYuMDYgNDE3Ljg4IEwgMjg2LjEwIDQyOC44NSBMIDI5Ni4wNiA0MzkuODEgTCAyOTYuMDYgNDQyLjIxIEwgMjg4Ljk2IDQ0Mi4yMSBMIDI3OS44OSA0MzIuMzkgTCAyNzYuMjkgNDMyLjM5IEwgMjc2LjI5IDQ0Mi4yMSBMIDI2OS4yNCA0NDIuMjEgTCAyNjkuMjQgNDE1LjQ4IEwgMjc2LjI5IDQxNS40OCBMIDI3Ni4yOSA0MjUuMzAgTCAyNzkuODkgNDI1LjMwIEwgMjg4Ljk2IDQxNS40OCBaIE0gMjk2LjA2IDQxNS40OCAiLz48cGF0aCBmaWxsPSIjRkZGRkZGIiBkPSJNIDMwNS4wNSA0MTUuNDggTCAzMTIuMTAgNDE1LjQ4IEwgMzEyLjEwIDQ0Mi4yMSBMIDMwNS4wNSA0NDIuMjEgWiBNIDMwNS4wNSA0MTUuNDggIi8+PHBhdGggZmlsbD0iI0ZGRkZGRiIgZD0iTSAzNDAuOTYgNDE1LjQ4IEwgMzQ4LjAxIDQxNS40OCBMIDM0OC4wMSA0NDIuMjEgTCAzNDAuNjkgNDQyLjIxIEwgMzI3LjUxIDQyNi4zNSBMIDMyNy41MSA0NDIuMjEgTCAzMjAuNDYgNDQyLjIxIEwgMzIwLjQ2IDQxNS40OCBMIDMyNy43NCA0MTUuNDggTCAzNDAuOTYgNDMxLjI0IFogTSAzNDAuOTYgNDE1LjQ4ICIvPjxwYXRoIGZpbGw9IiNGRkZGRkYiIGQ9Ik0gMzc3Ljk1IDQxNS40OCBMIDM4NS4wMCA0MTUuNDggTCAzODUuMDAgNDQyLjIxIEwgMzc3LjY3IDQ0Mi4yMSBMIDM2NC41IDQyNi4zNSBMIDM2NC41IDQ0Mi4yMSBMIDM1Ny40NCA0NDIuMjEgTCAzNTcuNDQgNDE1LjQ4IEwgMzY0LjcyIDQxNS40OCBMIDM3Ny45NSA0MzEuMjQgWiBNIDM3Ny45NSA0MTUuNDggIi8+PHBhdGggZmlsbD0iI0ZGRkZGRiIgZD0iTSA0MDEuMzAgNDM1LjE2IEwgNDE0LjI5IDQzNS4xNiBMIDQxNC4yOSA0MjIuNTMgTCA0MDEuMzAgNDIyLjUzIFogTSA0MTQuNjYgNDE1LjQ4IEMgNDE1LjU4IDQxNS40OCA0MTYuNDUgNDE1LjY2IDQxNy4yNiA0MTYuMDEgQyA0MTguMDggNDE2LjM3IDQxOC43OCA0MTYuODUgNDE5LjM4IDQxNy40NiBDIDQxOS45OCA0MTguMDggNDIwLjQ2IDQxOC43OCA0MjAuODEgNDE5LjU4IEMgNDIxLjE2IDQyMC4zOCA0MjEuMzQgNDIxLjI0IDQyMS4zNCA0MjIuMTYgTCA0MjEuMzQgNDM1LjUzIEMgNDIxLjM0IDQzNi40NSA0MjEuMTYgNDM3LjMxIDQyMC44MSA0MzguMTAgQyA0MjAuNDYgNDM4LjkxIDQxOS45OCA0MzkuNjEgNDE5LjM4IDQ0MC4yMyBDIDQxOC43OCA0NDAuODQgNDE4LjA4IDQ0MS4zMiA0MTcuMjYgNDQxLjY3IEMgNDE2LjQ1IDQ0Mi4wMyA0MTUuNTggNDQyLjIxIDQxNC42NiA0NDIuMjEgTCA0MDAuOTMgNDQyLjIxIEMgNDAwLjAxIDQ0Mi4yMSAzOTkuMTUgNDQyLjAzIDM5OC4zNSA0NDEuNjcgQyAzOTcuNTUgNDQxLjMyIDM5Ni44NSA0NDAuODQgMzk2LjIzIDQ0MC4yMyBDIDM5NS42MiA0MzkuNjEgMzk1LjEzIDQzOC45MSAzOTQuNzggNDM4LjEwIEMgMzk0LjQyIDQzNy4zMSAzOTQuMjUgNDM2LjQ1IDM5NC4yNSA0MzUuNTMgTCAzOTQuMjUgNDIyLjE2IEMgMzk0LjI1IDQyMS4yNCAzOTQuNDIgNDIwLjM4IDM5NC43OCA0MTkuNTggQyAzOTUuMTMgNDE4Ljc4IDM5NS42MiA0MTguMDggMzk2LjIzIDQxNy40NiBDIDM5Ni44NSA0MTYuODUgMzk3LjU1IDQxNi4zNyAzOTguMzUgNDE2LjAxIEMgMzk5LjE1IDQxNS42NiA0MDAuMDEgNDE1LjQ4IDQwMC45MyA0MTUuNDggWiBNIDQxNC42NiA0MTUuNDggIi8+PHBhdGggZmlsbD0iI0ZGRkZGRiIgZD0iTSA0NTEuMTIgNDE1LjQ4IEwgNDU4LjE3IDQxNS40OCBMIDQ1OC4xNyA0NDIuMjEgTCA0NTAuODQgNDQyLjIxIEwgNDM3LjY3IDQyNi4zNSBMIDQzNy42NyA0NDIuMjEgTCA0MzAuNjIgNDQyLjIxIEwgNDMwLjYyIDQxNS40OCBMIDQzNy44OSA0MTUuNDggTCA0NTEuMTIgNDMxLjI0IFogTSA0NTEuMTIgNDE1LjQ4ICIvPjxwYXRoIGZpbGw9IiM1QzlCQzEiIGQ9Ik0gMjAyLjExIDQ1Ny4xMCBDIDIwMi4xMSA0NTYuODUgMjAxLjg5IDQ1Ni42MyAyMDEuNjQgNDU2LjYzIEwgMTkxLjc1IDQ1Ni42MyBDIDE5MS40OSA0NTYuNjMgMTkxLjI3IDQ1Ni44NSAxOTEuMjcgNDU3LjEwIEwgMTkxLjI3IDQ2NyBDIDE5MS4yNyA0NjcuMjUgMTkxLjQ5IDQ2Ny40NyAxOTEuNzUgNDY3LjQ3IEwgMjAxLjY0IDQ2Ny40NyBDIDIwMS44OSA0NjcuNDcgMjAyLjExIDQ2Ny4yNSAyMDIuMTEgNDY3IFogTSAyMDEuNjQgNDU0LjMxIEMgMjAzLjE5IDQ1NC4zMSAyMDQuNDMgNDU1LjU2IDIwNC40MyA0NTcuMTAgTCAyMDQuNDMgNDY3IEMgMjA0LjQzIDQ2OC41NCAyMDMuMTkgNDY5Ljc5IDIwMS42NCA0NjkuNzkgTCAxODguOTUgNDY5Ljc5IEwgMTg4Ljk1IDQ1NC4zMSBaIE0gMjAxLjY0IDQ1NC4zMSAiLz48cGF0aCBmaWxsPSIjNUM5QkMxIiBkPSJNIDIyMy4xMCA0NTYuNjMgTCAyMTEuMjQgNDU2LjYzIEwgMjExLjI0IDQ2MC44OSBMIDIyMC43OCA0NjAuODkgTCAyMjAuNzggNDYzLjIxIEwgMjExLjI0IDQ2My4yMSBMIDIxMS4yNCA0NjcuNDcgTCAyMjMuMTAgNDY3LjQ3IEwgMjIzLjEwIDQ2OS43OSBMIDIwOC45MiA0NjkuNzkgTCAyMDguOTIgNDU0LjMxIEwgMjIzLjEwIDQ1NC4zMSBaIE0gMjIzLjEwIDQ1Ni42MyAiLz48cGF0aCBmaWxsPSIjNUM5QkMxIiBkPSJNIDI0NC43NiA0NTQuMzEgTCAyNDcuNDIgNDU0LjMxIEwgMjM4LjUwIDQ2OS43OSBMIDIzNi4xOCA0NjkuNzkgTCAyMjcuMjQgNDU0LjMxIEwgMjI5LjkyIDQ1NC4zMSBMIDIzNy4zNCA0NjcuMTcgWiBNIDI0NC43NiA0NTQuMzEgIi8+PHBhdGggZmlsbD0iIzVDOUJDMSIgZD0iTSAyNjUuODAgNDU2LjYzIEwgMjUzLjkzIDQ1Ni42MyBMIDI1My45MyA0NjAuODkgTCAyNjMuNDggNDYwLjg5IEwgMjYzLjQ4IDQ2My4yMSBMIDI1My45MyA0NjMuMjEgTCAyNTMuOTMgNDY3LjQ3IEwgMjY1LjgwIDQ2Ny40NyBMIDI2NS44MCA0NjkuNzkgTCAyNTEuNjEgNDY5Ljc5IEwgMjUxLjYxIDQ1NC4zMSBMIDI2NS44MCA0NTQuMzEgWiBNIDI2NS44MCA0NTYuNjMgIi8+PHBhdGggZmlsbD0iIzVDOUJDMSIgZD0iTSAyNzAuMTcgNDU0LjI5IEwgMjcyLjQ5IDQ1NC4yOSBMIDI3Mi40OSA0NjcuNDcgTCAyODUuNjUgNDY3LjQ3IEwgMjg1LjY1IDQ2OS43OSBMIDI3MC4xNyA0NjkuNzkgWiBNIDI3MC4xNyA0NTQuMjkgIi8+PHBhdGggZmlsbD0iIzVDOUJDMSIgZD0iTSAzMDIuMTggNDY3LjQ3IEMgMzAyLjQ0IDQ2Ny40NyAzMDIuNjYgNDY3LjI1IDMwMi42NiA0NjcgTCAzMDIuNjYgNDU3LjEwIEMgMzAyLjY2IDQ1Ni44NSAzMDIuNDQgNDU2LjYzIDMwMi4xOCA0NTYuNjMgTCAyOTIuMjkgNDU2LjYzIEMgMjkyLjAzIDQ1Ni42MyAyOTEuODIgNDU2Ljg1IDI5MS44MiA0NTcuMTAgTCAyOTEuODIgNDY3IEMgMjkxLjgyIDQ2Ny4yNSAyOTIuMDMgNDY3LjQ3IDI5Mi4yOSA0NjcuNDcgWiBNIDMwMi4xOCA0NTQuMzEgQyAzMDMuNzMgNDU0LjMxIDMwNC45OCA0NTUuNTYgMzA0Ljk4IDQ1Ny4xMCBMIDMwNC45OCA0NjcgQyAzMDQuOTggNDY4LjU0IDMwMy43MyA0NjkuNzkgMzAyLjE4IDQ2OS43OSBMIDI5Mi4yOSA0NjkuNzkgQyAyOTAuNzQgNDY5Ljc5IDI4OS41IDQ2OC41NCAyODkuNSA0NjcgTCAyODkuNSA0NTcuMTAgQyAyODkuNSA0NTUuNTYgMjkwLjc0IDQ1NC4zMSAyOTIuMjkgNDU0LjMxIFogTSAzMDIuMTggNDU0LjMxICIvPjxwYXRoIGZpbGw9IiM1QzlCQzEiIGQ9Ik0gMzIyLjU3IDQ1Ny4xMyBDIDMyMi41NyA0NTYuODcgMzIyLjM2IDQ1Ni42NSAzMjIuMTAgNDU2LjY1IEwgMzEyLjIxIDQ1Ni42NSBDIDMxMS45NSA0NTYuNjUgMzExLjc0IDQ1Ni44NyAzMTEuNzQgNDU3LjEzIEwgMzExLjc0IDQ2MS40NyBDIDMxMS43NCA0NjEuNzMgMzExLjk1IDQ2MS45NCAzMTIuMjEgNDYxLjk0IEwgMzIyLjEwIDQ2MS45NCBDIDMyMi4zNiA0NjEuOTQgMzIyLjU3IDQ2MS43MyAzMjIuNTcgNDYxLjQ3IFogTSAzMjIuMTAgNDU0LjMzIEMgMzIzLjY1IDQ1NC4zMyAzMjQuODkgNDU1LjYwIDMyNC44OSA0NTcuMTMgTCAzMjQuODkgNDYxLjQ3IEMgMzI0Ljg5IDQ2MyAzMjMuNjUgNDY0LjI2IDMyMi4xMCA0NjQuMjYgTCAzMTIuMjEgNDY0LjI2IEMgMzEyLjA0IDQ2NC4yNiAzMTEuODkgNDY0LjI0IDMxMS43NCA0NjQuMjIgTCAzMTEuNzQgNDY5Ljc5IEwgMzA5LjQyIDQ2OS43OSBMIDMwOS40MiA0NTQuMzMgWiBNIDMyMi4xMCA0NTQuMzMgIi8+PHBhdGggZmlsbD0iIzVDOUJDMSIgZD0iTSAzNDMuNjcgNDU0LjMxIEwgMzQ2LjQ0IDQ1NC4zMSBMIDM0Ni40NCA0NjkuNzkgTCAzNDQuMTIgNDY5Ljc5IEwgMzQ0LjEyIDQ1Ny40MSBMIDMzNy42NyA0NjUuMDggTCAzMzEuMjMgNDU3LjQxIEwgMzMxLjIzIDQ2OS43OSBMIDMyOC45MCA0NjkuNzkgTCAzMjguOTAgNDU0LjMxIEwgMzMxLjY1IDQ1NC4zMSBMIDMzNy42NyA0NjEuNDcgWiBNIDM0My42NyA0NTQuMzEgIi8+PHBhdGggZmlsbD0iIzVDOUJDMSIgZD0iTSAzNjUuMTUgNDU2LjYzIEwgMzUzLjI4IDQ1Ni42MyBMIDM1My4yOCA0NjAuODkgTCAzNjIuODIgNDYwLjg5IEwgMzYyLjgyIDQ2My4yMSBMIDM1My4yOCA0NjMuMjEgTCAzNTMuMjggNDY3LjQ3IEwgMzY1LjE1IDQ2Ny40NyBMIDM2NS4xNSA0NjkuNzkgTCAzNTAuOTYgNDY5Ljc5IEwgMzUwLjk2IDQ1NC4zMSBMIDM2NS4xNSA0NTQuMzEgWiBNIDM2NS4xNSA0NTYuNjMgIi8+PHBhdGggZmlsbD0iIzVDOUJDMSIgZD0iTSAzODIuNjYgNDU0LjMxIEwgMzg0Ljk4IDQ1NC4zMSBMIDM4NC45OCA0NjkuNzkgTCAzODIuMjMgNDY5Ljc5IEwgMzcxLjgyIDQ1Ny40MSBMIDM3MS44MiA0NjkuNzkgTCAzNjkuNTAgNDY5Ljc5IEwgMzY5LjUwIDQ1NC4zMSBMIDM3Mi4yNSA0NTQuMzEgTCAzODIuNjYgNDY2LjY5IFogTSAzODIuNjYgNDU0LjMxICIvPjxwYXRoIGZpbGw9IiM1QzlCQzEiIGQ9Ik0gNDA0LjUyIDQ1NC4zMSBMIDQwNC41MiA0NTYuNjMgTCAzOTcuOTQgNDU2LjYzIEwgMzk3Ljk0IDQ2OS43OSBMIDM5NS42MiA0NjkuNzkgTCAzOTUuNjIgNDU2LjYzIEwgMzg5LjA0IDQ1Ni42MyBMIDM4OS4wNCA0NTQuMzEgWiBNIDQwNC41MiA0NTQuMzEgIi8+PC9nPjwvc3ZnPg==" alt="MacKinnon Development">
+    </div>
+    <nav class="topnav" aria-label="Main menu">
+        <button type="button" class="topnav-toggle" aria-expanded="false" aria-controls="topnavList">Menu</button>
+        <ul class="topnav-list" id="topnavList"><li><a href="/">Home</a></li><li><a href="/available.html" class="topnav-hot" aria-current="page">Available Now</a></li><li><a href="/parking.html">Parking</a></li><li><a href="/about.html">About</a></li><li><a href="/faq.html">FAQ</a></li><li><a href="/maintenance.html">Maintenance</a></li><li><a href="/contact.html">Contact</a></li></ul>
+      </nav>
+  </header>
+
+  <section class="hero">
+    <div class="hero-bg"></div>
+    <div class="hero-inner">
+      <span class="hero-eyebrow">Now leasing May 2027</span>
+      <h1>Available Now</h1>
+      <p class="hero-sub">Homes you can tour now, then the ones coming up next. Pick the ones you like and we'll be in touch.</p>
+      <div class="hero-actions">
+        <a href="#units" class="btn btn-primary" data-cta="hero_units">See the Homes</a>
+        <a href="#waitlist" class="btn btn-ghost" data-cta="hero">Be First to Know</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="mapband" id="map">
+    <div class="mapband-inner">
+      <div class="bmap leaflet-container leaflet-touch leaflet-fade-anim leaflet-grab leaflet-touch-drag leaflet-touch-zoom" id="bmap" data-only="available" role="region" aria-label="Map of MacKinnon Development buildings" tabindex="0"><div class="leaflet-pane leaflet-map-pane" style="transform: translate3d(0px, 0px, 0px);"><div class="leaflet-pane leaflet-tile-pane"><div class="leaflet-layer " style="z-index: 1; opacity: 1;"><div class="leaflet-tile-container leaflet-zoom-animated" style="z-index: 19; transform: translate3d(0px, 0px, 0px) scale(1);"><img alt="" src="https://tile.openstreetmap.org/16/18842/23771.png" class="leaflet-tile leaflet-tile-loaded" style="width: 256px; height: 256px; transform: translate3d(373px, -83px, 0px); opacity: 1;"><img alt="" src="https://tile.openstreetmap.org/16/18842/23772.png" class="leaflet-tile leaflet-tile-loaded" style="width: 256px; height: 256px; transform: translate3d(373px, 173px, 0px); opacity: 1;"><img alt="" src="https://tile.openstreetmap.org/16/18841/23771.png" class="leaflet-tile leaflet-tile-loaded" style="width: 256px; height: 256px; transform: translate3d(117px, -83px, 0px); opacity: 1;"><img alt="" src="https://tile.openstreetmap.org/16/18843/23771.png" class="leaflet-tile leaflet-tile-loaded" style="width: 256px; height: 256px; transform: translate3d(629px, -83px, 0px); opacity: 1;"><img alt="" src="https://tile.openstreetmap.org/16/18841/23772.png" class="leaflet-tile leaflet-tile-loaded" style="width: 256px; height: 256px; transform: translate3d(117px, 173px, 0px); opacity: 1;"><img alt="" src="https://tile.openstreetmap.org/16/18843/23772.png" class="leaflet-tile leaflet-tile-loaded" style="width: 256px; height: 256px; transform: translate3d(629px, 173px, 0px); opacity: 1;"><img alt="" src="https://tile.openstreetmap.org/16/18840/23771.png" class="leaflet-tile leaflet-tile-loaded" style="width: 256px; height: 256px; transform: translate3d(-139px, -83px, 0px); opacity: 1;"><img alt="" src="https://tile.openstreetmap.org/16/18844/23771.png" class="leaflet-tile leaflet-tile-loaded" style="width: 256px; height: 256px; transform: translate3d(885px, -83px, 0px); opacity: 1;"><img alt="" src="https://tile.openstreetmap.org/16/18840/23772.png" class="leaflet-tile leaflet-tile-loaded" style="width: 256px; height: 256px; transform: translate3d(-139px, 173px, 0px); opacity: 1;"><img alt="" src="https://tile.openstreetmap.org/16/18844/23772.png" class="leaflet-tile leaflet-tile-loaded" style="width: 256px; height: 256px; transform: translate3d(885px, 173px, 0px); opacity: 1;"></div></div></div><div class="leaflet-pane leaflet-overlay-pane"><svg pointer-events="none" class="leaflet-zoom-animated" width="1318" height="478" viewBox="-110 -40 1318 478" style="transform: translate3d(-110px, -40px, 0px);"><g><path class="leaflet-interactive" stroke="#0F2F44" stroke-opacity="1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="#1FBA94" fill-opacity="0.95" fill-rule="evenodd" d="M250,334a8,8 0 1,0 16,0 a8,8 0 1,0 -16,0 "></path><path class="leaflet-interactive" stroke="#0F2F44" stroke-opacity="1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="#1FBA94" fill-opacity="0.95" fill-rule="evenodd" d="M833,65a8,8 0 1,0 16,0 a8,8 0 1,0 -16,0 "></path></g></svg></div><div class="leaflet-pane leaflet-shadow-pane"></div><div class="leaflet-pane leaflet-marker-pane"></div><div class="leaflet-pane leaflet-tooltip-pane"></div><div class="leaflet-pane leaflet-popup-pane"></div><div class="leaflet-proxy leaflet-zoom-animated" style="transform: translate3d(4.82373e+06px, 6.08566e+06px, 0px) scale(32768);"></div></div><div class="leaflet-control-container"><div class="leaflet-top leaflet-left"><div class="leaflet-control-zoom leaflet-bar leaflet-control"><a class="leaflet-control-zoom-in" href="#" title="Zoom in" role="button" aria-label="Zoom in" aria-disabled="false"><span aria-hidden="true">+</span></a><a class="leaflet-control-zoom-out" href="#" title="Zoom out" role="button" aria-label="Zoom out" aria-disabled="false"><span aria-hidden="true">−</span></a></div></div><div class="leaflet-top leaflet-right"></div><div class="leaflet-bottom leaflet-left"></div><div class="leaflet-bottom leaflet-right"><div class="leaflet-control-attribution leaflet-control"><a href="https://leafletjs.com" title="A JavaScript library for interactive maps"><svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="12" height="8" viewBox="0 0 12 8" class="leaflet-attribution-flag"><path fill="#4C7BE1" d="M0 0h12v4H0z"></path><path fill="#FFD500" d="M0 4h12v3H0z"></path><path fill="#E0BC00" d="M0 7h12v1H0z"></path></svg> Leaflet</a> <span aria-hidden="true">|</span> © <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors</div></div></div></div>
+      <p class="bmap-note">Tap a pin to see the homes in that building. Click the map, then scroll to zoom.</p>
+
+    </div>
+  </section>
+
+  <section class="buildings" id="units">
+    <div class="buildings-inner">
+      <div class="listings-head">
+        <h2>Available and coming up</h2>
+        <p>The best locations off-campus for housing.</p>
+      </div>
+      <div class="bedfilter" id="bedFilter" role="group" aria-label="Filter homes by bedrooms">
+        <div class="ff-row" role="group" aria-label="Bedrooms"><span class="bedfilter-label">Bedrooms</span>
+        <button type="button" class="bf-pill on" data-beds="any">Any</button>
+        <button type="button" class="bf-pill" data-beds="1">1</button>
+        <button type="button" class="bf-pill" data-beds="2">2</button>
+        <button type="button" class="bf-pill" data-beds="3">3</button>
+        <button type="button" class="bf-pill" data-beds="4">4</button>
+        <button type="button" class="bf-pill" data-beds="5">5</button>
+        <button type="button" class="bf-pill" data-beds="6">6</button>
+        <button type="button" class="bf-pill" data-beds="7">7</button>
+        <button type="button" class="bf-pill" data-beds="8">8</button></div>
+        <div class="ff-row" role="group" aria-label="Walk to campus"><span class="bedfilter-label">Walk to campus</span><button type="button" class="ff-pill on" data-ff="near" data-v="any">Any</button><button type="button" class="ff-pill" data-ff="near" data-v="1">1 min</button><button type="button" class="ff-pill" data-ff="near" data-v="2">2 min</button><button type="button" class="ff-pill" data-ff="near" data-v="6">6 min</button><button type="button" class="ff-pill" data-ff="near" data-v="8">8 min</button></div>
+        
+        <div class="ff-row" role="group" aria-label="Available or pending"><span class="bedfilter-label">Status</span><button type="button" class="ff-pill on" data-ff="status" data-v="any">Any</button><button type="button" class="ff-pill" data-ff="status" data-v="available">Available</button><button type="button" class="ff-pill" data-ff="status" data-v="pending">Pending</button></div>
+        </div>
+      <div class="bedfilter-count" id="bedFilterCount"></div>
+
+
+
+        <div class="area">
+          <div class="area-head">
+            <h3>Available now</h3>
+            <span class="area-walk">Book a tour</span>
+          </div>
+          <div class="bld-grid">
+            <button type="button" class="bld has-photo" data-status="available" data-walk="1 min walk to campus" data-kind="house" data-near="near" data-unit="188 Union" data-link="/188-union-street-west.html" data-building="188 Union" data-beds="8" data-hero="/images/t/properties/188-union-street-west/188_union_0032-14.jpg" aria-pressed="false"><span class="bld-badge">Available May 2027</span>
+              <img class="bld-photo" src="/images/t/properties/188-union-street-west/188_union_0032-14.jpg" alt="Stairs at 188 Union Street West" loading="lazy">
+              <span class="bld-text"><span class="bld-addr">188 Union Street West</span><span class="bld-beds"><svg class="ic" aria-hidden="true"><use href="#icon-bed"></use></svg>8 bedrooms</span><span class="bld-cta"><span class="bld-view">View details →</span><span class="bld-tour" data-href="/188-union-street-west.html#book">Request a Tour →</span></span></span>
+            </button>
+            <button type="button" class="bld has-photo" data-status="available" data-walk="7-9 min walk to campus" data-kind="apartment" data-near="far" data-unit="101-122 Sydenham" data-link="/101-122_sydenham_street.html" data-building="122 Sydenham" data-beds="5" data-hero="/images/t/listings/101-122-sydenham-street/122_Sydenham-12.jpg" aria-pressed="false">
+              <img class="bld-photo" src="/images/t/listings/101-122-sydenham-street/122_Sydenham-12.jpg" alt="Kitchen at 101-122 Sydenham Street" loading="lazy"><span class="bld-badge">Available May 2027</span>
+              <span class="bld-text"><span class="bld-addr">101-122 Sydenham Street</span><span class="bld-beds"><svg class="ic" aria-hidden="true"><use href="#icon-bed"></use></svg>5 bedrooms</span><span class="bld-cta"><span class="bld-view">View details →</span><span class="bld-tour" data-href="/101-122_sydenham_street.html#book">Request a Tour →</span></span></span>
+            </button>
+          </div>
+        </div>
+        <div class="area">
+          <div class="area-head">
+            <h3>Pending</h3>
+            <span class="area-walk">Be First to Know</span>
+          </div>
+          <div class="bld-grid">
+            <button type="button" class="bld has-photo" data-status="pending" data-walk="1 min walk to campus" data-kind="apartment" data-near="near" data-unit="1-188.5 Union" data-building="188.5 Union" data-beds="4" data-hero="/images/t/listings/2-188-5-union-street-west/20170224_student_0006.jpg" aria-pressed="false"><span class="bld-badge pending">Pending</span>
+              <img class="bld-photo" src="/images/t/listings/2-188-5-union-street-west/20170224_student_0006.jpg" alt="Living room at 1-188 1/2 Union Street West" loading="lazy">
+              <span class="bld-text"><span class="bld-addr">1-188 1/2 Union Street West</span><span class="bld-beds"><svg class="ic" aria-hidden="true"><use href="#icon-bed"></use></svg>4 bedrooms</span><span class="bld-cta"><span class="bld-add">+ Be First to Know</span><span class="bld-added">✓ Added</span><span class="bld-details" data-href="/1-188-5-union-street-west.html">View details →</span></span></span>
+            </button>
+            <button type="button" class="bld has-photo" data-status="pending" data-walk="1 min walk to campus" data-kind="apartment" data-near="near" data-unit="1-196 Union" data-building="196 Union" data-beds="3" data-hero="/images/t/listings/1-196-union-street-west/1-196_union_KIT2.jpg" aria-pressed="false"><span class="bld-badge pending">Pending</span>
+              <img class="bld-photo" src="/images/t/listings/1-196-union-street-west/1-196_union_KIT2.jpg" alt="Kitchen and dining area at 1-196 Union Street West" loading="lazy">
+              <span class="bld-text"><span class="bld-addr">1-196 Union Street West</span><span class="bld-beds"><svg class="ic" aria-hidden="true"><use href="#icon-bed"></use></svg>3 bedrooms</span><span class="bld-cta"><span class="bld-add">+ Be First to Know</span><span class="bld-added">✓ Added</span><span class="bld-details" data-href="/1-196-union-street-west.html">View details →</span></span></span>
+            </button>
+            <button type="button" class="bld has-photo" data-status="pending" data-walk="1 min walk to campus" data-kind="apartment" data-near="near" data-unit="2-196 Union" data-building="196 Union" data-beds="3" data-hero="/images/t/listings/2-196-union-street-west/2-196_union_BR1.jpg" aria-pressed="false"><span class="bld-badge pending">Pending</span>
+              <img class="bld-photo" src="/images/t/listings/2-196-union-street-west/2-196_union_BR1.jpg" alt="Bedroom at 2-196 Union Street West" loading="lazy">
+              <span class="bld-text"><span class="bld-addr">2-196 Union Street West</span><span class="bld-beds"><svg class="ic" aria-hidden="true"><use href="#icon-bed"></use></svg>3 bedrooms</span><span class="bld-cta"><span class="bld-add">+ Be First to Know</span><span class="bld-added">✓ Added</span><span class="bld-details" data-href="/2-196-union-street-west.html">View details →</span></span></span>
+            </button>
+            <button type="button" class="bld has-photo" data-status="pending" data-walk="1 min walk to campus" data-kind="apartment" data-near="near" data-unit="3-196 Union" data-building="196 Union" data-beds="3" data-hero="/images/t/listings/3-196-union-street-west/3-196_union_BR3.jpg" aria-pressed="false"><span class="bld-badge pending">Pending</span>
+              <img class="bld-photo" src="/images/t/listings/3-196-union-street-west/3-196_union_BR3.jpg" alt="Bedroom at 3-196 Union Street West" loading="lazy">
+              <span class="bld-text"><span class="bld-addr">3-196 Union Street West</span><span class="bld-beds"><svg class="ic" aria-hidden="true"><use href="#icon-bed"></use></svg>3 bedrooms</span><span class="bld-cta"><span class="bld-add">+ Be First to Know</span><span class="bld-added">✓ Added</span><span class="bld-details" data-href="/3-196-union-street-west.html">View details →</span></span></span>
+            </button>
+            <button type="button" class="bld has-photo" data-status="pending" data-walk="1 min walk to campus" data-kind="house" data-near="near" data-unit="198 Union" data-building="198 Union" data-beds="8" data-hero="/images/t/properties/198-union-street-west/20141118_untitled_0073-35.jpg" aria-pressed="false"><span class="bld-badge pending">Pending</span>
+              <img class="bld-photo" src="/images/t/properties/198-union-street-west/20141118_untitled_0073-35.jpg" alt="Bedroom at 198 Union Street West" loading="lazy">
+              <span class="bld-text"><span class="bld-addr">198 Union Street West</span><span class="bld-beds"><svg class="ic" aria-hidden="true"><use href="#icon-bed"></use></svg>8 bedrooms</span><span class="bld-cta"><span class="bld-add">+ Be First to Know</span><span class="bld-added">✓ Added</span><span class="bld-details" data-href="/198-union-street-west.html">View details →</span></span></span>
+            </button>
+            <button type="button" class="bld has-photo" data-status="pending" data-walk="1 min walk to campus" data-kind="apartment" data-near="near" data-unit="1-200 Union" data-building="200 Union" data-beds="2" data-hero="/images/t/listings/1-200-union-street-west/1-200_union_BR2.jpg" aria-pressed="false"><span class="bld-badge pending">Pending</span>
+              <img class="bld-photo" src="/images/t/listings/1-200-union-street-west/1-200_union_BR2.jpg" alt="Bedroom at 1-200 Union Street West" loading="lazy">
+              <span class="bld-text"><span class="bld-addr">1-200 Union Street West</span><span class="bld-beds"><svg class="ic" aria-hidden="true"><use href="#icon-bed"></use></svg>2 bedrooms</span><span class="bld-cta"><span class="bld-add">+ Be First to Know</span><span class="bld-added">✓ Added</span><span class="bld-details" data-href="/1-200-union-street-west.html">View details →</span></span></span>
+            </button>
+            <button type="button" class="bld has-photo" data-status="pending" data-walk="1 min walk to campus" data-kind="apartment" data-near="near" data-unit="2-200 Union" data-building="200 Union" data-beds="3" data-hero="/images/t/listings/2-200-union-street-west/2-200_union_KIT1.jpg" aria-pressed="false"><span class="bld-badge pending">Pending</span>
+              <img class="bld-photo" src="/images/t/listings/2-200-union-street-west/2-200_union_KIT1.jpg" alt="Kitchen at 2-200 Union Street West" loading="lazy">
+              <span class="bld-text"><span class="bld-addr">2-200 Union Street West</span><span class="bld-beds"><svg class="ic" aria-hidden="true"><use href="#icon-bed"></use></svg>3 bedrooms</span><span class="bld-cta"><span class="bld-add">+ Be First to Know</span><span class="bld-added">✓ Added</span><span class="bld-details" data-href="/2-200-union-street-west.html">View details →</span></span></span>
+            </button>
+            <button type="button" class="bld has-photo" data-status="pending" data-walk="1 min walk to campus" data-kind="house" data-near="near" data-unit="202 Union" data-hero="/images/t/listings/202-union-street-west/202_Union-6.jpg" data-building="202 Union" data-beds="5" aria-pressed="false"><span class="bld-badge pending">Pending</span>
+              <img class="bld-photo" src="/images/t/listings/202-union-street-west/202_Union-6.jpg" alt="Living room at 202 Union Street West" loading="lazy">
+              <span class="bld-text"><span class="bld-addr">202 Union Street West</span><span class="bld-beds"><svg class="ic" aria-hidden="true"><use href="#icon-bed"></use></svg>5 bedrooms</span><span class="bld-cta"><span class="bld-add">+ Be First to Know</span><span class="bld-added">✓ Added</span><span class="bld-details" data-href="/202-union-street-west.html">View details →</span></span></span>
+            </button>
+            <button type="button" class="bld has-photo" data-status="pending" data-walk="1 min walk to campus" data-kind="house" data-near="near" data-unit="204 Union" data-hero="/images/t/listings/204-union-street-west/204_Union-5.jpg" data-building="204 Union" data-beds="6" aria-pressed="false"><span class="bld-badge pending">Pending</span>
+              <img class="bld-photo" src="/images/t/listings/204-union-street-west/204_Union-5.jpg" alt="Living room at 204 Union Street West" loading="lazy">
+              <span class="bld-text"><span class="bld-addr">204 Union Street West</span><span class="bld-beds"><svg class="ic" aria-hidden="true"><use href="#icon-bed"></use></svg>6 bedrooms</span><span class="bld-cta"><span class="bld-add">+ Be First to Know</span><span class="bld-added">✓ Added</span><span class="bld-details" data-href="/204-union-street-west.html">View details →</span></span></span>
+            </button>
+            <button type="button" class="bld has-photo" data-status="pending" data-walk="1 min walk to campus" data-kind="house" data-near="near" data-unit="1-149 Collingwood" data-building="149 Collingwood" data-beds="7" data-hero="/images/t/listings/1-149-collingwood-street/1-149_collingwood_BR2.jpg" aria-pressed="false"><span class="bld-badge pending">Pending</span>
+              <img class="bld-photo" src="/images/t/listings/1-149-collingwood-street/1-149_collingwood_BR2.jpg" alt="Bedroom at 1-149 Collingwood Street" loading="lazy">
+              <span class="bld-text"><span class="bld-addr">1-149 Collingwood Street</span><span class="bld-beds"><svg class="ic" aria-hidden="true"><use href="#icon-bed"></use></svg>7 bedrooms</span><span class="bld-cta"><span class="bld-add">+ Be First to Know</span><span class="bld-added">✓ Added</span><span class="bld-details" data-href="/1-149-collingwood-street.html">View details →</span></span></span>
+            </button>
+            <button type="button" class="bld has-photo" data-status="pending" data-walk="1 min walk to campus" data-kind="house" data-near="near" data-unit="2-149 Collingwood" data-hero="/images/t/listings/2-149-collingwood-street/2-149_Collingwood-9.jpg" data-building="149 Collingwood" data-beds="6" aria-pressed="false"><span class="bld-badge pending">Pending</span>
+              <img class="bld-photo" src="/images/t/listings/2-149-collingwood-street/2-149_Collingwood-9.jpg" alt="Kitchen at 2-149 Collingwood Street" loading="lazy">
+              <span class="bld-text"><span class="bld-addr">2-149 Collingwood Street</span><span class="bld-beds"><svg class="ic" aria-hidden="true"><use href="#icon-bed"></use></svg>6 bedrooms</span><span class="bld-cta"><span class="bld-add">+ Be First to Know</span><span class="bld-added">✓ Added</span><span class="bld-details" data-href="/2-149-collingwood-street.html">View details →</span></span></span>
+            </button>
+            <button type="button" class="bld has-photo" data-status="pending" data-walk="1 min walk to campus" data-kind="house" data-near="near" data-unit="159 Collingwood" data-building="159 Collingwood" data-beds="8" data-hero="/images/t/properties/159-collingwood-street/159%20Kitchen%201.jpg" aria-pressed="false"><span class="bld-badge pending">Pending</span>
+              <img class="bld-photo" src="/images/t/properties/159-collingwood-street/159%20Kitchen%201.jpg" alt="Kitchen at 159 Collingwood Street" loading="lazy">
+              <span class="bld-text"><span class="bld-addr">159 Collingwood Street</span><span class="bld-beds"><svg class="ic" aria-hidden="true"><use href="#icon-bed"></use></svg>8 bedrooms</span><span class="bld-cta"><span class="bld-add">+ Be First to Know</span><span class="bld-added">✓ Added</span><span class="bld-details" data-href="/159-collingwood-street.html">View details →</span></span></span>
+            </button>
+            <button type="button" class="bld has-photo" data-status="pending" data-walk="2 min walk to campus" data-kind="house" data-near="near" data-unit="243 University" data-hero="/images/t/listings/243-university-avenue/243_University-1.jpg" data-building="243 University" data-beds="5" aria-pressed="false"><span class="bld-badge pending">Pending</span>
+              <img class="bld-photo" src="/images/t/listings/243-university-avenue/243_University-1.jpg" alt="Front of 243 University Avenue" loading="lazy">
+              <span class="bld-text"><span class="bld-addr">243 University Avenue</span><span class="bld-beds"><svg class="ic" aria-hidden="true"><use href="#icon-bed"></use></svg>5 bedrooms</span><span class="bld-cta"><span class="bld-add">+ Be First to Know</span><span class="bld-added">✓ Added</span><span class="bld-details" data-href="/243-university-avenue.html">View details →</span></span></span>
+            </button>
+            <button type="button" class="bld has-photo" data-status="pending" data-walk="2 min walk to campus" data-kind="house" data-near="near" data-unit="251 University" data-building="251 University" data-beds="8" data-hero="/images/t/properties/251-university-avenue/20191105_mackinnon_0008-5.jpg" aria-pressed="false"><span class="bld-badge pending">Pending</span>
+              <img class="bld-photo" src="/images/t/properties/251-university-avenue/20191105_mackinnon_0008-5.jpg" alt="Bedroom at 251 University Avenue" loading="lazy">
+              <span class="bld-text"><span class="bld-addr">251 University Avenue</span><span class="bld-beds"><svg class="ic" aria-hidden="true"><use href="#icon-bed"></use></svg>8 bedrooms</span><span class="bld-cta"><span class="bld-add">+ Be First to Know</span><span class="bld-added">✓ Added</span><span class="bld-details" data-href="/251-university-avenue.html">View details →</span></span></span>
+            </button>
+            <button type="button" class="bld has-photo" data-status="pending" data-walk="2 min walk to campus" data-kind="house" data-near="near" data-unit="396 Johnson" data-hero="/images/t/listings/396-johnson-street/396_Johnson-5.jpg" data-building="396 Johnson" data-beds="5" aria-pressed="false"><span class="bld-badge pending">Pending</span>
+              <img class="bld-photo" src="/images/t/listings/396-johnson-street/396_Johnson-5.jpg" alt="Living room at 396 Johnson Street" loading="lazy">
+              <span class="bld-text"><span class="bld-addr">396 Johnson Street</span><span class="bld-beds"><svg class="ic" aria-hidden="true"><use href="#icon-bed"></use></svg>5 bedrooms</span><span class="bld-cta"><span class="bld-add">+ Be First to Know</span><span class="bld-added">✓ Added</span><span class="bld-details" data-href="/396-johnson-street.html">View details →</span></span></span>
+            </button>
+            <button type="button" class="bld has-photo" data-status="pending" data-walk="2 min walk to campus" data-kind="house" data-near="near" data-unit="398 Johnson" data-hero="/images/t/listings/398-johnson-street/398_Johnson-12.jpg" data-building="398 Johnson" data-beds="5" aria-pressed="false"><span class="bld-badge pending">Pending</span>
+              <img class="bld-photo" src="/images/t/listings/398-johnson-street/398_Johnson-12.jpg" alt="Kitchen at 398 Johnson Street" loading="lazy">
+              <span class="bld-text"><span class="bld-addr">398 Johnson Street</span><span class="bld-beds"><svg class="ic" aria-hidden="true"><use href="#icon-bed"></use></svg>5 bedrooms</span><span class="bld-cta"><span class="bld-add">+ Be First to Know</span><span class="bld-added">✓ Added</span><span class="bld-details" data-href="/398-johnson-street.html">View details →</span></span></span>
+            </button>
+            <button type="button" class="bld has-photo" data-status="pending" data-walk="2 min walk to campus" data-kind="house" data-near="near" data-unit="1-400 Johnson" data-hero="/images/t/listings/1-400-johnson-street/400_Johnson-18.jpg" data-building="400 Johnson" data-beds="5" aria-pressed="false"><span class="bld-badge pending">Pending</span>
+              <img class="bld-photo" src="/images/t/listings/1-400-johnson-street/400_Johnson-18.jpg" alt="Bedroom at 1-400 Johnson Street" loading="lazy">
+              <span class="bld-text"><span class="bld-addr">1-400 Johnson Street</span><span class="bld-beds"><svg class="ic" aria-hidden="true"><use href="#icon-bed"></use></svg>5 bedrooms</span><span class="bld-cta"><span class="bld-add">+ Be First to Know</span><span class="bld-added">✓ Added</span><span class="bld-details" data-href="/1-400-johnson-street.html">View details →</span></span></span>
+            </button>
+            <button type="button" class="bld has-photo" data-status="pending" data-walk="2 min walk to campus" data-kind="apartment" data-near="near" data-unit="2-400 Johnson" data-hero="/images/t/listings/2-400-johnson-street/400_Johnson-26.jpg" data-building="400 Johnson" data-beds="1" aria-pressed="false"><span class="bld-badge pending">Pending</span>
+              <img class="bld-photo" src="/images/t/listings/2-400-johnson-street/400_Johnson-26.jpg" alt="Living room at 2-400 Johnson Street" loading="lazy">
+              <span class="bld-text"><span class="bld-addr">2-400 Johnson Street</span><span class="bld-beds"><svg class="ic" aria-hidden="true"><use href="#icon-bed"></use></svg>1 bedroom</span><span class="bld-cta"><span class="bld-add">+ Be First to Know</span><span class="bld-added">✓ Added</span><span class="bld-details" data-href="/2-400-johnson-street.html">View details →</span></span></span>
+            </button>
+            <button type="button" class="bld has-photo" data-status="pending" data-walk="2 min walk to campus" data-kind="apartment" data-near="near" data-unit="1-402 Johnson" data-building="402 Johnson" data-beds="4" data-hero="/images/t/listings/1-402-johnson-street/1-402_johnson_LR1.jpg" aria-pressed="false"><span class="bld-badge pending">Pending</span>
+              <img class="bld-photo" src="/images/t/listings/1-402-johnson-street/1-402_johnson_LR1.jpg" alt="Living room at 1-402 Johnson Street" loading="lazy">
+              <span class="bld-text"><span class="bld-addr">1-402 Johnson Street</span><span class="bld-beds"><svg class="ic" aria-hidden="true"><use href="#icon-bed"></use></svg>4 bedrooms</span><span class="bld-cta"><span class="bld-add">+ Be First to Know</span><span class="bld-added">✓ Added</span><span class="bld-details" data-href="/1-402-johnson-street.html">View details →</span></span></span>
+            </button>
+            <button type="button" class="bld has-photo" data-status="pending" data-walk="2 min walk to campus" data-kind="house" data-near="near" data-unit="410 Johnson" data-hero="/images/t/listings/410-johnson-street/410_Johnson-1.jpg" data-building="410 Johnson" data-beds="5" aria-pressed="false"><span class="bld-badge pending">Pending</span>
+              <img class="bld-photo" src="/images/t/listings/410-johnson-street/410_Johnson-1.jpg" alt="Front of 410 Johnson Street" loading="lazy">
+              <span class="bld-text"><span class="bld-addr">410 Johnson Street</span><span class="bld-beds"><svg class="ic" aria-hidden="true"><use href="#icon-bed"></use></svg>5 bedrooms</span><span class="bld-cta"><span class="bld-add">+ Be First to Know</span><span class="bld-added">✓ Added</span><span class="bld-details" data-href="/410-johnson-street.html">View details →</span></span></span>
+            </button>
+            <button type="button" class="bld has-photo" data-status="pending" data-walk="6-8 min walk to campus" data-kind="house" data-near="far" data-unit="132 Colborne" data-hero="/images/t/listings/132-colborne-street/132_Colborne-1.jpg" data-building="132 Colborne" data-beds="4" aria-pressed="false"><span class="bld-badge pending">Pending</span>
+              <img class="bld-photo" src="/images/t/listings/132-colborne-street/132_Colborne-1.jpg" alt="Front of 132 Colborne Street" loading="lazy">
+              <span class="bld-text"><span class="bld-addr">132 Colborne Street</span><span class="bld-beds"><svg class="ic" aria-hidden="true"><use href="#icon-bed"></use></svg>4 bedrooms</span><span class="bld-cta"><span class="bld-add">+ Be First to Know</span><span class="bld-added">✓ Added</span><span class="bld-details" data-href="/132-colborne-street.html">View details →</span></span></span>
+            </button>
+            <button type="button" class="bld has-photo" data-status="pending" data-walk="6-8 min walk to campus" data-kind="apartment" data-near="far" data-unit="1-134 Colborne" data-building="134 Colborne" data-beds="3" data-hero="/images/t/listings/1-134-colborne-street/1-134_colborne_BR2.jpg" aria-pressed="false"><span class="bld-badge pending">Pending</span>
+              <img class="bld-photo" src="/images/t/listings/1-134-colborne-street/1-134_colborne_BR2.jpg" alt="Bedroom at 1-134 Colborne Street" loading="lazy">
+              <span class="bld-text"><span class="bld-addr">1-134 Colborne Street</span><span class="bld-beds"><svg class="ic" aria-hidden="true"><use href="#icon-bed"></use></svg>3 bedrooms</span><span class="bld-cta"><span class="bld-add">+ Be First to Know</span><span class="bld-added">✓ Added</span><span class="bld-details" data-href="/1-134-colborne-street.html">View details →</span></span></span>
+            </button>
+            <button type="button" class="bld has-photo" data-status="pending" data-walk="6-8 min walk to campus" data-kind="apartment" data-near="far" data-unit="2-134 Colborne" data-building="134 Colborne" data-beds="3" data-hero="/images/t/listings/2-134-colborne-street/2-134_colborne_LR3.jpg" aria-pressed="false"><span class="bld-badge pending">Pending</span>
+              <img class="bld-photo" src="/images/t/listings/2-134-colborne-street/2-134_colborne_LR3.jpg" alt="Living room at 2-134 Colborne Street" loading="lazy">
+              <span class="bld-text"><span class="bld-addr">2-134 Colborne Street</span><span class="bld-beds"><svg class="ic" aria-hidden="true"><use href="#icon-bed"></use></svg>3 bedrooms</span><span class="bld-cta"><span class="bld-add">+ Be First to Know</span><span class="bld-added">✓ Added</span><span class="bld-details" data-href="/2-134-colborne-street.html">View details →</span></span></span>
+            </button>
+            <button type="button" class="bld has-photo" data-status="pending" data-walk="6-8 min walk to campus" data-kind="apartment" data-near="far" data-unit="3-134 Colborne" data-building="134 Colborne" data-beds="3" data-hero="/images/t/listings/3-134-colborne-street/3-134_colborne_LR1.jpg" aria-pressed="false"><span class="bld-badge pending">Pending</span>
+              <img class="bld-photo" src="/images/t/listings/3-134-colborne-street/3-134_colborne_LR1.jpg" alt="Living room at 3-134 Colborne Street" loading="lazy">
+              <span class="bld-text"><span class="bld-addr">3-134 Colborne Street</span><span class="bld-beds"><svg class="ic" aria-hidden="true"><use href="#icon-bed"></use></svg>3 bedrooms</span><span class="bld-cta"><span class="bld-add">+ Be First to Know</span><span class="bld-added">✓ Added</span><span class="bld-details" data-href="/3-134-colborne-street.html">View details →</span></span></span>
+            </button>
+            <button type="button" class="bld has-photo" data-status="pending" data-walk="6-8 min walk to campus" data-kind="house" data-near="far" data-unit="136 Colborne" data-building="136 Colborne" data-beds="6" data-hero="/images/t/properties/136-colborne-street/136%20Kitchen%201.jpg" aria-pressed="false"><span class="bld-badge pending">Pending</span>
+              <img class="bld-photo" src="/images/t/properties/136-colborne-street/136%20Kitchen%201.jpg" alt="Kitchen at 136 Colborne Street" loading="lazy">
+              <span class="bld-text"><span class="bld-addr">136 Colborne Street</span><span class="bld-beds"><svg class="ic" aria-hidden="true"><use href="#icon-bed"></use></svg>6 bedrooms</span><span class="bld-cta"><span class="bld-add">+ Be First to Know</span><span class="bld-added">✓ Added</span><span class="bld-details" data-href="/136-colborne-street.html">View details →</span></span></span>
+            </button>
+            <button type="button" class="bld has-photo" data-status="pending" data-walk="6-8 min walk to campus" data-kind="house" data-near="far" data-unit="138 Colborne" data-building="138 Colborne" data-beds="5" data-hero="/images/t/properties/138-colborne-street/138-Living.jpg" aria-pressed="false"><span class="bld-badge pending">Pending</span>
+              <img class="bld-photo" src="/images/t/properties/138-colborne-street/138-Living.jpg" alt="Living room at 138 Colborne Street" loading="lazy">
+              <span class="bld-text"><span class="bld-addr">138 Colborne Street</span><span class="bld-beds"><svg class="ic" aria-hidden="true"><use href="#icon-bed"></use></svg>5 bedrooms</span><span class="bld-cta"><span class="bld-add">+ Be First to Know</span><span class="bld-added">✓ Added</span><span class="bld-details" data-href="/138-colborne-street.html">View details →</span></span></span>
+            </button>
+            <button type="button" class="bld has-photo" data-status="pending" data-walk="6-8 min walk to campus" data-kind="house" data-near="far" data-unit="140 Colborne" data-building="140 Colborne" data-beds="5" data-hero="/images/t/properties/140-colborne-street/140%20Kitchen.jpg" aria-pressed="false"><span class="bld-badge pending">Pending</span>
+              <img class="bld-photo" src="/images/t/properties/140-colborne-street/140%20Kitchen.jpg" alt="Kitchen at 140 Colborne Street" loading="lazy">
+              <span class="bld-text"><span class="bld-addr">140 Colborne Street</span><span class="bld-beds"><svg class="ic" aria-hidden="true"><use href="#icon-bed"></use></svg>5 bedrooms</span><span class="bld-cta"><span class="bld-add">+ Be First to Know</span><span class="bld-added">✓ Added</span><span class="bld-details" data-href="/140-colborne-street.html">View details →</span></span></span>
+            </button>
+            <button type="button" class="bld has-photo" data-status="pending" data-walk="7-9 min walk to campus" data-kind="apartment" data-near="far" data-unit="1-228 Brock" data-building="228 Brock" data-beds="3" data-hero="/images/t/listings/1-228-brock-street/1-228-Bed-3.1.jpg" aria-pressed="false"><span class="bld-badge pending">Pending</span>
+              <img class="bld-photo" src="/images/t/listings/1-228-brock-street/1-228-Bed-3.1.jpg" alt="Bedroom at 1-228 Brock Street" loading="lazy">
+              <span class="bld-text"><span class="bld-addr">1-228 Brock Street</span><span class="bld-beds"><svg class="ic" aria-hidden="true"><use href="#icon-bed"></use></svg>3 bedrooms</span><span class="bld-cta"><span class="bld-add">+ Be First to Know</span><span class="bld-added">✓ Added</span><span class="bld-details" data-href="/1-228-brock-street.html">View details →</span></span></span>
+            </button>
+            <button type="button" class="bld has-photo" data-status="pending" data-walk="7-9 min walk to campus" data-kind="apartment" data-near="far" data-unit="2-228 Brock" data-building="228 Brock" data-beds="2" data-hero="/images/t/listings/2-228-brock-street/20191108_rentals_0025-HDR-4.jpg" aria-pressed="false"><span class="bld-badge pending">Pending</span>
+              <img class="bld-photo" src="/images/t/listings/2-228-brock-street/20191108_rentals_0025-HDR-4.jpg" alt="Living room at 2-228 Brock Street" loading="lazy">
+              <span class="bld-text"><span class="bld-addr">2-228 Brock Street</span><span class="bld-beds"><svg class="ic" aria-hidden="true"><use href="#icon-bed"></use></svg>2 bedrooms</span><span class="bld-cta"><span class="bld-add">+ Be First to Know</span><span class="bld-added">✓ Added</span><span class="bld-details" data-href="/2-228-brock-street.html">View details →</span></span></span>
+            </button>
+            <button type="button" class="bld has-photo" data-status="pending" data-walk="7-9 min walk to campus" data-kind="apartment" data-near="far" data-unit="3-228 Brock" data-building="228 Brock" data-beds="2" data-hero="/images/t/listings/3-228-brock-street/20151112_student_0012-12.jpg" aria-pressed="false"><span class="bld-badge pending">Pending</span>
+              <img class="bld-photo" src="/images/t/listings/3-228-brock-street/20151112_student_0012-12.jpg" alt="Living room at 3-228 Brock Street" loading="lazy">
+              <span class="bld-text"><span class="bld-addr">3-228 Brock Street</span><span class="bld-beds"><svg class="ic" aria-hidden="true"><use href="#icon-bed"></use></svg>2 bedrooms</span><span class="bld-cta"><span class="bld-add">+ Be First to Know</span><span class="bld-added">✓ Added</span><span class="bld-details" data-href="/3-228_brock_street.html">View details →</span></span></span>
+            </button>
+            <button type="button" class="bld has-photo" data-status="pending" data-walk="7-9 min walk to campus" data-kind="apartment" data-near="far" data-unit="1-230 Brock" data-hero="/images/t/listings/1-230-brock-street/230_Brock_Unit1-1.jpg" data-building="230 Brock" data-beds="2" aria-pressed="false"><span class="bld-badge pending">Pending</span>
+              <img class="bld-photo" src="/images/t/listings/1-230-brock-street/230_Brock_Unit1-1.jpg" alt="Living room in Unit 1 at 230 Brock Street" loading="lazy">
+              <span class="bld-text"><span class="bld-addr">1-230 Brock Street</span><span class="bld-beds"><svg class="ic" aria-hidden="true"><use href="#icon-bed"></use></svg>2 bedrooms</span><span class="bld-cta"><span class="bld-add">+ Be First to Know</span><span class="bld-added">✓ Added</span><span class="bld-details" data-href="/1-230-brock-street.html">View details →</span></span></span>
+            </button>
+            <button type="button" class="bld has-photo" data-status="pending" data-walk="7-9 min walk to campus" data-kind="apartment" data-near="far" data-unit="2-230 Brock" data-building="230 Brock" data-beds="3" data-hero="/images/t/listings/2-230-brock-street/20151112_student_0026-20.jpg" aria-pressed="false"><span class="bld-badge pending">Pending</span>
+              <img class="bld-photo" src="/images/t/listings/2-230-brock-street/20151112_student_0026-20.jpg" alt="Kitchen at 2-230 Brock Street" loading="lazy">
+              <span class="bld-text"><span class="bld-addr">2-230 Brock Street</span><span class="bld-beds"><svg class="ic" aria-hidden="true"><use href="#icon-bed"></use></svg>3 bedrooms</span><span class="bld-cta"><span class="bld-add">+ Be First to Know</span><span class="bld-added">✓ Added</span><span class="bld-details" data-href="/2-230-brock-street.html">View details →</span></span></span>
+            </button>
+            <button type="button" class="bld has-photo" data-status="pending" data-walk="7-9 min walk to campus" data-kind="apartment" data-near="far" data-unit="3-230 Brock" data-hero="/images/t/listings/3-230-brock-street/230_Brock_Unit3-10.jpg" data-building="230 Brock" data-beds="1" aria-pressed="false"><span class="bld-badge pending">Pending</span>
+              <img class="bld-photo" src="/images/t/listings/3-230-brock-street/230_Brock_Unit3-10.jpg" alt="Living room in Unit 3 at 230 Brock Street" loading="lazy">
+              <span class="bld-text"><span class="bld-addr">3-230 Brock Street</span><span class="bld-beds"><svg class="ic" aria-hidden="true"><use href="#icon-bed"></use></svg>1 bedroom</span><span class="bld-cta"><span class="bld-add">+ Be First to Know</span><span class="bld-added">✓ Added</span><span class="bld-details" data-href="/3-230-brock-street.html">View details →</span></span></span>
+            </button>
+            <button type="button" class="bld has-photo" data-status="pending" data-walk="7-9 min walk to campus" data-kind="apartment" data-near="far" data-unit="201-122 Sydenham" data-building="122 Sydenham" data-beds="3" data-hero="/images/t/listings/201-122-sydenham-street/122-201_kitchen2.jpg" aria-pressed="false"><span class="bld-badge pending">Pending</span>
+              <img class="bld-photo" src="/images/t/listings/201-122-sydenham-street/122-201_kitchen2.jpg" alt="Kitchen at 201-122 Sydenham Street" loading="lazy">
+              <span class="bld-text"><span class="bld-addr">201-122 Sydenham Street</span><span class="bld-beds"><svg class="ic" aria-hidden="true"><use href="#icon-bed"></use></svg>3 bedrooms</span><span class="bld-cta"><span class="bld-add">+ Be First to Know</span><span class="bld-added">✓ Added</span><span class="bld-details" data-href="/201-122-sydenham-street.html">View details →</span></span></span>
+            </button>
+            <button type="button" class="bld has-photo" data-status="pending" data-walk="7-9 min walk to campus" data-kind="apartment" data-near="far" data-unit="202-122 Sydenham" data-hero="/images/t/properties/122-sydenham-street/122_Sydenham-3.jpg" data-building="122 Sydenham" data-beds="1" aria-pressed="false"><span class="bld-badge pending">Pending</span>
+              <img class="bld-photo" src="/images/t/properties/122-sydenham-street/122_Sydenham-3.jpg" alt="Front of 122 Sydenham Street" loading="lazy">
+              <span class="bld-text"><span class="bld-addr">202-122 Sydenham Street</span><span class="bld-beds"><svg class="ic" aria-hidden="true"><use href="#icon-bed"></use></svg>1 bedroom</span><span class="bld-cta"><span class="bld-add">+ Be First to Know</span><span class="bld-added">✓ Added</span><span class="bld-details" data-href="/202-122-sydenham-street.html">View details →</span></span></span>
+            </button>
+            <button type="button" class="bld has-photo" data-status="pending" data-walk="7-9 min walk to campus" data-kind="apartment" data-near="far" data-unit="301-122 Sydenham" data-building="122 Sydenham" data-beds="3" data-hero="/images/t/listings/301-122-sydenham-street/20170224_student_0002.jpg" aria-pressed="false"><span class="bld-badge pending">Pending</span>
+              <img class="bld-photo" src="/images/t/listings/301-122-sydenham-street/20170224_student_0002.jpg" alt="Kitchen at 301-122 Sydenham Street" loading="lazy">
+              <span class="bld-text"><span class="bld-addr">301-122 Sydenham Street</span><span class="bld-beds"><svg class="ic" aria-hidden="true"><use href="#icon-bed"></use></svg>3 bedrooms</span><span class="bld-cta"><span class="bld-add">+ Be First to Know</span><span class="bld-added">✓ Added</span><span class="bld-details" data-href="/301-122-sydenham-street.html">View details →</span></span></span>
+            </button>
+            <button type="button" class="bld has-photo" data-status="pending" data-walk="7-9 min walk to campus" data-kind="apartment" data-near="far" data-unit="302-122 Sydenham" data-building="122 Sydenham" data-beds="2" data-hero="/images/t/listings/302-122-sydenham-street/20151112_student_0043-31.jpg" aria-pressed="false"><span class="bld-badge pending">Pending</span>
+              <img class="bld-photo" src="/images/t/listings/302-122-sydenham-street/20151112_student_0043-31.jpg" alt="Kitchen at 302-122 Sydenham Street" loading="lazy">
+              <span class="bld-text"><span class="bld-addr">302-122 Sydenham Street</span><span class="bld-beds"><svg class="ic" aria-hidden="true"><use href="#icon-bed"></use></svg>2 bedrooms</span><span class="bld-cta"><span class="bld-add">+ Be First to Know</span><span class="bld-added">✓ Added</span><span class="bld-details" data-href="/302-122-sydenham-street.html">View details →</span></span></span>
+            </button>
+            <button type="button" class="bld has-photo" data-status="pending" data-walk="7-9 min walk to campus" data-kind="apartment" data-near="far" data-unit="303-122 Sydenham" data-building="122 Sydenham" data-beds="3" data-hero="/images/t/listings/303-122-sydenham-street/20170224_student_0088.jpg" aria-pressed="false"><span class="bld-badge pending">Pending</span>
+              <img class="bld-photo" src="/images/t/listings/303-122-sydenham-street/20170224_student_0088.jpg" alt="Kitchen at 303-122 Sydenham Street" loading="lazy">
+              <span class="bld-text"><span class="bld-addr">303-122 Sydenham Street</span><span class="bld-beds"><svg class="ic" aria-hidden="true"><use href="#icon-bed"></use></svg>3 bedrooms</span><span class="bld-cta"><span class="bld-add">+ Be First to Know</span><span class="bld-added">✓ Added</span><span class="bld-details" data-href="/303-122-sydenham-street.html">View details →</span></span></span>
+            </button>
+            <button type="button" class="bld has-photo" data-status="pending" data-walk="7-9 min walk to campus" data-kind="apartment" data-near="far" data-unit="401-122 Sydenham" data-building="122 Sydenham" data-beds="2" data-hero="/images/t/listings/401-122-sydenham-street/20170224_student_0118.jpg" aria-pressed="false"><span class="bld-badge pending">Pending</span>
+              <img class="bld-photo" src="/images/t/listings/401-122-sydenham-street/20170224_student_0118.jpg" alt="Kitchen at 401-122 Sydenham Street" loading="lazy">
+              <span class="bld-text"><span class="bld-addr">401-122 Sydenham Street</span><span class="bld-beds"><svg class="ic" aria-hidden="true"><use href="#icon-bed"></use></svg>2 bedrooms</span><span class="bld-cta"><span class="bld-add">+ Be First to Know</span><span class="bld-added">✓ Added</span><span class="bld-details" data-href="/401-122-sydenham-street.html">View details →</span></span></span>
+            </button>
+            <button type="button" class="bld has-photo" data-status="pending" data-walk="7-9 min walk to campus" data-kind="apartment" data-near="far" data-unit="402-122 Sydenham" data-building="122 Sydenham" data-beds="2" data-hero="/images/t/listings/402-122-sydenham-street/20170224_student_0022.jpg" aria-pressed="false"><span class="bld-badge pending">Pending</span>
+              <img class="bld-photo" src="/images/t/listings/402-122-sydenham-street/20170224_student_0022.jpg" alt="Living room and kitchen at 402-122 Sydenham Street" loading="lazy">
+              <span class="bld-text"><span class="bld-addr">402-122 Sydenham Street</span><span class="bld-beds"><svg class="ic" aria-hidden="true"><use href="#icon-bed"></use></svg>2 bedrooms</span><span class="bld-cta"><span class="bld-add">+ Be First to Know</span><span class="bld-added">✓ Added</span><span class="bld-details" data-href="/402-122-sydenham-street.html">View details →</span></span></span>
+            </button>
+            <button type="button" class="bld has-photo" data-status="pending" data-walk="7-9 min walk to campus" data-kind="apartment" data-near="far" data-unit="403-122 Sydenham" data-building="122 Sydenham" data-beds="3" data-hero="/images/t/listings/403-122-sydenham-street/403-122%20Bed%202.jpg" aria-pressed="false"><span class="bld-badge pending">Pending</span>
+              <img class="bld-photo" src="/images/t/listings/403-122-sydenham-street/403-122%20Bed%202.jpg" alt="Bedroom at 403-122 Sydenham Street" loading="lazy">
+              <span class="bld-text"><span class="bld-addr">403-122 Sydenham Street</span><span class="bld-beds"><svg class="ic" aria-hidden="true"><use href="#icon-bed"></use></svg>3 bedrooms</span><span class="bld-cta"><span class="bld-add">+ Be First to Know</span><span class="bld-added">✓ Added</span><span class="bld-details" data-href="/403-122-sydenham-street.html">View details →</span></span></span>
+            </button>
+            <button type="button" class="bld has-photo" data-status="pending" data-walk="8-10 min walk to campus" data-kind="house" data-near="far" data-unit="112 Nelson" data-building="112 Nelson" data-beds="6" data-hero="/images/t/properties/112-nelson-street/112_nelson_FOYER1.jpg" aria-pressed="false"><span class="bld-badge pending">Pending</span>
+              <img class="bld-photo" src="/images/t/properties/112-nelson-street/112_nelson_FOYER1.jpg" alt="Hallway at 112 Nelson Street" loading="lazy">
+              <span class="bld-text"><span class="bld-addr">112 Nelson Street</span><span class="bld-beds"><svg class="ic" aria-hidden="true"><use href="#icon-bed"></use></svg>6 bedrooms</span><span class="bld-cta"><span class="bld-add">+ Be First to Know</span><span class="bld-added">✓ Added</span><span class="bld-details" data-href="/112-nelson-street.html">View details →</span></span></span>
+            </button>
+          </div>
+        </div>
+      <div class="buildings-foot">
+        <a href="#waitlist" class="btn btn-primary" data-cta="after_list">Be First to Know</a>
+        <span class="buildings-count" id="buildingsCount"></span>
+      </div>
+    </div>
+  </section>
+
+
+
+  <section class="waitlist" id="waitlist">
+    <div class="waitlist-inner">
+      <h2>Be First to Know</h2>
+      <h3 data-cycle-label="">May 2027</h3>
+      <p class="waitlist-sub">Waitlist members hear about new units before they hit the public site. We send the right matches, never spam.</p>
+
+      <div class="form-error" id="formError"></div>
+
+      <form id="waitlistForm" novalidate="">
+            <div class="mdc-hp" aria-hidden="true"><label for="mdc_faculty">Faculty</label><input type="text" id="mdc_faculty" name="faculty" tabindex="-1" autocomplete="off" value=""></div>
+        <div class="form-row">
+          <div class="field-wrap">
+            <label for="name">Full name</label>
+            <input type="text" id="name" name="name" required="" autocomplete="name" placeholder="Your name">
+            <div class="field-error" data-error-for="name">Please enter your name.</div>
+          </div>
+          <div class="field-wrap">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required="" autocomplete="email" placeholder="you@example.com">
+            <div class="field-error" data-error-for="email">Please enter a valid email.</div>
+          </div>
+        </div>
+        <div class="field-wrap">
+          <label for="mobile">Mobile</label>
+          <input type="tel" id="mobile" name="mobile" autocomplete="tel" placeholder="(613) 555-0142">
+          <div class="field-error" data-error-for="mobile">Please enter a mobile number.</div>
+        </div>
+        <div class="field-wrap">
+          <label>Bedrooms wanted <span style="font-weight: 400; color: rgba(255,255,255,0.5);">(optional)</span></label>
+          <div class="bedrooms-row" id="bedroomsRow">
+            <div class="bedroom-pill" data-value="1">1</div>
+            <div class="bedroom-pill" data-value="2">2</div>
+            <div class="bedroom-pill" data-value="3">3</div>
+            <div class="bedroom-pill" data-value="4">4</div>
+            <div class="bedroom-pill" data-value="5">5</div>
+            <div class="bedroom-pill" data-value="6">6</div>
+            <div class="bedroom-pill" data-value="7">7</div>
+            <div class="bedroom-pill" data-value="8">8</div>
+          </div>
+          <div class="bedrooms-hint">Select all that interest you. Leave blank if open to any.</div>
+        </div>
+        <div class="field-wrap">
+          <label>Units of interest <span style="font-weight: 400; color: rgba(255,255,255,0.5);">(optional)</span></label>
+          <div class="picked-row" id="pickedRow"></div>
+          <div class="picked-hint" id="pickedHint" style="display: block;">None picked. <a href="#buildings" style="color:#5BD4A8;">Choose from our buildings</a>, or leave blank if any location suits.</div>
+        </div>
+        <div class="field-wrap">
+          <label for="contact_pref">Preferred contact method</label>
+          <select id="contact_pref" name="contact_pref" required="">
+            <option value="Email and text" selected="">Email and text</option>
+            <option value="Email">Email</option>
+            <option value="Text">Text</option>
+          </select>
+          <div class="field-error" data-error-for="contact_pref">Please select an option.</div>
+        </div>
+        <div class="checkbox-row" id="consentRow">
+          <input type="checkbox" id="consent" name="consent" required="">
+          <label for="consent">I agree to receive emails and texts about matching rental units. I can unsubscribe anytime. We follow Canadian privacy and CASL law (<a href="/privacy.html" target="_blank" rel="noopener" class="consent-privacy">privacy policy</a>).</label>
+        </div>
+        <div class="field-error" data-error-for="consent" style="margin-top: -4px;">Please agree to receive communications.</div>
+        <button type="submit" id="submitBtn">Be First to Know</button>
+      </form>
+
+      <div class="success" id="successMsg">
+        <h3>You're on the list.</h3>
+        <p>We'll be in touch when matching units come available. Welcome.</p>
+      </div>
+
+      <p class="form-note">No spam. Just the right units, the moment they're available.</p>
+    </div>
+  </section>
+
+
+
+
+
+
+
+
+
+  <footer>
+    <img src="data:image/png;base64,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" alt="" class="footer-mark">
+    <div class="footer-tagline">Exceptional Student Housing</div>
+    <div>MacKinnon Development Corporation</div>
+    <div>Kingston, Ontario</div>
+    <div>(C) <span id="year">2026</span> All rights reserved - <a href="/contact.html">Contact</a> - <a href="/privacy.html">Privacy</a></div>
+  </footer>
+
+<script>
+/* Webhook URL comes from /config.js - nothing to paste in this file. */
+const WEBHOOK_URL = (window.MDC_WEBHOOKS && window.MDC_WEBHOOKS.waitlist) || "";
+const WEBHOOK_PLACEHOLDER = "PASTE_WAITLIST_WEBHOOK_URL_HERE";
+
+function getCurrentTargetCycle() {
+  const now = new Date();
+  const year = now.getFullYear();
+  const may15 = new Date(year, 4, 15);
+  const sept5 = new Date(year, 8, 5);
+  if (now < may15) return "May " + year;
+  if (now < sept5) return "Sept " + year;
+  return "May " + (year + 1);
+}
+
+const TARGET_CYCLE = getCurrentTargetCycle();
+
+document.querySelectorAll("[data-cycle-label]").forEach(el => {
+  el.textContent = TARGET_CYCLE;
+});
+
+document.getElementById("year").textContent = new Date().getFullYear();
+
+const form = document.getElementById("waitlistForm");
+const successMsg = document.getElementById("successMsg");
+const errorBox = document.getElementById("formError");
+const submitBtn = document.getElementById("submitBtn");
+const consentRow = document.getElementById("consentRow");
+const bedroomsRow = document.getElementById("bedroomsRow");
+
+// Bedroom pills: delegated pointer-events handler.
+// Using pointerup (not click) is more reliable on mobile browsers where
+// click events on non-button elements can be flaky or have 300ms delays.
+// pointerup fires for both mouse and touch in a unified way.
+bedroomsRow.addEventListener("pointerup", (e) => {
+  const pill = e.target.closest(".bedroom-pill");
+  if (pill && bedroomsRow.contains(pill)) {
+    pill.classList.toggle("selected");
+  }
+});
+
+
+// ---------- Unit picker (Coming soon list) ----------
+const pickedRow = document.getElementById("pickedRow");
+const pickedHint = document.getElementById("pickedHint");
+const buildingsCount = document.getElementById("buildingsCount");
+function getPickedUnits() {
+  return Array.from(document.querySelectorAll(".bld.selected")).map(b => b.dataset.unit);
+}
+function getPickedBuildings() {
+  const seen = [];
+  document.querySelectorAll(".bld.selected").forEach(b => { if (seen.indexOf(b.dataset.building) === -1) seen.push(b.dataset.building); });
+  return seen;
+}
+function toggleUnit(b, on) {
+  if (on && window.mdcTrack) mdcTrack("pick_unit", { unit: b.dataset.unit, bedrooms: b.dataset.beds });
+  b.classList.toggle("selected", on);
+  b.setAttribute("aria-pressed", on ? "true" : "false");
+  renderPicked();
+  if (window.paintPins) window.paintPins();
+}
+function renderPicked() {
+  const picked = getPickedUnits();
+  pickedRow.innerHTML = "";
+  picked.forEach(name => {
+    const chip = document.createElement("button");
+    chip.type = "button"; chip.className = "picked-chip"; chip.dataset.unit = name;
+    chip.textContent = name + "  \u00d7"; chip.setAttribute("aria-label", "Remove " + name);
+    pickedRow.appendChild(chip);
+  });
+  pickedHint.style.display = picked.length ? "none" : "block";
+  buildingsCount.textContent = picked.length ? picked.length + (picked.length === 1 ? " home" : " homes") + " picked" : "";
+  if (window.mdcPickBar) window.mdcPickBar(picked.length);
+}
+document.querySelectorAll(".bld").forEach(b => b.addEventListener("click", () => toggleUnit(b, !b.classList.contains("selected"))));
+pickedRow.addEventListener("click", (e) => {
+  const chip = e.target.closest(".picked-chip");
+  if (!chip) return;
+  const b = document.querySelector('.bld[data-unit="' + chip.dataset.unit + '"]');
+  if (b) toggleUnit(b, false);
+});
+renderPicked();
+
+// ---------- Which "Be First to Know" button was used (map vs photo list test) ----------
+// Every button to the form reports where it sits; the last one clicked rides
+// along with the sign-up (generate_lead "cta"), so leads can be split by route.
+document.addEventListener("click", function (e) {
+  const a = e.target.closest ? e.target.closest('a[href="#waitlist"]') : null;
+  if (!a) return;
+  window.mdcLastCta = a.dataset.cta || "other";
+  if (window.mdcTrack) mdcTrack("cta_click", { cta_location: window.mdcLastCta });
+});
+
+// ---------- Bedroom filter (map + tiles + form) ----------
+window.applyBedFilter = function () {
+  const on = document.querySelector("#bedFilter .bf-pill.on");
+  const want = on ? on.dataset.beds : "any";
+  let shown = 0;
+  document.querySelectorAll(".bld").forEach(function (t) {
+    const ok = (want === "any" || t.dataset.beds === want) && (!window.mdcFF || window.mdcFF(t));
+    t.classList.toggle("filtered-out", !ok);
+    if (ok) shown++;
+  });
+  document.querySelectorAll(".area").forEach(function (a) {
+    a.classList.toggle("filtered-out", !a.querySelector(".bld:not(.filtered-out)"));
+  });
+  const count = document.getElementById("bedFilterCount");
+  count.textContent = (want === "any" && !(window.mdcFFActive && window.mdcFFActive())) ? "" : shown + (shown === 1 ? " home matches" : " homes match");
+  const M = window.MDCMap;
+  if (M) {
+    const pts = [];
+    Object.keys(M.markers).forEach(function (name) {
+      const m = M.markers[name];
+      const any = document.querySelector('.bld[data-building="' + name + '"]:not(.filtered-out)');
+      if (any) { m.addTo(M.map); pts.push(m.getLatLng()); } else { M.map.removeLayer(m); }
+    });
+    if (pts.length) M.map.fitBounds(pts, { padding: [30, 30], maxZoom: 17 });
+  }
+};
+// The filter ticks its number under "Bedrooms wanted" in the form, and every
+// number the visitor looks at stays ticked (group sizes change a lot). Nothing
+// is ever unticked by the filter; the visitor can untick in the form.
+document.getElementById("bedFilter").addEventListener("click", function (e) {
+  const b = e.target.closest(".bf-pill");
+  if (!b) return;
+  document.querySelectorAll("#bedFilter .bf-pill").forEach(function (p) { p.classList.toggle("on", p === b); });
+  if (window.mdcTrack) mdcTrack("filter_bedrooms", { bedrooms: b.dataset.beds });
+  if (b.dataset.beds !== "any") {
+    const pill = document.querySelector('.bedroom-pill[data-value="' + b.dataset.beds + '"]');
+    if (pill) pill.classList.add("selected");
+  }
+  window.applyBedFilter();
+});
+
+// ---------- Temporary building map (Leaflet + OpenStreetMap) ----------
+window.addEventListener("load", function () {
+  const box = document.getElementById("bmap");
+  const note = document.querySelector(".bmap-note");
+  if (!box) return;
+  if (typeof L === "undefined") { box.style.display = "none"; if (note) note.style.display = "none"; return; }
+  const PINS = {"188 Union": [44.226987, -76.500281], "188.5 Union": [44.227029, -76.500374], "196 Union": [44.226963, -76.50071], "198 Union": [44.226953, -76.500805], "200 Union": [44.226927, -76.50093], "202 Union": [44.226904, -76.501098], "204 Union": [44.226891, -76.501181], "149 Collingwood": [44.226413, -76.501136], "159 Collingwood": [44.226659, -76.501231], "243 University": [44.231254, -76.495476], "251 University": [44.231496, -76.495482], "396 Johnson": [44.231415, -76.494867], "398 Johnson": [44.231427, -76.494937], "400 Johnson": [44.231442, -76.495011], "402 Johnson": [44.231473, -76.495092], "410 Johnson": [44.231509, -76.495341], "228 Brock": [44.231273, -76.487717], "230 Brock": [44.23129, -76.48782], "122 Sydenham": [44.231112, -76.487756], "132 Colborne": [44.234607, -76.492345], "134 Colborne": [44.234611, -76.49246], "136 Colborne": [44.234643, -76.492575], "138 Colborne": [44.234656, -76.492673], "140 Colborne": [44.234659, -76.492725], "112 Nelson": [44.234707, -76.502429]};
+  const HEROES = {"188 Union": "/images/properties/188-union-street-west/188_union_0032-14.jpg", "188.5 Union": "/images/listings/2-188-5-union-street-west/20170224_student_0006.jpg", "196 Union": "/images/listings/1-196-union-street-west/1-196_union_KIT2.jpg", "198 Union": "/images/properties/198-union-street-west/20141118_untitled_0073-35.jpg", "200 Union": "/images/listings/1-200-union-street-west/1-200_union_BR2.jpg", "149 Collingwood": "/images/listings/1-149-collingwood-street/1-149_collingwood_BR2.jpg", "159 Collingwood": "/images/properties/159-collingwood-street/159%20Kitchen%201.jpg", "251 University": "/images/properties/251-university-avenue/20191105_mackinnon_0008-5.jpg", "402 Johnson": "/images/listings/1-402-johnson-street/1-402_johnson_LR1.jpg", "228 Brock": "/images/listings/1-228-brock-street/1-228-Bed-3.1.jpg", "230 Brock": "/images/properties/230-brock-street/20151104_untitled_0027-4.jpg", "122 Sydenham": "/images/listings/101-122-sydenham-street/122_Sydenham-12.jpg", "132 Colborne": "/images/properties/132-colborne-street/132%20Dining.jpg", "134 Colborne": "/images/listings/1-134-colborne-street/1-134_colborne_BR2.jpg", "136 Colborne": "/images/properties/136-colborne-street/136%20Kitchen%201.jpg", "138 Colborne": "/images/properties/138-colborne-street/138-Living.jpg", "140 Colborne": "/images/properties/140-colborne-street/140%20Kitchen.jpg", "112 Nelson": "/images/properties/112-nelson-street/112_nelson_FOYER1.jpg"};
+  const ADDRS = {"188 Union": "188 Union Street West", "188.5 Union": "188 1/2 Union Street West", "196 Union": "196 Union Street West", "198 Union": "198 Union Street West", "200 Union": "200 Union Street West", "202 Union": "202 Union Street West", "204 Union": "204 Union Street West", "149 Collingwood": "149 Collingwood Street", "159 Collingwood": "159 Collingwood Street", "243 University": "243 University Avenue", "251 University": "251 University Avenue", "396 Johnson": "396 Johnson Street", "398 Johnson": "398 Johnson Street", "400 Johnson": "400 Johnson Street", "402 Johnson": "402 Johnson Street", "410 Johnson": "410 Johnson Street", "228 Brock": "228 Brock Street", "230 Brock": "230 Brock Street", "122 Sydenham": "122 Sydenham Street", "132 Colborne": "132 Colborne Street", "134 Colborne": "134 Colborne Street", "136 Colborne": "136 Colborne Street", "138 Colborne": "138 Colborne Street", "140 Colborne": "140 Colborne Street", "112 Nelson": "112 Nelson Street"};
+  const map = L.map(box, { scrollWheelZoom: false, dragging: !L.Browser.mobile, tap: false });
+  L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png", {
+    maxZoom: 19,
+    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+  }).addTo(map);
+  const markers = {};
+  const bounds = [];
+  Object.keys(PINS).forEach(function (name) {
+    const tiles = Array.from(document.querySelectorAll('.bld[data-building="' + name + '"]'))
+      .filter(function (t) { return !box.dataset.only || t.dataset.status === box.dataset.only; });
+    if (!tiles.length) return;
+    const ll = PINS[name];
+    bounds.push(ll);
+    const walk = (tiles[0].dataset.walk || "").trim();
+    const m = L.circleMarker(ll, { radius: 8, color: "#0F2F44", weight: 2, fillColor: "#1FBA94", fillOpacity: 0.95 }).addTo(map);
+    m.bindPopup(function () {
+      if (window.mdcTrack) mdcTrack("map_pin_open", { building: name });
+      const div = document.createElement("div");
+      div.className = "bmap-pop";
+      if (HEROES[name]) {
+        const img = document.createElement("img");
+        img.src = HEROES[name]; img.alt = "";
+        div.appendChild(img);
+      }
+      const strong = document.createElement("strong");
+      strong.textContent = ADDRS[name];
+      div.appendChild(strong);
+      const sub = document.createElement("span");
+      sub.className = "pop-sub";
+      const kindEl = tiles[0].querySelector(".bld-kind");
+      sub.textContent = (kindEl ? kindEl.textContent + ", " : "") + walk;
+      div.appendChild(sub);
+      tiles.forEach(function (t) {
+        if (t.classList.contains("filtered-out")) return;
+        const on = t.classList.contains("selected");
+        const btn = document.createElement("button");
+        btn.type = "button";
+        btn.className = "pop-unit" + (on ? " on" : "");
+        const nm = document.createElement("span");
+        nm.textContent = (tiles.length > 1 ? "Unit " + t.dataset.unit.split("-")[0] + ", " : "") + t.querySelector(".bld-beds").textContent.trim();
+        const act = document.createElement("em");
+        act.textContent = on ? "\u2713 Added" : "+ Be First to Know";
+        btn.appendChild(nm); btn.appendChild(act);
+        btn.addEventListener("click", function () {
+          const now = !t.classList.contains("selected");
+          toggleUnit(t, now);
+          btn.classList.toggle("on", now);
+          act.textContent = now ? "\u2713 Added" : "+ Be First to Know";
+        });
+        div.appendChild(btn);
+      });
+      return div;
+    }, { minWidth: 230, maxWidth: 260 });
+    markers[name] = m;
+  });
+  if (bounds.length) map.fitBounds(bounds, { padding: [30, 30] });
+  // Scroll-wheel zoom switches on once the visitor clicks the map and off when
+  // the mouse leaves it, so scrolling down the page never gets caught by the map.
+  // Phones pinch to zoom (one-finger drag stays off so the page still scrolls).
+  map.on("mousedown", function () { map.scrollWheelZoom.enable(); });
+  box.addEventListener("mouseleave", function () { map.scrollWheelZoom.disable(); });
+  if (note) note.textContent = L.Browser.mobile
+    ? "Tap a pin to see the homes in that building. Pinch to zoom."
+    : "Tap a pin to see the homes in that building. Click the map, then scroll to zoom.";
+  window.paintPins = function () {
+    Object.keys(markers).forEach(function (name) {
+      const any = document.querySelector('.bld.selected[data-building="' + name + '"]');
+      markers[name].setStyle({ fillColor: any ? "#5BD4A8" : "#1FBA94", radius: any ? 10 : 8 });
+    });
+  };
+  window.MDCMap = { map: map, markers: markers };
+  window.paintPins();
+  window.applyBedFilter();
+});
+
+function getSelectedBedrooms() {
+  return Array.from(bedroomsRow.querySelectorAll(".bedroom-pill.selected"))
+    .map(p => p.dataset.value);
+}
+
+form.querySelectorAll("input, select").forEach(el => {
+  const clearError = () => {
+    el.classList.remove("invalid");
+    const err = form.querySelector('[data-error-for="' + el.name + '"]');
+    if (err) err.classList.remove("show");
+    if (el.name === "consent") consentRow.classList.remove("invalid");
+  };
+  el.addEventListener("input", clearError);
+  el.addEventListener("change", clearError);
+});
+
+function validateForm() {
+  let firstInvalid = null;
+  let valid = true;
+
+  form.querySelectorAll(".invalid").forEach(el => el.classList.remove("invalid"));
+  form.querySelectorAll(".field-error.show").forEach(el => el.classList.remove("show"));
+  consentRow.classList.remove("invalid");
+
+  const requiredFields = ["name", "email", "mobile", "contact_pref"];
+  for (const fieldName of requiredFields) {
+    const el = form.elements[fieldName];
+    let bad = false;
+    if (!el.value || !el.value.trim()) bad = true;
+    if (fieldName === "email" && el.value && !/^[A-Za-z0-9._%+\-]+@[A-Za-z0-9.\-]+\.[A-Za-z]{2,}$/.test(el.value)) bad = true;
+    if (bad) {
+      el.classList.add("invalid");
+      const err = form.querySelector('[data-error-for="' + fieldName + '"]');
+      if (err) err.classList.add("show");
+      if (!firstInvalid) firstInvalid = el;
+      valid = false;
+    }
+  }
+
+  if (!form.elements.consent.checked) {
+    consentRow.classList.add("invalid");
+    const err = form.querySelector('[data-error-for="consent"]');
+    if (err) err.classList.add("show");
+    if (!firstInvalid) firstInvalid = form.elements.consent;
+    valid = false;
+  }
+
+  if (firstInvalid) {
+    firstInvalid.focus();
+    firstInvalid.scrollIntoView({behavior: "smooth", block: "center"});
+  }
+
+  return valid;
+}
+
+form.addEventListener("submit", async function(e) {
+  e.preventDefault();
+  errorBox.classList.remove("show");
+
+  if (!validateForm()) return;
+
+  const data = {
+    name: form.name.value.trim(),
+    email: form.email.value.trim(),
+    mobile: form.mobile.value.trim(),
+    bedrooms: getSelectedBedrooms(),
+    units: getPickedUnits(),
+    buildings: getPickedBuildings(),
+    notes: getPickedUnits().length ? "Units of interest: " + getPickedUnits().join(", ") : "",
+    contact_pref: form.contact_pref.value,
+    consent: form.consent.checked,
+    target_cycle: TARGET_CYCLE,
+    source: "Placeholder site",
+    submitted_at: new Date().toISOString(),
+        spam_suspected: (window.mdcSpamCheck ? window.mdcSpamCheck(form).spam_suspected : false),
+        spam_reason: (window.mdcSpamCheck ? window.mdcSpamCheck(form).spam_reason : ""),
+        traffic_source: (window.mdcSource ? window.mdcSource() : ""),
+        landing_page: (window.mdcLanding ? window.mdcLanding() : "")
+  };
+
+  submitBtn.disabled = true;
+  submitBtn.textContent = "Adding you...";
+
+  try {
+    if (!WEBHOOK_URL || WEBHOOK_URL === WEBHOOK_PLACEHOLDER) {
+      throw new Error("No waitlist webhook configured. Check that /config.js is uploaded and MDC_WEBHOOKS.waitlist is set.");
+    }
+    const res = await fetch(WEBHOOK_URL, {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify(data)
+    });
+    if (!res.ok) throw new Error("Submission failed: " + res.status);
+    if (window.mdcTrack) mdcTrack("generate_lead", { form: "waitlist", bedrooms: data.bedrooms.join(","), units_picked: data.units.length, cta: window.mdcLastCta || "none" });
+
+    form.style.display = "none";
+    successMsg.classList.add("show"); /* scroll-to-success */ successMsg.scrollIntoView({behavior: "smooth", block: "center"});
+  } catch (err) {
+    console.error("Submission error:", err);
+    window.mdcFormFailed(errorBox, data, "waitlist", err);
+    submitBtn.disabled = false;
+    submitBtn.textContent = "Be First to Know";
+  }
+});
+</script>
+
+
+<script>
+/* Form fallback (2026-10-26): email button plus form_error tracking. No personal data goes to analytics. */
+window.mdcFormFailed = function (box, data, form, err) {
+  var msg = (err && err.message) || "";
+  var m = msg.match(/Submission failed: (\d+)/);
+  var reason = (typeof navigator !== "undefined" && navigator.onLine === false) ? "offline"
+             : m ? "http_" + m[1]
+             : /webhook configured/i.test(msg) ? "no_config"
+             : "network";
+  if (window.mdcTrack) window.mdcTrack("form_error", { form: form, reason: reason });
+
+  data = data || {};
+  var subject = form === "tour" ? "Tour request: " + (data.requested_unit || data.unit_id || "unit")
+              : form === "parking" ? "Parking enquiry"
+              : "Be First to Know sign-up";
+  subject += " (website form did not send)";
+  function list(v) { return Array.isArray(v) ? v.join(", ") : (v || ""); }
+  var rows = [
+    ["Name", data.name], ["Email", data.email], ["Mobile", data.mobile],
+    ["Preferred contact", data.contact_pref],
+    ["Unit", data.requested_unit ? data.requested_unit + (data.unit_id ? " (" + data.unit_id + ")" : "") : ""],
+    ["Preferred time for a tour", data.preferred_time],
+    ["Bedrooms wanted", list(data.bedrooms)],
+    ["Units of interest", list(data.units)],
+    ["Parking lots of interest", list(data.lots)],
+    ["Move-in", data.target_cycle],
+    ["Notes", data.notes],
+    ["OK to contact me by email and text", data.consent ? "Yes" : ""],
+    ["Sent from", data.page_url || (typeof location !== "undefined" ? location.href : "")]
+  ];
+  var body = "Hi MDC,\n\nYour website form did not go through, so here are my details:\n\n";
+  rows.forEach(function (r) { if (r[1]) body += r[0] + ": " + r[1] + "\n"; });
+  var href = "mailto:rent@mackinnondev.ca?subject=" + encodeURIComponent(subject) + "&body=" + encodeURIComponent(body);
+
+  box.textContent = "";
+  var wrap = document.createElement("div");
+  wrap.className = "mdc-fallback";
+  wrap.appendChild(document.createTextNode("Something went wrong on our end and your details were not sent. Tap below to send them by email instead - it is already filled in."));
+  var a = document.createElement("a");
+  a.className = "mdc-fallback-btn";
+  a.href = href;
+  a.textContent = "Email my details";
+  a.addEventListener("click", function () {
+    if (window.mdcTrack) window.mdcTrack("form_error_email", { form: form });
+  });
+  wrap.appendChild(document.createElement("br"));
+  wrap.appendChild(a);
+  var small = document.createElement("span");
+  small.className = "mdc-fallback-small";
+  small.textContent = "Or email us at rent@mackinnondev.ca.";
+  wrap.appendChild(small);
+  box.appendChild(wrap);
+  box.classList.add("show");
+};
+</script>
+
+<div class="pickbar" id="pickBar" role="region" aria-label="Homes picked">
+  <span id="pickBarText"></span>
+  <button type="button" id="pickBarGo">Add my details ↓</button>
+</div>
+<script>
+/* Tiles with a live page open it in a new tab; picked-homes bar (2026-10-26). */
+(function () {
+  document.addEventListener("click", function (e) {
+    var t = e.target.closest && e.target.closest(".bld[data-link]");
+    if (!t) return;
+    e.preventDefault(); e.stopImmediatePropagation();
+    if (window.mdcTrack) window.mdcTrack("cta_click", { cta_location: "tile_view_unit", unit: t.dataset.unit });
+    window.open(t.dataset.link, "_blank", "noopener");
+  }, true);
+
+  var bar = document.getElementById("pickBar"), txt = document.getElementById("pickBarText");
+  var form = document.getElementById("waitlist"), count = 0, formOnScreen = false;
+  function paint() { bar.classList.toggle("show", count > 0 && !formOnScreen); }
+  window.mdcPickBar = function (n) {
+    count = n; txt.textContent = n + (n === 1 ? " home picked" : " homes picked"); paint();
+  };
+  if (form && "IntersectionObserver" in window) {
+    new IntersectionObserver(function (es) { formOnScreen = es[0].isIntersecting; paint(); },
+                             { threshold: 0.15 }).observe(form);
+  }
+  document.getElementById("pickBarGo").addEventListener("click", function () {
+    if (window.mdcTrack) window.mdcTrack("cta_click", { cta_location: "pick_bar" });
+    window.mdcLastCta = "pick_bar";
+    form.scrollIntoView({ behavior: "smooth", block: "start" });
+    var nm = form.querySelector('input[name="name"]');
+    if (nm) setTimeout(function () { nm.focus({ preventScroll: true }); }, 600);
+  });
+})();
+</script>
+<script>
+/* "View details" on pending tiles: open the unit page, do not pick the tile (2026-10-27). */
+document.addEventListener("click", function (e) {
+  var d = e.target.closest && e.target.closest(".bld-details");
+  if (!d) return;
+  e.preventDefault(); e.stopImmediatePropagation();
+  var t = d.closest(".bld");
+  if (window.mdcTrack) window.mdcTrack("cta_click", { cta_location: "tile_view_details", unit: t ? t.dataset.unit : "" });
+  window.open(d.dataset.href, "_blank", "noopener");
+}, true);
+</script>
+<script>
+/* Card actions (2026-10-27): "+ Be First to Know" picks the unit's tile; "Book a Tour" goes to the unit page form. */
+(function () {
+  function tileFor(unit) { return document.querySelector('.bld[data-unit="' + unit + '"]'); }
+  function sync() {
+    document.querySelectorAll(".listing-bftk").forEach(function (c) {
+      var t = tileFor(c.dataset.unit), on = !!(t && t.classList.contains("selected"));
+      c.classList.toggle("added", on);
+      c.innerHTML = on ? "&#10003; Added" : "+ Be First to Know";
+    });
+  }
+  document.addEventListener("click", function (e) {
+    var c = e.target.closest && e.target.closest(".listing-bftk");
+    var r = e.target.closest && e.target.closest(".listing-tour");
+    if (!c && !r) return;
+    e.preventDefault(); e.stopImmediatePropagation();
+    if (r) {
+      if (window.mdcTrack) window.mdcTrack("cta_click", { cta_location: "card_book_tour" });
+      window.location.href = r.dataset.href;
+      return;
+    }
+    var t = tileFor(c.dataset.unit);
+    if (!t) return;
+    if (window.mdcTrack && !t.classList.contains("selected")) window.mdcTrack("cta_click", { cta_location: "card_be_first", unit: c.dataset.unit });
+    t.click();
+  }, true);
+  var mo = new MutationObserver(sync);
+  document.querySelectorAll(".bld").forEach(function (t) { mo.observe(t, { attributes: true, attributeFilter: ["class"] }); });
+  sync();
+})();
+</script>
+<script>
+/* Photo strip arrows and click tracking (rev 46) */
+(function () {
+  var t = document.getElementById("psTrack"); if (!t) return;
+  function step(d) { var w = t.querySelector(".ps-item"); t.scrollBy({ left: d * (w ? w.offsetWidth + 4 : 400) * 2, behavior: "smooth" }); }
+  var pr = document.querySelector(".ps-prev"), nx = document.querySelector(".ps-next");
+  if (pr) pr.addEventListener("click", function () { step(-1); });
+  if (nx) nx.addEventListener("click", function () { step(1); });
+  t.addEventListener("click", function (e) { var a = e.target.closest(".ps-item"); if (a && window.mdcTrack) mdcTrack("cta_click", { cta_location: "photo_strip", unit: a.dataset.unit }); });
+})();
+</script>
+<script>
+/* Reviews in a random order on every visit (rev 47) */
+(function () {
+  var g = document.getElementById("reviewsGrid"); if (!g) return;
+  var c = [].slice.call(g.querySelectorAll(".review"));
+  for (var i = c.length - 1; i > 0; i--) { var j = Math.floor(Math.random() * (i + 1)); var t = c[i]; c[i] = c[j]; c[j] = t; }
+  var n = parseInt(g.dataset.show || "0", 10);
+  c.forEach(function (el, k) { el.hidden = n > 0 && k >= n; g.appendChild(el); });
+})();
+</script>
+<script>
+/* rev 46: walk time, house or apartment, available or pending (with the Bedrooms filter). */
+(function () {
+  var state = { near: "any", kind: "any", status: "any" };
+  window.mdcFF = function (t) {
+    return (state.near === "any" || parseInt(t.dataset.walk, 10) <= parseInt(state.near, 10)) &&
+           (state.kind === "any" || t.dataset.kind === state.kind) &&
+           (state.status === "any" || t.dataset.status === state.status);
+  };
+  window.mdcFFActive = function () { return state.near !== "any" || state.kind !== "any" || state.status !== "any"; };
+  document.addEventListener("click", function (e) {
+    var b = e.target.closest && e.target.closest(".ff-pill"); if (!b) return;
+    state[b.dataset.ff] = b.dataset.v;
+    b.parentNode.querySelectorAll(".ff-pill").forEach(function (p) { p.classList.toggle("on", p === b); });
+    if (window.mdcTrack) mdcTrack("filter_" + b.dataset.ff, { value: b.dataset.v });
+    if (window.applyBedFilter) window.applyBedFilter();
+  });
+})();
+</script>
+<script>
+/* Rev 45: tiles work like the old cards. The tile or "View details" opens the unit page,
+   "Request a Tour" opens its tour form, "+ Be First to Know" still adds it to the sign-up form. */
+window.addEventListener("click", function (e) {
+  var t = e.target.closest && e.target.closest(".bld");
+  if (!t) return;
+  if (e.target.closest(".bld-add, .bld-added")) return;
+  var tour = e.target.closest(".bld-tour");
+  var det = t.querySelector(".bld-details");
+  var url = tour ? tour.dataset.href : (t.dataset.link || (det && det.dataset.href));
+  if (!url) return;
+  e.preventDefault(); e.stopImmediatePropagation();
+  if (window.mdcTrack) mdcTrack("cta_click", { cta_location: tour ? "tile_request_tour" : "tile_open", unit: t.dataset.unit });
+  window.location.href = url;
+}, true);
+</script>
+<script>
+/* Top bar menu toggle (rev 45) */
+(function () {
+  var nav = document.querySelector(".topnav"); if (!nav) return;
+  var btn = nav.querySelector(".topnav-toggle");
+  btn.addEventListener("click", function () {
+    var open = nav.classList.toggle("open"); btn.setAttribute("aria-expanded", open ? "true" : "false");
+  });
+  document.addEventListener("click", function (e) { if (!nav.contains(e.target)) { nav.classList.remove("open"); btn.setAttribute("aria-expanded", "false"); } });
+  document.addEventListener("keydown", function (e) { if (e.key === "Escape") { nav.classList.remove("open"); btn.setAttribute("aria-expanded", "false"); } });
+  nav.querySelectorAll("a").forEach(function (a) { a.addEventListener("click", function () { if (window.mdcTrack) mdcTrack("menu_click", { item: a.textContent }); }); });
+})();
+</script>
+
+</body></html>
