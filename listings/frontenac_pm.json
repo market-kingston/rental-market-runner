@@ -1,0 +1,3445 @@
+{
+ "source": "frontenac_pm",
+ "date": "2026-11-14",
+ "count": 208,
+ "incomplete": false,
+ "listings": [
+  {
+   "key": "frontenac_pm|1282universityavenue975bed",
+   "address": "1-282 University Avenue",
+   "unit": "",
+   "beds": 4,
+   "baths": 1.5,
+   "rent": 3900,
+   "basis": "unit",
+   "available": "May 1, 2027",
+   "status": "listed",
+   "url": "https://www.frontenacproperty.com/1-282-university-avenue-975bed",
+   "title": "1-282 University Avenue ($975/bed)",
+   "photos": [
+    "https://cms.frontenacproperty.com/assets/5d759825-6d2a-4e10-a0b6-170c193749f9?key=width"
+   ],
+   "student": true
+  },
+  {
+   "key": "frontenac_pm|a381brockstreet1100bed",
+   "address": "A-381 Brock Street",
+   "unit": "",
+   "beds": 6,
+   "baths": 2,
+   "rent": 6600,
+   "basis": "unit",
+   "available": "May 1, 2027",
+   "status": "listed",
+   "url": "https://www.frontenacproperty.com/a-381-brock-street-1100bed",
+   "title": "A-381 Brock Street ($1100/bed)",
+   "photos": [
+    "https://cms.frontenacproperty.com/assets/e2d72ad9-b67f-4afa-879c-20543362a51a?key=width"
+   ],
+   "student": true
+  },
+  {
+   "key": "frontenac_pm|a90collingwoodstreetinclusive1100bed",
+   "address": "A-90 Collingwood Street",
+   "unit": "",
+   "beds": 5,
+   "baths": 2,
+   "rent": 5500,
+   "basis": "unit",
+   "available": "May 1, 2027",
+   "status": "listed",
+   "url": "https://www.frontenacproperty.com/a-90-collingwood-street-inclusive-1100bed",
+   "title": "A-90 Collingwood Street - inclusive! ($1100/bed)",
+   "photos": [
+    "https://cms.frontenacproperty.com/assets/082d1350-0c09-4dc9-854f-88a07b14d3ef?key=width"
+   ],
+   "student": true
+  },
+  {
+   "key": "frontenac_pm|1283phillipsstreet700bed",
+   "address": "1-283 Phillips Street",
+   "unit": "",
+   "beds": 5,
+   "baths": 2,
+   "rent": 3500,
+   "basis": "unit",
+   "available": "May 1, 2027",
+   "status": "listed",
+   "url": "https://www.frontenacproperty.com/1-283-phillips-street-700bed",
+   "title": "1-283 Phillips Street ($700/bed)",
+   "photos": [
+    "https://cms.frontenacproperty.com/assets/5dafc36f-59fc-4052-ba67-005dc36c3885?key=width"
+   ],
+   "student": true
+  },
+  {
+   "key": "frontenac_pm|3325johnsonstreet1000bed",
+   "address": "3-325 Johnson Street",
+   "unit": "",
+   "beds": 4,
+   "baths": 1,
+   "rent": 4000,
+   "basis": "unit",
+   "available": "May 1, 2027",
+   "status": "listed",
+   "url": "https://www.frontenacproperty.com/3-325-johnson-street-1000bed",
+   "title": "3-325 Johnson Street ($1000/bed)",
+   "photos": [
+    "https://cms.frontenacproperty.com/assets/acd0c81c-7072-4cab-908d-5318e7b91e07?key=width"
+   ],
+   "student": true
+  },
+  {
+   "key": "frontenac_pm|4482johnsonstreet",
+   "address": "4-482 Johnson Street",
+   "unit": "",
+   "beds": 0,
+   "baths": 1,
+   "rent": 1200,
+   "basis": "unit",
+   "available": "May 1, 2027",
+   "status": "listed",
+   "url": "https://www.frontenacproperty.com/4-482-johnson-street",
+   "title": "4-482 Johnson Street",
+   "photos": [
+    "https://cms.frontenacproperty.com/assets/c245d8bf-2687-4398-89ab-cb992d94db86?key=width"
+   ],
+   "student": true
+  },
+  {
+   "key": "frontenac_pm|445albertstreet1100bed",
+   "address": "445 Albert Street",
+   "unit": "",
+   "beds": 5,
+   "baths": 2,
+   "rent": 5500,
+   "basis": "unit",
+   "available": "May 1, 2027",
+   "status": "listed",
+   "url": "https://www.frontenacproperty.com/445-albert-street-1100bed",
+   "title": "445 Albert Street ($1100/bed)",
+   "photos": [
+    "https://cms.frontenacproperty.com/assets/8e104955-74b1-41e3-8184-a08538eee267?key=width"
+   ],
+   "student": true
+  },
+  {
+   "key": "frontenac_pm|1238victoriastreet900bed",
+   "address": "1-238 Victoria Street",
+   "unit": "",
+   "beds": 3,
+   "baths": 1,
+   "rent": 2700,
+   "basis": "unit",
+   "available": "May 1, 2027",
+   "status": "listed",
+   "url": "https://www.frontenacproperty.com/1-238-victoria-street-900bed",
+   "title": "1-238 Victoria Street ($900/bed)",
+   "photos": [
+    "https://cms.frontenacproperty.com/assets/de4ffd7c-4147-4f19-9bcd-cf39fd581ce2?key=width"
+   ],
+   "student": true
+  },
+  {
+   "key": "frontenac_pm|204295queenstreet",
+   "address": "204-295 Queen Street",
+   "unit": "",
+   "beds": 2,
+   "baths": 1,
+   "rent": 2750,
+   "basis": "unit",
+   "available": "May 1, 2027",
+   "status": "listed",
+   "url": "https://www.frontenacproperty.com/204-295-queen-street",
+   "title": "204-295 Queen Street",
+   "photos": [
+    "https://cms.frontenacproperty.com/assets/803231f4-92a5-4af1-9e12-b8c853b8b101?key=width"
+   ],
+   "student": true
+  },
+  {
+   "key": "frontenac_pm|211johnsonstreetwaterelectricityincluded",
+   "address": "211 Johnson Street",
+   "unit": "",
+   "beds": 7,
+   "baths": 2,
+   "rent": 6300,
+   "basis": "unit",
+   "available": "May 1, 2027",
+   "status": "listed",
+   "url": "https://www.frontenacproperty.com/211-johnson-street-water-electricity-included",
+   "title": "211 Johnson Street - water & electricity included! ($900/bed)",
+   "photos": [
+    "https://cms.frontenacproperty.com/assets/32f3d6be-0261-44f3-8b1b-278d22585df4?key=width"
+   ],
+   "student": true
+  },
+  {
+   "key": "frontenac_pm|a261williamstreet",
+   "address": "A-261 William Street",
+   "unit": "",
+   "beds": 3,
+   "baths": 1,
+   "rent": 3600,
+   "basis": "unit",
+   "available": "May 1, 2027",
+   "status": "listed",
+   "url": "https://www.frontenacproperty.com/a-261-william-street",
+   "title": "A-261 William Street ($1200/bed)",
+   "photos": [
+    "https://cms.frontenacproperty.com/assets/3795e6a2-ce72-4949-98e7-2e2b35a68b32?key=width"
+   ],
+   "student": true
+  },
+  {
+   "key": "frontenac_pm|249divisionstreet",
+   "address": "249 Division Street",
+   "unit": "",
+   "beds": 5,
+   "baths": 2,
+   "rent": 4750,
+   "basis": "unit",
+   "available": "May 1, 2027",
+   "status": "listed",
+   "url": "https://www.frontenacproperty.com/249-division-street",
+   "title": "249 Division Street ($950/bed)",
+   "photos": [
+    "https://cms.frontenacproperty.com/assets/b3e1d4ce-031e-4dfa-94a0-11594a2a3863?key=width"
+   ],
+   "student": true
+  },
+  {
+   "key": "frontenac_pm|2465johnsonstreet",
+   "address": "2-465 Johnson Street",
+   "unit": "",
+   "beds": 2,
+   "baths": 1,
+   "rent": 2100,
+   "basis": "unit",
+   "available": "May 1, 2027",
+   "status": "listed",
+   "url": "https://www.frontenacproperty.com/2-465-johnson-street",
+   "title": "2-465 Johnson Street ($1050/bed)",
+   "photos": [
+    "https://cms.frontenacproperty.com/assets/f1b48a76-015a-4495-82bd-6c632e5382df?key=width"
+   ],
+   "student": true
+  },
+  {
+   "key": "frontenac_pm|2159queenstreet",
+   "address": "2-159 Queen Street",
+   "unit": "",
+   "beds": 2,
+   "baths": 1,
+   "rent": 1850,
+   "basis": "unit",
+   "available": "May 1, 2027",
+   "status": "listed",
+   "url": "https://www.frontenacproperty.com/2-159-queen-street",
+   "title": "2-159 Queen Street ($925/bed)",
+   "photos": [
+    "https://cms.frontenacproperty.com/assets/9815271a-5447-46e2-8e6f-77768c837874?key=width"
+   ],
+   "student": true
+  },
+  {
+   "key": "frontenac_pm|93lintonstreet6bed",
+   "address": "93 Linton Street",
+   "unit": "",
+   "beds": 6,
+   "baths": 2,
+   "rent": 4500,
+   "basis": "unit",
+   "available": "May 1, 2027",
+   "status": "listed",
+   "url": "https://www.frontenacproperty.com/93-linton-street-6-bed",
+   "title": "93 Linton Street ($750/bed)",
+   "photos": [
+    "https://cms.frontenacproperty.com/assets/db86850c-d66d-4e67-9b30-32024d33eb15?key=width"
+   ],
+   "student": true
+  },
+  {
+   "key": "frontenac_pm|5340johnsonstreetinclusive",
+   "address": "5-340 Johnson Street",
+   "unit": "",
+   "beds": 0,
+   "baths": 1,
+   "rent": 1395,
+   "basis": "unit",
+   "available": "May 1, 2027",
+   "status": "listed",
+   "url": "https://www.frontenacproperty.com/5-340-johnson-street-inclusive",
+   "title": "5-340 Johnson Street - inclusive!",
+   "photos": [
+    "https://cms.frontenacproperty.com/assets/5f3f59c7-bf28-4097-8b3f-5c98c7e9a449?key=width"
+   ],
+   "student": true
+  },
+  {
+   "key": "frontenac_pm|6325johnsonstreet",
+   "address": "6-325 Johnson Street",
+   "unit": "",
+   "beds": 3,
+   "baths": 1,
+   "rent": 2700,
+   "basis": "unit",
+   "available": "May 1, 2027",
+   "status": "listed",
+   "url": "https://www.frontenacproperty.com/6-325-johnson-street",
+   "title": "6-325 Johnson Street ($900/bed)",
+   "photos": [
+    "https://cms.frontenacproperty.com/assets/e560e258-dc8e-4384-95f0-ea4e583259c7?key=width"
+   ],
+   "student": true
+  },
+  {
+   "key": "frontenac_pm|360collingwoodstreet",
+   "address": "3-60 Collingwood Street",
+   "unit": "",
+   "beds": 3,
+   "baths": 1,
+   "rent": 2775,
+   "basis": "unit",
+   "available": "May 1, 2027",
+   "status": "listed",
+   "url": "https://www.frontenacproperty.com/3-60-collingwood-street",
+   "title": "3-60 Collingwood Street - heat & water included ($925/bed)",
+   "photos": [
+    "https://cms.frontenacproperty.com/assets/02d9c110-9f80-40c0-be7e-0beb3cc5004e?key=width"
+   ],
+   "student": true
+  },
+  {
+   "key": "frontenac_pm|448albertstreet",
+   "address": "448 Albert Street",
+   "unit": "",
+   "beds": 5,
+   "baths": 1.5,
+   "rent": 4975,
+   "basis": "unit",
+   "available": "May 1, 2027",
+   "status": "listed",
+   "url": "https://www.frontenacproperty.com/448-albert-street",
+   "title": "448 Albert Street ($995/bed)",
+   "photos": [
+    "https://cms.frontenacproperty.com/assets/5fbf30e0-ae12-433e-9091-9eeca5c00e3d?key=width"
+   ],
+   "student": true
+  },
+  {
+   "key": "frontenac_pm|a528victoriastreet",
+   "address": "A-528 Victoria Street",
+   "unit": "",
+   "beds": 4,
+   "baths": 2,
+   "rent": 3900,
+   "basis": "unit",
+   "available": "May 1, 2027",
+   "status": "listed",
+   "url": "https://www.frontenacproperty.com/a-528-victoria-street",
+   "title": "A-528 Victoria Street - heat included! ($975/bed)",
+   "photos": [
+    "https://cms.frontenacproperty.com/assets/c0948ab6-238d-4431-871d-1f176444fb92?key=width"
+   ],
+   "student": true
+  },
+  {
+   "key": "frontenac_pm|4234alfredstreet",
+   "address": "4-234 Alfred Street",
+   "unit": "",
+   "beds": 3,
+   "baths": 1,
+   "rent": 3300,
+   "basis": "unit",
+   "available": "May 1, 2027",
+   "status": "listed",
+   "url": "https://www.frontenacproperty.com/4-234-alfred-street",
+   "title": "4-234 Alfred Street - water included! ($1100/bed)",
+   "photos": [
+    "https://cms.frontenacproperty.com/assets/94d3dae7-f13a-4346-a701-89cd10ec071f?key=width"
+   ],
+   "student": true
+  },
+  {
+   "key": "frontenac_pm|460barriestreet",
+   "address": "460 Barrie Street",
+   "unit": "",
+   "beds": 4,
+   "baths": 1.5,
+   "rent": 3600,
+   "basis": "unit",
+   "available": "May 1, 2027",
+   "status": "listed",
+   "url": "https://www.frontenacproperty.com/460-barrie-street",
+   "title": "460 Barrie Street ($900/bed)",
+   "photos": [
+    "https://cms.frontenacproperty.com/assets/ab48b30b-84d2-41e5-96c4-4faac7c2168a?key=width"
+   ],
+   "student": true
+  },
+  {
+   "key": "frontenac_pm|1321johnsonstkingston",
+   "address": "1-321 Johnson Street",
+   "unit": "",
+   "beds": 7,
+   "baths": 2,
+   "rent": 8400,
+   "basis": "unit",
+   "available": "May 1, 2027",
+   "status": "listed",
+   "url": "https://www.frontenacproperty.com/1-321-johnson-st-kingston",
+   "title": "1-321 Johnson Street ($1200/bed)",
+   "photos": [
+    "https://cms.frontenacproperty.com/assets/81257795-7bad-4aaa-81cb-513cc54483ce?key=width"
+   ],
+   "student": true
+  },
+  {
+   "key": "frontenac_pm|1200alfredstkingston",
+   "address": "1-200 Alfred Street",
+   "unit": "",
+   "beds": 2,
+   "baths": 1,
+   "rent": 2300,
+   "basis": "unit",
+   "available": "May 1, 2027",
+   "status": "listed",
+   "url": "https://www.frontenacproperty.com/1-200-alfred-st-kingston",
+   "title": "1-200 Alfred Street ($1150/bed)",
+   "photos": [
+    "https://cms.frontenacproperty.com/assets/47091b37-79fe-45f7-97c6-0d6474d40db7?key=width"
+   ],
+   "student": true
+  },
+  {
+   "key": "frontenac_pm|2200alfredstkingston",
+   "address": "2-200 Alfred Street",
+   "unit": "",
+   "beds": 3,
+   "baths": 1,
+   "rent": 3150,
+   "basis": "unit",
+   "available": "May 1, 2027",
+   "status": "listed",
+   "url": "https://www.frontenacproperty.com/2-200-alfred-st-kingston",
+   "title": "2-200 Alfred Street ($1050/bed)",
+   "photos": [
+    "https://cms.frontenacproperty.com/assets/63dbcec0-f1ee-4e0b-acef-553b72404ca6?key=width"
+   ],
+   "student": true
+  },
+  {
+   "key": "frontenac_pm|4200alfredstkingston",
+   "address": "4-200 Alfred Street",
+   "unit": "",
+   "beds": 2,
+   "baths": 1,
+   "rent": 2300,
+   "basis": "unit",
+   "available": "May 1, 2027",
+   "status": "listed",
+   "url": "https://www.frontenacproperty.com/4-200-alfred-st-kingston",
+   "title": "4-200 Alfred Street ($1150/bed)",
+   "photos": [
+    "https://cms.frontenacproperty.com/assets/acff2d6b-e320-4c86-8e54-06c320788713?key=width"
+   ],
+   "student": true
+  },
+  {
+   "key": "frontenac_pm|a60montrealstkingston",
+   "address": "A-60 Montreal Street",
+   "unit": "",
+   "beds": 4,
+   "baths": 2,
+   "rent": 3700,
+   "basis": "unit",
+   "available": "May 1, 2027",
+   "status": "listed",
+   "url": "https://www.frontenacproperty.com/a-60-montreal-st-kingston",
+   "title": "A-60 Montreal Street - inclusive! ($925/bed)",
+   "photos": [
+    "https://cms.frontenacproperty.com/assets/04355d7f-0eb9-4048-a573-5ef7720f6511?key=width"
+   ],
+   "student": true
+  },
+  {
+   "key": "frontenac_pm|254williamstreet",
+   "address": "254 William Street",
+   "unit": "",
+   "beds": 7,
+   "baths": 3,
+   "rent": 8400,
+   "basis": "unit",
+   "available": "May 1, 2027",
+   "status": "listed",
+   "url": "https://www.frontenacproperty.com/254-william-street",
+   "title": "254 William Street ($1200/month)",
+   "photos": [
+    "https://cms.frontenacproperty.com/assets/c0c2e28f-22f8-4140-ae91-56f8c3aafd7d?key=width"
+   ],
+   "student": true
+  },
+  {
+   "key": "frontenac_pm|6234alfredstreetwaterincluded",
+   "address": "6-234 Alfred Street",
+   "unit": "",
+   "beds": 3,
+   "baths": 1,
+   "rent": 3300,
+   "basis": "unit",
+   "available": "May 1, 2027",
+   "status": "listed",
+   "url": "https://www.frontenacproperty.com/6-234-alfred-street-water-included",
+   "title": "6-234 Alfred Street - water included! ($1100/bed)",
+   "photos": [
+    "https://cms.frontenacproperty.com/assets/f5720708-03cc-4a73-8d2f-0a5091d79de3?key=width"
+   ],
+   "student": true
+  },
+  {
+   "key": "frontenac_pm|394barriestreet2",
+   "address": "394 Barrie Street",
+   "unit": "",
+   "beds": 5,
+   "baths": 2,
+   "rent": 4875,
+   "basis": "unit",
+   "available": "May 1, 2027",
+   "status": "listed",
+   "url": "https://www.frontenacproperty.com/394-barrie-street-2",
+   "title": "394 Barrie Street ($975/bed)",
+   "photos": [
+    "https://cms.frontenacproperty.com/assets/367f8d2d-ab21-4b0c-852d-c5f38e0db071?key=width"
+   ],
+   "student": true
+  },
+  {
+   "key": "frontenac_pm|153portsmouthavenue",
+   "address": "1-53 Portsmouth Avenue",
+   "unit": "",
+   "beds": 4,
+   "baths": 1,
+   "rent": 3000,
+   "basis": "unit",
+   "available": "May 1, 2027",
+   "status": "listed",
+   "url": "https://www.frontenacproperty.com/1-53-portsmouth-avenue",
+   "title": "1-53 Portsmouth Avenue ($750/bed)",
+   "photos": [
+    "https://cms.frontenacproperty.com/assets/7dda2e82-91ff-49bb-aab3-26a70fd89739?key=width"
+   ],
+   "student": true
+  },
+  {
+   "key": "frontenac_pm|3328queenstreet",
+   "address": "3-328 Queen Street",
+   "unit": "",
+   "beds": 6,
+   "baths": 2.5,
+   "rent": 5700,
+   "basis": "unit",
+   "available": "May 1, 2027",
+   "status": "listed",
+   "url": "https://www.frontenacproperty.com/3-328-queen-street",
+   "title": "3-328 Queen Street ($950/bed)",
+   "photos": [
+    "https://cms.frontenacproperty.com/assets/cdfdd656-9ac6-4a59-b213-a9fcd9b0263a?key=width"
+   ],
+   "student": true
+  },
+  {
+   "key": "frontenac_pm|198clergystreet",
+   "address": "1-98 Clergy Street",
+   "unit": "",
+   "beds": 1,
+   "baths": 1,
+   "rent": 1895,
+   "basis": "unit",
+   "available": "May 1, 2027",
+   "status": "listed",
+   "url": "https://www.frontenacproperty.com/1-98-clergy-street",
+   "title": "1-98 Clergy Street",
+   "photos": [
+    "https://cms.frontenacproperty.com/assets/965b6cdd-51c0-4dac-82f7-e93887e1265a?key=width"
+   ],
+   "student": true
+  },
+  {
+   "key": "frontenac_pm|140nelsonstreet",
+   "address": "140 Nelson Street",
+   "unit": "",
+   "beds": 6,
+   "baths": 1.5,
+   "rent": 6000,
+   "basis": "unit",
+   "available": "May 1, 2027",
+   "status": "listed",
+   "url": "https://www.frontenacproperty.com/140-nelson-street",
+   "title": "140 Nelson Street ($1000/bed)",
+   "photos": [
+    "https://cms.frontenacproperty.com/assets/242f5cee-dfe6-45da-9bbc-01f3d38e99dd?key=width"
+   ],
+   "student": true
+  },
+  {
+   "key": "frontenac_pm|103divisionstreetheatwaterincluded",
+   "address": "103 Division Street",
+   "unit": "",
+   "beds": 2,
+   "baths": 1,
+   "rent": 2300,
+   "basis": "unit",
+   "available": "May 1, 2027",
+   "status": "listed",
+   "url": "https://www.frontenacproperty.com/103-division-street-heat-water-included",
+   "title": "103 Division Street - heat & water included!",
+   "photos": [
+    "https://cms.frontenacproperty.com/assets/cbce4b8c-d4b8-4649-8e3a-8fc83a801989?key=width"
+   ],
+   "student": true
+  },
+  {
+   "key": "frontenac_pm|3260johnsonstreet",
+   "address": "3-260 Johnson Street",
+   "unit": "",
+   "beds": 3,
+   "baths": 1,
+   "rent": 3450,
+   "basis": "unit",
+   "available": "May 1, 2027",
+   "status": "listed",
+   "url": "https://www.frontenacproperty.com/3-260-johnson-street",
+   "title": "3-260 Johnson Street ($1150/bed)",
+   "photos": [
+    "https://cms.frontenacproperty.com/assets/181fd54d-356f-4345-a5d8-0704b65921ca?key=width"
+   ],
+   "student": true
+  },
+  {
+   "key": "frontenac_pm|1174kingstreeteast",
+   "address": "1-174 King Street East",
+   "unit": "",
+   "beds": 4,
+   "baths": 1,
+   "rent": 4800,
+   "basis": "unit",
+   "available": "May 1, 2027",
+   "status": "listed",
+   "url": "https://www.frontenacproperty.com/1-174-king-street-east",
+   "title": "1-174 King Street East ($1200/bed)",
+   "photos": [
+    "https://cms.frontenacproperty.com/assets/aa99f193-5a4a-49b5-afa8-8de07ebffa04?key=width"
+   ],
+   "student": true
+  },
+  {
+   "key": "frontenac_pm|b362johnsonstreet",
+   "address": "B-362 Johnson Street",
+   "unit": "",
+   "beds": 5,
+   "baths": 1.5,
+   "rent": 5000,
+   "basis": "unit",
+   "available": "May 1, 2027",
+   "status": "listed",
+   "url": "https://www.frontenacproperty.com/b-362-johnson-street",
+   "title": "B-362 Johnson Street ($1000/bed)",
+   "photos": [
+    "https://cms.frontenacproperty.com/assets/4375b742-1209-4c5b-8c63-587cf82d6bc3?key=width"
+   ],
+   "student": true
+  },
+  {
+   "key": "frontenac_pm|8lintonstreet",
+   "address": "8 Linton Street",
+   "unit": "",
+   "beds": 5,
+   "baths": 2,
+   "rent": 4375,
+   "basis": "unit",
+   "available": "May 1, 2027",
+   "status": "listed",
+   "url": "https://www.frontenacproperty.com/8-linton-street",
+   "title": "8 Linton Street ($875/bed)",
+   "photos": [
+    "https://cms.frontenacproperty.com/assets/1f9303b9-983e-4bf8-b57b-956937b96a6f?key=width"
+   ],
+   "student": true
+  },
+  {
+   "key": "frontenac_pm|2340johnsonstutilitiesandinternetincluded",
+   "address": "2-340 Johnson Street",
+   "unit": "",
+   "beds": 0,
+   "baths": 1,
+   "rent": 1500,
+   "basis": "unit",
+   "available": "May 1, 2027",
+   "status": "listed",
+   "url": "https://www.frontenacproperty.com/2-340-johnson-st-utilities-and-internet-included",
+   "title": "2-340 Johnson Street - inclusive!",
+   "photos": [
+    "https://cms.frontenacproperty.com/assets/cd13e652-9d32-4d92-820e-3cd97a06f609?key=width"
+   ],
+   "student": true
+  },
+  {
+   "key": "frontenac_pm|318garrettstreet",
+   "address": "3-18 Garrett Street",
+   "unit": "",
+   "beds": 2,
+   "baths": 1,
+   "rent": 2250,
+   "basis": "unit",
+   "available": "May 1, 2027",
+   "status": "listed",
+   "url": "https://www.frontenacproperty.com/3-18-garrett-street",
+   "title": "3-18 Garrett Street - heat & water included! ($1125/bed)",
+   "photos": [
+    "https://cms.frontenacproperty.com/assets/948529c9-cd8a-411f-a29d-613910a4125f?key=width"
+   ],
+   "student": true
+  },
+  {
+   "key": "frontenac_pm|918garrettstreet",
+   "address": "9-18 Garrett Street",
+   "unit": "",
+   "beds": 2,
+   "baths": 1,
+   "rent": 2250,
+   "basis": "unit",
+   "available": "May 1, 2027",
+   "status": "listed",
+   "url": "https://www.frontenacproperty.com/9-18-garrett-street",
+   "title": "9-18 Garrett Street - heat & water included! ($1125/bed)",
+   "photos": [
+    "https://cms.frontenacproperty.com/assets/75d26ed5-8ca8-4acb-83f6-786efb35bce2?key=width"
+   ],
+   "student": true
+  },
+  {
+   "key": "frontenac_pm|58helenstreet",
+   "address": "58 Helen Street",
+   "unit": "",
+   "beds": 4,
+   "baths": 3,
+   "rent": 4000,
+   "basis": "unit",
+   "available": "Aug 1, 2027",
+   "status": "listed",
+   "url": "https://www.frontenacproperty.com/58-helen-street",
+   "title": "58 Helen Street ($1000/bed)",
+   "photos": [
+    "https://cms.frontenacproperty.com/assets/8ae05475-1042-44c7-b892-6d50a0a8ce6d?key=width"
+   ],
+   "student": true
+  },
+  {
+   "key": "frontenac_pm|1200williamstinclusive",
+   "address": "1-200 William Street",
+   "unit": "",
+   "beds": 2,
+   "baths": 1,
+   "rent": 2100,
+   "basis": "unit",
+   "available": "Sep 1, 2027",
+   "status": "listed",
+   "url": "https://www.frontenacproperty.com/1-200-william-st-inclusive",
+   "title": "1-200 William Street - inclusive! ($1050/bed)",
+   "photos": [
+    "https://cms.frontenacproperty.com/assets/69904cdf-41d9-4d38-ad74-511ad66ee133?key=width"
+   ],
+   "student": true
+  },
+  {
+   "key": "frontenac_pm|156macdonnellstreet1100bed",
+   "address": "156 MacDonnell Street",
+   "unit": "",
+   "beds": 5,
+   "baths": 2,
+   "rent": 5500,
+   "basis": "unit",
+   "available": "Pending",
+   "status": "listed",
+   "url": "https://www.frontenacproperty.com/156-macdonnell-street-1100bed",
+   "title": "156 MacDonnell Street ($1100/bed)",
+   "photos": [
+    "https://cms.frontenacproperty.com/assets/207e5c06-c91d-4d27-9070-a97718c13ae2?key=width"
+   ],
+   "student": true
+  },
+  {
+   "key": "frontenac_pm|196collingwoodstreet1000bed",
+   "address": "196 Collingwood Street",
+   "unit": "",
+   "beds": 5,
+   "baths": 1,
+   "rent": 5475,
+   "basis": "unit",
+   "available": "Pending",
+   "status": "listed",
+   "url": "https://www.frontenacproperty.com/196-collingwood-street-1000bed",
+   "title": "196 Collingwood Street ($1095/bed)",
+   "photos": [
+    "https://cms.frontenacproperty.com/assets/6c281fec-631d-4a81-85cc-e4264ade30a9?key=width"
+   ],
+   "student": true
+  },
+  {
+   "key": "frontenac_pm|429johnsonstreet",
+   "address": "429 Johnson Street",
+   "unit": "",
+   "beds": 4,
+   "baths": 1,
+   "rent": 4800,
+   "basis": "unit",
+   "available": "Pending",
+   "status": "listed",
+   "url": "https://www.frontenacproperty.com/429-johnson-street",
+   "title": "429 Johnson Street ($1200/bed)",
+   "photos": [
+    "https://cms.frontenacproperty.com/assets/3c7b991a-4226-42a2-b059-62d5806f0d82?key=width"
+   ],
+   "student": true
+  },
+  {
+   "key": "frontenac_pm|199helenstreet875bed",
+   "address": "199 Helen Street",
+   "unit": "",
+   "beds": 5,
+   "baths": 2,
+   "rent": 4375,
+   "basis": "unit",
+   "available": "Pending",
+   "status": "listed",
+   "url": "https://www.frontenacproperty.com/199-helen-street-875bed",
+   "title": "199 Helen Street ($875/bed)",
+   "photos": [
+    "https://cms.frontenacproperty.com/assets/945e7ea0-116b-438f-9e95-215b245cf51f?key=width"
+   ],
+   "student": true
+  },
+  {
+   "key": "frontenac_pm|2176kingstreeteast",
+   "address": "2-176 King Street East",
+   "unit": "",
+   "beds": 3,
+   "baths": 1,
+   "rent": 3300,
+   "basis": "unit",
+   "available": "Pending",
+   "status": "listed",
+   "url": "https://www.frontenacproperty.com/2-176-king-street-east",
+   "title": "2-176 King Street East - heat & water included! ($1100/bed)",
+   "photos": [
+    "https://cms.frontenacproperty.com/assets/62a25209-3762-407b-91ab-72a852a84d98?key=width"
+   ],
+   "student": true
+  },
+  {
+   "key": "frontenac_pm|2181clergystreet",
+   "address": "2-181 Clergy Street East",
+   "unit": "",
+   "beds": 2,
+   "baths": 1,
+   "rent": 2450,
+   "basis": "unit",
+   "available": "Pending",
+   "status": "listed",
+   "url": "https://www.frontenacproperty.com/2-181-clergy-street",
+   "title": "2-181 Clergy Street East - heat included! ($1225/bed)",
+   "photos": [
+    "https://cms.frontenacproperty.com/assets/81527498-fbad-4de5-8c19-c17b87b58e9a?key=width"
+   ],
+   "student": true
+  },
+  {
+   "key": "frontenac_pm|104torontostreet",
+   "address": "104 Toronto Street",
+   "unit": "",
+   "beds": 5,
+   "baths": 2,
+   "rent": 5000,
+   "basis": "unit",
+   "available": "Pending",
+   "status": "listed",
+   "url": "https://www.frontenacproperty.com/104-toronto-street",
+   "title": "104 Toronto Street ($1000/bed)",
+   "photos": [
+    "https://cms.frontenacproperty.com/assets/1ae3b7dd-5f80-48ae-85ba-e771927f85a0?key=width"
+   ],
+   "student": true
+  },
+  {
+   "key": "frontenac_pm|3044450taylorkiddblvd",
+   "address": "304-4450 Taylor Kidd Boulevard",
+   "unit": "",
+   "beds": 2,
+   "baths": 1,
+   "rent": 2195,
+   "basis": "unit",
+   "available": "Avail. now",
+   "status": "listed",
+   "url": "https://www.frontenacproperty.com/304-4450-taylor-kidd-blvd",
+   "title": "304-4450 Taylor Kidd Boulevard",
+   "photos": [
+    "https://cms.frontenacproperty.com/assets/9b172604-2b63-41cf-95f7-8171e34888c8?key=width"
+   ]
+  },
+  {
+   "key": "frontenac_pm|2044450taylorkiddblvd",
+   "address": "204-4450 Taylor Kidd Boulevard",
+   "unit": "",
+   "beds": 2,
+   "baths": 1,
+   "rent": 2195,
+   "basis": "unit",
+   "available": "Avail. now",
+   "status": "listed",
+   "url": "https://www.frontenacproperty.com/204-4450-taylor-kidd-blvd",
+   "title": "204-4450 Taylor Kidd Boulevard",
+   "photos": [
+    "https://cms.frontenacproperty.com/assets/00c0632c-c3b8-4f77-83d0-b72fe48fb67f?key=width"
+   ]
+  },
+  {
+   "key": "frontenac_pm|3237mowatavenue",
+   "address": "3-237 Mowat Avenue",
+   "unit": "",
+   "beds": 2,
+   "baths": 1.5,
+   "rent": 2295,
+   "basis": "unit",
+   "available": "Avail. now",
+   "status": "listed",
+   "url": "https://www.frontenacproperty.com/3-237-mowat-avenue",
+   "title": "3-237 Mowat Avenue - inclusive!",
+   "photos": [
+    "https://cms.frontenacproperty.com/assets/33fec433-4cf8-4e70-ad2b-004b88c25f31?key=width"
+   ],
+   "student": true
+  },
+  {
+   "key": "frontenac_pm|10159wellingtonstreetwaterincluded",
+   "address": "10-159 Wellington Street",
+   "unit": "",
+   "beds": 1,
+   "baths": 1,
+   "rent": 1975,
+   "basis": "unit",
+   "available": "Avail. now",
+   "status": "listed",
+   "url": "https://www.frontenacproperty.com/10-159-wellington-street-water-included",
+   "title": "10-159 Wellington Street - heat & water included!",
+   "photos": [
+    "https://cms.frontenacproperty.com/assets/dca33ae6-848f-4429-a5e7-94f49b6783b3?key=width"
+   ],
+   "student": true
+  },
+  {
+   "key": "frontenac_pm|b3060creekfordroad",
+   "address": "B-3060 Creekford Road",
+   "unit": "",
+   "beds": 2,
+   "baths": 1,
+   "rent": 2000,
+   "basis": "unit",
+   "available": "Avail. now",
+   "status": "listed",
+   "url": "https://www.frontenacproperty.com/b-3060-creekford-road",
+   "title": "B-3060 Creekford Road",
+   "photos": [
+    "https://cms.frontenacproperty.com/assets/e807969c-39d5-455a-a8e6-d56901e76a32?key=width"
+   ]
+  },
+  {
+   "key": "frontenac_pm|4276helenstreet",
+   "address": "4-276 Helen Street",
+   "unit": "",
+   "beds": 2,
+   "baths": 1,
+   "rent": 2350,
+   "basis": "unit",
+   "available": "Avail. now",
+   "status": "listed",
+   "url": "https://www.frontenacproperty.com/4-276-helen-street",
+   "title": "4-276 Helen Street",
+   "photos": [
+    "https://cms.frontenacproperty.com/assets/cb89f886-74a9-4141-b434-61801779b07a?key=width"
+   ],
+   "student": true
+  },
+  {
+   "key": "frontenac_pm|300montrealstreetwaterincluded",
+   "address": "300 Montreal Street",
+   "unit": "",
+   "beds": 2,
+   "baths": 1,
+   "rent": 2100,
+   "basis": "unit",
+   "available": "Avail. now",
+   "status": "listed",
+   "url": "https://www.frontenacproperty.com/300-montreal-street-water-included",
+   "title": "300 Montreal Street - water included!",
+   "photos": [
+    "https://cms.frontenacproperty.com/assets/1e7bf4cd-20d8-4dbb-b21b-af9fb1ab38e5?key=width"
+   ]
+  },
+  {
+   "key": "frontenac_pm|2250glengarryroadinclusive",
+   "address": "2-250 Glengarry Road",
+   "unit": "",
+   "beds": 2,
+   "baths": 2,
+   "rent": 2100,
+   "basis": "unit",
+   "available": "Avail. now",
+   "status": "listed",
+   "url": "https://www.frontenacproperty.com/2-250-glengarry-road-inclusive",
+   "title": "2-250 Glengarry Road - inclusive!",
+   "photos": [
+    "https://cms.frontenacproperty.com/assets/0272099c-28d5-4260-99eb-b0f01dc30fca?key=width"
+   ]
+  },
+  {
+   "key": "frontenac_pm|1021000kingstreetwestwaterincluded",
+   "address": "102-1000 King Street West",
+   "unit": "",
+   "beds": 2,
+   "baths": 2,
+   "rent": 2975,
+   "basis": "unit",
+   "available": "Avail. now",
+   "status": "listed",
+   "url": "https://www.frontenacproperty.com/102-1000-king-street-west-water-included",
+   "title": "102-1000 King Street West - water included!",
+   "photos": [
+    "https://cms.frontenacproperty.com/assets/4e910b09-b664-43d6-ab00-429e2c8e2b36?key=width"
+   ]
+  },
+  {
+   "key": "frontenac_pm|1159wellingtonstreet",
+   "address": "1-159 Wellington Street",
+   "unit": "",
+   "beds": 1,
+   "baths": 1,
+   "rent": 1940,
+   "basis": "unit",
+   "available": "Avail. now",
+   "status": "listed",
+   "url": "https://www.frontenacproperty.com/1-159-wellington-street",
+   "title": "1-159 Wellington Street - heat & water included!",
+   "photos": [
+    "https://cms.frontenacproperty.com/assets/39776c90-12bb-46f7-8aa5-bd9df3bdd19e?key=width"
+   ],
+   "student": true
+  },
+  {
+   "key": "frontenac_pm|31lowryplaceamherstview",
+   "address": "31 Lowry Place, Amherstview",
+   "unit": "",
+   "beds": 2,
+   "baths": 1,
+   "rent": 2000,
+   "basis": "unit",
+   "available": "Avail. now",
+   "status": "listed",
+   "url": "https://www.frontenacproperty.com/31-lowry-place-amherstview",
+   "title": "31 Lowry Place, Amherstview",
+   "photos": [
+    "https://cms.frontenacproperty.com/assets/a214fdd9-aafd-40be-b361-2919ab56489e?key=width"
+   ]
+  },
+  {
+   "key": "frontenac_pm|32oldwiltonroadwaterincluded",
+   "address": "3-2 Old Wilton Road",
+   "unit": "",
+   "beds": 2,
+   "baths": 1,
+   "rent": 1500,
+   "basis": "unit",
+   "available": "Avail. now",
+   "status": "listed",
+   "url": "https://www.frontenacproperty.com/3-2-old-wilton-road-water-included",
+   "title": "3-2 Old Wilton Road - water included!",
+   "photos": [
+    "https://cms.frontenacproperty.com/assets/ec138594-455a-4a69-a4f0-121dd650845b?key=width"
+   ]
+  },
+  {
+   "key": "frontenac_pm|408358queenmaryroad",
+   "address": "408-358 Queen Mary Road",
+   "unit": "",
+   "beds": 2,
+   "baths": 1,
+   "rent": 1895,
+   "basis": "unit",
+   "available": "Avail. now",
+   "status": "listed",
+   "url": "https://www.frontenacproperty.com/408-358-queen-mary-road",
+   "title": "408-358 Queen Mary Road - water included!",
+   "photos": [
+    "https://cms.frontenacproperty.com/assets/03d5846c-8efc-4ae8-b452-11696ff111b5?key=width"
+   ]
+  },
+  {
+   "key": "frontenac_pm|414652princessstreetheatwaterincluded",
+   "address": "414-652 Princess Street",
+   "unit": "",
+   "beds": 1,
+   "baths": 1,
+   "rent": 1950,
+   "basis": "unit",
+   "available": "Avail. now",
+   "status": "listed",
+   "url": "https://www.frontenacproperty.com/414-652-princess-street-heat-water-included",
+   "title": "414-652 Princess Street - heat & water included!",
+   "photos": [
+    "https://cms.frontenacproperty.com/assets/4a24ea7a-d1fb-4025-b5f6-76948cbb4dd1?key=width"
+   ],
+   "student": true
+  },
+  {
+   "key": "frontenac_pm|2593johnsonstreet",
+   "address": "2-593 Johnson Street",
+   "unit": "",
+   "beds": 2,
+   "baths": 1,
+   "rent": 1675,
+   "basis": "unit",
+   "available": "Avail. now",
+   "status": "listed",
+   "url": "https://www.frontenacproperty.com/2-593-johnson-street",
+   "title": "2-593 Johnson Street",
+   "photos": [
+    "https://cms.frontenacproperty.com/assets/466920ca-5629-402b-badf-0a1916187fc7?key=width"
+   ],
+   "student": true
+  },
+  {
+   "key": "frontenac_pm|2251macdonnellstreetwaterincluded",
+   "address": "2-251 MacDonnell Street",
+   "unit": "",
+   "beds": 2,
+   "baths": 1,
+   "rent": 1595,
+   "basis": "unit",
+   "available": "Avail. now",
+   "status": "listed",
+   "url": "https://www.frontenacproperty.com/2-251-macdonnell-street-water-included",
+   "title": "2-251 MacDonnell Street - water included!",
+   "photos": [
+    "https://cms.frontenacproperty.com/assets/532d40e6-a02d-45a7-bc73-463faed23c4b?key=width"
+   ],
+   "student": true
+  },
+  {
+   "key": "frontenac_pm|21078rosannadrive",
+   "address": "2-1078 Rosanna Avenue",
+   "unit": "",
+   "beds": 2,
+   "baths": 1,
+   "rent": 1875,
+   "basis": "unit",
+   "available": "Avail. now",
+   "status": "listed",
+   "url": "https://www.frontenacproperty.com/2-1078-rosanna-drive",
+   "title": "2-1078 Rosanna Avenue",
+   "photos": [
+    "https://cms.frontenacproperty.com/assets/560acfc8-63dc-4ab9-a43a-7751668585c8?key=width"
+   ]
+  },
+  {
+   "key": "frontenac_pm|2215sydenhamstreetwaterincluded",
+   "address": "2-215 Sydenham Street",
+   "unit": "",
+   "beds": 1,
+   "baths": 1,
+   "rent": 1745,
+   "basis": "unit",
+   "available": "Avail. now",
+   "status": "listed",
+   "url": "https://www.frontenacproperty.com/2-215-sydenham-street-water-included",
+   "title": "2-215 Sydenham Street - water included!",
+   "photos": [
+    "https://cms.frontenacproperty.com/assets/c8640fdc-2a86-4f7e-9f9c-80c453f61599?key=width"
+   ]
+  },
+  {
+   "key": "frontenac_pm|2720victoriastreetwaterincluded",
+   "address": "2-720 Victoria Street",
+   "unit": "",
+   "beds": 2,
+   "baths": 1,
+   "rent": 1750,
+   "basis": "unit",
+   "available": "Avail. now",
+   "status": "listed",
+   "url": "https://www.frontenacproperty.com/2-720-victoria-street-water-included",
+   "title": "2-720 Victoria Street - water included!",
+   "photos": [
+    "https://cms.frontenacproperty.com/assets/2c8be26f-b858-4ca0-8c33-1e007312e52e?key=width"
+   ]
+  },
+  {
+   "key": "frontenac_pm|286nelsonstreetheatincluded",
+   "address": "2-86 Nelson Street",
+   "unit": "",
+   "beds": 1,
+   "baths": 1,
+   "rent": 1350,
+   "basis": "unit",
+   "available": "Avail. now",
+   "status": "listed",
+   "url": "https://www.frontenacproperty.com/2-86-nelson-street-heat-included",
+   "title": "2-86 Nelson Street - heat included!",
+   "photos": [
+    "https://cms.frontenacproperty.com/assets/089463f2-55de-4bf2-9cd8-989250e288e9?key=width"
+   ],
+   "student": true
+  },
+  {
+   "key": "frontenac_pm|201632divisionstreet",
+   "address": "201-632 Division Street",
+   "unit": "",
+   "beds": 2,
+   "baths": 2,
+   "rent": 2750,
+   "basis": "unit",
+   "available": "Avail. now",
+   "status": "listed",
+   "url": "https://www.frontenacproperty.com/201-632-division-street",
+   "title": "201-632 Division Street - inclusive!",
+   "photos": [
+    "https://cms.frontenacproperty.com/assets/f90bcc12-9464-4095-af51-fbd357fc12b1?key=width"
+   ],
+   "student": true
+  },
+  {
+   "key": "frontenac_pm|a4121queenstreetwaterincluded",
+   "address": "A4-121 Queen Street",
+   "unit": "",
+   "beds": 1,
+   "baths": 1,
+   "rent": 1995,
+   "basis": "unit",
+   "available": "Avail. now",
+   "status": "listed",
+   "url": "https://www.frontenacproperty.com/a4-121-queen-street-water-included",
+   "title": "A4-121 Queen Street - heat & water included!",
+   "photos": [
+    "https://cms.frontenacproperty.com/assets/302cda2f-bf50-44e5-8c67-105caa694a48?key=width"
+   ]
+  },
+  {
+   "key": "frontenac_pm|137churchillstreet",
+   "address": "1-37 Churchill Street",
+   "unit": "",
+   "beds": 3,
+   "baths": 1,
+   "rent": 2250,
+   "basis": "unit",
+   "available": "Avail. now",
+   "status": "listed",
+   "url": "https://www.frontenacproperty.com/1-37-churchill-street-",
+   "title": "1-37 Churchill Street",
+   "photos": [
+    "https://cms.frontenacproperty.com/assets/b5fc6b5f-89e6-43c0-ad94-333e5b412e3f?key=width"
+   ],
+   "student": true
+  },
+  {
+   "key": "frontenac_pm|1328palaceroadheatincluded",
+   "address": "1-328 Palace Road",
+   "unit": "",
+   "beds": 3,
+   "baths": 1,
+   "rent": 2445,
+   "basis": "unit",
+   "available": "Avail. now",
+   "status": "listed",
+   "url": "https://www.frontenacproperty.com/1-328-palace-road-heat-included",
+   "title": "1-328 Palace Road - heat included!",
+   "photos": [
+    "https://cms.frontenacproperty.com/assets/beb9dbab-b58a-485c-8c44-cc805bda6d9c?key=width"
+   ],
+   "student": true
+  },
+  {
+   "key": "frontenac_pm|73alwingtonavenueinclusive",
+   "address": "73 Alwington Avenue",
+   "unit": "",
+   "beds": 1,
+   "baths": 1,
+   "rent": 2495,
+   "basis": "unit",
+   "available": "Avail. now",
+   "status": "listed",
+   "url": "https://www.frontenacproperty.com/73-alwington-avenue-inclusive",
+   "title": "73 Alwington Avenue - inclusive!",
+   "photos": [
+    "https://cms.frontenacproperty.com/assets/dfa6f8e0-88af-47cb-8720-aefdcf3147c0?key=width"
+   ],
+   "student": true
+  },
+  {
+   "key": "frontenac_pm|2654barnsleycrescentinclusive",
+   "address": "2-654 Barnsley Crescent",
+   "unit": "",
+   "beds": 1,
+   "baths": 1,
+   "rent": 1600,
+   "basis": "unit",
+   "available": "Nov 15, 2026",
+   "status": "listed",
+   "url": "https://www.frontenacproperty.com/2-654-barnsley-crescent-inclusive",
+   "title": "2-654 Barnsley Crescent - inclusive!",
+   "photos": [
+    "https://cms.frontenacproperty.com/assets/172eb9a1-ae4d-4f4c-8c91-f8b4bf44fb28?key=width"
+   ]
+  },
+  {
+   "key": "frontenac_pm|6200parkstreet",
+   "address": "6-200 Park Street",
+   "unit": "",
+   "beds": 2,
+   "baths": 1,
+   "rent": 1795,
+   "basis": "unit",
+   "available": "Nov 15, 2026",
+   "status": "listed",
+   "url": "https://www.frontenacproperty.com/6-200-park-street",
+   "title": "6-200 Park Street - heat & water included!",
+   "photos": [
+    "https://cms.frontenacproperty.com/assets/3cf71ea2-6375-406a-9251-1a70014d9896?key=width"
+   ]
+  },
+  {
+   "key": "frontenac_pm|2503rooseveltdriveinclusive",
+   "address": "2-503 Roosevelt Drive",
+   "unit": "",
+   "beds": 1,
+   "baths": 1,
+   "rent": 1600,
+   "basis": "unit",
+   "available": "Dec 1, 2026",
+   "status": "listed",
+   "url": "https://www.frontenacproperty.com/2-503-roosevelt-drive-inclusive",
+   "title": "2-503 Roosevelt Drive - inclusive!",
+   "photos": [
+    "https://cms.frontenacproperty.com/assets/efa5be48-8989-4514-8625-13967f3c85c3?key=width"
+   ]
+  },
+  {
+   "key": "frontenac_pm|1112princessstreetwaterincluded",
+   "address": "1-112 Princess Street",
+   "unit": "",
+   "beds": 2,
+   "baths": 1,
+   "rent": 2495,
+   "basis": "unit",
+   "available": "Dec 1, 2026",
+   "status": "listed",
+   "url": "https://www.frontenacproperty.com/1-112-princess-street-water-included",
+   "title": "1-112 Princess Street - water included!",
+   "photos": [
+    "https://cms.frontenacproperty.com/assets/190321c0-a017-404a-a6f9-f9822d533770?key=width"
+   ],
+   "student": true
+  },
+  {
+   "key": "frontenac_pm|3133lakeviewavenueheatwaterincluded",
+   "address": "3-133 Lakeview Avenue",
+   "unit": "",
+   "beds": 3,
+   "baths": 1,
+   "rent": 1995,
+   "basis": "unit",
+   "available": "Dec 1, 2026",
+   "status": "listed",
+   "url": "https://www.frontenacproperty.com/3-133-lakeview-avenue-heat-water-included",
+   "title": "3-133 Lakeview Avenue - heat & water included!",
+   "photos": [
+    "https://cms.frontenacproperty.com/assets/569d4e72-28a8-4538-91e3-3c00ac0475e8?key=width"
+   ]
+  },
+  {
+   "key": "frontenac_pm|4354yongestreet",
+   "address": "4-354 Yonge Street",
+   "unit": "",
+   "beds": 1,
+   "baths": 1,
+   "rent": 1450,
+   "basis": "unit",
+   "available": "Dec 1, 2026",
+   "status": "listed",
+   "url": "https://www.frontenacproperty.com/4-354-yonge-street",
+   "title": "4-354 Yonge Street - heat & water included!",
+   "photos": [
+    "https://cms.frontenacproperty.com/assets/c7bbad7c-7ff8-4d51-a1d0-3230ea54c8c9?key=width"
+   ],
+   "student": true
+  },
+  {
+   "key": "frontenac_pm|4251macdonnellstreetwaterincluded",
+   "address": "4-251 MacDonnell Street",
+   "unit": "",
+   "beds": 2,
+   "baths": 1,
+   "rent": 1750,
+   "basis": "unit",
+   "available": "Dec 1, 2026",
+   "status": "listed",
+   "url": "https://www.frontenacproperty.com/4-251-macdonnell-street-water-included",
+   "title": "4-251 MacDonnell Street - water included!",
+   "photos": [
+    "https://cms.frontenacproperty.com/assets/86202380-3442-4854-bdc5-2da9b617a6bb?key=width"
+   ],
+   "student": true
+  },
+  {
+   "key": "frontenac_pm|4237mowatavenuewaterheatincluded",
+   "address": "4-237 Mowat Avenue",
+   "unit": "",
+   "beds": 1,
+   "baths": 1,
+   "rent": 1850,
+   "basis": "unit",
+   "available": "Dec 1, 2026",
+   "status": "listed",
+   "url": "https://www.frontenacproperty.com/4-237-mowat-avenue-water-heat-included",
+   "title": "4-237 Mowat Avenue - water & heat included!",
+   "photos": [
+    "https://cms.frontenacproperty.com/assets/f4418703-4542-4406-a2e9-3f7f408ac333?key=width"
+   ],
+   "student": true
+  },
+  {
+   "key": "frontenac_pm|2239kingscourtavenueinclusive",
+   "address": "2-239 Kingscourt Avenue",
+   "unit": "",
+   "beds": 1,
+   "baths": 1,
+   "rent": 1700,
+   "basis": "unit",
+   "available": "Jan 1, 2027",
+   "status": "listed",
+   "url": "https://www.frontenacproperty.com/2-239-kingscourt-avenue-inclusive",
+   "title": "2-239 Kingscourt Avenue - inclusive!",
+   "photos": [
+    "https://cms.frontenacproperty.com/assets/75d06000-9659-47c5-a52b-ab6d18a49f95?key=width"
+   ]
+  },
+  {
+   "key": "frontenac_pm|303125brockwaterincluded",
+   "address": "303-125 Brock",
+   "unit": "",
+   "beds": 2,
+   "baths": 1,
+   "rent": 2100,
+   "basis": "unit",
+   "available": "Jan 1, 2027",
+   "status": "listed",
+   "url": "https://www.frontenacproperty.com/303-125-brock-water-included",
+   "title": "303-125 Brock - water included!",
+   "photos": [
+    "https://cms.frontenacproperty.com/assets/2441fc30-3f52-4efd-9dfa-a4a555ef256c?key=width"
+   ],
+   "student": true
+  },
+  {
+   "key": "frontenac_pm|203125brockstreetwaterincluded",
+   "address": "203-125 Brock Street",
+   "unit": "",
+   "beds": 3,
+   "baths": 2,
+   "rent": 2750,
+   "basis": "unit",
+   "available": "Jan 1, 2027",
+   "status": "listed",
+   "url": "https://www.frontenacproperty.com/203-125-brock-street-water-included",
+   "title": "203-125 Brock Street - water included!",
+   "photos": [
+    "https://cms.frontenacproperty.com/assets/ebb0d558-7a64-4eee-9f4a-095117f30837?key=width"
+   ],
+   "student": true
+  },
+  {
+   "key": "frontenac_pm|3024450taylorkiddblvd",
+   "address": "302-4450 Taylor Kidd Boulevard",
+   "unit": "",
+   "beds": 2,
+   "baths": 1,
+   "rent": null,
+   "basis": "unit",
+   "available": "",
+   "status": "rented",
+   "url": "https://www.frontenacproperty.com/302-4450-taylor-kidd-blvd",
+   "title": "302-4450 Taylor Kidd Boulevard",
+   "photos": [
+    "https://cms.frontenacproperty.com/assets/feabdf94-855f-4254-b2b5-7c39838fd37c?key=width"
+   ]
+  },
+  {
+   "key": "frontenac_pm|35lowryamherstview",
+   "address": "35 Lowry Place, Amherstview",
+   "unit": "",
+   "beds": 2,
+   "baths": 1,
+   "rent": null,
+   "basis": "unit",
+   "available": "",
+   "status": "rented",
+   "url": "https://www.frontenacproperty.com/35-lowry-amherstview",
+   "title": "35 Lowry Place, Amherstview",
+   "photos": [
+    "https://cms.frontenacproperty.com/assets/529a1140-bc6c-4b8c-88e9-39b123c300c2?key=width"
+   ]
+  },
+  {
+   "key": "frontenac_pm|12677victoriastreet",
+   "address": "12-677 Victoria Street",
+   "unit": "",
+   "beds": 2,
+   "baths": 1,
+   "rent": null,
+   "basis": "unit",
+   "available": "",
+   "status": "rented",
+   "url": "https://www.frontenacproperty.com/12-677-victoria-street",
+   "title": "12-677 Victoria Street - heat & water included!",
+   "photos": [
+    "https://cms.frontenacproperty.com/assets/c9144ba5-fd66-4433-96fe-ea0f90ba474c?key=width"
+   ]
+  },
+  {
+   "key": "frontenac_pm|218emanitoucrescenteastamherstview",
+   "address": "2-18E Manitou Crescent East, Amherstview",
+   "unit": "",
+   "beds": 2,
+   "baths": 1,
+   "rent": null,
+   "basis": "unit",
+   "available": "",
+   "status": "rented",
+   "url": "https://www.frontenacproperty.com/2-18e-manitou-crescent-east-amherstview",
+   "title": "2-18E Manitou Crescent East, Amherstview",
+   "photos": [
+    "https://cms.frontenacproperty.com/assets/a4855403-2690-4a1b-a1f8-87a65038c4ef?key=width"
+   ]
+  },
+  {
+   "key": "frontenac_pm|212parkcrescentamherstview",
+   "address": "2-12 Park Crescent, Amherstview",
+   "unit": "",
+   "beds": 2,
+   "baths": 1,
+   "rent": null,
+   "basis": "unit",
+   "available": "",
+   "status": "rented",
+   "url": "https://www.frontenacproperty.com/2-12-park-crescent-amherstview",
+   "title": "2-12 Park Crescent, Amherstview",
+   "photos": [
+    "https://cms.frontenacproperty.com/assets/43cd88aa-3fc9-47bd-92fe-bc20b22b3ba3?key=width"
+   ]
+  },
+  {
+   "key": "frontenac_pm|2064450taylorkiddblvd",
+   "address": "206-4450 Taylor Kidd Boulevard",
+   "unit": "",
+   "beds": 2,
+   "baths": 1,
+   "rent": null,
+   "basis": "unit",
+   "available": "",
+   "status": "rented",
+   "url": "https://www.frontenacproperty.com/206-4450-taylor-kidd-blvd",
+   "title": "206-4450 Taylor Kidd Boulevard",
+   "photos": [
+    "https://cms.frontenacproperty.com/assets/5af6cb0f-09a9-4040-ad41-30be8b794af0?key=width"
+   ]
+  },
+  {
+   "key": "frontenac_pm|3034450taylorkiddboulevard",
+   "address": "303-4450 Taylor Kidd Boulevard",
+   "unit": "",
+   "beds": 2,
+   "baths": 1,
+   "rent": null,
+   "basis": "unit",
+   "available": "",
+   "status": "rented",
+   "url": "https://www.frontenacproperty.com/303-4450-taylor-kidd-boulevard",
+   "title": "303-4450 Taylor Kidd Boulevard",
+   "photos": [
+    "https://cms.frontenacproperty.com/assets/6b0fafae-ea8d-4534-8ead-4e249c8aeef7?key=width"
+   ]
+  },
+  {
+   "key": "frontenac_pm|4133lakeviewavenue",
+   "address": "4-133 Lakeview Avenue",
+   "unit": "",
+   "beds": 0,
+   "baths": 1,
+   "rent": null,
+   "basis": "unit",
+   "available": "",
+   "status": "rented",
+   "url": "https://www.frontenacproperty.com/4-133-lakeview-avenue",
+   "title": "4-133 Lakeview Avenue - water included!",
+   "photos": [
+    "https://cms.frontenacproperty.com/assets/3c1a6634-7fa2-4eba-b74e-b543dfb10c09?key=width"
+   ]
+  },
+  {
+   "key": "frontenac_pm|2094450taylorkiddblvd",
+   "address": "209-4450 Taylor Kidd Boulevard",
+   "unit": "",
+   "beds": 2,
+   "baths": 1,
+   "rent": null,
+   "basis": "unit",
+   "available": "",
+   "status": "rented",
+   "url": "https://www.frontenacproperty.com/209-4450-taylor-kidd-blvd",
+   "title": "209-4450 Taylor Kidd Boulevard",
+   "photos": [
+    "https://cms.frontenacproperty.com/assets/35a049aa-eb77-4692-aae5-9c75682e4aba?key=width"
+   ]
+  },
+  {
+   "key": "frontenac_pm|3064450taylorkiddblvd",
+   "address": "306-4450 Taylor Kidd Boulevard",
+   "unit": "",
+   "beds": 2,
+   "baths": 1,
+   "rent": null,
+   "basis": "unit",
+   "available": "",
+   "status": "rented",
+   "url": "https://www.frontenacproperty.com/306-4450-taylor-kidd-blvd",
+   "title": "306-4450 Taylor Kidd Boulevard",
+   "photos": [
+    "https://cms.frontenacproperty.com/assets/17f612b7-6159-439a-8228-0fcea01ce684?key=width"
+   ]
+  },
+  {
+   "key": "frontenac_pm|2303sutherlanddrive",
+   "address": "2-303 Sutherland Drive",
+   "unit": "",
+   "beds": 3,
+   "baths": 2,
+   "rent": null,
+   "basis": "unit",
+   "available": "",
+   "status": "rented",
+   "url": "https://www.frontenacproperty.com/2-303-sutherland-drive",
+   "title": "2-303 Sutherland Drive",
+   "photos": [
+    "https://cms.frontenacproperty.com/assets/d29e870f-e893-41c5-a7a1-92d46c1aaa67?key=width"
+   ]
+  },
+  {
+   "key": "frontenac_pm|284sherwoodavenueamherstview",
+   "address": "2-84 Sherwood Avenue, Amherstview",
+   "unit": "",
+   "beds": 2,
+   "baths": 1,
+   "rent": null,
+   "basis": "unit",
+   "available": "",
+   "status": "rented",
+   "url": "https://www.frontenacproperty.com/2-84-sherwood-avenue-amherstview",
+   "title": "2-84 Sherwood Avenue, Amherstview",
+   "photos": [
+    "https://cms.frontenacproperty.com/assets/fb7a9465-b587-4e9f-bf4e-c59cbabdc4af?key=width"
+   ]
+  },
+  {
+   "key": "frontenac_pm|60614greenviewdrivewaterincluded",
+   "address": "606-14 Greenview Drive",
+   "unit": "",
+   "beds": 2,
+   "baths": 1,
+   "rent": null,
+   "basis": "unit",
+   "available": "",
+   "status": "rented",
+   "url": "https://www.frontenacproperty.com/606-14-greenview-drive-water-included",
+   "title": "606-14 Greenview Drive - water included!",
+   "photos": [
+    "https://cms.frontenacproperty.com/assets/f74aac5b-0e7e-4cc1-835a-d6df898c74b7?key=width"
+   ]
+  },
+  {
+   "key": "frontenac_pm|21667notchhillroadwaterincluded",
+   "address": "216-67 Notch Hill Road",
+   "unit": "",
+   "beds": 2,
+   "baths": 1,
+   "rent": null,
+   "basis": "unit",
+   "available": "",
+   "status": "rented",
+   "url": "https://www.frontenacproperty.com/216-67-notch-hill-road-water-included",
+   "title": "216-67 Notch Hill Road - water included!",
+   "photos": [
+    "https://cms.frontenacproperty.com/assets/f5d5d6f7-3455-4f7e-94d6-73c5ed73fb65?key=width"
+   ]
+  },
+  {
+   "key": "frontenac_pm|548cunionstkingston",
+   "address": "C-548 Union Street",
+   "unit": "",
+   "beds": 2,
+   "baths": 1,
+   "rent": null,
+   "basis": "unit",
+   "available": "",
+   "status": "rented",
+   "url": "https://www.frontenacproperty.com/548-c-union-st-kingston",
+   "title": "C-548 Union Street - water included!  - 1 Bedroom Available!",
+   "photos": [
+    "https://cms.frontenacproperty.com/assets/080bbd14-0e3f-4cbf-b73e-260ae8e4813c?key=width"
+   ],
+   "student": true
+  },
+  {
+   "key": "frontenac_pm|8276helenstreet",
+   "address": "8-276 Helen Street",
+   "unit": "",
+   "beds": 3,
+   "baths": 2,
+   "rent": null,
+   "basis": "unit",
+   "available": "",
+   "status": "rented",
+   "url": "https://www.frontenacproperty.com/8-276-helen-street",
+   "title": "8-276 Helen Street",
+   "photos": [
+    "https://cms.frontenacproperty.com/assets/8ef581e8-0b3a-423d-b922-c450e6c6e893?key=width"
+   ],
+   "student": true
+  },
+  {
+   "key": "frontenac_pm|7237mowatavenueheatincluded",
+   "address": "7-237 Mowat Avenue",
+   "unit": "",
+   "beds": 1,
+   "baths": 1,
+   "rent": null,
+   "basis": "unit",
+   "available": "",
+   "status": "rented",
+   "url": "https://www.frontenacproperty.com/7-237-mowat-avenue-heat-included",
+   "title": "7-237 Mowat Avenue - heat & water included!",
+   "photos": [
+    "https://cms.frontenacproperty.com/assets/dad85448-27d7-471a-85cc-4ca846a285c3?key=width"
+   ],
+   "student": true
+  },
+  {
+   "key": "frontenac_pm|91livingstonavenue",
+   "address": "91 Livingston Avenue",
+   "unit": "",
+   "beds": 2,
+   "baths": 1,
+   "rent": null,
+   "basis": "unit",
+   "available": "",
+   "status": "rented",
+   "url": "https://www.frontenacproperty.com/91-livingston-avenue",
+   "title": "91 Livingston Avenue",
+   "photos": [
+    "https://cms.frontenacproperty.com/assets/ce28f5ef-8f65-473e-a120-88a56161f5c9?key=width"
+   ]
+  },
+  {
+   "key": "frontenac_pm|4311yongestreetheatwaterincluded",
+   "address": "4-311 Yonge Street",
+   "unit": "",
+   "beds": 2,
+   "baths": 1,
+   "rent": null,
+   "basis": "unit",
+   "available": "",
+   "status": "rented",
+   "url": "https://www.frontenacproperty.com/4-311-yonge-street-heat-water-included",
+   "title": "4-311 Yonge Street - heat & water included!",
+   "photos": [
+    "https://cms.frontenacproperty.com/assets/b040d810-4b7c-4a77-85c2-6a78bbff2dc2?key=width"
+   ]
+  },
+  {
+   "key": "frontenac_pm|2014450taylorkiddblvd",
+   "address": "201-4450 Taylor Kidd Boulevard",
+   "unit": "",
+   "beds": 1,
+   "baths": 1,
+   "rent": null,
+   "basis": "unit",
+   "available": "",
+   "status": "rented",
+   "url": "https://www.frontenacproperty.com/201-4450-taylor-kidd-blvd",
+   "title": "201-4450 Taylor Kidd Boulevard",
+   "photos": [
+    "https://cms.frontenacproperty.com/assets/ad9c6266-75a8-4041-9613-fb8fafc2a35e?key=width"
+   ]
+  },
+  {
+   "key": "frontenac_pm|2074450taylorkiddblvd",
+   "address": "207-4450 Taylor Kidd Boulevard",
+   "unit": "",
+   "beds": 1,
+   "baths": 1,
+   "rent": null,
+   "basis": "unit",
+   "available": "",
+   "status": "rented",
+   "url": "https://www.frontenacproperty.com/207-4450-taylor-kidd-blvd",
+   "title": "207-4450 Taylor Kidd Boulevard",
+   "photos": [
+    "https://cms.frontenacproperty.com/assets/249596fe-7792-407b-a940-60d9cbee05f7?key=width"
+   ]
+  },
+  {
+   "key": "frontenac_pm|3014450taylorkiddblvd",
+   "address": "301-4450 Taylor Kidd Boulevard",
+   "unit": "",
+   "beds": 1,
+   "baths": 1,
+   "rent": null,
+   "basis": "unit",
+   "available": "",
+   "status": "rented",
+   "url": "https://www.frontenacproperty.com/301-4450-taylor-kidd-blvd",
+   "title": "301-4450 Taylor Kidd Boulevard",
+   "photos": [
+    "https://cms.frontenacproperty.com/assets/54de2f6b-6a55-4e52-ab08-7e3e5c175ea3?key=width"
+   ]
+  },
+  {
+   "key": "frontenac_pm|2054450taylorkiddblvd",
+   "address": "205-4450 Taylor Kidd Boulevard",
+   "unit": "",
+   "beds": 2,
+   "baths": 1,
+   "rent": null,
+   "basis": "unit",
+   "available": "",
+   "status": "rented",
+   "url": "https://www.frontenacproperty.com/205-4450-taylor-kidd-blvd",
+   "title": "205-4450 Taylor Kidd Boulevard",
+   "photos": [
+    "https://cms.frontenacproperty.com/assets/444eaad8-901b-4345-a78c-4fb2ba6b6989?key=width"
+   ]
+  },
+  {
+   "key": "frontenac_pm|3084450taylorkiddboulevard",
+   "address": "308-4450 Taylor Kidd Boulevard",
+   "unit": "",
+   "beds": 1,
+   "baths": 1,
+   "rent": null,
+   "basis": "unit",
+   "available": "",
+   "status": "rented",
+   "url": "https://www.frontenacproperty.com/308-4450-taylor-kidd-boulevard",
+   "title": "308-4450 Taylor Kidd Boulevard",
+   "photos": [
+    "https://cms.frontenacproperty.com/assets/2ea4804e-403a-44d7-9c8d-ec3b365056ea?key=width"
+   ]
+  },
+  {
+   "key": "frontenac_pm|2034450taylorkiddboulevard",
+   "address": "203-4450 Taylor Kidd Boulevard",
+   "unit": "",
+   "beds": 2,
+   "baths": 1,
+   "rent": null,
+   "basis": "unit",
+   "available": "",
+   "status": "rented",
+   "url": "https://www.frontenacproperty.com/203-4450-taylor-kidd-boulevard",
+   "title": "203-4450 Taylor Kidd Boulevard",
+   "photos": [
+    "https://cms.frontenacproperty.com/assets/6168db64-c2b8-4885-b419-bf2df7788c24?key=width"
+   ]
+  },
+  {
+   "key": "frontenac_pm|3094450taylorkiddblvd",
+   "address": "309-4450 Taylor Kidd Boulevard",
+   "unit": "",
+   "beds": 2,
+   "baths": 1,
+   "rent": null,
+   "basis": "unit",
+   "available": "",
+   "status": "rented",
+   "url": "https://www.frontenacproperty.com/309-4450-taylor-kidd-blvd",
+   "title": "309-4450 Taylor Kidd Boulevard",
+   "photos": [
+    "https://cms.frontenacproperty.com/assets/0d5583e3-35ea-48d2-989b-c9397f59c9ee?key=width"
+   ]
+  },
+  {
+   "key": "frontenac_pm|3074450taylorkiddblvd",
+   "address": "307-4450 Taylor Kidd Boulevard",
+   "unit": "",
+   "beds": 1,
+   "baths": 1,
+   "rent": null,
+   "basis": "unit",
+   "available": "",
+   "status": "rented",
+   "url": "https://www.frontenacproperty.com/307-4450-taylor-kidd-blvd",
+   "title": "307-4450 Taylor Kidd Boulevard",
+   "photos": [
+    "https://cms.frontenacproperty.com/assets/3c76ae7e-cf11-471f-9a67-4032484b1c35?key=width"
+   ]
+  },
+  {
+   "key": "frontenac_pm|2024450taylorkiddblvd",
+   "address": "202-4450 Taylor Kidd Boulevard",
+   "unit": "",
+   "beds": 2,
+   "baths": 1,
+   "rent": null,
+   "basis": "unit",
+   "available": "",
+   "status": "rented",
+   "url": "https://www.frontenacproperty.com/202-4450-taylor-kidd-blvd",
+   "title": "202-4450 Taylor Kidd Boulevard",
+   "photos": [
+    "https://cms.frontenacproperty.com/assets/960bad39-85b9-4289-ab18-4e9706090c83?key=width"
+   ]
+  },
+  {
+   "key": "frontenac_pm|3054450taylorkiddblvd",
+   "address": "305-4450 Taylor Kidd Boulevard",
+   "unit": "",
+   "beds": 2,
+   "baths": 1,
+   "rent": null,
+   "basis": "unit",
+   "available": "",
+   "status": "rented",
+   "url": "https://www.frontenacproperty.com/305-4450-taylor-kidd-blvd",
+   "title": "305-4450 Taylor Kidd Boulevard",
+   "photos": [
+    "https://cms.frontenacproperty.com/assets/f6ee672f-3b9a-425b-9946-b3549451d0ee?key=width"
+   ]
+  },
+  {
+   "key": "frontenac_pm|271sherwooddrive",
+   "address": "2-71 Sherwood Drive",
+   "unit": "",
+   "beds": 2,
+   "baths": 1,
+   "rent": null,
+   "basis": "unit",
+   "available": "",
+   "status": "rented",
+   "url": "https://www.frontenacproperty.com/2-71-sherwood-drive",
+   "title": "2-71 Sherwood Drive",
+   "photos": [
+    "https://cms.frontenacproperty.com/assets/a893e9ef-ad63-4219-a323-23cdf8a27deb?key=width"
+   ]
+  },
+  {
+   "key": "frontenac_pm|2277phillipsstreet",
+   "address": "2-277 Phillips Street",
+   "unit": "",
+   "beds": 1,
+   "baths": 1,
+   "rent": null,
+   "basis": "unit",
+   "available": "",
+   "status": "rented",
+   "url": "https://www.frontenacproperty.com/2-277-phillips-street",
+   "title": "2-277 Phillips Street - inclusive!",
+   "photos": [
+    "https://cms.frontenacproperty.com/assets/e4ec1cb9-4b1b-4ffd-b379-3e1e4bc96a4c?key=width"
+   ],
+   "student": true
+  },
+  {
+   "key": "frontenac_pm|171sherwooddrive",
+   "address": "1-71 Sherwood Drive",
+   "unit": "",
+   "beds": 3,
+   "baths": 1,
+   "rent": null,
+   "basis": "unit",
+   "available": "",
+   "status": "rented",
+   "url": "https://www.frontenacproperty.com/1-71-sherwood-drive",
+   "title": "1-71 Sherwood Drive",
+   "photos": [
+    "https://cms.frontenacproperty.com/assets/e32be4e1-6a1d-446b-9f9f-90ea6d1f20f9?key=width"
+   ]
+  },
+  {
+   "key": "frontenac_pm|31867notchhillroad",
+   "address": "318-67 Notch Hill Road",
+   "unit": "",
+   "beds": 2,
+   "baths": 1,
+   "rent": null,
+   "basis": "unit",
+   "available": "",
+   "status": "rented",
+   "url": "https://www.frontenacproperty.com/318-67-notch-hill-road",
+   "title": "318-67 Notch Hill Road - water included!",
+   "photos": [
+    "https://cms.frontenacproperty.com/assets/36998e18-6162-4dfc-b79b-6ef1b0681142?key=width"
+   ]
+  },
+  {
+   "key": "frontenac_pm|2677victoriastreet",
+   "address": "2-677 Victoria Street",
+   "unit": "",
+   "beds": 2,
+   "baths": 1,
+   "rent": null,
+   "basis": "unit",
+   "available": "",
+   "status": "rented",
+   "url": "https://www.frontenacproperty.com/2-677-victoria-street",
+   "title": "2-677 Victoria Street - heat and water included!",
+   "photos": [
+    "https://cms.frontenacproperty.com/assets/2f8d82ac-c7f6-4a13-bbed-774b9481ecc9?key=width"
+   ]
+  },
+  {
+   "key": "frontenac_pm|392sydenhamstreet",
+   "address": "3-92 Sydenham Street",
+   "unit": "",
+   "beds": 0,
+   "baths": 1,
+   "rent": null,
+   "basis": "unit",
+   "available": "",
+   "status": "rented",
+   "url": "https://www.frontenacproperty.com/3-92-sydenham-street",
+   "title": "3-92 Sydenham Street",
+   "photos": [
+    "https://cms.frontenacproperty.com/assets/4afa81dc-7968-4dec-ac93-3401b60909dd?key=width"
+   ],
+   "student": true
+  },
+  {
+   "key": "frontenac_pm|241johnsonstkingston",
+   "address": "2-241 Johnson Street",
+   "unit": "",
+   "beds": 0,
+   "baths": 1,
+   "rent": null,
+   "basis": "unit",
+   "available": "",
+   "status": "rented",
+   "url": "https://www.frontenacproperty.com/241-johnson-st-kingston",
+   "title": "2-241 Johnson Street - water included!",
+   "photos": [
+    "https://cms.frontenacproperty.com/assets/dd1c3d00-2615-4104-8503-c50e3639b8fd?key=width"
+   ],
+   "student": true
+  },
+  {
+   "key": "frontenac_pm|115stephenstreetwaterincluded",
+   "address": "115 Stephen Street",
+   "unit": "",
+   "beds": 2,
+   "baths": 1,
+   "rent": 1900,
+   "basis": "unit",
+   "available": "Avail. now",
+   "status": "listed",
+   "url": "https://www.frontenacproperty.com/115-stephen-street-water-included",
+   "title": "115 Stephen Street - water included",
+   "photos": [
+    "https://cms.frontenacproperty.com/assets/e3cff2db-b9e5-4af4-b71c-4e391c4b0dd3?key=width"
+   ]
+  },
+  {
+   "key": "frontenac_pm|28wellingtonstreet",
+   "address": "28 Wellington Street",
+   "unit": "",
+   "beds": 5,
+   "baths": 2.5,
+   "rent": 5500,
+   "basis": "unit",
+   "available": "Avail. now",
+   "status": "listed",
+   "url": "https://www.frontenacproperty.com/28-wellington-street",
+   "title": "28 Wellington Street",
+   "photos": [
+    "https://cms.frontenacproperty.com/assets/bd8f45ed-5675-452d-ace0-c01db54ee929?key=width"
+   ]
+  },
+  {
+   "key": "frontenac_pm|5008foxrunplace",
+   "address": "5008 Fox Run Place",
+   "unit": "",
+   "beds": 3,
+   "baths": 2.5,
+   "rent": 3395,
+   "basis": "unit",
+   "available": "Avail. now",
+   "status": "listed",
+   "url": "https://www.frontenacproperty.com/5008-fox-run-place",
+   "title": "5008 Fox Run Place",
+   "photos": [
+    "https://cms.frontenacproperty.com/assets/c73f0f2f-bbf7-40ee-99b2-185545d7812a?key=width"
+   ]
+  },
+  {
+   "key": "frontenac_pm|101oakmontdrivebath",
+   "address": "101 Oakmont Drive, Bath",
+   "unit": "",
+   "beds": 4,
+   "baths": 2.5,
+   "rent": 2795,
+   "basis": "unit",
+   "available": "Avail. now",
+   "status": "listed",
+   "url": "https://www.frontenacproperty.com/101-oakmont-drive-bath",
+   "title": "101 Oakmont Drive, Bath",
+   "photos": [
+    "https://cms.frontenacproperty.com/assets/a10795a6-1af9-480d-b3c9-876b76328c1d?key=width"
+   ]
+  },
+  {
+   "key": "frontenac_pm|44rosemundcrescent",
+   "address": "44 Rosemund Crescent",
+   "unit": "",
+   "beds": 3,
+   "baths": 1.5,
+   "rent": 2300,
+   "basis": "unit",
+   "available": "Avail. now",
+   "status": "listed",
+   "url": "https://www.frontenacproperty.com/44-rosemund-crescent",
+   "title": "44 Rosemund Crescent - water included!",
+   "photos": [
+    "https://cms.frontenacproperty.com/assets/a8ca22b6-bfb4-4242-828a-207007608d5c?key=width"
+   ]
+  },
+  {
+   "key": "frontenac_pm|119gildersleevedrivebath",
+   "address": "119 Gildersleeve Drive, Bath",
+   "unit": "",
+   "beds": 3,
+   "baths": 2,
+   "rent": 2500,
+   "basis": "unit",
+   "available": "Avail. now",
+   "status": "listed",
+   "url": "https://www.frontenacproperty.com/119-gildersleeve-drive-bath",
+   "title": "119 Gildersleeve Drive, Bath",
+   "photos": [
+    "https://cms.frontenacproperty.com/assets/2d7d1ee6-d822-4425-acb9-2d49af119703?key=width"
+   ]
+  },
+  {
+   "key": "frontenac_pm|52royaloakcrescentbath",
+   "address": "52 Royal Oak Crescent, Bath",
+   "unit": "",
+   "beds": 5,
+   "baths": 4.5,
+   "rent": 3500,
+   "basis": "unit",
+   "available": "Avail. now",
+   "status": "listed",
+   "url": "https://www.frontenacproperty.com/52-royal-oak-crescent-bath",
+   "title": "52 Royal Oak Crescent, Bath",
+   "photos": [
+    "https://cms.frontenacproperty.com/assets/3df599d9-c2eb-4ba0-9ec9-8d3890ba0e29?key=width"
+   ]
+  },
+  {
+   "key": "frontenac_pm|87royaloakcrescent",
+   "address": "87 Royal Oak Crescent, Bath",
+   "unit": "",
+   "beds": 3,
+   "baths": 2.5,
+   "rent": 2800,
+   "basis": "unit",
+   "available": "Nov 15, 2026",
+   "status": "listed",
+   "url": "https://www.frontenacproperty.com/87-royal-oak-crescent",
+   "title": "87 Royal Oak Crescent, Bath",
+   "photos": [
+    "https://cms.frontenacproperty.com/assets/1778617a-1a0d-4d26-a9b8-8ce32a7df32a?key=width"
+   ]
+  },
+  {
+   "key": "frontenac_pm|790frontroad",
+   "address": "790 Front Road",
+   "unit": "",
+   "beds": 6,
+   "baths": 4,
+   "rent": 4400,
+   "basis": "unit",
+   "available": "Nov 15, 2026",
+   "status": "listed",
+   "url": "https://www.frontenacproperty.com/790-front-road",
+   "title": "790 Front Road",
+   "photos": [
+    "https://cms.frontenacproperty.com/assets/b46f8f0d-b376-46f6-bd11-0db95ddadd42?key=width"
+   ]
+  },
+  {
+   "key": "frontenac_pm|520stmarthastreet",
+   "address": "520 St Martha Street",
+   "unit": "",
+   "beds": 3,
+   "baths": 1.5,
+   "rent": 2600,
+   "basis": "unit",
+   "available": "Dec 1, 2026",
+   "status": "listed",
+   "url": "https://www.frontenacproperty.com/520-st-martha-street",
+   "title": "520 St Martha Street",
+   "photos": [
+    "https://cms.frontenacproperty.com/assets/43168e3e-4bb5-48b8-9893-cf5ce86c0640?key=width"
+   ]
+  },
+  {
+   "key": "frontenac_pm|25mackenziecreskingston",
+   "address": "25 Mackenzie Crescent",
+   "unit": "",
+   "beds": 3,
+   "baths": 2,
+   "rent": 2650,
+   "basis": "unit",
+   "available": "Dec 1, 2026",
+   "status": "listed",
+   "url": "https://www.frontenacproperty.com/25-mackenzie-cres-kingston",
+   "title": "25 Mackenzie Crescent",
+   "photos": [
+    "https://cms.frontenacproperty.com/assets/b1c38221-0835-4c60-af58-ab471df475c8?key=width"
+   ]
+  },
+  {
+   "key": "frontenac_pm|196drrichardjamescrescentamherstview",
+   "address": "196 Dr Richard James Crescent, Amherstview",
+   "unit": "",
+   "beds": 3,
+   "baths": 2.5,
+   "rent": 2595,
+   "basis": "unit",
+   "available": "Dec 1, 2026",
+   "status": "listed",
+   "url": "https://www.frontenacproperty.com/196-dr-richard-james-crescent-amherstview",
+   "title": "196 Dr Richard James Crescent, Amherstview",
+   "photos": [
+    "https://cms.frontenacproperty.com/assets/f246b88d-afe4-43ef-8d97-61adb8d6c5ae?key=width"
+   ]
+  },
+  {
+   "key": "frontenac_pm|724aylmercrescent",
+   "address": "724 Aylmer Crescent",
+   "unit": "",
+   "beds": 3,
+   "baths": 2,
+   "rent": 2695,
+   "basis": "unit",
+   "available": "Jan 1, 2027",
+   "status": "listed",
+   "url": "https://www.frontenacproperty.com/724-aylmer-crescent",
+   "title": "724 Aylmer Crescent",
+   "photos": [
+    "https://cms.frontenacproperty.com/assets/4c150d21-7c76-4bb4-8960-a2ea99bf3c93?key=width"
+   ]
+  },
+  {
+   "key": "frontenac_pm|92golflinksdrivebath",
+   "address": "92 Golf Links Drive, Bath",
+   "unit": "",
+   "beds": 3,
+   "baths": 2.5,
+   "rent": 2500,
+   "basis": "unit",
+   "available": "Jan 1, 2027",
+   "status": "listed",
+   "url": "https://www.frontenacproperty.com/92-golf-links-drive-bath",
+   "title": "92 Golf Links Drive, Bath",
+   "photos": [
+    "https://cms.frontenacproperty.com/assets/0237eacc-b2b1-4c84-a1ff-4dfa4db9ab74?key=width"
+   ]
+  },
+  {
+   "key": "frontenac_pm|596quailcourt",
+   "address": "596 Quail Court",
+   "unit": "",
+   "beds": 3,
+   "baths": 1.5,
+   "rent": 2595,
+   "basis": "unit",
+   "available": "Jan 1, 2027",
+   "status": "listed",
+   "url": "https://www.frontenacproperty.com/596-quail-court",
+   "title": "596 Quail Court",
+   "photos": [
+    "https://cms.frontenacproperty.com/assets/2d53b373-7fea-44be-b128-e54904fce23e?key=width"
+   ]
+  },
+  {
+   "key": "frontenac_pm|349rideaustreet",
+   "address": "349 Rideau Street",
+   "unit": "",
+   "beds": 3,
+   "baths": 1,
+   "rent": 2100,
+   "basis": "unit",
+   "available": "Jan 1, 2027",
+   "status": "listed",
+   "url": "https://www.frontenacproperty.com/349-rideau-street",
+   "title": "349 Rideau Street",
+   "photos": [
+    "https://cms.frontenacproperty.com/assets/c4b53975-977a-4d8a-b242-d3eb96f6ffe0?key=width"
+   ]
+  },
+  {
+   "key": "frontenac_pm|33golflinksdrivebath",
+   "address": "33 Golf Links Drive, Bath",
+   "unit": "",
+   "beds": 3,
+   "baths": 2.5,
+   "rent": 2650,
+   "basis": "unit",
+   "available": "Feb 1, 2027",
+   "status": "listed",
+   "url": "https://www.frontenacproperty.com/33-golf-links-drive-bath",
+   "title": "33 Golf Links Drive, Bath",
+   "photos": [
+    "https://cms.frontenacproperty.com/assets/555ec735-f909-4abc-9c20-51f1ccebb0bf?key=width"
+   ]
+  },
+  {
+   "key": "frontenac_pm|legacyestatesruslanacourtbath",
+   "address": "Legacy Estates",
+   "unit": "",
+   "beds": 1,
+   "baths": 1,
+   "rent": 1500,
+   "basis": "unit",
+   "available": "Mar 1, 2027",
+   "status": "listed",
+   "url": "https://www.frontenacproperty.com/legacy-estates-ruslana-court-bath",
+   "title": "Legacy Estates - Ruslana Court, Bath!",
+   "photos": [
+    "https://cms.frontenacproperty.com/assets/0a690c48-1ef1-4b6d-9a88-ee49250c8110?key=width"
+   ]
+  },
+  {
+   "key": "frontenac_pm|916blossomstreet",
+   "address": "916 Blossom Street",
+   "unit": "",
+   "beds": 3,
+   "baths": 2.5,
+   "rent": null,
+   "basis": "unit",
+   "available": "",
+   "status": "rented",
+   "url": "https://www.frontenacproperty.com/916-blossom-street",
+   "title": "916 Blossom Street",
+   "photos": [
+    "https://cms.frontenacproperty.com/assets/40256889-5c4b-4439-9184-165b075e46f0?key=width"
+   ]
+  },
+  {
+   "key": "frontenac_pm|900ascotlane",
+   "address": "900 Ascot Lane",
+   "unit": "",
+   "beds": 3,
+   "baths": 2.5,
+   "rent": null,
+   "basis": "unit",
+   "available": "",
+   "status": "rented",
+   "url": "https://www.frontenacproperty.com/900-ascot-lane",
+   "title": "900 Ascot Lane",
+   "photos": [
+    "https://cms.frontenacproperty.com/assets/0aa96cba-3552-4aa7-b0da-56cd19192ed4?key=width"
+   ]
+  },
+  {
+   "key": "frontenac_pm|1649brookedayleavenue",
+   "address": "1649 Brookedayle Avenue",
+   "unit": "",
+   "beds": 3,
+   "baths": 2.5,
+   "rent": null,
+   "basis": "unit",
+   "available": "",
+   "status": "rented",
+   "url": "https://www.frontenacproperty.com/1649-brookedayle-avenue",
+   "title": "1649 Brookedayle Avenue",
+   "photos": [
+    "https://cms.frontenacproperty.com/assets/4550b02c-cfc5-4498-817a-ba8ee5a4bafc?key=width"
+   ]
+  },
+  {
+   "key": "frontenac_pm|1368demersavenue",
+   "address": "1368 Demers Avenue",
+   "unit": "",
+   "beds": 3,
+   "baths": 2.5,
+   "rent": null,
+   "basis": "unit",
+   "available": "",
+   "status": "rented",
+   "url": "https://www.frontenacproperty.com/1368-demers-avenue",
+   "title": "1368 Demers Avenue",
+   "photos": [
+    "https://cms.frontenacproperty.com/assets/9196c084-2ec2-4ee9-87fb-a146a7a7f9ec?key=width"
+   ]
+  },
+  {
+   "key": "frontenac_pm|120drrichardjamesdriveamherstview",
+   "address": "120 Dr. Richard James Crescent, Amherstview",
+   "unit": "",
+   "beds": 3,
+   "baths": 2.5,
+   "rent": null,
+   "basis": "unit",
+   "available": "",
+   "status": "rented",
+   "url": "https://www.frontenacproperty.com/120-dr-richard-james-drive-amherstview",
+   "title": "120 Dr. Richard James Crescent, Amherstview",
+   "photos": [
+    "https://cms.frontenacproperty.com/assets/2fe45ea7-1d55-4ca0-82d4-8d3b39512942?key=width"
+   ]
+  },
+  {
+   "key": "frontenac_pm|59eriecourtamherstview",
+   "address": "59 Erie Court, Amherstview",
+   "unit": "",
+   "beds": 3,
+   "baths": 2.5,
+   "rent": null,
+   "basis": "unit",
+   "available": "",
+   "status": "rented",
+   "url": "https://www.frontenacproperty.com/59-erie-court-amherstview",
+   "title": "59 Erie Court, Amherstview",
+   "photos": [
+    "https://cms.frontenacproperty.com/assets/19edd167-150e-475c-909c-36971917bd11?key=width"
+   ]
+  },
+  {
+   "key": "frontenac_pm|120yorkstreet",
+   "address": "120 York Street",
+   "unit": "",
+   "beds": 3,
+   "baths": 2,
+   "rent": null,
+   "basis": "unit",
+   "available": "",
+   "status": "rented",
+   "url": "https://www.frontenacproperty.com/120-york-street",
+   "title": "120 York Street",
+   "photos": [
+    "https://cms.frontenacproperty.com/assets/704f3df8-08d1-434a-b8c7-468111609f69?key=width"
+   ]
+  },
+  {
+   "key": "frontenac_pm|789newmarketlane",
+   "address": "789 Newmarket Lane",
+   "unit": "",
+   "beds": 3,
+   "baths": 2.5,
+   "rent": null,
+   "basis": "unit",
+   "available": "",
+   "status": "rented",
+   "url": "https://www.frontenacproperty.com/789-newmarket-lane",
+   "title": "789 Newmarket Lane",
+   "photos": [
+    "https://cms.frontenacproperty.com/assets/edcae3d4-2886-4fdd-a850-30ce2e1583ee?key=width"
+   ]
+  },
+  {
+   "key": "frontenac_pm|193prattdriveamherstview",
+   "address": "193 Pratt Drive, Amherstview",
+   "unit": "",
+   "beds": 3,
+   "baths": 2.5,
+   "rent": null,
+   "basis": "unit",
+   "available": "",
+   "status": "rented",
+   "url": "https://www.frontenacproperty.com/193-pratt-drive-amherstview",
+   "title": "193 Pratt Drive, Amherstview",
+   "photos": [
+    "https://cms.frontenacproperty.com/assets/99c9311b-9a30-442e-ae33-b2af15c4945c?key=width"
+   ]
+  },
+  {
+   "key": "frontenac_pm|56oakmontdrivebath",
+   "address": "56 Oakmont Drive, Bath",
+   "unit": "",
+   "beds": 5,
+   "baths": 3.5,
+   "rent": null,
+   "basis": "unit",
+   "available": "",
+   "status": "rented",
+   "url": "https://www.frontenacproperty.com/56-oakmont-drive-bath",
+   "title": "56 Oakmont Drive, Bath",
+   "photos": [
+    "https://cms.frontenacproperty.com/assets/592aad5e-a68d-460c-942f-77f9aa53beb5?key=width"
+   ]
+  },
+  {
+   "key": "frontenac_pm|1416summerstreet",
+   "address": "1416 Summer Street",
+   "unit": "",
+   "beds": 3,
+   "baths": 2.5,
+   "rent": null,
+   "basis": "unit",
+   "available": "",
+   "status": "rented",
+   "url": "https://www.frontenacproperty.com/1416-summer-street",
+   "title": "1416 Summer Street",
+   "photos": [
+    "https://cms.frontenacproperty.com/assets/d4fb46b6-d6cc-46aa-934d-21e83228941d?key=width"
+   ]
+  },
+  {
+   "key": "frontenac_pm|113gildersleeveboulevardbath",
+   "address": "113 Gildersleeve Boulevard, Bath",
+   "unit": "",
+   "beds": 3,
+   "baths": 2.5,
+   "rent": null,
+   "basis": "unit",
+   "available": "",
+   "status": "rented",
+   "url": "https://www.frontenacproperty.com/113-gildersleeve-boulevard-bath",
+   "title": "113 Gildersleeve Boulevard, Bath",
+   "photos": [
+    "https://cms.frontenacproperty.com/assets/1b2dc261-9a02-423f-832a-1fcc059fd3e5?key=width"
+   ]
+  },
+  {
+   "key": "frontenac_pm|5loradeancrescent",
+   "address": "5 Loradean Crescent",
+   "unit": "",
+   "beds": 3,
+   "baths": 3,
+   "rent": null,
+   "basis": "unit",
+   "available": "",
+   "status": "rented",
+   "url": "https://www.frontenacproperty.com/5-loradean-crescent",
+   "title": "5 Loradean Crescent",
+   "photos": [
+    "https://cms.frontenacproperty.com/assets/c3d8dee3-725f-460d-89df-8a0a9d91a067?key=width"
+   ]
+  },
+  {
+   "key": "frontenac_pm|125montrealstreet",
+   "address": "125 Montreal Street",
+   "unit": "",
+   "beds": 2,
+   "baths": 1,
+   "rent": null,
+   "basis": "unit",
+   "available": "",
+   "status": "rented",
+   "url": "https://www.frontenacproperty.com/125-montreal-street",
+   "title": "125 Montreal Street",
+   "photos": [
+    "https://cms.frontenacproperty.com/assets/ce75b465-cbf7-4130-89f5-f7ba8ce57640?key=width"
+   ]
+  },
+  {
+   "key": "frontenac_pm|184sherwoodavenueamherstview",
+   "address": "1-84 Sherwood Avenue, Amherstview",
+   "unit": "",
+   "beds": 3,
+   "baths": 1,
+   "rent": null,
+   "basis": "unit",
+   "available": "",
+   "status": "rented",
+   "url": "https://www.frontenacproperty.com/1-84-sherwood-avenue-amherstview",
+   "title": "1-84 Sherwood Avenue, Amherstview",
+   "photos": [
+    "https://cms.frontenacproperty.com/assets/4143e744-4251-4bb6-b6ff-ec2c37e97ce8?key=width"
+   ]
+  },
+  {
+   "key": "frontenac_pm|16wycliffecrescent",
+   "address": "16 Wycliffe Crescent",
+   "unit": "",
+   "beds": 3,
+   "baths": 1,
+   "rent": null,
+   "basis": "unit",
+   "available": "",
+   "status": "rented",
+   "url": "https://www.frontenacproperty.com/16-wycliffe-crescent",
+   "title": "16 Wycliffe Crescent",
+   "photos": [
+    "https://cms.frontenacproperty.com/assets/651e143f-0aff-4a54-91af-da0e7aaad405?key=width"
+   ]
+  },
+  {
+   "key": "frontenac_pm|51campbellcrescent",
+   "address": "51 Campbell Crescent",
+   "unit": "",
+   "beds": 3,
+   "baths": 2,
+   "rent": null,
+   "basis": "unit",
+   "available": "",
+   "status": "rented",
+   "url": "https://www.frontenacproperty.com/51-campbell-crescent",
+   "title": "51 Campbell Crescent",
+   "photos": [
+    "https://cms.frontenacproperty.com/assets/c6af2b7a-7a62-4cdf-b971-75e64b8f63f7?key=width"
+   ]
+  },
+  {
+   "key": "frontenac_pm|281roseabbeydrive",
+   "address": "281 Rose Abbey Drive",
+   "unit": "",
+   "beds": 3,
+   "baths": 1.5,
+   "rent": null,
+   "basis": "unit",
+   "available": "",
+   "status": "rented",
+   "url": "https://www.frontenacproperty.com/281-rose-abbey-drive",
+   "title": "281 Rose Abbey Drive",
+   "photos": [
+    "https://cms.frontenacproperty.com/assets/05180261-7c50-45f2-91ab-565ef734b4a6?key=width"
+   ]
+  },
+  {
+   "key": "frontenac_pm|284yorkstreet",
+   "address": "284 York Street",
+   "unit": "",
+   "beds": 2,
+   "baths": 1.5,
+   "rent": null,
+   "basis": "unit",
+   "available": "",
+   "status": "rented",
+   "url": "https://www.frontenacproperty.com/284-york-street",
+   "title": "284 York Street",
+   "photos": [
+    "https://cms.frontenacproperty.com/assets/02f4a839-24ca-4df5-b6a9-c98a71ed5dc4?key=width"
+   ]
+  },
+  {
+   "key": "frontenac_pm|38golflinksdrivebath",
+   "address": "38 Golf Links Drive, Bath",
+   "unit": "",
+   "beds": 3,
+   "baths": 2.5,
+   "rent": null,
+   "basis": "unit",
+   "available": "",
+   "status": "rented",
+   "url": "https://www.frontenacproperty.com/38-golf-links-drive-bath",
+   "title": "38 Golf Links Drive, Bath",
+   "photos": [
+    "https://cms.frontenacproperty.com/assets/232f9f3c-7067-4d9a-b2c8-4e287ce06401?key=width"
+   ]
+  },
+  {
+   "key": "frontenac_pm|1904berrywoodcrescent",
+   "address": "1904 Berrywood Crescent",
+   "unit": "",
+   "beds": 3,
+   "baths": 3.5,
+   "rent": null,
+   "basis": "unit",
+   "available": "",
+   "status": "rented",
+   "url": "https://www.frontenacproperty.com/1904-berrywood-crescent",
+   "title": "1904 Berrywood Crescent",
+   "photos": [
+    "https://cms.frontenacproperty.com/assets/966fb023-429b-4814-b0fe-9825963ff6a8?key=width"
+   ]
+  },
+  {
+   "key": "frontenac_pm|103champagnecrescentamherstview",
+   "address": "103 Champagne Crescent, Amherstview",
+   "unit": "",
+   "beds": 3,
+   "baths": 2,
+   "rent": null,
+   "basis": "unit",
+   "available": "",
+   "status": "rented",
+   "url": "https://www.frontenacproperty.com/103-champagne-crescent-amherstview",
+   "title": "103 Champagne Crescent, Amherstview",
+   "photos": [
+    "https://cms.frontenacproperty.com/assets/5ddbbfac-7996-441d-b1d2-1634eaa79636?key=width"
+   ]
+  },
+  {
+   "key": "frontenac_pm|93chesterfielddriveamherstview",
+   "address": "93 Chesterfield Drive, Amherstview",
+   "unit": "",
+   "beds": 2,
+   "baths": 2,
+   "rent": null,
+   "basis": "unit",
+   "available": "",
+   "status": "rented",
+   "url": "https://www.frontenacproperty.com/93-chesterfield-drive-amherstview",
+   "title": "93 Chesterfield Drive, Amherstview",
+   "photos": [
+    "https://cms.frontenacproperty.com/assets/440462a8-37d3-4383-991e-05b2f05987d8?key=width"
+   ]
+  },
+  {
+   "key": "frontenac_pm|396rooseveltdrive",
+   "address": "396 Roosevelt Drive",
+   "unit": "",
+   "beds": 4,
+   "baths": 2,
+   "rent": null,
+   "basis": "unit",
+   "available": "",
+   "status": "rented",
+   "url": "https://www.frontenacproperty.com/396-roosevelt-drive",
+   "title": "396 Roosevelt Drive",
+   "photos": [
+    "https://cms.frontenacproperty.com/assets/463851a3-c4fd-472a-958d-dc3df216ad3f?key=width"
+   ]
+  },
+  {
+   "key": "frontenac_pm|128gildersleeveboulevardbath",
+   "address": "128 Gildersleeve Boulevard, Bath",
+   "unit": "",
+   "beds": 4,
+   "baths": 2.5,
+   "rent": null,
+   "basis": "unit",
+   "available": "",
+   "status": "rented",
+   "url": "https://www.frontenacproperty.com/128-gildersleeve-boulevard-bath",
+   "title": "128 Gildersleeve Boulevard, Bath",
+   "photos": [
+    "https://cms.frontenacproperty.com/assets/8b3b35d5-b7d8-4324-932c-e3a1532bce9d?key=width"
+   ]
+  },
+  {
+   "key": "frontenac_pm|114yongestreetheatincluded",
+   "address": "114 Yonge Street",
+   "unit": "",
+   "beds": 2,
+   "baths": 1.5,
+   "rent": null,
+   "basis": "unit",
+   "available": "",
+   "status": "rented",
+   "url": "https://www.frontenacproperty.com/114-yonge-street-heat-included",
+   "title": "114 Yonge Street - heat included!",
+   "photos": [
+    "https://cms.frontenacproperty.com/assets/f62f4dff-976d-4d27-abc7-86da0d692452?key=width"
+   ]
+  },
+  {
+   "key": "frontenac_pm|762newmarketlane",
+   "address": "762 Newmarket Lane",
+   "unit": "",
+   "beds": 3,
+   "baths": 2.5,
+   "rent": null,
+   "basis": "unit",
+   "available": "",
+   "status": "rented",
+   "url": "https://www.frontenacproperty.com/762-newmarket-lane",
+   "title": "762 Newmarket Lane",
+   "photos": [
+    "https://cms.frontenacproperty.com/assets/cb9b9574-ba3b-4f8d-aa53-125f92cd457a?key=width"
+   ]
+  },
+  {
+   "key": "frontenac_pm|4889northshorecrescent",
+   "address": "4889 North Shore Crescent",
+   "unit": "",
+   "beds": 3,
+   "baths": 2,
+   "rent": null,
+   "basis": "unit",
+   "available": "",
+   "status": "rented",
+   "url": "https://www.frontenacproperty.com/4889-north-shore-crescent",
+   "title": "4889 North Shore Crescent",
+   "photos": [
+    "https://cms.frontenacproperty.com/assets/2ad12139-7130-4d04-8caa-733408aa8c82?key=width"
+   ]
+  },
+  {
+   "key": "frontenac_pm|104golflinksdrivebath",
+   "address": "104 Golf Links Drive, Bath",
+   "unit": "",
+   "beds": 3,
+   "baths": 2.5,
+   "rent": null,
+   "basis": "unit",
+   "available": "",
+   "status": "rented",
+   "url": "https://www.frontenacproperty.com/104-golf-links-drive-bath",
+   "title": "104 Golf Links Drive, Bath",
+   "photos": [
+    "https://cms.frontenacproperty.com/assets/76aa7427-f881-45eb-8620-4a756efa7586?key=width"
+   ]
+  },
+  {
+   "key": "frontenac_pm|89royaloakcrescentbath",
+   "address": "89 Royal Oak Crescent, Bath",
+   "unit": "",
+   "beds": 4,
+   "baths": 2.5,
+   "rent": null,
+   "basis": "unit",
+   "available": "",
+   "status": "rented",
+   "url": "https://www.frontenacproperty.com/89-royal-oak-crescent-bath",
+   "title": "89 Royal Oak Crescent, Bath",
+   "photos": [
+    "https://cms.frontenacproperty.com/assets/9c5ce655-2e4d-4cbc-a7ee-84bffec67fbd?key=width"
+   ]
+  },
+  {
+   "key": "frontenac_pm|197prattdrive",
+   "address": "197 Pratt Drive, Amherstview",
+   "unit": "",
+   "beds": 3,
+   "baths": 2.5,
+   "rent": null,
+   "basis": "unit",
+   "available": "",
+   "status": "rented",
+   "url": "https://www.frontenacproperty.com/197-pratt-drive",
+   "title": "197 Pratt Drive, Amherstview",
+   "photos": [
+    "https://cms.frontenacproperty.com/assets/24aaaf1c-d0a8-4769-8e2b-5108b511e169?key=width"
+   ]
+  },
+  {
+   "key": "frontenac_pm|1376watersideway",
+   "address": "1376 Waterside Way",
+   "unit": "",
+   "beds": 4,
+   "baths": 3.5,
+   "rent": null,
+   "basis": "unit",
+   "available": "",
+   "status": "rented",
+   "url": "https://www.frontenacproperty.com/1376-waterside-way",
+   "title": "1376 Waterside Way",
+   "photos": [
+    "https://cms.frontenacproperty.com/assets/f20b5d39-6af9-4b6f-8b66-f108830520bb?key=width"
+   ]
+  },
+  {
+   "key": "frontenac_pm|9lakeviewavenue",
+   "address": "9 Lakeview Avenue",
+   "unit": "",
+   "beds": 3,
+   "baths": 2,
+   "rent": null,
+   "basis": "unit",
+   "available": "",
+   "status": "rented",
+   "url": "https://www.frontenacproperty.com/9-lakeview-avenue",
+   "title": "9 Lakeview Avenue",
+   "photos": [
+    "https://cms.frontenacproperty.com/assets/774cf42b-4b26-4d81-8605-f7eff8f338e1?key=width"
+   ]
+  },
+  {
+   "key": "frontenac_pm|82ellerbeckstreet",
+   "address": "82 Ellerbeck Street",
+   "unit": "",
+   "beds": 3,
+   "baths": 2.5,
+   "rent": 900,
+   "basis": "unit",
+   "available": "Jan 1, 2027",
+   "status": "listed",
+   "url": "https://www.frontenacproperty.com/82-ellerbeck-street",
+   "title": "82 Ellerbeck Street",
+   "photos": [
+    "https://cms.frontenacproperty.com/assets/c6b66b84-0bc5-42c9-9c9f-f6093ed8a474?key=width"
+   ],
+   "student": true
+  },
+  {
+   "key": "frontenac_pm|201125brockstreetwaterincluded",
+   "address": "201-125 Brock Street",
+   "unit": "",
+   "beds": 2,
+   "baths": 1,
+   "rent": 2200,
+   "basis": "unit",
+   "available": "Jan 1, 2027",
+   "status": "listed",
+   "url": "https://www.frontenacproperty.com/201-125-brock-street-water-included",
+   "title": "201-125 Brock Street - water included!",
+   "photos": [
+    "https://cms.frontenacproperty.com/assets/139bc39f-87e3-4c05-979c-43ba5f5f54e2?key=width"
+   ],
+   "student": true
+  },
+  {
+   "key": "frontenac_pm|2214mackstreet",
+   "address": "2-214 Mack Street",
+   "unit": "",
+   "beds": 4,
+   "baths": 2,
+   "rent": 1000,
+   "basis": "unit",
+   "available": "Jan 1, 2027",
+   "status": "listed",
+   "url": "https://www.frontenacproperty.com/2-214-mack-street",
+   "title": "2-214 Mack Street - inclusive!",
+   "photos": [
+    "https://cms.frontenacproperty.com/assets/d8c169e4-c605-4cb2-a221-bb10beacc399?key=width"
+   ],
+   "student": true
+  },
+  {
+   "key": "frontenac_pm|2276helenstreet",
+   "address": "2-276 Helen Street",
+   "unit": "",
+   "beds": 2,
+   "baths": 2,
+   "rent": 2350,
+   "basis": "unit",
+   "available": "Jan 1, 2027",
+   "status": "listed",
+   "url": "https://www.frontenacproperty.com/2-276-helen-street",
+   "title": "2-276 Helen Street",
+   "photos": [
+    "https://cms.frontenacproperty.com/assets/120691df-7ae2-42e1-8794-65dafb001eeb?key=width"
+   ],
+   "student": true
+  },
+  {
+   "key": "frontenac_pm|521albertstreet",
+   "address": "521 Albert Street",
+   "unit": "",
+   "beds": 4,
+   "baths": 1.5,
+   "rent": null,
+   "basis": "unit",
+   "available": "",
+   "status": "rented",
+   "url": "https://www.frontenacproperty.com/521-albert-street",
+   "title": "521 Albert Street",
+   "photos": [
+    "https://cms.frontenacproperty.com/assets/5e34caaf-f8a2-437c-ab7d-d80cf1a82d1a?key=width"
+   ],
+   "student": true
+  },
+  {
+   "key": "frontenac_pm|1545unionstreet",
+   "address": "1-545 Union Street",
+   "unit": "",
+   "beds": 4,
+   "baths": 1.5,
+   "rent": null,
+   "basis": "unit",
+   "available": "",
+   "status": "rented",
+   "url": "https://www.frontenacproperty.com/1-545-union-street",
+   "title": "1-545 Union Street",
+   "photos": [
+    "https://cms.frontenacproperty.com/assets/aa9db396-f36e-4c15-b8b8-7570ec825b2b?key=width"
+   ],
+   "student": true
+  },
+  {
+   "key": "frontenac_pm|512johnsonstreet",
+   "address": "512 Johnson Street",
+   "unit": "",
+   "beds": 6,
+   "baths": 2,
+   "rent": null,
+   "basis": "unit",
+   "available": "",
+   "status": "rented",
+   "url": "https://www.frontenacproperty.com/512-johnson-street",
+   "title": "512 Johnson Street",
+   "photos": [
+    "https://cms.frontenacproperty.com/assets/79b94a44-1780-4137-b79c-10ec64d1439f?key=width"
+   ],
+   "student": true
+  },
+  {
+   "key": "frontenac_pm|479johnsonstreet1100bed",
+   "address": "479 Johnson Street",
+   "unit": "",
+   "beds": 4,
+   "baths": 1.5,
+   "rent": null,
+   "basis": "unit",
+   "available": "",
+   "status": "rented",
+   "url": "https://www.frontenacproperty.com/479-johnson-street-1100bed",
+   "title": "479 Johnson Street",
+   "photos": [
+    "https://cms.frontenacproperty.com/assets/700c96ad-7cf8-4685-bd24-a65be9d70ef8?key=width"
+   ],
+   "student": true
+  },
+  {
+   "key": "frontenac_pm|2174kingstreet",
+   "address": "2-174 King Street East",
+   "unit": "",
+   "beds": 4,
+   "baths": 1,
+   "rent": null,
+   "basis": "unit",
+   "available": "",
+   "status": "rented",
+   "url": "https://www.frontenacproperty.com/2-174-king-street",
+   "title": "2-174 King Street East",
+   "photos": [
+    "https://cms.frontenacproperty.com/assets/fc97c622-9b84-4409-8029-3cbcfa8463d8?key=width"
+   ],
+   "student": true
+  },
+  {
+   "key": "frontenac_pm|155unionstreet",
+   "address": "1-155 Union Street",
+   "unit": "",
+   "beds": 2,
+   "baths": 1.5,
+   "rent": null,
+   "basis": "unit",
+   "available": "",
+   "status": "rented",
+   "url": "https://www.frontenacproperty.com/155-union-street",
+   "title": "1-155 Union Street",
+   "photos": [
+    "https://cms.frontenacproperty.com/assets/9b3b4539-e30d-4fbe-85af-db9fce79992e?key=width"
+   ],
+   "student": true
+  },
+  {
+   "key": "frontenac_pm|304albertstreet",
+   "address": "304 Albert Street",
+   "unit": "",
+   "beds": 5,
+   "baths": 2,
+   "rent": null,
+   "basis": "unit",
+   "available": "",
+   "status": "rented",
+   "url": "https://www.frontenacproperty.com/304-albert-street",
+   "title": "304 Albert Street",
+   "photos": [
+    "https://cms.frontenacproperty.com/assets/3dc07c44-8be8-4def-9121-1f57b3cc9c3a?key=width"
+   ],
+   "student": true
+  },
+  {
+   "key": "frontenac_pm|3339albertstkingston",
+   "address": "3-339 Albert Street",
+   "unit": "",
+   "beds": 2,
+   "baths": 1,
+   "rent": null,
+   "basis": "unit",
+   "available": "",
+   "status": "rented",
+   "url": "https://www.frontenacproperty.com/3-339-albert-st-kingston",
+   "title": "3-339 Albert Street - heat and water included!",
+   "photos": [
+    "https://cms.frontenacproperty.com/assets/d4c0f232-686e-4827-96dc-1c20f7e818b6?key=width"
+   ],
+   "student": true
+  },
+  {
+   "key": "frontenac_pm|b323universityavenue",
+   "address": "B-323 University Avenue",
+   "unit": "",
+   "beds": 5,
+   "baths": 2,
+   "rent": null,
+   "basis": "unit",
+   "available": "",
+   "status": "rented",
+   "url": "https://www.frontenacproperty.com/b-323-university-avenue",
+   "title": "B-323 University Avenue",
+   "photos": [
+    "https://cms.frontenacproperty.com/assets/f7eb5275-7727-4730-8061-b41129d6eb09?key=width"
+   ],
+   "student": true
+  },
+  {
+   "key": "frontenac_pm|2339albertstreetinclusive",
+   "address": "2-339 Albert Street",
+   "unit": "",
+   "beds": 2,
+   "baths": 1,
+   "rent": null,
+   "basis": "unit",
+   "available": "",
+   "status": "rented",
+   "url": "https://www.frontenacproperty.com/2-339-albert-street-inclusive",
+   "title": "2-339 Albert Street - inclusive!",
+   "photos": [
+    "https://cms.frontenacproperty.com/assets/6a852950-57e5-4365-9d9a-bc29886c43fa?key=width"
+   ],
+   "student": true
+  },
+  {
+   "key": "frontenac_pm|175alfredstreet",
+   "address": "175 Alfred Street",
+   "unit": "",
+   "beds": 5,
+   "baths": 2,
+   "rent": null,
+   "basis": "unit",
+   "available": "",
+   "status": "rented",
+   "url": "https://www.frontenacproperty.com/175-alfred-street",
+   "title": "175 Alfred Street",
+   "photos": [
+    "https://cms.frontenacproperty.com/assets/80411997-1511-4877-bbdb-446cc34d5307?key=width"
+   ],
+   "student": true
+  },
+  {
+   "key": "frontenac_pm|3155unionstreet",
+   "address": "3-155 Union Street",
+   "unit": "",
+   "beds": 3,
+   "baths": 2,
+   "rent": null,
+   "basis": "unit",
+   "available": "",
+   "status": "rented",
+   "url": "https://www.frontenacproperty.com/3-155-union-street",
+   "title": "3-155 Union Street",
+   "photos": [
+    "https://cms.frontenacproperty.com/assets/845d93ab-38e9-4027-8754-0117f0951000?key=width"
+   ],
+   "student": true
+  },
+  {
+   "key": "frontenac_pm|1203alfredstreet",
+   "address": "1-203 Alfred Street",
+   "unit": "",
+   "beds": 5,
+   "baths": 2,
+   "rent": null,
+   "basis": "unit",
+   "available": "",
+   "status": "rented",
+   "url": "https://www.frontenacproperty.com/1-203-alfred-street",
+   "title": "1-203 Alfred Street",
+   "photos": [
+    "https://cms.frontenacproperty.com/assets/ab0530be-c753-47af-b4e0-51a862fa22ef?key=width"
+   ],
+   "student": true
+  },
+  {
+   "key": "frontenac_pm|242alfredstreet",
+   "address": "242 Alfred Street",
+   "unit": "",
+   "beds": 6,
+   "baths": 2,
+   "rent": null,
+   "basis": "unit",
+   "available": "",
+   "status": "rented",
+   "url": "https://www.frontenacproperty.com/242-alfred-street",
+   "title": "242 Alfred Street",
+   "photos": [
+    "https://cms.frontenacproperty.com/assets/c682f0ff-bccd-4f30-9c50-5a28f012d8e8?key=width"
+   ],
+   "student": true
+  },
+  {
+   "key": "frontenac_pm|1199kingstreeteastheatwaterincluded",
+   "address": "1-199 King Street East",
+   "unit": "",
+   "beds": 5,
+   "baths": 1.5,
+   "rent": null,
+   "basis": "unit",
+   "available": "",
+   "status": "rented",
+   "url": "https://www.frontenacproperty.com/1-199-king-street-east-heat-water-included",
+   "title": "1-199 King Street East - heat & water included!",
+   "photos": [
+    "https://cms.frontenacproperty.com/assets/7aada522-36be-442c-b398-506937697ed3?key=width"
+   ],
+   "student": true
+  },
+  {
+   "key": "frontenac_pm|304219universityavenueinclusive",
+   "address": "304-219 University Avenue",
+   "unit": "",
+   "beds": 0,
+   "baths": 1,
+   "rent": null,
+   "basis": "unit",
+   "available": "",
+   "status": "rented",
+   "url": "https://www.frontenacproperty.com/304-219-university-avenue-inclusive",
+   "title": "304-219 University Avenue - inclusive!",
+   "photos": [
+    "https://cms.frontenacproperty.com/assets/50851b9b-9383-4b8b-b5fe-33a61ce15075?key=width"
+   ],
+   "student": true
+  },
+  {
+   "key": "frontenac_pm|315earlstreet1300bed",
+   "address": "315 Earl Street",
+   "unit": "",
+   "beds": 6,
+   "baths": 2,
+   "rent": null,
+   "basis": "unit",
+   "available": "",
+   "status": "rented",
+   "url": "https://www.frontenacproperty.com/315-earl-street-1300bed",
+   "title": "315 Earl Street",
+   "photos": [
+    "https://cms.frontenacproperty.com/assets/67e0bba7-2f25-439d-819a-5786fbe28d6a?key=width"
+   ],
+   "student": true
+  },
+  {
+   "key": "frontenac_pm|2711kingstreetw",
+   "address": "2-711 King Street West",
+   "unit": "",
+   "beds": 1,
+   "baths": 2,
+   "rent": null,
+   "basis": "unit",
+   "available": "",
+   "status": "rented",
+   "url": "https://www.frontenacproperty.com/2-711-king-street-w",
+   "title": "2-711 King Street West - inclusive!",
+   "photos": [
+    "https://cms.frontenacproperty.com/assets/0e789d69-7387-41ce-bf83-75bf9a11b4dd?key=width"
+   ],
+   "student": true
+  },
+  {
+   "key": "frontenac_pm|486nelsonstreetheatincluded",
+   "address": "4-86 Nelson Street",
+   "unit": "",
+   "beds": 2,
+   "baths": 1.5,
+   "rent": null,
+   "basis": "unit",
+   "available": "",
+   "status": "rented",
+   "url": "https://www.frontenacproperty.com/4-86-nelson-street-heat-included",
+   "title": "4-86 Nelson Street - heat included!",
+   "photos": [
+    "https://cms.frontenacproperty.com/assets/05772433-f1be-4d48-854f-5cafe4e4e215?key=width"
+   ],
+   "student": true
+  },
+  {
+   "key": "frontenac_pm|4328queenstreet",
+   "address": "4-328 Queen Street",
+   "unit": "",
+   "beds": 2,
+   "baths": 1,
+   "rent": null,
+   "basis": "unit",
+   "available": "",
+   "status": "rented",
+   "url": "https://www.frontenacproperty.com/4-328-queen-street",
+   "title": "4-328 Queen Street",
+   "photos": [
+    "https://cms.frontenacproperty.com/assets/07237202-5da0-4bc1-9ba9-ad93a50e0b08?key=width"
+   ],
+   "student": true
+  },
+  {
+   "key": "frontenac_pm|2104bagotstreet",
+   "address": "2-104 Bagot Street",
+   "unit": "",
+   "beds": 3,
+   "baths": 2,
+   "rent": null,
+   "basis": "unit",
+   "available": "",
+   "status": "rented",
+   "url": "https://www.frontenacproperty.com/2-104-bagot-street",
+   "title": "2-104 Bagot Street",
+   "photos": [
+    "https://cms.frontenacproperty.com/assets/a491bcbb-99d4-464d-bf48-f037721f5a7b?key=width"
+   ],
+   "student": true
+  },
+  {
+   "key": "frontenac_pm|2328queenstreet",
+   "address": "2-328 Queen Street",
+   "unit": "",
+   "beds": 2,
+   "baths": 1,
+   "rent": null,
+   "basis": "unit",
+   "available": "",
+   "status": "rented",
+   "url": "https://www.frontenacproperty.com/2-328-queen-street",
+   "title": "2-328 Queen Street",
+   "photos": [
+    "https://cms.frontenacproperty.com/assets/c248cba4-97f5-4209-a50d-2b4792fcacf0?key=width"
+   ],
+   "student": true
+  },
+  {
+   "key": "frontenac_pm|3200alfredstreet",
+   "address": "3-200 Alfred Street",
+   "unit": "",
+   "beds": 3,
+   "baths": 1,
+   "rent": null,
+   "basis": "unit",
+   "available": "",
+   "status": "rented",
+   "url": "https://www.frontenacproperty.com/3-200-alfred-street",
+   "title": "3-200 Alfred Street",
+   "photos": [
+    "https://cms.frontenacproperty.com/assets/2bef61b4-e058-4304-9676-fc35b8d3e5e8?key=width"
+   ],
+   "student": true
+  },
+  {
+   "key": "frontenac_pm|386nelsonstreetheatincluded",
+   "address": "3-86 Nelson Street",
+   "unit": "",
+   "beds": 1,
+   "baths": 1,
+   "rent": null,
+   "basis": "unit",
+   "available": "",
+   "status": "rented",
+   "url": "https://www.frontenacproperty.com/3-86-nelson-street-heat-included",
+   "title": "3-86 Nelson Street - heat included!",
+   "photos": [
+    "https://cms.frontenacproperty.com/assets/ddef16ad-23b1-4967-b66d-b94c7fea5320?key=width"
+   ],
+   "student": true
+  },
+  {
+   "key": "frontenac_pm|618garrettstreetheatwaterincluded",
+   "address": "6-18 Garrett Street",
+   "unit": "",
+   "beds": 1,
+   "baths": 1,
+   "rent": null,
+   "basis": "unit",
+   "available": "",
+   "status": "rented",
+   "url": "https://www.frontenacproperty.com/6-18-garrett-street-heat-water-included",
+   "title": "6-18 Garrett Street - heat & water included!",
+   "photos": [
+    "https://cms.frontenacproperty.com/assets/f95c1c7d-2ea7-4a5c-97cc-94b98195f186?key=width"
+   ],
+   "student": true
+  },
+  {
+   "key": "frontenac_pm|6547brockstreetfurnished",
+   "address": "6-547 Brock Street",
+   "unit": "",
+   "beds": 1,
+   "baths": 1,
+   "rent": null,
+   "basis": "unit",
+   "available": "",
+   "status": "rented",
+   "url": "https://www.frontenacproperty.com/6-547-brock-street-furnished",
+   "title": "6-547 Brock Street - heat & water included!",
+   "photos": [
+    "https://cms.frontenacproperty.com/assets/a5167692-94fa-4a97-a72f-900a402eaa9c?key=width"
+   ],
+   "student": true
+  },
+  {
+   "key": "frontenac_pm|1328queenst",
+   "address": "1-328 Queen Street",
+   "unit": "",
+   "beds": 2,
+   "baths": 1,
+   "rent": null,
+   "basis": "unit",
+   "available": "",
+   "status": "rented",
+   "url": "https://www.frontenacproperty.com/1-328-queen-st",
+   "title": "1-328 Queen Street",
+   "photos": [
+    "https://cms.frontenacproperty.com/assets/0768f155-1dd9-45ec-8ed3-ef5675bf6034?key=width"
+   ],
+   "student": true
+  },
+  {
+   "key": "frontenac_pm|2154johnsonstreet",
+   "address": "2-154 Johnson Street",
+   "unit": "",
+   "beds": 0,
+   "baths": 1,
+   "rent": null,
+   "basis": "unit",
+   "available": "",
+   "status": "rented",
+   "url": "https://www.frontenacproperty.com/2-154-johnson-street",
+   "title": "2-154 Johnson Street - water included!",
+   "photos": [
+    "https://cms.frontenacproperty.com/assets/b0236080-84b4-46ae-ab19-1804fc953e87?key=width"
+   ],
+   "student": true
+  },
+  {
+   "key": "frontenac_pm|4547brockstreetheatwaterincluded",
+   "address": "4-547 Brock Street",
+   "unit": "",
+   "beds": 1,
+   "baths": 1,
+   "rent": null,
+   "basis": "unit",
+   "available": "",
+   "status": "rented",
+   "url": "https://www.frontenacproperty.com/4-547-brock-street-heat-water-included",
+   "title": "4-547 Brock Street - heat & water included!",
+   "photos": [
+    "https://cms.frontenacproperty.com/assets/668a7ae1-2d90-4332-a9cc-53ed56988871?key=width"
+   ],
+   "student": true
+  },
+  {
+   "key": "frontenac_pm|3241johnsonstreet",
+   "address": "3-241 Johnson Street",
+   "unit": "",
+   "beds": 1,
+   "baths": 1,
+   "rent": null,
+   "basis": "unit",
+   "available": "",
+   "status": "rented",
+   "url": "https://www.frontenacproperty.com/3-241-johnson-street",
+   "title": "3-241 Johnson Street - heat & water included!",
+   "photos": [
+    "https://cms.frontenacproperty.com/assets/ece424e5-c3bd-4c47-a698-9da635ac2f66?key=width"
+   ],
+   "student": true
+  }
+ ]
+}
