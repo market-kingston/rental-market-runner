@@ -1,0 +1,56 @@
+{
+ "date": "2026-11-04",
+ "sources": {
+  "sage": {
+   "source": "sage",
+   "pages": [
+    {
+     "url": "https://condos.ca/pricehistory?offer=Rent&addressId=2739680&suiteNumber=&bedTypeNum=-1",
+     "ok": true,
+     "status": 200,
+     "final_url": "https://condos.ca/pricehistory?offer=Rent&addressId=2739680&suiteNumber=&bedTypeNum=-1",
+     "file": "condos-ca-pricehistory-offer-Rent-addressId-2739680-suiteNumber-bedTypeNum-1.html",
+     "bytes": 414105,
+     "sha256": "d83f1a129ccb0adfd8050549ebd123bc8ded00c5c931794f026b41c253cae0ed"
+    },
+    {
+     "url": "https://condos.ca/addresses/652-princess-street-kingston?offer=Rent",
+     "ok": true,
+     "status": 200,
+     "final_url": "https://condos.ca/addresses/652-princess-street-kingston?offer=Rent",
+     "file": "condos-ca-addresses-652-princess-street-kingston-offer-Rent.html",
+     "bytes": 210998,
+     "sha256": "a449a2e65b49a27d3fc82d292efc506fbf42dc163b142e5e03c8fcb89bab89f5"
+    }
+   ],
+   "ok": 2,
+   "failed": 0
+  },
+  "crown": {
+   "source": "crown",
+   "pages": [
+    {
+     "url": "https://condos.ca/pricehistory?offer=Rent&addressId=2851106&suiteNumber=&bedTypeNum=-1",
+     "ok": true,
+     "status": 200,
+     "final_url": "https://condos.ca/pricehistory?offer=Rent&addressId=2851106&suiteNumber=&bedTypeNum=-1",
+     "file": "condos-ca-pricehistory-offer-Rent-addressId-2851106-suiteNumber-bedTypeNum-1.html",
+     "bytes": 414096,
+     "sha256": "9ed7363b660e54f367a945c70741ad68443f09a5667803a9914cf387375e46a2"
+    },
+    {
+     "url": "https://condos.ca/addresses/223-princess-street-kingston?offer=Rent",
+     "ok": true,
+     "status": 200,
+     "final_url": "https://condos.ca/addresses/223-princess-street-kingston?offer=Rent",
+     "file": "condos-ca-addresses-223-princess-street-kingston-offer-Rent.html",
+     "bytes": 224269,
+     "sha256": "51a2528e2a605355cdfd46286ec2f2a17596bb41433b1b1cb868e03fb15a26b1"
+    }
+   ],
+   "ok": 2,
+   "failed": 0
+  }
+ },
+ "parsed": {}
+}
