@@ -1,0 +1,1101 @@
+{
+ "source": "axon",
+ "date": "2026-11-28",
+ "count": 70,
+ "incomplete": false,
+ "listings": [
+  {
+   "key": "axon|233-colborne-st",
+   "address": "233 Colborne Street, Kingston, ON",
+   "unit": "",
+   "beds": [
+    3
+   ],
+   "baths": null,
+   "rent": 3300,
+   "basis": "unit-from",
+   "available": "",
+   "status": "listed",
+   "url": "https://www.axonproperties.ca/residential-rentals/233-colborne-st",
+   "name": "featured",
+   "photos": [
+    "https://s3.amazonaws.com/lws_lift/axon_pm/images/gallery/512/1761250258902_233ColborneSt.jpg"
+   ]
+  },
+  {
+   "key": "axon|234---242-university-ave",
+   "address": "234 University Avenue, Kingston, ON",
+   "unit": "",
+   "beds": [
+    4,
+    6
+   ],
+   "baths": null,
+   "rent": 6340,
+   "basis": "unit-from",
+   "available": "",
+   "status": "listed",
+   "url": "https://www.axonproperties.ca/residential-rentals/234---242-university-ave",
+   "name": "featured",
+   "photos": [
+    "https://s3.amazonaws.com/lws_lift/axon_pm/images/gallery/512/1792417620248_234-242-University-Front.png"
+   ]
+  },
+  {
+   "key": "axon|242-johnson-st",
+   "address": "242 Johnson Street, Kingston, ON",
+   "unit": "",
+   "beds": [
+    1
+   ],
+   "baths": null,
+   "rent": 1600,
+   "basis": "unit-from",
+   "available": "",
+   "status": "listed",
+   "url": "https://www.axonproperties.ca/residential-rentals/242-johnson-st",
+   "name": "featured",
+   "photos": [
+    "https://s3.amazonaws.com/lws_lift/axon_pm/images/gallery/512/1764781110268_242_Johnson_Street_-_NewExterior__1_.jpg"
+   ]
+  },
+  {
+   "key": "axon|63-nelson-street",
+   "address": "63 Nelson Street, Kingston, ON",
+   "unit": "",
+   "beds": [
+    5
+   ],
+   "baths": null,
+   "rent": 4000,
+   "basis": "unit-from",
+   "available": "",
+   "status": "listed",
+   "url": "https://www.axonproperties.ca/residential-rentals/63-nelson-street",
+   "name": "featured"
+  },
+  {
+   "key": "axon|98-collingwood",
+   "address": "98 Collingwood Street, Kingston, ON",
+   "unit": "",
+   "beds": [
+    6
+   ],
+   "baths": null,
+   "rent": 6995,
+   "basis": "unit-from",
+   "available": "",
+   "status": "listed",
+   "url": "https://www.axonproperties.ca/residential-rentals/98-collingwood",
+   "name": "featured"
+  },
+  {
+   "key": "axon|10-12-collingwood-st",
+   "address": "10 Collingwood Street, Kingston, ON",
+   "unit": "",
+   "beds": [
+    3
+   ],
+   "baths": null,
+   "rent": 3500,
+   "basis": "unit-from",
+   "available": "",
+   "status": "listed",
+   "url": "https://www.axonproperties.ca/residential-rentals/10-12-collingwood-st",
+   "name": "10-12 Collingwood St"
+  },
+  {
+   "key": "axon|101-toronto",
+   "address": "101 Toronto Street, Kingston, ON",
+   "unit": "",
+   "beds": [
+    2
+   ],
+   "baths": null,
+   "rent": 1800,
+   "basis": "unit-from",
+   "available": "",
+   "status": "listed",
+   "url": "https://www.axonproperties.ca/residential-rentals/101-toronto",
+   "name": "101 Toronto Street"
+  },
+  {
+   "key": "axon|105-cherry-street",
+   "address": "105 Cherry Street, Kingston, ON",
+   "unit": "",
+   "beds": [
+    4
+   ],
+   "baths": null,
+   "rent": 1895,
+   "basis": "unit-from",
+   "available": "",
+   "status": "listed",
+   "url": "https://www.axonproperties.ca/residential-rentals/105-cherry-street",
+   "name": "105 Cherry Street"
+  },
+  {
+   "key": "axon|112-gore-st",
+   "address": "112 Gore Street, Kingston, ON",
+   "unit": "",
+   "beds": [
+    5
+   ],
+   "baths": null,
+   "rent": 5200,
+   "basis": "unit-from",
+   "available": "",
+   "status": "listed",
+   "url": "https://www.axonproperties.ca/residential-rentals/112-gore-st",
+   "name": "112 Gore Street - [Student Rental]",
+   "student": true
+  },
+  {
+   "key": "axon|118-virginia-st",
+   "address": "118 Virginia Street, Kingston, ON",
+   "unit": "",
+   "beds": [
+    2
+   ],
+   "baths": null,
+   "rent": 1675,
+   "basis": "unit-from",
+   "available": "",
+   "status": "listed",
+   "url": "https://www.axonproperties.ca/residential-rentals/118-virginia-st",
+   "name": "Available December 1st"
+  },
+  {
+   "key": "axon|122-wellington",
+   "address": "122 Wellington Street, Kingston, ON",
+   "unit": "",
+   "beds": [
+    5
+   ],
+   "baths": null,
+   "rent": 5000,
+   "basis": "unit-from",
+   "available": "",
+   "status": "listed",
+   "url": "https://www.axonproperties.ca/residential-rentals/122-wellington",
+   "name": "122 - 124 Wellington Street - [Student Rental]",
+   "student": true
+  },
+  {
+   "key": "axon|131-bevelrey",
+   "address": "131 Beverley Street, Kingston, ON",
+   "unit": "",
+   "beds": [
+    6
+   ],
+   "baths": null,
+   "rent": 6150,
+   "basis": "unit-from",
+   "available": "",
+   "status": "listed",
+   "url": "https://www.axonproperties.ca/residential-rentals/131-bevelrey",
+   "name": "131 Beverley Street - [Student Rental]",
+   "student": true
+  },
+  {
+   "key": "axon|137-russel",
+   "address": "137 Russell Street, Kingston, ON",
+   "unit": "",
+   "beds": [
+    1,
+    2
+   ],
+   "baths": null,
+   "rent": 1395,
+   "basis": "unit-from",
+   "available": "",
+   "status": "listed",
+   "url": "https://www.axonproperties.ca/residential-rentals/137-russel",
+   "name": "Available December 1st"
+  },
+  {
+   "key": "axon|140-liddell-crescent",
+   "address": "140 Liddell Crescent, Kingston, ON",
+   "unit": "",
+   "beds": [
+    1,
+    3
+   ],
+   "baths": null,
+   "rent": 1500,
+   "basis": "unit-from",
+   "available": "",
+   "status": "listed",
+   "url": "https://www.axonproperties.ca/residential-rentals/140-liddell-crescent",
+   "name": "140 Liddell Crescent"
+  },
+  {
+   "key": "axon|191-adelaide-street",
+   "address": "191 Adelaide Street, Kingston, ON",
+   "unit": "",
+   "beds": [
+    2
+   ],
+   "baths": null,
+   "rent": 1650,
+   "basis": "unit-from",
+   "available": "",
+   "status": "listed",
+   "url": "https://www.axonproperties.ca/residential-rentals/191-adelaide-street",
+   "name": "191 Adelaide Street"
+  },
+  {
+   "key": "axon|191-collingwood-street",
+   "address": "191 Collingwood Street, Kingston, ON",
+   "unit": "",
+   "beds": [
+    3
+   ],
+   "baths": null,
+   "rent": 3175,
+   "basis": "unit-from",
+   "available": "",
+   "status": "listed",
+   "url": "https://www.axonproperties.ca/residential-rentals/191-collingwood-street",
+   "name": "191 Collingwood Street - [Student Rental]",
+   "student": true
+  },
+  {
+   "key": "axon|193-raglan",
+   "address": "193 Raglan Road, Kingston, ON",
+   "unit": "",
+   "beds": [
+    6
+   ],
+   "baths": null,
+   "rent": 5700,
+   "basis": "unit-from",
+   "available": "",
+   "status": "listed",
+   "url": "https://www.axonproperties.ca/residential-rentals/193-raglan",
+   "name": "1 Half-Month Free Rent - 12 Month Lease"
+  },
+  {
+   "key": "axon|21-beverley-street---student-room-rentals",
+   "address": "21 Beverley Street, Kingston, ON",
+   "unit": "",
+   "beds": [
+    7
+   ],
+   "baths": null,
+   "rent": 7490,
+   "basis": "unit-from",
+   "available": "",
+   "status": "listed",
+   "url": "https://www.axonproperties.ca/residential-rentals/21-beverley-street---student-room-rentals",
+   "name": "21 Beverley Street - [ Student Rental ]",
+   "student": true
+  },
+  {
+   "key": "axon|21-chatham-street",
+   "address": "21 Chatham Street, Kingston, ON",
+   "unit": "",
+   "beds": [
+    5
+   ],
+   "baths": null,
+   "rent": 5250,
+   "basis": "unit-from",
+   "available": "",
+   "status": "listed",
+   "url": "https://www.axonproperties.ca/residential-rentals/21-chatham-street",
+   "name": "1 Half-Month Free Rent - 12 Month Lease"
+  },
+  {
+   "key": "axon|210-union-st",
+   "address": "210 Union Street, Kingston, ON",
+   "unit": "",
+   "beds": [
+    1
+   ],
+   "baths": null,
+   "rent": 1500,
+   "basis": "unit-from",
+   "available": "",
+   "status": "listed",
+   "url": "https://www.axonproperties.ca/residential-rentals/210-union-st",
+   "name": "210 Union Street - [ Student Rental]",
+   "student": true
+  },
+  {
+   "key": "axon|212-colborne-st",
+   "address": "212 Colborne Street, Kingston, ON",
+   "unit": "",
+   "beds": [
+    3
+   ],
+   "baths": null,
+   "rent": 2550,
+   "basis": "unit-from",
+   "available": "",
+   "status": "listed",
+   "url": "https://www.axonproperties.ca/residential-rentals/212-colborne-st",
+   "name": "212 Colborne St - [ Student Rental ]",
+   "student": true
+  },
+  {
+   "key": "axon|217-collingwood-street",
+   "address": "217 Collingwood Street, Kingston, ON",
+   "unit": "",
+   "beds": [
+    4
+   ],
+   "baths": null,
+   "rent": 4495,
+   "basis": "unit-from",
+   "available": "",
+   "status": "listed",
+   "url": "https://www.axonproperties.ca/residential-rentals/217-collingwood-street",
+   "name": "217 Collingwood St - [Student Rental]",
+   "student": true
+  },
+  {
+   "key": "axon|219-colborne-st",
+   "address": "219 Colborne Street, Kingston, ON",
+   "unit": "",
+   "beds": [
+    6
+   ],
+   "baths": null,
+   "rent": 5250,
+   "basis": "unit-from",
+   "available": "",
+   "status": "listed",
+   "url": "https://www.axonproperties.ca/residential-rentals/219-colborne-st",
+   "name": "219 Colborne St - [Student Rental]",
+   "student": true
+  },
+  {
+   "key": "axon|221-collingwood",
+   "address": "221 Collingwood Street, Kingston, ON",
+   "unit": "",
+   "beds": [
+    5
+   ],
+   "baths": null,
+   "rent": 5400,
+   "basis": "unit-from",
+   "available": "",
+   "status": "listed",
+   "url": "https://www.axonproperties.ca/residential-rentals/221-collingwood",
+   "name": "221 - 223 - 225 Collingwood Street - [Student Rental]",
+   "student": true
+  },
+  {
+   "key": "axon|227-brock-st",
+   "address": "227 Brock Street, Kingston, ON",
+   "unit": "",
+   "beds": [
+    2
+   ],
+   "baths": null,
+   "rent": 2300,
+   "basis": "unit-from",
+   "available": "",
+   "status": "listed",
+   "url": "https://www.axonproperties.ca/residential-rentals/227-brock-st",
+   "name": "227 Brock Street - [Student Rental]",
+   "student": true
+  },
+  {
+   "key": "axon|233-brock-street",
+   "address": "233 Brock Street, Kingston, ON",
+   "unit": "",
+   "beds": [
+    1
+   ],
+   "baths": null,
+   "rent": 1000,
+   "basis": "unit-from",
+   "available": "",
+   "status": "listed",
+   "url": "https://www.axonproperties.ca/residential-rentals/233-brock-street",
+   "name": "233 Brock Street - Student Room Rental",
+   "student": true
+  },
+  {
+   "key": "axon|240-adeliade-street",
+   "address": "240 Adelaide Street, Kingston, ON",
+   "unit": "",
+   "beds": [
+    2
+   ],
+   "baths": null,
+   "rent": 1495,
+   "basis": "unit-from",
+   "available": "",
+   "status": "listed",
+   "url": "https://www.axonproperties.ca/residential-rentals/240-adeliade-street",
+   "name": "1 Half-Month Free Rent - 12 Month Lease"
+  },
+  {
+   "key": "axon|28-beverley-street",
+   "address": "28 Beverley Street, Kingston, ON",
+   "unit": "",
+   "beds": [
+    3
+   ],
+   "baths": null,
+   "rent": 3150,
+   "basis": "unit-from",
+   "available": "",
+   "status": "listed",
+   "url": "https://www.axonproperties.ca/residential-rentals/28-beverley-street",
+   "name": "26 - 28 Beverley St - [Student Rental]",
+   "student": true
+  },
+  {
+   "key": "axon|261-colborne-st",
+   "address": "261 Colborne Street, Kingston, ON",
+   "unit": "",
+   "beds": [
+    2
+   ],
+   "baths": null,
+   "rent": 1650,
+   "basis": "unit-from",
+   "available": "",
+   "status": "listed",
+   "url": "https://www.axonproperties.ca/residential-rentals/261-colborne-st",
+   "name": "261 Colborne Street"
+  },
+  {
+   "key": "axon|271-earl-st",
+   "address": "271 Earl Street, Kingston, ON",
+   "unit": "",
+   "beds": [
+    4
+   ],
+   "baths": null,
+   "rent": 5180,
+   "basis": "unit-from",
+   "available": "",
+   "status": "listed",
+   "url": "https://www.axonproperties.ca/residential-rentals/271-earl-st",
+   "name": "271 Earl St - [ Student Rental ]",
+   "student": true
+  },
+  {
+   "key": "axon|271-helen-st",
+   "address": "271 Helen Street, Kingston, ON",
+   "unit": "",
+   "beds": [
+    2
+   ],
+   "baths": null,
+   "rent": 1550,
+   "basis": "unit-from",
+   "available": "",
+   "status": "listed",
+   "url": "https://www.axonproperties.ca/residential-rentals/271-helen-st",
+   "name": "271 Helen St"
+  },
+  {
+   "key": "axon|285-mowat",
+   "address": "285 Mowat Avenue, Kingston, ON",
+   "unit": "",
+   "beds": [
+    2
+   ],
+   "baths": null,
+   "rent": 1725,
+   "basis": "unit-from",
+   "available": "",
+   "status": "listed",
+   "url": "https://www.axonproperties.ca/residential-rentals/285-mowat",
+   "name": "285 - 289 Mowat Ave"
+  },
+  {
+   "key": "axon|288-division-st",
+   "address": "288 Division Street, Kingston, ON",
+   "unit": "",
+   "beds": [
+    5
+   ],
+   "baths": null,
+   "rent": 4350,
+   "basis": "unit-from",
+   "available": "",
+   "status": "listed",
+   "url": "https://www.axonproperties.ca/residential-rentals/288-division-st",
+   "name": "1 Half-Month Free Rent - 12 Month Lease"
+  },
+  {
+   "key": "axon|301-barrie-st-kingston",
+   "address": "301 Barrie Street, Kingston, ON",
+   "unit": "",
+   "beds": [
+    2,
+    5
+   ],
+   "baths": null,
+   "rent": 1795,
+   "basis": "unit-from",
+   "available": "",
+   "status": "listed",
+   "url": "https://www.axonproperties.ca/residential-rentals/301-barrie-st-kingston",
+   "name": "301 - 307 Barrie St - [ Student Rental ]",
+   "student": true
+  },
+  {
+   "key": "axon|309-westdale-ave-kingston",
+   "address": "309 Westdale Avenue, Kingston, ON",
+   "unit": "",
+   "beds": [
+    2
+   ],
+   "baths": null,
+   "rent": 1695,
+   "basis": "unit-from",
+   "available": "",
+   "status": "listed",
+   "url": "https://www.axonproperties.ca/residential-rentals/309-westdale-ave-kingston",
+   "name": "309 Westdale Avenue"
+  },
+  {
+   "key": "axon|310-westdale-ave",
+   "address": "310 Westdale Avenue, Kingston, ON",
+   "unit": "",
+   "beds": [
+    1,
+    2
+   ],
+   "baths": null,
+   "rent": 1400,
+   "basis": "unit-from",
+   "available": "",
+   "status": "listed",
+   "url": "https://www.axonproperties.ca/residential-rentals/310-westdale-ave",
+   "name": "310 Westdale Ave"
+  },
+  {
+   "key": "axon|311-queen-st",
+   "address": "311 Queen Street, Kingston, ON",
+   "unit": "",
+   "beds": [
+    4,
+    5
+   ],
+   "baths": null,
+   "rent": 3800,
+   "basis": "unit-from",
+   "available": "",
+   "status": "listed",
+   "url": "https://www.axonproperties.ca/residential-rentals/311-queen-st",
+   "name": "311 Queen Street - [ Student Rental ]",
+   "student": true
+  },
+  {
+   "key": "axon|318-yonge",
+   "address": "318 Yonge Street, Kingston, ON",
+   "unit": "",
+   "beds": [
+    2
+   ],
+   "baths": null,
+   "rent": 1575,
+   "basis": "unit-from",
+   "available": "",
+   "status": "listed",
+   "url": "https://www.axonproperties.ca/residential-rentals/318-yonge",
+   "name": "318 Yonge Street"
+  },
+  {
+   "key": "axon|335-barrie-st",
+   "address": "335 Barrie Street, Kingston, ON",
+   "unit": "",
+   "beds": [
+    2
+   ],
+   "baths": null,
+   "rent": 2450,
+   "basis": "unit-from",
+   "available": "",
+   "status": "listed",
+   "url": "https://www.axonproperties.ca/residential-rentals/335-barrie-st",
+   "name": "335 Barrie Street - [Student Rental]",
+   "student": true
+  },
+  {
+   "key": "axon|34-woodstone-crescent",
+   "address": "34 Woodstone Crescent, Kingston, ON",
+   "unit": "",
+   "beds": [
+    5
+   ],
+   "baths": null,
+   "rent": 4000,
+   "basis": "unit-from",
+   "available": "",
+   "status": "listed",
+   "url": "https://www.axonproperties.ca/residential-rentals/34-woodstone-crescent",
+   "name": "34 Woodstone Crescent - [Student Rental]",
+   "student": true
+  },
+  {
+   "key": "axon|35-john-street",
+   "address": "35 John Street, Kingston, ON",
+   "unit": "",
+   "beds": [
+    2
+   ],
+   "baths": null,
+   "rent": 1450,
+   "basis": "unit-from",
+   "available": "",
+   "status": "listed",
+   "url": "https://www.axonproperties.ca/residential-rentals/35-john-street",
+   "name": "35 John Street"
+  },
+  {
+   "key": "axon|366-johnson-st",
+   "address": "366 Johnson Street, Kingston, ON",
+   "unit": "",
+   "beds": [
+    5
+   ],
+   "baths": null,
+   "rent": 5250,
+   "basis": "unit-from",
+   "available": "",
+   "status": "listed",
+   "url": "https://www.axonproperties.ca/residential-rentals/366-johnson-st",
+   "name": "366 Johnson Street - [Student Rental]",
+   "student": true
+  },
+  {
+   "key": "axon|368-victoria-street",
+   "address": "368 Victoria Street, Kingston, ON",
+   "unit": "",
+   "beds": [
+    4
+   ],
+   "baths": null,
+   "rent": 4100,
+   "basis": "unit-from",
+   "available": "",
+   "status": "listed",
+   "url": "https://www.axonproperties.ca/residential-rentals/368-victoria-street",
+   "name": "368 Victoria Street - [ Student Rental ]",
+   "student": true
+  },
+  {
+   "key": "axon|37-hamilton-st",
+   "address": "37 Hamilton Street, Kingston, ON",
+   "unit": "",
+   "beds": [
+    6
+   ],
+   "baths": null,
+   "rent": 5000,
+   "basis": "unit-from",
+   "available": "",
+   "status": "listed",
+   "url": "https://www.axonproperties.ca/residential-rentals/37-hamilton-st",
+   "name": "37 Hamilton St - [Student Rental]",
+   "student": true
+  },
+  {
+   "key": "axon|385-division-st",
+   "address": "385 Division Street, Kingston, ON",
+   "unit": "",
+   "beds": [
+    2
+   ],
+   "baths": null,
+   "rent": 1750,
+   "basis": "unit-from",
+   "available": "",
+   "status": "listed",
+   "url": "https://www.axonproperties.ca/residential-rentals/385-division-st",
+   "name": "Available December 1st"
+  },
+  {
+   "key": "axon|391-division-st",
+   "address": "391 Division Street, Kingston, ON",
+   "unit": "",
+   "beds": [
+    2
+   ],
+   "baths": null,
+   "rent": 1625,
+   "basis": "unit-from",
+   "available": "",
+   "status": "listed",
+   "url": "https://www.axonproperties.ca/residential-rentals/391-division-st",
+   "name": "391 Division Street"
+  },
+  {
+   "key": "axon|41-linton",
+   "address": "41 Linton Street, Kingston, ON",
+   "unit": "",
+   "beds": [
+    6
+   ],
+   "baths": null,
+   "rent": 5800,
+   "basis": "unit-from",
+   "available": "",
+   "status": "listed",
+   "url": "https://www.axonproperties.ca/residential-rentals/41-linton",
+   "name": "41 Linton Street"
+  },
+  {
+   "key": "axon|44-virginia-street-kingston-on",
+   "address": "44 Virginia Street, Kingston, ON",
+   "unit": "",
+   "beds": [
+    2
+   ],
+   "baths": null,
+   "rent": 1675,
+   "basis": "unit-from",
+   "available": "",
+   "status": "listed",
+   "url": "https://www.axonproperties.ca/residential-rentals/44-virginia-street-kingston-on",
+   "name": "Available December 1st"
+  },
+  {
+   "key": "axon|princesscourt",
+   "address": "464 Frontenac Street, Kingston, ON",
+   "unit": "",
+   "beds": [
+    2,
+    4
+   ],
+   "baths": null,
+   "rent": 2400,
+   "basis": "unit-from",
+   "available": "",
+   "status": "listed",
+   "url": "https://www.axonproperties.ca/residential-rentals/princesscourt",
+   "name": "464 Frontenac St - [ Student Rental ]",
+   "student": true
+  },
+  {
+   "key": "axon|465-barrie-street",
+   "address": "465 Barrie Street, Kingston, ON",
+   "unit": "",
+   "beds": [
+    6
+   ],
+   "baths": null,
+   "rent": 5400,
+   "basis": "unit-from",
+   "available": "",
+   "status": "listed",
+   "url": "https://www.axonproperties.ca/residential-rentals/465-barrie-street",
+   "name": "1 Half-Month Free Rent - 12 Month Lease"
+  },
+  {
+   "key": "axon|476-albert-street",
+   "address": "476 Albert Street, Kingston, ON",
+   "unit": "",
+   "beds": [
+    2,
+    3
+   ],
+   "baths": null,
+   "rent": 1600,
+   "basis": "unit-from",
+   "available": "",
+   "status": "listed",
+   "url": "https://www.axonproperties.ca/residential-rentals/476-albert-street",
+   "name": "476 Albert Street"
+  },
+  {
+   "key": "axon|48-stephen-st",
+   "address": "48 Stephen Street, Kingston, ON",
+   "unit": "",
+   "beds": [
+    2
+   ],
+   "baths": null,
+   "rent": 1595,
+   "basis": "unit-from",
+   "available": "",
+   "status": "listed",
+   "url": "https://www.axonproperties.ca/residential-rentals/48-stephen-st",
+   "name": "48 Stephen St"
+  },
+  {
+   "key": "axon|51-balaclava",
+   "address": "51 Balaclava Street, Kingston, ON",
+   "unit": "",
+   "beds": [
+    2
+   ],
+   "baths": null,
+   "rent": 1800,
+   "basis": "unit-from",
+   "available": "",
+   "status": "listed",
+   "url": "https://www.axonproperties.ca/residential-rentals/51-balaclava",
+   "name": "Available December 1st"
+  },
+  {
+   "key": "axon|51-stanley-st",
+   "address": "51 Stanley Street, Kingston, ON",
+   "unit": "",
+   "beds": [
+    2
+   ],
+   "baths": null,
+   "rent": 1600,
+   "basis": "unit-from",
+   "available": "",
+   "status": "listed",
+   "url": "https://www.axonproperties.ca/residential-rentals/51-stanley-st",
+   "name": "51 Stanley Street"
+  },
+  {
+   "key": "axon|551-frontenac-st",
+   "address": "551 Frontenac Street, Kingston, ON",
+   "unit": "",
+   "beds": [
+    4
+   ],
+   "baths": null,
+   "rent": 3800,
+   "basis": "unit-from",
+   "available": "",
+   "status": "listed",
+   "url": "https://www.axonproperties.ca/residential-rentals/551-frontenac-st",
+   "name": "1 Half-Month Free Rent - 12 Month Lease"
+  },
+  {
+   "key": "axon|552-frontenac-street",
+   "address": "552 Frontenac Street, Kingston, ON",
+   "unit": "",
+   "beds": [
+    2
+   ],
+   "baths": null,
+   "rent": 1750,
+   "basis": "unit-from",
+   "available": "",
+   "status": "listed",
+   "url": "https://www.axonproperties.ca/residential-rentals/552-frontenac-street",
+   "name": "Available December 1st"
+  },
+  {
+   "key": "axon|57-colborne",
+   "address": "57 Colborne Street, Kingston, ON",
+   "unit": "",
+   "beds": [
+    2
+   ],
+   "baths": null,
+   "rent": 1750,
+   "basis": "unit-from",
+   "available": "",
+   "status": "listed",
+   "url": "https://www.axonproperties.ca/residential-rentals/57-colborne",
+   "name": "Available December 1st"
+  },
+  {
+   "key": "axon|58-centre-st",
+   "address": "58 Centre Street, Kingston, ON",
+   "unit": "",
+   "beds": [
+    4
+   ],
+   "baths": null,
+   "rent": 4200,
+   "basis": "unit-from",
+   "available": "",
+   "status": "listed",
+   "url": "https://www.axonproperties.ca/residential-rentals/58-centre-st",
+   "name": "58 Centre Street - [Student Rental]",
+   "student": true
+  },
+  {
+   "key": "axon|614-616-victoria-street",
+   "address": "616 Victoria Street, Kingston, ON",
+   "unit": "",
+   "beds": [
+    2
+   ],
+   "baths": null,
+   "rent": 1625,
+   "basis": "unit-from",
+   "available": "",
+   "status": "listed",
+   "url": "https://www.axonproperties.ca/residential-rentals/614-616-victoria-street",
+   "name": "614-616 Victoria Street"
+  },
+  {
+   "key": "axon|65-gardiner-st",
+   "address": "65 Gardiner Street, Kingston, ON",
+   "unit": "",
+   "beds": [
+    8
+   ],
+   "baths": null,
+   "rent": 7000,
+   "basis": "unit-from",
+   "available": "",
+   "status": "listed",
+   "url": "https://www.axonproperties.ca/residential-rentals/65-gardiner-st",
+   "name": "65 Gardiner Street - [ Student Rental ]",
+   "student": true
+  },
+  {
+   "key": "axon|66-virginia-street",
+   "address": "66 Virginia Street, Kingston, ON",
+   "unit": "",
+   "beds": [
+    2
+   ],
+   "baths": null,
+   "rent": 1675,
+   "basis": "unit-from",
+   "available": "",
+   "status": "listed",
+   "url": "https://www.axonproperties.ca/residential-rentals/66-virginia-street",
+   "name": "66 Virginia Street"
+  },
+  {
+   "key": "axon|70-markland-st",
+   "address": "70 Markland Street, Kingston, ON",
+   "unit": "",
+   "beds": [
+    4
+   ],
+   "baths": null,
+   "rent": 2800,
+   "basis": "unit-from",
+   "available": "",
+   "status": "listed",
+   "url": "https://www.axonproperties.ca/residential-rentals/70-markland-st",
+   "name": "1 Half-Month Free Rent - 12 Month Lease"
+  },
+  {
+   "key": "axon|720-princess-st",
+   "address": "720 Princess Street, Kingston, ON",
+   "unit": "",
+   "beds": [
+    2
+   ],
+   "baths": null,
+   "rent": 1750,
+   "basis": "unit-from",
+   "available": "",
+   "status": "listed",
+   "url": "https://www.axonproperties.ca/residential-rentals/720-princess-st",
+   "name": "Available December 1st"
+  },
+  {
+   "key": "axon|77-rideau",
+   "address": "77 Rideau Street, Kingston, ON",
+   "unit": "",
+   "beds": [
+    2
+   ],
+   "baths": null,
+   "rent": 1795,
+   "basis": "unit-from",
+   "available": "",
+   "status": "listed",
+   "url": "https://www.axonproperties.ca/residential-rentals/77-rideau",
+   "name": "77 Rideau St"
+  },
+  {
+   "key": "axon|80-colborne-st",
+   "address": "80 Colborne Street, Kingston, ON",
+   "unit": "",
+   "beds": [
+    3
+   ],
+   "baths": null,
+   "rent": 2900,
+   "basis": "unit-from",
+   "available": "",
+   "status": "listed",
+   "url": "https://www.axonproperties.ca/residential-rentals/80-colborne-st",
+   "name": "80 Colborne Street"
+  },
+  {
+   "key": "axon|80-virginia-st",
+   "address": "80 Virginia Street, Kingston, ON",
+   "unit": "",
+   "beds": [
+    2
+   ],
+   "baths": null,
+   "rent": 1675,
+   "basis": "unit-from",
+   "available": "",
+   "status": "listed",
+   "url": "https://www.axonproperties.ca/residential-rentals/80-virginia-st",
+   "name": "Available December 1st"
+  },
+  {
+   "key": "axon|84-gore",
+   "address": "84 Gore Street, Kingston, ON",
+   "unit": "",
+   "beds": [
+    5
+   ],
+   "baths": null,
+   "rent": 5250,
+   "basis": "unit-from",
+   "available": "",
+   "status": "listed",
+   "url": "https://www.axonproperties.ca/residential-rentals/84-gore",
+   "name": "84 Gore Street - [Student Rental]",
+   "student": true
+  },
+  {
+   "key": "axon|91-beverley",
+   "address": "91 Beverley Street, Kingston, ON",
+   "unit": "",
+   "beds": [
+    7
+   ],
+   "baths": null,
+   "rent": 7490,
+   "basis": "unit-from",
+   "available": "",
+   "status": "listed",
+   "url": "https://www.axonproperties.ca/residential-rentals/91-beverley",
+   "name": "91 Beverley"
+  },
+  {
+   "key": "axon|91-stephen-street",
+   "address": "91 Stephen Street, Kingston, ON",
+   "unit": "",
+   "beds": [
+    2
+   ],
+   "baths": null,
+   "rent": 1550,
+   "basis": "unit-from",
+   "available": "",
+   "status": "listed",
+   "url": "https://www.axonproperties.ca/residential-rentals/91-stephen-street",
+   "name": "91 Stephen Street"
+  },
+  {
+   "key": "axon|99-earl-155-bagot",
+   "address": "99 Earl Street, Kingston, ON",
+   "unit": "",
+   "beds": [
+    2
+   ],
+   "baths": null,
+   "rent": 2850,
+   "basis": "unit-from",
+   "available": "",
+   "status": "listed",
+   "url": "https://www.axonproperties.ca/residential-rentals/99-earl-155-bagot",
+   "name": "99 Earl/155 Bagot St. - [Student Rental]",
+   "student": true
+  }
+ ]
+}

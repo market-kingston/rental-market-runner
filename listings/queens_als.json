@@ -1,0 +1,1928 @@
+{
+ "source": "queens_als",
+ "date": "2026-11-28",
+ "count": 101,
+ "incomplete": false,
+ "shown_total": 101,
+ "listings": [
+  {
+   "key": "queens_als|2634",
+   "address": "Wheelchair accessible - 15 MacPherson Avenue",
+   "unit": "",
+   "beds": 2,
+   "baths": null,
+   "rent": 1255,
+   "basis": "as listed",
+   "available": "December 1, 2026",
+   "status": "listed",
+   "url": "https://listingservice.housing.queensu.ca/index.php/public/detail/2634",
+   "type": "Apartment",
+   "lease_type": "Other (e.g. monthly, short-term)",
+   "rooms": 2,
+   "landlord": "Queen's Community Housing",
+   "photos": [
+    "https://listingservice.housing.queensu.ca/index.php/storage/file_uploads/property/1000/614_12950_620.jpeg"
+   ]
+  },
+  {
+   "key": "queens_als|4243",
+   "address": "An Clachan",
+   "unit": "",
+   "beds": 1,
+   "baths": null,
+   "rent": 627,
+   "basis": "as listed",
+   "available": "October 5, 2026",
+   "status": "listed",
+   "url": "https://listingservice.housing.queensu.ca/index.php/public/detail/4243",
+   "type": "Room",
+   "lease_type": "12 Month Lease",
+   "rooms": 1,
+   "landlord": "private",
+   "photos": [
+    "https://listingservice.housing.queensu.ca/index.php/storage/file_uploads/property/0/82_21860_620.JPG"
+   ]
+  },
+  {
+   "key": "queens_als|4234",
+   "address": "184 University Ave.",
+   "unit": "",
+   "beds": 1,
+   "baths": null,
+   "rent": 804,
+   "basis": "as listed",
+   "available": "January 1, 2027",
+   "status": "listed",
+   "url": "https://listingservice.housing.queensu.ca/index.php/public/detail/4234",
+   "type": "Room",
+   "lease_type": "Other (e.g. monthly, short-term)",
+   "rooms": 1,
+   "landlord": "private",
+   "photos": [
+    "https://listingservice.housing.queensu.ca/index.php/storage/file_uploads/property/4000/3761_21788_620.JPG"
+   ]
+  },
+  {
+   "key": "queens_als|4491",
+   "address": "234 Albert Street",
+   "unit": "",
+   "beds": 5,
+   "baths": null,
+   "rent": 5750,
+   "basis": "as listed",
+   "available": "May 1, 2027",
+   "status": "listed",
+   "url": "https://listingservice.housing.queensu.ca/index.php/public/detail/4491",
+   "type": "House",
+   "lease_type": "12 Month Lease",
+   "rooms": 5,
+   "landlord": "Panadew Property Mgmt.",
+   "photos": [
+    "https://listingservice.housing.queensu.ca/index.php/storage/file_uploads/property/2000/2135_4627_620.JPG"
+   ]
+  },
+  {
+   "key": "queens_als|4490",
+   "address": "21 Adley Place",
+   "unit": "",
+   "beds": 2,
+   "baths": null,
+   "rent": 1400,
+   "basis": "as listed",
+   "available": "December 30, 2026",
+   "status": "listed",
+   "url": "https://listingservice.housing.queensu.ca/index.php/public/detail/4490",
+   "type": "House",
+   "lease_type": "Other (e.g. monthly, short-term)",
+   "rooms": 2,
+   "landlord": "private",
+   "photos": [
+    "https://listingservice.housing.queensu.ca/index.php/storage/file_uploads/property/4000/3871_23205_620.png"
+   ]
+  },
+  {
+   "key": "queens_als|4484",
+   "address": "71 Mack St.",
+   "unit": "",
+   "beds": 1,
+   "baths": null,
+   "rent": 900,
+   "basis": "as listed",
+   "available": "January 1, 2027",
+   "status": "listed",
+   "url": "https://listingservice.housing.queensu.ca/index.php/public/detail/4484",
+   "type": "Room",
+   "lease_type": "Sublet",
+   "rooms": 1,
+   "landlord": "private",
+   "photos": [
+    "https://listingservice.housing.queensu.ca/index.php/storage/file_uploads/property/4000/3873_23188_620.jpeg"
+   ]
+  },
+  {
+   "key": "queens_als|4279",
+   "address": "2 - 723 Alfred St",
+   "unit": "",
+   "beds": 1,
+   "baths": null,
+   "rent": 1950,
+   "basis": "as listed",
+   "available": "January 3, 2027",
+   "status": "listed",
+   "url": "https://listingservice.housing.queensu.ca/index.php/public/detail/4279",
+   "type": "Apartment",
+   "lease_type": "Other (e.g. monthly, short-term)",
+   "rooms": 1,
+   "landlord": "private",
+   "photos": [
+    "https://listingservice.housing.queensu.ca/index.php/storage/file_uploads/property/4000/3782_22037_620.jpeg"
+   ]
+  },
+  {
+   "key": "queens_als|4481",
+   "address": "11 - 44 Linton Street",
+   "unit": "",
+   "beds": 3,
+   "baths": null,
+   "rent": 2325,
+   "basis": "as listed",
+   "available": "January 1, 2027",
+   "status": "listed",
+   "url": "https://listingservice.housing.queensu.ca/index.php/public/detail/4481",
+   "type": "Apartment",
+   "lease_type": "Assignment",
+   "rooms": 3,
+   "landlord": "private",
+   "photos": [
+    "https://listingservice.housing.queensu.ca/index.php/storage/file_uploads/property/4000/3691_23159_620.jpg"
+   ]
+  },
+  {
+   "key": "queens_als|4480",
+   "address": "8 - 44 Linton Street",
+   "unit": "",
+   "beds": 2,
+   "baths": null,
+   "rent": 2000,
+   "basis": "as listed",
+   "available": "November 26, 2026",
+   "status": "listed",
+   "url": "https://listingservice.housing.queensu.ca/index.php/public/detail/4480",
+   "type": "Apartment",
+   "lease_type": "12 Month Lease",
+   "rooms": 2,
+   "landlord": "private",
+   "photos": [
+    "https://listingservice.housing.queensu.ca/index.php/storage/file_uploads/property/2000/2351_23147_620.jpg"
+   ]
+  },
+  {
+   "key": "queens_als|4479",
+   "address": "1A - 44 Linton Street",
+   "unit": "",
+   "beds": 3,
+   "baths": null,
+   "rent": 850,
+   "basis": "as listed",
+   "available": "January 1, 2027",
+   "status": "listed",
+   "url": "https://listingservice.housing.queensu.ca/index.php/public/detail/4479",
+   "type": "Room",
+   "lease_type": "12 Month Lease",
+   "rooms": 3,
+   "landlord": "private",
+   "photos": [
+    "https://listingservice.housing.queensu.ca/index.php/storage/file_uploads/property/3000/3175_14815_620.jpg"
+   ]
+  },
+  {
+   "key": "queens_als|4289",
+   "address": "305 - 168 division street",
+   "unit": "",
+   "beds": 1,
+   "baths": null,
+   "rent": 850,
+   "basis": "as listed",
+   "available": "May 1, 2027",
+   "status": "listed",
+   "url": "https://listingservice.housing.queensu.ca/index.php/public/detail/4289",
+   "type": "Apartment",
+   "lease_type": "Other (e.g. monthly, short-term)",
+   "rooms": 1,
+   "landlord": "private",
+   "photos": [
+    "https://listingservice.housing.queensu.ca/index.php/storage/file_uploads/property/4000/3791_22145_620.jpg"
+   ]
+  },
+  {
+   "key": "queens_als|4355",
+   "address": "301 - 62 Baiden Street",
+   "unit": "",
+   "beds": 2,
+   "baths": null,
+   "rent": 2450,
+   "basis": "as listed",
+   "available": "November 2, 2026",
+   "status": "listed",
+   "url": "https://listingservice.housing.queensu.ca/index.php/public/detail/4355",
+   "type": "Apartment",
+   "lease_type": "12 Month Lease",
+   "rooms": 2,
+   "landlord": "EveryUrban Property Management",
+   "photos": [
+    "https://listingservice.housing.queensu.ca/index.php/storage/file_uploads/property/4000/3815_22504_620.jpg"
+   ]
+  },
+  {
+   "key": "queens_als|4353",
+   "address": "202 - 21 McDonald Avenue",
+   "unit": "",
+   "beds": 2,
+   "baths": null,
+   "rent": 2449,
+   "basis": "as listed",
+   "available": "November 2, 2026",
+   "status": "listed",
+   "url": "https://listingservice.housing.queensu.ca/index.php/public/detail/4353",
+   "type": "Apartment",
+   "lease_type": "12 Month Lease",
+   "rooms": 2,
+   "landlord": "EveryUrban Property Management",
+   "photos": [
+    "https://listingservice.housing.queensu.ca/index.php/storage/file_uploads/property/4000/3814_22492_620.jpg"
+   ]
+  },
+  {
+   "key": "queens_als|4350",
+   "address": "384 Barrie St",
+   "unit": "",
+   "beds": 2,
+   "baths": null,
+   "rent": 2200,
+   "basis": "as listed",
+   "available": "November 2, 2026",
+   "status": "listed",
+   "url": "https://listingservice.housing.queensu.ca/index.php/public/detail/4350",
+   "type": "House",
+   "lease_type": "12 Month Lease",
+   "rooms": 2,
+   "landlord": "private",
+   "photos": [
+    "https://listingservice.housing.queensu.ca/index.php/storage/file_uploads/property/4000/3813_22458_620.jpg"
+   ]
+  },
+  {
+   "key": "queens_als|4345",
+   "address": "Unit 6 - 332 University Ave",
+   "unit": "",
+   "beds": 3,
+   "baths": null,
+   "rent": 3150,
+   "basis": "as listed",
+   "available": "May 1, 2027",
+   "status": "listed",
+   "url": "https://listingservice.housing.queensu.ca/index.php/public/detail/4345",
+   "type": "Apartment",
+   "lease_type": "12 Month Lease",
+   "rooms": 3,
+   "landlord": "Panadew Property Mgmt.",
+   "photos": [
+    "https://listingservice.housing.queensu.ca/index.php/storage/file_uploads/property/1000/787_11898_620.JPG"
+   ]
+  },
+  {
+   "key": "queens_als|727",
+   "address": "32 Van Order Drive",
+   "unit": "",
+   "beds": 2,
+   "baths": null,
+   "rent": 1700,
+   "basis": "as listed",
+   "available": "January 1, 2027",
+   "status": "listed",
+   "url": "https://listingservice.housing.queensu.ca/index.php/public/detail/727",
+   "type": "Room",
+   "lease_type": "8 Month Lease",
+   "rooms": 2,
+   "landlord": "private",
+   "photos": [
+    "https://listingservice.housing.queensu.ca/index.php/storage/file_uploads/property/2000/2034_3738_620.jpg"
+   ]
+  },
+  {
+   "key": "queens_als|4343",
+   "address": "3 - 313 Collingwood St.",
+   "unit": "",
+   "beds": 1,
+   "baths": null,
+   "rent": 1795,
+   "basis": "as listed",
+   "available": "January 1, 2027",
+   "status": "listed",
+   "url": "https://listingservice.housing.queensu.ca/index.php/public/detail/4343",
+   "type": "Apartment",
+   "lease_type": "Other (e.g. monthly, short-term)",
+   "rooms": 1,
+   "landlord": "private",
+   "photos": [
+    "https://listingservice.housing.queensu.ca/index.php/storage/file_uploads/property/2000/1691_488_620.jpg"
+   ]
+  },
+  {
+   "key": "queens_als|4341",
+   "address": "208 - 333 Princess Street",
+   "unit": "",
+   "beds": 3,
+   "baths": null,
+   "rent": 3000,
+   "basis": "as listed",
+   "available": "May 1, 2027",
+   "status": "listed",
+   "url": "https://listingservice.housing.queensu.ca/index.php/public/detail/4341",
+   "type": "Apartment",
+   "lease_type": "12 Month Lease",
+   "rooms": 3,
+   "landlord": "private",
+   "photos": [
+    "https://listingservice.housing.queensu.ca/index.php/storage/file_uploads/property/1000/866_17776_620.jpg"
+   ]
+  },
+  {
+   "key": "queens_als|4339",
+   "address": "38 Traymoor Street",
+   "unit": "",
+   "beds": 1,
+   "baths": null,
+   "rent": 888,
+   "basis": "as listed",
+   "available": "January 1, 2027",
+   "status": "listed",
+   "url": "https://listingservice.housing.queensu.ca/index.php/public/detail/4339",
+   "type": "Room",
+   "lease_type": "Other (e.g. monthly, short-term)",
+   "rooms": 1,
+   "landlord": "private",
+   "photos": [
+    "https://listingservice.housing.queensu.ca/index.php/storage/file_uploads/property/4000/3811_22417_620.jpg"
+   ]
+  },
+  {
+   "key": "queens_als|4338",
+   "address": "405 Earl St",
+   "unit": "",
+   "beds": 6,
+   "baths": null,
+   "rent": 4800,
+   "basis": "as listed",
+   "available": "January 1, 2027",
+   "status": "listed",
+   "url": "https://listingservice.housing.queensu.ca/index.php/public/detail/4338",
+   "type": "House",
+   "lease_type": "Sublet",
+   "rooms": 6,
+   "landlord": "private",
+   "photos": [
+    "https://listingservice.housing.queensu.ca/index.php/storage/file_uploads/property/4000/3810_22410_620.jpeg"
+   ]
+  },
+  {
+   "key": "queens_als|1101",
+   "address": "4 Traymoor Ave.",
+   "unit": "",
+   "beds": 6,
+   "baths": null,
+   "rent": 6600,
+   "basis": "as listed",
+   "available": "May 1, 2027",
+   "status": "listed",
+   "url": "https://listingservice.housing.queensu.ca/index.php/public/detail/1101",
+   "type": "House",
+   "lease_type": "12 Month Lease",
+   "rooms": 6,
+   "landlord": "private",
+   "photos": [
+    "https://listingservice.housing.queensu.ca/index.php/storage/file_uploads/property/2000/2245_5595_620.jpg"
+   ]
+  },
+  {
+   "key": "queens_als|4482",
+   "address": "165 Clergy St. East",
+   "unit": "",
+   "beds": 1,
+   "baths": null,
+   "rent": 900,
+   "basis": "as listed",
+   "available": "January 1, 2027",
+   "status": "listed",
+   "url": "https://listingservice.housing.queensu.ca/index.php/public/detail/4482",
+   "type": "Room",
+   "lease_type": "Sublet",
+   "rooms": 1,
+   "landlord": "private",
+   "photos": [
+    "https://listingservice.housing.queensu.ca/index.php/storage/file_uploads/property/4000/3866_23179_620.jpg"
+   ]
+  },
+  {
+   "key": "queens_als|4477",
+   "address": "2 - 301 Alfred",
+   "unit": "",
+   "beds": 3,
+   "baths": null,
+   "rent": 2700,
+   "basis": "as listed",
+   "available": "May 1, 2027",
+   "status": "listed",
+   "url": "https://listingservice.housing.queensu.ca/index.php/public/detail/4477",
+   "type": "Apartment",
+   "lease_type": "12 Month Lease",
+   "rooms": 3,
+   "landlord": "private",
+   "photos": [
+    "https://listingservice.housing.queensu.ca/index.php/storage/file_uploads/property/1000/1350_23133_620.jpg"
+   ]
+  },
+  {
+   "key": "queens_als|4475",
+   "address": "428 Bagot Street",
+   "unit": "",
+   "beds": 5,
+   "baths": null,
+   "rent": 3400,
+   "basis": "as listed",
+   "available": "May 1, 2027",
+   "status": "listed",
+   "url": "https://listingservice.housing.queensu.ca/index.php/public/detail/4475",
+   "type": "House",
+   "lease_type": "12 Month Lease",
+   "rooms": 5,
+   "landlord": "private",
+   "photos": [
+    "https://listingservice.housing.queensu.ca/index.php/storage/file_uploads/property/4000/3861_23112_620.jpg"
+   ]
+  },
+  {
+   "key": "queens_als|4476",
+   "address": "5 Birch Ave",
+   "unit": "",
+   "beds": 5,
+   "baths": null,
+   "rent": 3500,
+   "basis": "as listed",
+   "available": "May 1, 2027",
+   "status": "listed",
+   "url": "https://listingservice.housing.queensu.ca/index.php/public/detail/4476",
+   "type": "House",
+   "lease_type": "12 Month Lease",
+   "rooms": 5,
+   "landlord": "private",
+   "photos": [
+    "https://listingservice.housing.queensu.ca/index.php/storage/file_uploads/property/2000/2283_6070_620.jpg"
+   ]
+  },
+  {
+   "key": "queens_als|4473",
+   "address": "Unit 3 - 332 University Ave",
+   "unit": "",
+   "beds": 3,
+   "baths": null,
+   "rent": 3000,
+   "basis": "as listed",
+   "available": "May 1, 2027",
+   "status": "listed",
+   "url": "https://listingservice.housing.queensu.ca/index.php/public/detail/4473",
+   "type": "Apartment",
+   "lease_type": "12 Month Lease",
+   "rooms": 3,
+   "landlord": "Panadew Property Mgmt.",
+   "photos": [
+    "https://listingservice.housing.queensu.ca/index.php/storage/file_uploads/property/2000/1634_197_620.jpg"
+   ]
+  },
+  {
+   "key": "queens_als|4464",
+   "address": "1 - 180 Bagot St",
+   "unit": "",
+   "beds": 1,
+   "baths": null,
+   "rent": 1000,
+   "basis": "as listed",
+   "available": "January 1, 2027",
+   "status": "listed",
+   "url": "https://listingservice.housing.queensu.ca/index.php/public/detail/4464",
+   "type": "Room",
+   "lease_type": "Sublet",
+   "rooms": 1,
+   "landlord": "private",
+   "photos": [
+    "https://listingservice.housing.queensu.ca/index.php/storage/file_uploads/property/4000/3857_23057_620.jpeg"
+   ]
+  },
+  {
+   "key": "queens_als|4471",
+   "address": "2 - 480 Albert St",
+   "unit": "",
+   "beds": 3,
+   "baths": null,
+   "rent": 2685,
+   "basis": "as listed",
+   "available": "May 1, 2027",
+   "status": "listed",
+   "url": "https://listingservice.housing.queensu.ca/index.php/public/detail/4471",
+   "type": "Apartment",
+   "lease_type": "12 Month Lease",
+   "rooms": 3,
+   "landlord": "private",
+   "photos": [
+    "https://listingservice.housing.queensu.ca/index.php/storage/file_uploads/property/1000/1327_1187_620.jpeg"
+   ]
+  },
+  {
+   "key": "queens_als|4470",
+   "address": "1 - 480 Albert St",
+   "unit": "",
+   "beds": 6,
+   "baths": null,
+   "rent": 6570,
+   "basis": "as listed",
+   "available": "May 1, 2027",
+   "status": "listed",
+   "url": "https://listingservice.housing.queensu.ca/index.php/public/detail/4470",
+   "type": "House",
+   "lease_type": "12 Month Lease",
+   "rooms": 6,
+   "landlord": "private",
+   "photos": [
+    "https://listingservice.housing.queensu.ca/index.php/storage/file_uploads/property/1000/753_16375_620.jpeg"
+   ]
+  },
+  {
+   "key": "queens_als|4472",
+   "address": "222 Earl street",
+   "unit": "",
+   "beds": 4,
+   "baths": null,
+   "rent": 4780,
+   "basis": "as listed",
+   "available": "May 1, 2027",
+   "status": "listed",
+   "url": "https://listingservice.housing.queensu.ca/index.php/public/detail/4472",
+   "type": "Apartment",
+   "lease_type": "12 Month Lease",
+   "rooms": 4,
+   "landlord": "private",
+   "photos": [
+    "https://listingservice.housing.queensu.ca/index.php/storage/file_uploads/property/4000/3803_22258_620.jpeg"
+   ]
+  },
+  {
+   "key": "queens_als|4465",
+   "address": "B - 319B Collingwood St",
+   "unit": "",
+   "beds": 4,
+   "baths": null,
+   "rent": 3640,
+   "basis": "as listed",
+   "available": "May 1, 2027",
+   "status": "listed",
+   "url": "https://listingservice.housing.queensu.ca/index.php/public/detail/4465",
+   "type": "Apartment",
+   "lease_type": "12 Month Lease",
+   "rooms": 4,
+   "landlord": "private",
+   "photos": [
+    "https://listingservice.housing.queensu.ca/index.php/storage/file_uploads/property/4000/3862_23113_620.jpg"
+   ]
+  },
+  {
+   "key": "queens_als|4463",
+   "address": "74 Kensington Ave",
+   "unit": "",
+   "beds": 2,
+   "baths": null,
+   "rent": 2400,
+   "basis": "as listed",
+   "available": "May 1, 2027",
+   "status": "listed",
+   "url": "https://listingservice.housing.queensu.ca/index.php/public/detail/4463",
+   "type": "Apartment",
+   "lease_type": "12 Month Lease",
+   "rooms": 2,
+   "landlord": "Panadew Property Mgmt.",
+   "photos": [
+    "https://listingservice.housing.queensu.ca/index.php/storage/file_uploads/property/3000/3265_15951_620.jpg"
+   ]
+  },
+  {
+   "key": "queens_als|4462",
+   "address": "In-Law - 3320 Princess Road",
+   "unit": "",
+   "beds": 1,
+   "baths": null,
+   "rent": 1250,
+   "basis": "as listed",
+   "available": "December 12, 2026",
+   "status": "listed",
+   "url": "https://listingservice.housing.queensu.ca/index.php/public/detail/4462",
+   "type": "Apartment",
+   "lease_type": "Other (e.g. monthly, short-term)",
+   "rooms": 1,
+   "landlord": "private",
+   "photos": [
+    "https://listingservice.housing.queensu.ca/index.php/storage/file_uploads/property/4000/3858_23073_620.jpeg"
+   ]
+  },
+  {
+   "key": "queens_als|4461",
+   "address": "454 Frontenac St",
+   "unit": "",
+   "beds": 3,
+   "baths": null,
+   "rent": 799,
+   "basis": "as listed",
+   "available": "January 1, 2027",
+   "status": "listed",
+   "url": "https://listingservice.housing.queensu.ca/index.php/public/detail/4461",
+   "type": "House",
+   "lease_type": "Sublet",
+   "rooms": 3,
+   "landlord": "private",
+   "photos": [
+    "https://listingservice.housing.queensu.ca/index.php/storage/file_uploads/property/4000/3860_23097_620.jpg"
+   ]
+  },
+  {
+   "key": "queens_als|4458",
+   "address": "20 Foster St",
+   "unit": "",
+   "beds": 4,
+   "baths": null,
+   "rent": 850,
+   "basis": "as listed",
+   "available": "December 20, 2026",
+   "status": "listed",
+   "url": "https://listingservice.housing.queensu.ca/index.php/public/detail/4458",
+   "type": "Room",
+   "lease_type": "12 Month Lease",
+   "rooms": 4,
+   "landlord": "private",
+   "photos": [
+    "https://listingservice.housing.queensu.ca/index.php/storage/file_uploads/property/4000/3856_23071_620.JPEG"
+   ]
+  },
+  {
+   "key": "queens_als|4429",
+   "address": "2 - 347 Albert",
+   "unit": "",
+   "beds": 6,
+   "baths": null,
+   "rent": 1171,
+   "basis": "as listed",
+   "available": "May 1, 2027",
+   "status": "listed",
+   "url": "https://listingservice.housing.queensu.ca/index.php/public/detail/4429",
+   "type": "House",
+   "lease_type": "12 Month Lease",
+   "rooms": 6,
+   "landlord": "private",
+   "photos": [
+    "https://listingservice.housing.queensu.ca/index.php/storage/file_uploads/property/1000/1128_15672_620.jpg"
+   ]
+  },
+  {
+   "key": "queens_als|4267",
+   "address": "283 Queen Street",
+   "unit": "",
+   "beds": 4,
+   "baths": null,
+   "rent": 1399,
+   "basis": "as listed",
+   "available": "September 1, 2027",
+   "status": "listed",
+   "url": "https://listingservice.housing.queensu.ca/index.php/public/detail/4267",
+   "type": "Apartment",
+   "lease_type": "12 Month Lease",
+   "rooms": 4,
+   "landlord": "private",
+   "photos": [
+    "https://listingservice.housing.queensu.ca/index.php/storage/file_uploads/property/4000/3783_21965_620.jpg"
+   ]
+  },
+  {
+   "key": "queens_als|917",
+   "address": "14 St. Lawrence Ave.",
+   "unit": "",
+   "beds": 4,
+   "baths": null,
+   "rent": 3900,
+   "basis": "as listed",
+   "available": "May 1, 2027",
+   "status": "listed",
+   "url": "https://listingservice.housing.queensu.ca/index.php/public/detail/917",
+   "type": "House",
+   "lease_type": "12 Month Lease",
+   "rooms": 4,
+   "landlord": "private",
+   "photos": [
+    "https://listingservice.housing.queensu.ca/index.php/storage/file_uploads/property/2000/2155_4804_620.jpeg"
+   ]
+  },
+  {
+   "key": "queens_als|4456",
+   "address": "Unit 1 - 308 Collingwood St",
+   "unit": "",
+   "beds": 3,
+   "baths": null,
+   "rent": 3150,
+   "basis": "as listed",
+   "available": "May 1, 2027",
+   "status": "listed",
+   "url": "https://listingservice.housing.queensu.ca/index.php/public/detail/4456",
+   "type": "Apartment",
+   "lease_type": "12 Month Lease",
+   "rooms": 3,
+   "landlord": "Panadew Property Mgmt.",
+   "photos": [
+    "https://listingservice.housing.queensu.ca/index.php/storage/file_uploads/property/4000/3854_23037_620.JPG"
+   ]
+  },
+  {
+   "key": "queens_als|967",
+   "address": "1 - 20 Nelson Street",
+   "unit": "",
+   "beds": 4,
+   "baths": null,
+   "rent": 4800,
+   "basis": "as listed",
+   "available": "May 1, 2027",
+   "status": "listed",
+   "url": "https://listingservice.housing.queensu.ca/index.php/public/detail/967",
+   "type": "House",
+   "lease_type": "12 Month Lease",
+   "rooms": 4,
+   "landlord": "private",
+   "photos": [
+    "https://listingservice.housing.queensu.ca/index.php/storage/file_uploads/property/1000/718_5031_620.jpg"
+   ]
+  },
+  {
+   "key": "queens_als|4454",
+   "address": "89 Gore Street",
+   "unit": "",
+   "beds": 1,
+   "baths": null,
+   "rent": 900,
+   "basis": "as listed",
+   "available": "January 1, 2027",
+   "status": "listed",
+   "url": "https://listingservice.housing.queensu.ca/index.php/public/detail/4454",
+   "type": "Room",
+   "lease_type": "Sublet",
+   "rooms": 1,
+   "landlord": "private",
+   "photos": [
+    "https://listingservice.housing.queensu.ca/index.php/storage/file_uploads/property/4000/3853_23014_620.JPG"
+   ]
+  },
+  {
+   "key": "queens_als|294",
+   "address": "8 - 8-274 Bagot St",
+   "unit": "",
+   "beds": 3,
+   "baths": null,
+   "rent": 2925,
+   "basis": "as listed",
+   "available": "May 1, 2027",
+   "status": "listed",
+   "url": "https://listingservice.housing.queensu.ca/index.php/public/detail/294",
+   "type": "Apartment",
+   "lease_type": "12 Month Lease",
+   "rooms": 3,
+   "landlord": "private",
+   "photos": [
+    "https://listingservice.housing.queensu.ca/index.php/storage/file_uploads/property/2000/1763_1253_620.jpg"
+   ]
+  },
+  {
+   "key": "queens_als|4453",
+   "address": "5 - 120 Colborne Street",
+   "unit": "",
+   "beds": 2,
+   "baths": null,
+   "rent": 1995,
+   "basis": "as listed",
+   "available": "January 1, 2027",
+   "status": "listed",
+   "url": "https://listingservice.housing.queensu.ca/index.php/public/detail/4453",
+   "type": "Apartment",
+   "lease_type": "Other (e.g. monthly, short-term)",
+   "rooms": 2,
+   "landlord": "private",
+   "photos": [
+    "https://listingservice.housing.queensu.ca/index.php/storage/file_uploads/property/4000/3851_23001_620.jpg"
+   ]
+  },
+  {
+   "key": "queens_als|183",
+   "address": "3 - 307 Alfred",
+   "unit": "",
+   "beds": 3,
+   "baths": null,
+   "rent": 2700,
+   "basis": "as listed",
+   "available": "May 1, 2027",
+   "status": "listed",
+   "url": "https://listingservice.housing.queensu.ca/index.php/public/detail/183",
+   "type": "Apartment",
+   "lease_type": "12 Month Lease",
+   "rooms": 3,
+   "landlord": "private",
+   "photos": [
+    "https://listingservice.housing.queensu.ca/index.php/storage/file_uploads/property/1000/1273_10905_620.jpeg"
+   ]
+  },
+  {
+   "key": "queens_als|191",
+   "address": "3 - 232 Frontenac Street",
+   "unit": "",
+   "beds": 3,
+   "baths": null,
+   "rent": 2700,
+   "basis": "as listed",
+   "available": "May 1, 2027",
+   "status": "listed",
+   "url": "https://listingservice.housing.queensu.ca/index.php/public/detail/191",
+   "type": "Apartment",
+   "lease_type": "12 Month Lease",
+   "rooms": 3,
+   "landlord": "private",
+   "photos": [
+    "https://listingservice.housing.queensu.ca/index.php/storage/file_uploads/property/2000/1712_696_620.jpeg"
+   ]
+  },
+  {
+   "key": "queens_als|1823",
+   "address": "2 and 4 - 232 Frontenac Street",
+   "unit": "",
+   "beds": 1,
+   "baths": null,
+   "rent": 1300,
+   "basis": "as listed",
+   "available": "May 1, 2027",
+   "status": "listed",
+   "url": "https://listingservice.housing.queensu.ca/index.php/public/detail/1823",
+   "type": "Apartment",
+   "lease_type": "12 Month Lease",
+   "rooms": 1,
+   "landlord": "private",
+   "photos": [
+    "https://listingservice.housing.queensu.ca/index.php/storage/file_uploads/property/3000/2629_9672_620.jpeg"
+   ]
+  },
+  {
+   "key": "queens_als|4449",
+   "address": "715 Brock St.",
+   "unit": "",
+   "beds": 3,
+   "baths": null,
+   "rent": 900,
+   "basis": "as listed",
+   "available": "May 1, 2027",
+   "status": "listed",
+   "url": "https://listingservice.housing.queensu.ca/index.php/public/detail/4449",
+   "type": "House",
+   "lease_type": "12 Month Lease",
+   "rooms": 3,
+   "landlord": "private",
+   "photos": [
+    "https://listingservice.housing.queensu.ca/index.php/storage/file_uploads/property/4000/3850_22988_620.jpeg"
+   ]
+  },
+  {
+   "key": "queens_als|4444",
+   "address": "163 Nelson St",
+   "unit": "",
+   "beds": 1,
+   "baths": null,
+   "rent": 750,
+   "basis": "as listed",
+   "available": "January 1, 2027",
+   "status": "listed",
+   "url": "https://listingservice.housing.queensu.ca/index.php/public/detail/4444",
+   "type": "Room",
+   "lease_type": "Sublet",
+   "rooms": 1,
+   "landlord": "private",
+   "photos": [
+    "https://listingservice.housing.queensu.ca/index.php/storage/file_uploads/property/4000/3846_22948_620.jpeg"
+   ]
+  },
+  {
+   "key": "queens_als|4269",
+   "address": "Unit 1 - 334 University Ave,",
+   "unit": "",
+   "beds": 3,
+   "baths": null,
+   "rent": 2400,
+   "basis": "as listed",
+   "available": "May 1, 2027",
+   "status": "listed",
+   "url": "https://listingservice.housing.queensu.ca/index.php/public/detail/4269",
+   "type": "Apartment",
+   "lease_type": "12 Month Lease",
+   "rooms": 3,
+   "landlord": "Panadew Property Mgmt.",
+   "photos": [
+    "https://listingservice.housing.queensu.ca/index.php/storage/file_uploads/property/4000/3532_18830_620.jpg"
+   ]
+  },
+  {
+   "key": "queens_als|3954",
+   "address": "Unit 2 - 79 Queen Street",
+   "unit": "",
+   "beds": 2,
+   "baths": null,
+   "rent": 1795,
+   "basis": "as listed",
+   "available": "January 1, 2027",
+   "status": "listed",
+   "url": "https://listingservice.housing.queensu.ca/index.php/public/detail/3954",
+   "type": "Apartment",
+   "lease_type": "12 Month Lease",
+   "rooms": 2,
+   "landlord": "Panadew Property Mgmt.",
+   "photos": [
+    "https://listingservice.housing.queensu.ca/index.php/storage/file_uploads/property/4000/3626_19787_620.jpg"
+   ]
+  },
+  {
+   "key": "queens_als|4135",
+   "address": "Unit 2 - 333 Barrie Street",
+   "unit": "",
+   "beds": 0,
+   "baths": null,
+   "rent": 1575,
+   "basis": "as listed",
+   "available": "October 1, 2026",
+   "status": "listed",
+   "url": "https://listingservice.housing.queensu.ca/index.php/public/detail/4135",
+   "type": "Apartment",
+   "lease_type": "12 Month Lease",
+   "rooms": 0,
+   "landlord": "Panadew Property Mgmt.",
+   "photos": [
+    "https://listingservice.housing.queensu.ca/index.php/storage/file_uploads/property/1000/1005_21100_620.jpg"
+   ]
+  },
+  {
+   "key": "queens_als|4228",
+   "address": "6 - 250 Frontenac Street",
+   "unit": "",
+   "beds": 2,
+   "baths": null,
+   "rent": 1550,
+   "basis": "as listed",
+   "available": "September 14, 2026",
+   "status": "listed",
+   "url": "https://listingservice.housing.queensu.ca/index.php/public/detail/4228",
+   "type": "Apartment",
+   "lease_type": "12 Month Lease",
+   "rooms": 2,
+   "landlord": "private",
+   "photos": [
+    "https://listingservice.housing.queensu.ca/index.php/storage/file_uploads/property/4000/3758_21747_620.jpg"
+   ]
+  },
+  {
+   "key": "queens_als|4227",
+   "address": "5 - 250 Frontenac Street",
+   "unit": "",
+   "beds": 1,
+   "baths": null,
+   "rent": 1500,
+   "basis": "as listed",
+   "available": "September 14, 2026",
+   "status": "listed",
+   "url": "https://listingservice.housing.queensu.ca/index.php/public/detail/4227",
+   "type": "Apartment",
+   "lease_type": "12 Month Lease",
+   "rooms": 1,
+   "landlord": "private",
+   "photos": [
+    "https://listingservice.housing.queensu.ca/index.php/storage/file_uploads/property/4000/3757_21730_620.jpg"
+   ]
+  },
+  {
+   "key": "queens_als|1761",
+   "address": "308 College Street",
+   "unit": "",
+   "beds": 2,
+   "baths": null,
+   "rent": 2250,
+   "basis": "as listed",
+   "available": "December 1, 2026",
+   "status": "listed",
+   "url": "https://listingservice.housing.queensu.ca/index.php/public/detail/1761",
+   "type": "House",
+   "lease_type": "Other (e.g. monthly, short-term)",
+   "rooms": 2,
+   "landlord": "private",
+   "photos": [
+    "https://listingservice.housing.queensu.ca/index.php/storage/file_uploads/property/3000/2590_9278_620.jpg"
+   ]
+  },
+  {
+   "key": "queens_als|4443",
+   "address": "501 Johnson Crescent",
+   "unit": "",
+   "beds": 1,
+   "baths": null,
+   "rent": 1095,
+   "basis": "as listed",
+   "available": "January 1, 2027",
+   "status": "listed",
+   "url": "https://listingservice.housing.queensu.ca/index.php/public/detail/4443",
+   "type": "Room",
+   "lease_type": "8 Month Lease",
+   "rooms": 1,
+   "landlord": "private",
+   "photos": [
+    "https://listingservice.housing.queensu.ca/index.php/storage/file_uploads/property/4000/3845_22927_620.jpg"
+   ]
+  },
+  {
+   "key": "queens_als|232",
+   "address": "2 - 20 Nelson Street",
+   "unit": "",
+   "beds": 4,
+   "baths": null,
+   "rent": 4800,
+   "basis": "as listed",
+   "available": "May 1, 2027",
+   "status": "listed",
+   "url": "https://listingservice.housing.queensu.ca/index.php/public/detail/232",
+   "type": "House",
+   "lease_type": "12 Month Lease",
+   "rooms": 4,
+   "landlord": "private",
+   "photos": [
+    "https://listingservice.housing.queensu.ca/index.php/storage/file_uploads/property/1000/719_972_620.jpg"
+   ]
+  },
+  {
+   "key": "queens_als|4435",
+   "address": "274 Bagot St",
+   "unit": "",
+   "beds": 5,
+   "baths": null,
+   "rent": 4250,
+   "basis": "as listed",
+   "available": "May 1, 2027",
+   "status": "listed",
+   "url": "https://listingservice.housing.queensu.ca/index.php/public/detail/4435",
+   "type": "House",
+   "lease_type": "12 Month Lease",
+   "rooms": 5,
+   "landlord": "private",
+   "photos": [
+    "https://listingservice.housing.queensu.ca/index.php/storage/file_uploads/property/4000/3841_22911_620.jpg"
+   ]
+  },
+  {
+   "key": "queens_als|4430",
+   "address": "2 - 2-274 Bagot St",
+   "unit": "",
+   "beds": 5,
+   "baths": null,
+   "rent": 4000,
+   "basis": "as listed",
+   "available": "May 1, 2027",
+   "status": "listed",
+   "url": "https://listingservice.housing.queensu.ca/index.php/public/detail/4430",
+   "type": "Apartment",
+   "lease_type": "12 Month Lease",
+   "rooms": 5,
+   "landlord": "private",
+   "photos": [
+    "https://listingservice.housing.queensu.ca/index.php/storage/file_uploads/property/2000/1771_1324_620.jpg"
+   ]
+  },
+  {
+   "key": "queens_als|3949",
+   "address": "41 Mack",
+   "unit": "",
+   "beds": 6,
+   "baths": null,
+   "rent": 500,
+   "basis": "as listed",
+   "available": "January 1, 2027",
+   "status": "listed",
+   "url": "https://listingservice.housing.queensu.ca/index.php/public/detail/3949",
+   "type": "House",
+   "lease_type": "Other (e.g. monthly, short-term)",
+   "rooms": 6,
+   "landlord": "private",
+   "photos": [
+    "https://listingservice.housing.queensu.ca/index.php/storage/file_uploads/property/4000/3620_19688_620.jpg"
+   ]
+  },
+  {
+   "key": "queens_als|4423",
+   "address": "Unit 2 - 334 University Ave,",
+   "unit": "",
+   "beds": 3,
+   "baths": null,
+   "rent": 3150,
+   "basis": "as listed",
+   "available": "May 1, 2027",
+   "status": "listed",
+   "url": "https://listingservice.housing.queensu.ca/index.php/public/detail/4423",
+   "type": "Apartment",
+   "lease_type": "12 Month Lease",
+   "rooms": 3,
+   "landlord": "Panadew Property Mgmt.",
+   "photos": [
+    "https://listingservice.housing.queensu.ca/index.php/storage/file_uploads/property/1000/649_22894_620.jpg"
+   ]
+  },
+  {
+   "key": "queens_als|4422",
+   "address": "3 - 3-274 Bagot",
+   "unit": "",
+   "beds": 5,
+   "baths": null,
+   "rent": 4250,
+   "basis": "as listed",
+   "available": "May 1, 2027",
+   "status": "listed",
+   "url": "https://listingservice.housing.queensu.ca/index.php/public/detail/4422",
+   "type": "Apartment",
+   "lease_type": "12 Month Lease",
+   "rooms": 5,
+   "landlord": "private",
+   "photos": [
+    "https://listingservice.housing.queensu.ca/index.php/storage/file_uploads/property/2000/1750_1069_620.jpg"
+   ]
+  },
+  {
+   "key": "queens_als|2955",
+   "address": "6 - 37 Montreal Street",
+   "unit": "",
+   "beds": 2,
+   "baths": null,
+   "rent": 1995,
+   "basis": "as listed",
+   "available": "December 1, 2026",
+   "status": "listed",
+   "url": "https://listingservice.housing.queensu.ca/index.php/public/detail/2955",
+   "type": "Apartment",
+   "lease_type": "12 Month Lease",
+   "rooms": 2,
+   "landlord": "private",
+   "photos": [
+    "https://listingservice.housing.queensu.ca/index.php/storage/file_uploads/property/1000/1468_19479_620.jpg"
+   ]
+  },
+  {
+   "key": "queens_als|4417",
+   "address": "A - 244 Victoria St.",
+   "unit": "",
+   "beds": 1,
+   "baths": null,
+   "rent": 800,
+   "basis": "as listed",
+   "available": "January 1, 2027",
+   "status": "listed",
+   "url": "https://listingservice.housing.queensu.ca/index.php/public/detail/4417",
+   "type": "Room",
+   "lease_type": "Sublet",
+   "rooms": 1,
+   "landlord": "private",
+   "photos": [
+    "https://listingservice.housing.queensu.ca/index.php/storage/file_uploads/property/4000/3838_22785_620.jpg"
+   ]
+  },
+  {
+   "key": "queens_als|4416",
+   "address": "Unit 1 - 332 University Ave",
+   "unit": "",
+   "beds": 3,
+   "baths": null,
+   "rent": 2850,
+   "basis": "as listed",
+   "available": "May 1, 2027",
+   "status": "listed",
+   "url": "https://listingservice.housing.queensu.ca/index.php/public/detail/4416",
+   "type": "Apartment",
+   "lease_type": "12 Month Lease",
+   "rooms": 3,
+   "landlord": "Panadew Property Mgmt.",
+   "photos": [
+    "https://listingservice.housing.queensu.ca/index.php/storage/file_uploads/property/1000/754_9721_620.JPG"
+   ]
+  },
+  {
+   "key": "queens_als|4398",
+   "address": "163 Nelson St.",
+   "unit": "",
+   "beds": 1,
+   "baths": null,
+   "rent": 800,
+   "basis": "as listed",
+   "available": "January 1, 2027",
+   "status": "listed",
+   "url": "https://listingservice.housing.queensu.ca/index.php/public/detail/4398",
+   "type": "Room",
+   "lease_type": "Sublet",
+   "rooms": 1,
+   "landlord": "private",
+   "photos": [
+    "https://listingservice.housing.queensu.ca/index.php/storage/file_uploads/property/4000/3830_22692_620.jpg"
+   ]
+  },
+  {
+   "key": "queens_als|243",
+   "address": "4 - 3 Sydenham",
+   "unit": "",
+   "beds": 2,
+   "baths": null,
+   "rent": 1845,
+   "basis": "as listed",
+   "available": "December 1, 2026",
+   "status": "listed",
+   "url": "https://listingservice.housing.queensu.ca/index.php/public/detail/243",
+   "type": "Apartment",
+   "lease_type": "12 Month Lease",
+   "rooms": 2,
+   "landlord": "private",
+   "photos": [
+    "https://listingservice.housing.queensu.ca/index.php/storage/file_uploads/property/1000/1393_1036_620.jpg"
+   ]
+  },
+  {
+   "key": "queens_als|4409",
+   "address": "179 Alfred St",
+   "unit": "",
+   "beds": 1,
+   "baths": null,
+   "rent": 886,
+   "basis": "as listed",
+   "available": "January 1, 2027",
+   "status": "listed",
+   "url": "https://listingservice.housing.queensu.ca/index.php/public/detail/4409",
+   "type": "Room",
+   "lease_type": "Sublet",
+   "rooms": 1,
+   "landlord": "private",
+   "photos": [
+    "https://listingservice.housing.queensu.ca/index.php/storage/file_uploads/property/4000/3836_22729_620.jpeg"
+   ]
+  },
+  {
+   "key": "queens_als|3627",
+   "address": "152 Pine Street",
+   "unit": "",
+   "beds": 6,
+   "baths": null,
+   "rent": 700,
+   "basis": "as listed",
+   "available": "May 1, 2026",
+   "status": "listed",
+   "url": "https://listingservice.housing.queensu.ca/index.php/public/detail/3627",
+   "type": "House",
+   "lease_type": "Other (e.g. monthly, short-term)",
+   "rooms": 6,
+   "landlord": "private",
+   "photos": [
+    "https://listingservice.housing.queensu.ca/index.php/storage/file_uploads/property/3000/3448_21818_620.png"
+   ]
+  },
+  {
+   "key": "queens_als|4397",
+   "address": "211 MacDonnell St",
+   "unit": "",
+   "beds": 5,
+   "baths": null,
+   "rent": 4000,
+   "basis": "as listed",
+   "available": "May 1, 2027",
+   "status": "listed",
+   "url": "https://listingservice.housing.queensu.ca/index.php/public/detail/4397",
+   "type": "House",
+   "lease_type": "12 Month Lease",
+   "rooms": 5,
+   "landlord": "private",
+   "photos": [
+    "https://listingservice.housing.queensu.ca/index.php/storage/file_uploads/property/2000/1781_22679_620.jpeg"
+   ]
+  },
+  {
+   "key": "queens_als|4392",
+   "address": "152 Division Street",
+   "unit": "",
+   "beds": 8,
+   "baths": null,
+   "rent": 7280,
+   "basis": "as listed",
+   "available": "May 1, 2027",
+   "status": "listed",
+   "url": "https://listingservice.housing.queensu.ca/index.php/public/detail/4392",
+   "type": "House",
+   "lease_type": "12 Month Lease",
+   "rooms": 8,
+   "landlord": "private",
+   "photos": [
+    "https://listingservice.housing.queensu.ca/index.php/storage/file_uploads/property/4000/3829_22637_620.JPG"
+   ]
+  },
+  {
+   "key": "queens_als|4242",
+   "address": "6 Alamein Dr",
+   "unit": "",
+   "beds": 1,
+   "baths": null,
+   "rent": 765,
+   "basis": "as listed",
+   "available": "January 1, 2027",
+   "status": "listed",
+   "url": "https://listingservice.housing.queensu.ca/index.php/public/detail/4242",
+   "type": "House",
+   "lease_type": "Sublet",
+   "rooms": 1,
+   "landlord": "private",
+   "photos": [
+    "https://listingservice.housing.queensu.ca/index.php/storage/file_uploads/property/4000/3769_21836_620.jpg"
+   ]
+  },
+  {
+   "key": "queens_als|3601",
+   "address": "135 Nelson St",
+   "unit": "",
+   "beds": 2,
+   "baths": null,
+   "rent": 900,
+   "basis": "as listed",
+   "available": "August 15, 2026",
+   "status": "listed",
+   "url": "https://listingservice.housing.queensu.ca/index.php/public/detail/3601",
+   "type": "House",
+   "lease_type": "Other (e.g. monthly, short-term)",
+   "rooms": 2,
+   "landlord": "private",
+   "photos": [
+    "https://listingservice.housing.queensu.ca/index.php/storage/file_uploads/property/3000/3433_17966_620.jpg"
+   ]
+  },
+  {
+   "key": "queens_als|4390",
+   "address": "11 - 8 Vine St.",
+   "unit": "",
+   "beds": 2,
+   "baths": null,
+   "rent": 2020,
+   "basis": "as listed",
+   "available": "January 1, 2027",
+   "status": "listed",
+   "url": "https://listingservice.housing.queensu.ca/index.php/public/detail/4390",
+   "type": "Apartment",
+   "lease_type": "12 Month Lease",
+   "rooms": 2,
+   "landlord": "private",
+   "photos": [
+    "https://listingservice.housing.queensu.ca/index.php/storage/file_uploads/property/4000/3827_22628_620.jpg"
+   ]
+  },
+  {
+   "key": "queens_als|178",
+   "address": "3 - 234 Johnson",
+   "unit": "",
+   "beds": 1,
+   "baths": null,
+   "rent": 1250,
+   "basis": "as listed",
+   "available": "January 1, 2027",
+   "status": "listed",
+   "url": "https://listingservice.housing.queensu.ca/index.php/public/detail/178",
+   "type": "House",
+   "lease_type": "12 Month Lease",
+   "rooms": 1,
+   "landlord": "private",
+   "photos": [
+    "https://listingservice.housing.queensu.ca/index.php/storage/file_uploads/property/1000/1038_560_620.jpg"
+   ]
+  },
+  {
+   "key": "queens_als|3519",
+   "address": "44 Clergy St. E.",
+   "unit": "",
+   "beds": 3,
+   "baths": null,
+   "rent": 1100,
+   "basis": "as listed",
+   "available": "January 1, 2027",
+   "status": "listed",
+   "url": "https://listingservice.housing.queensu.ca/index.php/public/detail/3519",
+   "type": "Room",
+   "lease_type": "Other (e.g. monthly, short-term)",
+   "rooms": 3,
+   "landlord": "private",
+   "photos": [
+    "https://listingservice.housing.queensu.ca/index.php/storage/file_uploads/property/3000/3347_16878_620.jpg"
+   ]
+  },
+  {
+   "key": "queens_als|4387",
+   "address": "50 Edgehill St",
+   "unit": "",
+   "beds": 7,
+   "baths": null,
+   "rent": 8410,
+   "basis": "as listed",
+   "available": "May 1, 2027",
+   "status": "listed",
+   "url": "https://listingservice.housing.queensu.ca/index.php/public/detail/4387",
+   "type": "House",
+   "lease_type": "12 Month Lease",
+   "rooms": 7,
+   "landlord": "private",
+   "photos": [
+    "https://listingservice.housing.queensu.ca/index.php/storage/file_uploads/property/3000/2659_9952_620.jpeg"
+   ]
+  },
+  {
+   "key": "queens_als|3565",
+   "address": "34 Chatham Street",
+   "unit": "",
+   "beds": 5,
+   "baths": null,
+   "rent": 3300,
+   "basis": "as listed",
+   "available": "May 1, 2027",
+   "status": "listed",
+   "url": "https://listingservice.housing.queensu.ca/index.php/public/detail/3565",
+   "type": "House",
+   "lease_type": "12 Month Lease",
+   "rooms": 5,
+   "landlord": "private",
+   "photos": [
+    "https://listingservice.housing.queensu.ca/index.php/storage/file_uploads/property/3000/3419_17746_620.jpg"
+   ]
+  },
+  {
+   "key": "queens_als|3299",
+   "address": "2 - Hot water, Internet and Premium Cable Included - 103 Earl St",
+   "unit": "",
+   "beds": 3,
+   "baths": null,
+   "rent": 2850,
+   "basis": "as listed",
+   "available": "May 1, 2027",
+   "status": "listed",
+   "url": "https://listingservice.housing.queensu.ca/index.php/public/detail/3299",
+   "type": "Apartment",
+   "lease_type": "12 Month Lease",
+   "rooms": 3,
+   "landlord": "private",
+   "photos": [
+    "https://listingservice.housing.queensu.ca/index.php/storage/file_uploads/property/1000/713_10552_620.jpeg"
+   ]
+  },
+  {
+   "key": "queens_als|4386",
+   "address": "704 - 495 Princess St",
+   "unit": "",
+   "beds": 1,
+   "baths": null,
+   "rent": 1299,
+   "basis": "as listed",
+   "available": "January 1, 2027",
+   "status": "listed",
+   "url": "https://listingservice.housing.queensu.ca/index.php/public/detail/4386",
+   "type": "Apartment",
+   "lease_type": "Sublet",
+   "rooms": 1,
+   "landlord": "private",
+   "photos": [
+    "https://listingservice.housing.queensu.ca/index.php/storage/file_uploads/property/4000/3812_22420_620.jpg"
+   ]
+  },
+  {
+   "key": "queens_als|4382",
+   "address": "435 Brock Street",
+   "unit": "",
+   "beds": 6,
+   "baths": null,
+   "rent": 5790,
+   "basis": "as listed",
+   "available": "May 1, 2027",
+   "status": "listed",
+   "url": "https://listingservice.housing.queensu.ca/index.php/public/detail/4382",
+   "type": "House",
+   "lease_type": "12 Month Lease",
+   "rooms": 6,
+   "landlord": "private",
+   "photos": [
+    "https://listingservice.housing.queensu.ca/index.php/storage/file_uploads/property/3000/3485_18465_620.jpeg"
+   ]
+  },
+  {
+   "key": "queens_als|4383",
+   "address": "435 Brock",
+   "unit": "",
+   "beds": 3,
+   "baths": null,
+   "rent": 851,
+   "basis": "as listed",
+   "available": "January 1, 2027",
+   "status": "listed",
+   "url": "https://listingservice.housing.queensu.ca/index.php/public/detail/4383",
+   "type": "Room",
+   "lease_type": "Other (e.g. monthly, short-term)",
+   "rooms": 3,
+   "landlord": "private",
+   "photos": [
+    "https://listingservice.housing.queensu.ca/index.php/storage/file_uploads/property/3000/3120_14221_620.jpeg"
+   ]
+  },
+  {
+   "key": "queens_als|4378",
+   "address": "1 Birch Avenue",
+   "unit": "",
+   "beds": 7,
+   "baths": null,
+   "rent": 8040,
+   "basis": "as listed",
+   "available": "May 1, 2027",
+   "status": "listed",
+   "url": "https://listingservice.housing.queensu.ca/index.php/public/detail/4378",
+   "type": "House",
+   "lease_type": "12 Month Lease",
+   "rooms": 7,
+   "landlord": "private",
+   "photos": [
+    "https://listingservice.housing.queensu.ca/index.php/storage/file_uploads/property/3000/3272_16052_620.png"
+   ]
+  },
+  {
+   "key": "queens_als|2495",
+   "address": "75 Cartwright st",
+   "unit": "",
+   "beds": 4,
+   "baths": null,
+   "rent": 750,
+   "basis": "as listed",
+   "available": "December 1, 2026",
+   "status": "listed",
+   "url": "https://listingservice.housing.queensu.ca/index.php/public/detail/2495",
+   "type": "Room",
+   "lease_type": "12 Month Lease",
+   "rooms": 4,
+   "landlord": "private",
+   "photos": [
+    "https://listingservice.housing.queensu.ca/index.php/storage/file_uploads/property/3000/2939_12332_620.JPG"
+   ]
+  },
+  {
+   "key": "queens_als|888",
+   "address": "1 - 17 jenkins street",
+   "unit": "",
+   "beds": 4,
+   "baths": null,
+   "rent": 3500,
+   "basis": "as listed",
+   "available": "May 1, 2027",
+   "status": "listed",
+   "url": "https://listingservice.housing.queensu.ca/index.php/public/detail/888",
+   "type": "House",
+   "lease_type": "8 Month Lease",
+   "rooms": 4,
+   "landlord": "private",
+   "photos": [
+    "https://listingservice.housing.queensu.ca/index.php/storage/file_uploads/property/1000/937_4721_620.jpeg"
+   ]
+  },
+  {
+   "key": "queens_als|1336",
+   "address": "Sherwood Drive",
+   "unit": "",
+   "beds": 4,
+   "baths": null,
+   "rent": 2900,
+   "basis": "as listed",
+   "available": "April 15, 2027",
+   "status": "listed",
+   "url": "https://listingservice.housing.queensu.ca/index.php/public/detail/1336",
+   "type": "House",
+   "lease_type": "Other (e.g. monthly, short-term)",
+   "rooms": 4,
+   "landlord": "private",
+   "photos": [
+    "https://listingservice.housing.queensu.ca/index.php/storage/file_uploads/property/2000/2377_6901_620.jpeg"
+   ]
+  },
+  {
+   "key": "queens_als|4376",
+   "address": "575 Princess Street",
+   "unit": "",
+   "beds": 3,
+   "baths": null,
+   "rent": 1399,
+   "basis": "as listed",
+   "available": "January 1, 2027",
+   "status": "listed",
+   "url": "https://listingservice.housing.queensu.ca/index.php/public/detail/4376",
+   "type": "Apartment",
+   "lease_type": "Other (e.g. monthly, short-term)",
+   "rooms": 3,
+   "landlord": "private",
+   "photos": [
+    "https://listingservice.housing.queensu.ca/index.php/storage/file_uploads/property/4000/3822_22567_620.png"
+   ]
+  },
+  {
+   "key": "queens_als|4113",
+   "address": "132 Toronto S.",
+   "unit": "",
+   "beds": 2,
+   "baths": null,
+   "rent": 995,
+   "basis": "as listed",
+   "available": "October 1, 2026",
+   "status": "listed",
+   "url": "https://listingservice.housing.queensu.ca/index.php/public/detail/4113",
+   "type": "Room",
+   "lease_type": "Other (e.g. monthly, short-term)",
+   "rooms": 2,
+   "landlord": "private",
+   "photos": [
+    "https://listingservice.housing.queensu.ca/index.php/storage/file_uploads/property/4000/3707_20875_620.jpeg"
+   ]
+  },
+  {
+   "key": "queens_als|4374",
+   "address": "Unit B - 118 Collingwood Street",
+   "unit": "",
+   "beds": 6,
+   "baths": null,
+   "rent": 4085,
+   "basis": "as listed",
+   "available": "May 1, 2027",
+   "status": "listed",
+   "url": "https://listingservice.housing.queensu.ca/index.php/public/detail/4374",
+   "type": "House",
+   "lease_type": "12 Month Lease",
+   "rooms": 6,
+   "landlord": "private",
+   "photos": [
+    "https://listingservice.housing.queensu.ca/index.php/storage/file_uploads/property/4000/3821_22564_620.jpg"
+   ]
+  },
+  {
+   "key": "queens_als|4369",
+   "address": "Unit 2 - 516 Brock St,",
+   "unit": "",
+   "beds": 3,
+   "baths": null,
+   "rent": 2925,
+   "basis": "as listed",
+   "available": "May 1, 2027",
+   "status": "listed",
+   "url": "https://listingservice.housing.queensu.ca/index.php/public/detail/4369",
+   "type": "Apartment",
+   "lease_type": "12 Month Lease",
+   "rooms": 3,
+   "landlord": "Panadew Property Mgmt.",
+   "photos": [
+    "https://listingservice.housing.queensu.ca/index.php/storage/file_uploads/property/4000/3819_22551_620.jpg"
+   ]
+  },
+  {
+   "key": "queens_als|4352",
+   "address": "5 - 503 princess st",
+   "unit": "",
+   "beds": 2,
+   "baths": null,
+   "rent": 1895,
+   "basis": "as listed",
+   "available": "May 1, 2027",
+   "status": "listed",
+   "url": "https://listingservice.housing.queensu.ca/index.php/public/detail/4352",
+   "type": "Apartment",
+   "lease_type": "12 Month Lease",
+   "rooms": 2,
+   "landlord": "private",
+   "photos": [
+    "https://listingservice.housing.queensu.ca/index.php/storage/file_uploads/property/1000/784_22486_620.jpeg"
+   ]
+  },
+  {
+   "key": "queens_als|2349",
+   "address": "338 willingdon ave",
+   "unit": "",
+   "beds": 2,
+   "baths": null,
+   "rent": 1695,
+   "basis": "as listed",
+   "available": "May 1, 2027",
+   "status": "listed",
+   "url": "https://listingservice.housing.queensu.ca/index.php/public/detail/2349",
+   "type": "Apartment",
+   "lease_type": "12 Month Lease",
+   "rooms": 2,
+   "landlord": "private",
+   "photos": [
+    "https://listingservice.housing.queensu.ca/index.php/storage/file_uploads/property/2000/1805_1553_620.jpeg"
+   ]
+  },
+  {
+   "key": "queens_als|4368",
+   "address": "1 - 65 West Street",
+   "unit": "",
+   "beds": 1,
+   "baths": null,
+   "rent": 850,
+   "basis": "as listed",
+   "available": "January 1, 2027",
+   "status": "listed",
+   "url": "https://listingservice.housing.queensu.ca/index.php/public/detail/4368",
+   "type": "Room",
+   "lease_type": "Sublet",
+   "rooms": 1,
+   "landlord": "private",
+   "photos": [
+    "https://listingservice.housing.queensu.ca/index.php/storage/file_uploads/property/4000/3818_22546_620.JPG"
+   ]
+  },
+  {
+   "key": "queens_als|4365",
+   "address": "333 University Avenue",
+   "unit": "",
+   "beds": 1,
+   "baths": null,
+   "rent": 1399,
+   "basis": "as listed",
+   "available": "January 1, 2027",
+   "status": "listed",
+   "url": "https://listingservice.housing.queensu.ca/index.php/public/detail/4365",
+   "type": "Apartment",
+   "lease_type": "Other (e.g. monthly, short-term)",
+   "rooms": 1,
+   "landlord": "private",
+   "photos": [
+    "https://listingservice.housing.queensu.ca/index.php/storage/file_uploads/property/4000/3817_22533_620.jpeg"
+   ]
+  },
+  {
+   "key": "queens_als|4364",
+   "address": "333 University Avenue",
+   "unit": "",
+   "beds": 1,
+   "baths": null,
+   "rent": 1399,
+   "basis": "as listed",
+   "available": "November 3, 2026",
+   "status": "listed",
+   "url": "https://listingservice.housing.queensu.ca/index.php/public/detail/4364",
+   "type": "Apartment",
+   "lease_type": "Other (e.g. monthly, short-term)",
+   "rooms": 1,
+   "landlord": "private",
+   "photos": [
+    "https://listingservice.housing.queensu.ca/index.php/storage/file_uploads/property/4000/3817_22533_620.jpeg"
+   ]
+  },
+  {
+   "key": "queens_als|100",
+   "address": "1 - 591 Victoria",
+   "unit": "",
+   "beds": 3,
+   "baths": null,
+   "rent": 2400,
+   "basis": "as listed",
+   "available": "May 1, 2027",
+   "status": "listed",
+   "url": "https://listingservice.housing.queensu.ca/index.php/public/detail/100",
+   "type": "Apartment",
+   "lease_type": "12 Month Lease",
+   "rooms": 3,
+   "landlord": "private",
+   "photos": [
+    "https://listingservice.housing.queensu.ca/index.php/storage/file_uploads/property/2000/1659_326_620.jpg"
+   ]
+  },
+  {
+   "key": "queens_als|4363",
+   "address": "495 Princess St",
+   "unit": "",
+   "beds": 1,
+   "baths": null,
+   "rent": 1415,
+   "basis": "as listed",
+   "available": "January 1, 2027",
+   "status": "listed",
+   "url": "https://listingservice.housing.queensu.ca/index.php/public/detail/4363",
+   "type": "Apartment",
+   "lease_type": "Other (e.g. monthly, short-term)",
+   "rooms": 1,
+   "landlord": "private",
+   "photos": [
+    "https://listingservice.housing.queensu.ca/index.php/storage/file_uploads/property/4000/3816_22534_620.jpg"
+   ]
+  },
+  {
+   "key": "queens_als|4362",
+   "address": "495 Princess St",
+   "unit": "",
+   "beds": 1,
+   "baths": null,
+   "rent": 1415,
+   "basis": "as listed",
+   "available": "November 3, 2026",
+   "status": "listed",
+   "url": "https://listingservice.housing.queensu.ca/index.php/public/detail/4362",
+   "type": "Apartment",
+   "lease_type": "Other (e.g. monthly, short-term)",
+   "rooms": 1,
+   "landlord": "private",
+   "photos": [
+    "https://listingservice.housing.queensu.ca/index.php/storage/file_uploads/property/4000/3816_22534_620.jpg"
+   ]
+  },
+  {
+   "key": "queens_als|1635",
+   "address": "2 - 3 Sydenham",
+   "unit": "",
+   "beds": 1,
+   "baths": null,
+   "rent": 1798,
+   "basis": "as listed",
+   "available": "January 1, 2027",
+   "status": "listed",
+   "url": "https://listingservice.housing.queensu.ca/index.php/public/detail/1635",
+   "type": "Apartment",
+   "lease_type": "12 Month Lease",
+   "rooms": 1,
+   "landlord": "private",
+   "photos": [
+    "https://listingservice.housing.queensu.ca/index.php/storage/file_uploads/property/1000/1487_8613_620.jpg"
+   ]
+  },
+  {
+   "key": "queens_als|964",
+   "address": "House - 278 York St.",
+   "unit": "",
+   "beds": 5,
+   "baths": null,
+   "rent": 4100,
+   "basis": "as listed",
+   "available": "May 1, 2027",
+   "status": "listed",
+   "url": "https://listingservice.housing.queensu.ca/index.php/public/detail/964",
+   "type": "House",
+   "lease_type": "12 Month Lease",
+   "rooms": 5,
+   "landlord": "private",
+   "photos": [
+    "https://listingservice.housing.queensu.ca/index.php/storage/file_uploads/property/0/420_5013_620.jpg"
+   ]
+  },
+  {
+   "key": "queens_als|965",
+   "address": "111  Montreal St.",
+   "unit": "",
+   "beds": 5,
+   "baths": null,
+   "rent": 4250,
+   "basis": "as listed",
+   "available": "May 1, 2027",
+   "status": "listed",
+   "url": "https://listingservice.housing.queensu.ca/index.php/public/detail/965",
+   "type": "House",
+   "lease_type": "12 Month Lease",
+   "rooms": 5,
+   "landlord": "private",
+   "photos": [
+    "https://listingservice.housing.queensu.ca/index.php/storage/file_uploads/property/2000/2181_5016_620.jpg"
+   ]
+  },
+  {
+   "key": "queens_als|4359",
+   "address": "Unit 1 - 331 Barrie St",
+   "unit": "",
+   "beds": 1,
+   "baths": null,
+   "rent": 2150,
+   "basis": "as listed",
+   "available": "May 1, 2027",
+   "status": "listed",
+   "url": "https://listingservice.housing.queensu.ca/index.php/public/detail/4359",
+   "type": "Apartment",
+   "lease_type": "12 Month Lease",
+   "rooms": 1,
+   "landlord": "Panadew Property Mgmt.",
+   "photos": [
+    "https://listingservice.housing.queensu.ca/index.php/storage/file_uploads/property/1000/1107_22515_620.jpg"
+   ]
+  }
+ ]
+}
