@@ -16,6 +16,7 @@ import re
 import socket
 import sys
 import time
+import urllib.request
 import urllib.robotparser
 from datetime import datetime
 from pathlib import Path
@@ -56,6 +57,15 @@ def allowed(url):
     return True if rp is None else rp.can_fetch(UA, url)
 
 
+def robots_text(url):
+    p = urlparse(url)
+    try:
+        req = urllib.request.Request(f"{p.scheme}://{p.netloc}/robots.txt", headers={"User-Agent": UA})
+        return urllib.request.urlopen(req).read(4000).decode("utf-8", "replace")
+    except Exception as e:
+        return f"(unreadable: {type(e).__name__})"
+
+
 def wait_for_host(url):
     host = urlparse(url).netloc
     gap = time.time() - _last_hit.get(host, 0)
@@ -68,6 +78,7 @@ def fetch(page, url, outdir, as_json=False):
     rec = {"url": url, "ok": False}
     if not allowed(url):
         rec["error"] = "disallowed by robots.txt"
+        rec["robots_txt"] = robots_text(url)
         return rec, None
     wait_for_host(url)
     try:
