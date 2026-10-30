@@ -1,0 +1,61 @@
+name: daily-capture
+
+on:
+  schedule:
+    - cron: "17 9 * * *"
+  workflow_dispatch:
+    inputs:
+      only:
+        description: "Comma-separated sources to capture (blank = all)"
+        required: false
+        default: ""
+
+permissions:
+  contents: write
+  actions: write
+
+concurrency:
+  group: capture
+  cancel-in-progress: false
+
+jobs:
+  capture:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    env:
+      GH_TOKEN: ${{ github.token }}
+      REPO: ${{ github.repository }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install browser
+        run: |
+          pip install playwright==1.48.0
+          python -m playwright install --with-deps chromium
+
+      - name: Capture
+        run: python capture.py --only "${{ github.event.inputs.only }}"
+
+      # Today's output replaces the previous day's: the "latest" branch always
+      # holds a single commit, so the repository keeps no history of past days.
+      - name: Publish today's output
+        run: |
+          cd out
+          git init -q -b latest
+          git add -A
+          GIT_AUTHOR_DATE="2000-01-01T00:00:00Z" GIT_COMMITTER_DATE="2000-01-01T00:00:00Z" \
+            git -c user.name="github-actions[bot]" \
+                -c user.email="41898283+github-actions[bot]@users.noreply.github.com" \
+                commit -q -m "latest"
+          git push -q -f "https://x-access-token:${GH_TOKEN}@github.com/${REPO}.git" latest
+
+      - name: Remove earlier runs
+        if: always()
+        run: |
+          gh api "repos/${REPO}/actions/runs?per_page=100" --jq '.workflow_runs[] | select(.status == "completed") | .id' \
+            | grep -vx "${{ github.run_id }}" \
+            | xargs -r -I{} gh api -X DELETE "repos/${REPO}/actions/runs/{}" || true

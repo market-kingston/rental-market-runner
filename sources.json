@@ -1,0 +1,27 @@
+{
+  "amberpeak": {"kind": "json_repeat", "url": "https://marketplace-server.fly.dev/api/units?take=20&skip=0", "extra": ["https://marketplace-server.fly.dev/api/units?take=500&skip=0"], "max_repeats": 10},
+  "axon": {"kind": "page", "urls": ["https://www.axonproperties.ca/residential-rentals/cities/kingston"], "follow": "/residential-rentals/cities/kingston\\?.*page=", "max_follow": 10},
+  "queens_als": {"kind": "paged", "url": "https://listingservice.housing.queensu.ca/index.php/public/getByFilter?property_type_id=&lease_type_id=&num_items=10&show_test=0&page={n}", "until_missing": "data-id", "max_pages": 25},
+  "casa": {"kind": "page", "urls": ["https://livecasa.ca/"]},
+  "limestone": {"kind": "page", "urls": ["https://limestonepropertymanagement.ca/"], "follow": "limestonepropertymanagement\\.ca/.*rental", "max_follow": 6},
+  "panadew": {"kind": "page", "urls": ["https://panadew.managebuilding.com/Resident/public/rentals"]},
+  "geo_central": {"kind": "page", "urls": ["https://geokingston.ca/geo-central/"]},
+  "unity_place": {"kind": "page", "urls": ["https://liveunity.ca/unity-place/"]},
+  "unity_point": {"kind": "page", "urls": ["https://liveunity.ca/unity-point/"]},
+  "homestead": {"kind": "page", "urls": [
+    "https://www.homestead.ca/residential/346-brock-street-kingston",
+    "https://www.homestead.ca/residential/322-brock-street-kingston",
+    "https://www.homestead.ca/residential/117-park-street-kingston",
+    "https://www.homestead.ca/residential/32-ontario-street-kingston",
+    "https://www.homestead.ca/residential/64-ontario-street-kingston",
+    "https://www.homestead.ca/residential/135-ontario-street-kingston",
+    "https://www.homestead.ca/residential/33-ontario-street-kingston",
+    "https://www.homestead.ca/residential/91-king-street-east-kingston",
+    "https://www.homestead.ca/residential/27-elmwood-street-kingston",
+    "https://www.homestead.ca/residential/310-bath-road-kingston"]},
+  "frontenac_pm": {"kind": "page", "urls": ["https://www.frontenacproperty.com/"], "follow": "frontenacproperty\\.com/.*(rent|listing|propert)", "max_follow": 25},
+  "williamsville": {"kind": "page", "urls": ["https://www.williamsvilleproperties.com/properties"]},
+  "foundry_mack": {"kind": "page", "urls": ["https://www.foundrymack.ca/kingston/foundry-mack/student/"]},
+  "kshc": {"kind": "page", "urls": ["https://www.studenthousingkingston.ca/pricing/"]},
+  "mackinnondev": {"kind": "page", "urls": ["https://mackinnondev.ca/"], "follow": "mackinnondev\\.ca/[^?#]+\\.html$", "max_follow": 60}
+}
