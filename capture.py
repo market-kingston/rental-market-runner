@@ -92,25 +92,12 @@ def capture_source(page, name, cfg, outroot):
     outdir.mkdir(parents=True, exist_ok=True)
     recs = []
     kind = cfg["kind"]
-    if kind == "json_repeat":
-        ids_seen, quiet = set(), 0
-        for i in range(cfg.get("max_repeats", 10)):
-            rec, body = fetch(page, cfg["url"] + f"&_r={i}", outdir, as_json=True)
-            recs.append(rec)
-            new = set()
-            try:
-                new = {str(u.get("id")) for u in find_units(json.loads(body or "null")) if u.get("listed")}
-            except Exception:
-                pass
-            quiet = quiet + 1 if not (new - ids_seen) else 0
-            ids_seen |= new
-            if quiet >= 2:
-                break
-        for url in cfg.get("extra", []):
+    if kind == "json":
+        for url in cfg["urls"]:
             recs.append(fetch(page, url, outdir, as_json=True)[0])
-    elif kind == "paged":
+    elif kind in ("paged", "paged_json"):
         for n in range(1, cfg.get("max_pages", 20) + 1):
-            rec, body = fetch(page, cfg["url"].format(n=n), outdir)
+            rec, body = fetch(page, cfg["url"].format(n=n), outdir, as_json=kind == "paged_json")
             recs.append(rec)
             if not body or cfg["until_missing"] not in body:
                 break
@@ -125,7 +112,7 @@ def capture_source(page, name, cfg, outroot):
             done.add(url)
             rec, body = fetch(page, url, outdir)
             recs.append(rec)
-            if body and cfg.get("follow") and url in cfg["urls"]:
+            if body and cfg.get("follow"):
                 for h in links(page, cfg["follow"]):
                     if h not in done and followed < cfg.get("max_follow", 10):
                         queue.append(h)
@@ -133,17 +120,6 @@ def capture_source(page, name, cfg, outroot):
     return {"source": name, "pages": recs,
             "ok": sum(r.get("ok", False) for r in recs), "failed": sum(not r.get("ok", False) for r in recs)}
 
-
-def find_units(obj):
-    """Return the first list of dicts that carry an 'id' (feed shape varies)."""
-    if isinstance(obj, list) and obj and isinstance(obj[0], dict) and "id" in obj[0]:
-        return obj
-    if isinstance(obj, dict):
-        for v in obj.values():
-            r = find_units(v)
-            if r:
-                return r
-    return []
 
 
 def main():

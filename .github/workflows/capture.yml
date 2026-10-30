@@ -34,11 +34,14 @@ jobs:
 
       - name: Install browser
         run: |
-          pip install playwright==1.48.0
+          pip install playwright==1.48.0 beautifulsoup4==4.12.3 lxml==5.3.0
           python -m playwright install --with-deps chromium
 
       - name: Capture
         run: python capture.py --only "${{ github.event.inputs.only }}"
+
+      - name: Extract listings
+        run: python parse.py out
 
       # Today's output replaces the previous day's: the "latest" branch always
       # holds a single commit, so the repository keeps no history of past days.
