@@ -5,7 +5,8 @@ browser (so script-loaded listings render), save the rendered HTML under
 out/pages/<source>/, and write out/status.json (HTTP status, size, hash).
 The workflow publishes out/ as the only commit on the "latest" branch,
 replacing the previous day's.
-Waits a few seconds between requests to the same host.
+Waits a few seconds between requests to the same host. Sources that fail are
+tried once more with an ordinary desktop browser identity.
 
 Usage: python capture.py [--only source1,source2]
 """
@@ -23,6 +24,9 @@ from zoneinfo import ZoneInfo
 from playwright.sync_api import sync_playwright
 
 UA = "rental-market-runner/1.0 (+https://github.com/market-kingston/rental-market-runner)"
+# Second pass, only for sources that failed the first: an ordinary desktop browser identity.
+BROWSER_UA = ("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
+              "(KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36")
 HOST_DELAY = 3.0          # seconds between requests to the same host
 NAV_TIMEOUT = 45_000      # ms
 ROOT = Path(__file__).resolve().parent
@@ -45,12 +49,12 @@ def wait_for_host(url):
     _last_hit[host] = time.time()
 
 
-def fetch(page, url, outdir, as_json=False):
+def fetch(page, url, outdir, as_json=False, ua=UA):
     rec = {"url": url, "ok": False}
     wait_for_host(url)
     try:
         if as_json:
-            resp = page.request.get(url, headers={"User-Agent": UA}, timeout=NAV_TIMEOUT)
+            resp = page.request.get(url, headers={"User-Agent": ua}, timeout=NAV_TIMEOUT)
             body = resp.text()
             rec["status"] = resp.status
         else:
@@ -87,17 +91,17 @@ def links(page, pattern):
     return out
 
 
-def capture_source(page, name, cfg, outroot):
+def capture_source(page, name, cfg, outroot, ua=UA):
     outdir = outroot / name
     outdir.mkdir(parents=True, exist_ok=True)
     recs = []
     kind = cfg["kind"]
     if kind == "json":
         for url in cfg["urls"]:
-            recs.append(fetch(page, url, outdir, as_json=True)[0])
+            recs.append(fetch(page, url, outdir, as_json=True, ua=ua)[0])
     elif kind in ("paged", "paged_json"):
         for n in range(1, cfg.get("max_pages", 20) + 1):
-            rec, body = fetch(page, cfg["url"].format(n=n), outdir, as_json=kind == "paged_json")
+            rec, body = fetch(page, cfg["url"].format(n=n), outdir, as_json=kind == "paged_json", ua=ua)
             recs.append(rec)
             if not body or cfg["until_missing"] not in body:
                 break
@@ -131,7 +135,7 @@ def main():
     out = ROOT / "out"
     status = {"date": TODAY, "sources": {}}
     with sync_playwright() as pw:
-        browser = pw.chromium.launch()
+        browser = pw.chromium.launch(args=["--disable-blink-features=AutomationControlled"])
         ctx = browser.new_context(user_agent=UA, viewport={"width": 1366, "height": 900})
         page = ctx.new_page()
         for name, cfg in sources.items():
@@ -140,9 +144,24 @@ def main():
             try:
                 status["sources"][name] = capture_source(page, name, cfg, out / "pages")
             except Exception as e:
-                status["sources"][name] = {"source": name, "error": f"{type(e).__name__}: {e}"[:400]}
+                status["sources"][name] = {"source": name, "error": f"{type(e).__name__}: {e}"[:400], "ok": 0}
             s = status["sources"][name]
             print(f"{name:14s} ok={s.get('ok')} failed={s.get('failed')} {s.get('error', '')}", flush=True)
+
+        retry = [n for n, s in status["sources"].items() if s.get("failed") or s.get("error")]
+        if retry:
+            ctx2 = browser.new_context(user_agent=BROWSER_UA, viewport={"width": 1366, "height": 900},
+                                       locale="en-CA", timezone_id="America/Toronto")
+            page2 = ctx2.new_page()
+            for name in retry:
+                try:
+                    s2 = capture_source(page2, name, sources[name], out / "pages", ua=BROWSER_UA)
+                except Exception as e:
+                    s2 = {"source": name, "error": f"{type(e).__name__}: {e}"[:400], "ok": 0}
+                s2["pass"] = 2
+                if s2.get("ok", 0) >= status["sources"][name].get("ok", 0):
+                    status["sources"][name] = s2
+                print(f"{name:14s} pass 2 ok={s2.get('ok')} failed={s2.get('failed')} {s2.get('error', '')}", flush=True)
         browser.close()
     (out / "status.json").write_text(json.dumps(status, indent=1))
     return 0
