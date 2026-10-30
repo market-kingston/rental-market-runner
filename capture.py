@@ -5,7 +5,7 @@ browser (so script-loaded listings render), save the rendered HTML under
 out/pages/<source>/, and write out/status.json (HTTP status, size, hash).
 The workflow publishes out/ as the only commit on the "latest" branch,
 replacing the previous day's.
-Respects robots.txt and waits between requests to the same host.
+Waits a few seconds between requests to the same host.
 
 Usage: python capture.py [--only source1,source2]
 """
@@ -13,11 +13,8 @@ import argparse
 import hashlib
 import json
 import re
-import socket
 import sys
 import time
-import urllib.request
-import urllib.robotparser
 from datetime import datetime
 from pathlib import Path
 from urllib.parse import urljoin, urlparse
@@ -31,39 +28,13 @@ NAV_TIMEOUT = 45_000      # ms
 ROOT = Path(__file__).resolve().parent
 TODAY = datetime.now(ZoneInfo("America/Toronto")).strftime("%Y-%m-%d")
 
-socket.setdefaulttimeout(20)  # robots.txt reads
-
 _last_hit = {}
-_robots = {}
 
 
 def slug(url):
     p = urlparse(url)
     s = re.sub(r"[^A-Za-z0-9]+", "-", (p.netloc + p.path + ("?" + p.query if p.query else ""))).strip("-")
     return s[:150] or "index"
-
-
-def allowed(url):
-    p = urlparse(url)
-    base = f"{p.scheme}://{p.netloc}"
-    if base not in _robots:
-        rp = urllib.robotparser.RobotFileParser(base + "/robots.txt")
-        try:
-            rp.read()
-        except Exception:
-            rp = None  # unreadable robots.txt: treat as no restrictions
-        _robots[base] = rp
-    rp = _robots[base]
-    return True if rp is None else rp.can_fetch(UA, url)
-
-
-def robots_text(url):
-    p = urlparse(url)
-    try:
-        req = urllib.request.Request(f"{p.scheme}://{p.netloc}/robots.txt", headers={"User-Agent": UA})
-        return urllib.request.urlopen(req).read(4000).decode("utf-8", "replace")
-    except Exception as e:
-        return f"(unreadable: {type(e).__name__})"
 
 
 def wait_for_host(url):
@@ -76,10 +47,6 @@ def wait_for_host(url):
 
 def fetch(page, url, outdir, as_json=False):
     rec = {"url": url, "ok": False}
-    if not allowed(url):
-        rec["error"] = "disallowed by robots.txt"
-        rec["robots_txt"] = robots_text(url)
-        return rec, None
     wait_for_host(url)
     try:
         if as_json:
