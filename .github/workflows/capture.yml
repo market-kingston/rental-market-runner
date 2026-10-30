@@ -54,7 +54,9 @@ jobs:
             git -c user.name="github-actions[bot]" \
                 -c user.email="41898283+github-actions[bot]@users.noreply.github.com" \
                 commit -q -m "latest"
-          git push -q -f "https://x-access-token:${GH_TOKEN}@github.com/${REPO}.git" latest
+          # a partial test run (only some sources) goes to "test" so it never replaces the full daily output
+          BRANCH=latest; [ -n "${{ github.event.inputs.only }}" ] && BRANCH=test
+          git push -q -f "https://x-access-token:${GH_TOKEN}@github.com/${REPO}.git" "latest:${BRANCH}"
 
       - name: Remove earlier runs
         if: always()
