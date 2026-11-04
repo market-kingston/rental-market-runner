@@ -9,6 +9,7 @@ Usage: python parse.py [out_dir]
 """
 import html as htmllib
 import json
+from datetime import datetime
 import re
 import sys
 from pathlib import Path
@@ -433,10 +434,66 @@ def unity_point():
     return floorplans("unity_point", "333 University Avenue, Kingston, ON, Canada, K7L 0G3")
 
 
+MONTHS = {m: i for i, m in enumerate(["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"], 1)}
+
+
+def condo_history(source, address):
+    """Rental history of one condo building (condos.ca "Rented" listing history). Each entry is a unit that was
+    listed for rent (list price and date) and rented in the month shown. Recorded as supply and leasing pace
+    for 1-3 bed units, not as comparables."""
+    out, months, seen = [], [], set()
+    for p in files(source, ".html"):
+        if "pricehistory" not in p.name:
+            continue
+        ls = lines(p)
+        try:
+            i = ls.index("Listing History")
+        except ValueError:
+            continue
+        month = None
+        while i < len(ls):
+            l = ls[i]
+            m = re.match(r"^(Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec) (20\d\d)$", l)
+            if m:
+                month = f"{m.group(2)}-{MONTHS[m.group(1)]:02d}"
+                nl = next((num(x) for x in ls[i + 1:i + 3] if "Listed" in x), None)
+                nr = next((num(x) for x in ls[i + 1:i + 5] if "Rented" in x), None)
+                months.append(dict(month=month, listed=nl, rented=nr))
+            elif l == "Listed for" and month and i + 3 < len(ls):
+                rent, when = money(ls[i + 1]), ls[i + 3]
+                back = ls[max(0, i - 14):i]
+                def before(tag):
+                    j = max((k for k, x in enumerate(back) if x == tag), default=None)
+                    return back[j - 1] if j else None
+                beds_t, baths_t, sq = before("beds"), before("bath"), before("sqft")
+                beds = 0 if beds_t in ("Studio", "0") else num((beds_t or "").split("+")[0])
+                key = f"{source}|{month}|{when}|{rent}|{beds_t}|{baths_t}|{sq}"
+                if rent and key not in seen:
+                    seen.add(key)
+                    try:
+                        listed_on = datetime.strptime(when, "%b %d, %Y").strftime("%Y-%m-%d")
+                    except Exception:
+                        listed_on = ""
+                    out.append(L(f"{source}|{listed_on}|{int(rent)}|{beds_t}", address, "", beds, num(baths_t), rent, "unit", "",
+                                 "rented", "https://condos.ca/addresses/" + address.lower().replace(" ", "-") + "-kingston",
+                                 rented_month=month, listed_on=listed_on, sqft_range=sq, den="+" in str(beds_t or ""), type="condo"))
+                i += 3
+            i += 1
+    return out, {"months": months[:24], "kind": "rental history (rented units)"}
+
+
+def sage():
+    return condo_history("sage", "652 Princess Street")
+
+
+def crown():
+    return condo_history("crown", "223 Princess Street")
+
+
 PARSERS = {"amberpeak": amberpeak, "axon": axon, "queens_als": queens_als, "casa": casa, "panadew": panadew,
            "homestead": homestead, "frontenac_pm": frontenac_pm, "williamsville": williamsville, "kshc": kshc,
            "mackinnondev": mackinnondev, "limestone": limestone, "geo_central": geo_central,
-           "unity_place": unity_place, "unity_point": unity_point}
+           "unity_place": unity_place, "unity_point": unity_point, "sage": sage, "crown": crown}
 
 
 def main():
