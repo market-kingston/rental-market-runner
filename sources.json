@@ -111,19 +111,15 @@
  "sage": {
   "kind": "page",
   "urls": [
-   "https://condos.ca/addresses/652-princess-street-kingston",
-   "https://condos.ca/kingston/sage-kingston-652-princess-st"
-  ],
-  "follow": "condos\\.ca/addresses/652-princess-street-kingston/unit-[^/?#]+$",
-  "max_follow": 30
+   "https://condos.ca/pricehistory?offer=Rent&addressId=2739680&suiteNumber=&bedTypeNum=-1",
+   "https://condos.ca/addresses/652-princess-street-kingston?offer=Rent"
+  ]
  },
  "crown": {
   "kind": "page",
   "urls": [
-   "https://condos.ca/addresses/223-princess-street-kingston",
-   "https://condos.ca/kingston/crown-condos-223-princess-st"
-  ],
-  "follow": "condos\\.ca/addresses/223-princess-street-kingston/unit-[^/?#]+$",
-  "max_follow": 30
+   "https://condos.ca/pricehistory?offer=Rent&addressId=2851106&suiteNumber=&bedTypeNum=-1",
+   "https://condos.ca/addresses/223-princess-street-kingston?offer=Rent"
+  ]
  }
 }
