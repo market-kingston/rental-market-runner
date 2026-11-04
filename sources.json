@@ -61,20 +61,18 @@
  "homestead": {
   "kind": "page",
   "urls": [
-   "https://www.homestead.ca/apartments-for-rent/kingston",
    "https://www.homestead.ca/residential/346-brock-street-kingston",
    "https://www.homestead.ca/residential/322-brock-street-kingston",
    "https://www.homestead.ca/residential/117-park-street-kingston",
    "https://www.homestead.ca/residential/32-ontario-street-kingston",
    "https://www.homestead.ca/residential/64-ontario-street-kingston",
+   "https://www.homestead.ca/residential/85-ontario-street-kingston",
    "https://www.homestead.ca/residential/135-ontario-street-kingston",
    "https://www.homestead.ca/residential/33-ontario-street-kingston",
    "https://www.homestead.ca/residential/91-king-street-east-kingston",
    "https://www.homestead.ca/residential/27-elmwood-street-kingston",
    "https://www.homestead.ca/residential/310-bath-road-kingston"
-  ],
-  "follow": "homestead\\.ca/residential/[a-z0-9-]+-kingston/?$",
-  "max_follow": 70
+  ]
  },
  "frontenac_pm": {
   "kind": "page",
@@ -113,16 +111,19 @@
  "sage": {
   "kind": "page",
   "urls": [
-   "https://rentals.ca/kingston/652-princess-street-id1013911",
-   "https://www.apartments.com/sage-kingston-kingston-on/06hmhj3/"
-  ]
+   "https://condos.ca/addresses/652-princess-street-kingston",
+   "https://condos.ca/kingston/sage-kingston-652-princess-st"
+  ],
+  "follow": "condos\\.ca/addresses/652-princess-street-kingston/unit-[^/?#]+$",
+  "max_follow": 30
  },
  "crown": {
   "kind": "page",
   "urls": [
-   "https://www.apartments.com/crown-condos-kingston-on/gy6snsx/",
-   "https://www.forrent.com/on/kingston/crown-condos/ty6sks9",
-   "https://liv.rent/rental-listings/detail/apartment/kingston/119204"
-  ]
+   "https://condos.ca/addresses/223-princess-street-kingston",
+   "https://condos.ca/kingston/crown-condos-223-princess-st"
+  ],
+  "follow": "condos\\.ca/addresses/223-princess-street-kingston/unit-[^/?#]+$",
+  "max_follow": 30
  }
 }
