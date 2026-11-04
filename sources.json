@@ -109,5 +109,20 @@
   ],
   "follow": "mackinnondev\\.ca/[^?#]+\\.html$",
   "max_follow": 60
+ },
+ "sage": {
+  "kind": "page",
+  "urls": [
+   "https://rentals.ca/kingston/652-princess-street-id1013911",
+   "https://www.apartments.com/sage-kingston-kingston-on/06hmhj3/"
+  ]
+ },
+ "crown": {
+  "kind": "page",
+  "urls": [
+   "https://www.apartments.com/crown-condos-kingston-on/gy6snsx/",
+   "https://www.forrent.com/on/kingston/crown-condos/ty6sks9",
+   "https://liv.rent/rental-listings/detail/apartment/kingston/119204"
+  ]
  }
 }
