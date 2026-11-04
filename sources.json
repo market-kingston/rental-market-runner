@@ -61,6 +61,7 @@
  "homestead": {
   "kind": "page",
   "urls": [
+   "https://www.homestead.ca/apartments-for-rent/kingston",
    "https://www.homestead.ca/residential/346-brock-street-kingston",
    "https://www.homestead.ca/residential/322-brock-street-kingston",
    "https://www.homestead.ca/residential/117-park-street-kingston",
@@ -71,7 +72,9 @@
    "https://www.homestead.ca/residential/91-king-street-east-kingston",
    "https://www.homestead.ca/residential/27-elmwood-street-kingston",
    "https://www.homestead.ca/residential/310-bath-road-kingston"
-  ]
+  ],
+  "follow": "homestead\\.ca/residential/[a-z0-9-]+-kingston/?$",
+  "max_follow": 70
  },
  "frontenac_pm": {
   "kind": "page",

@@ -206,7 +206,7 @@ def panadew():
 
 
 def homestead():
-    out, promos = [], []
+    out, promos, seen = [], [], set()
     for p in files("homestead", ".html"):
         slug = re.search(r"residential-([a-z0-9-]+-kingston)", p.name)
         slug = slug.group(1) if slug else p.stem
@@ -223,7 +223,11 @@ def homestead():
             beds = int(m.group(2)) if m.group(2) else 0
             sqft = next((num(x) for x in ls[i + 3:i + 15] if x.startswith("Sqft")), None)
             avail = ls[i + 2]
-            out.append(L(f"homestead|{slug}-{beds}", address, "", beds, None, money(ls[i + 1]), "unit-from", "",
+            key = f"homestead|{slug}-{beds}" + ("d" if "Den" in ls[i] else "")
+            if key in seen:      # the same building can be captured twice (listed URL + followed link)
+                continue
+            seen.add(key)
+            out.append(L(key, address, "", beds, None, money(ls[i + 1]), "unit-from", "",
                          "available" if avail.lower() == "available" else "unavailable",
                          "https://www.homestead.ca/residential/" + slug, sqft=sqft, suite=ls[i]))
         promos += [f"{address}: {l}" for l in ls if len(l) < 160 and not l.startswith("*")
