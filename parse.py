@@ -329,49 +329,49 @@ def kshc():
 
 
 def mackinnondev():
+    """The site lists units as cards on /available.html (status, address, beds, baths, $ / bed / month) and has
+    one page per unit (h1 address, status, $ / month total, sq ft). Unit pages win where both give a value."""
+    num = lambda x: float(x.replace(",", ""))
+    avail = re.compile(r"^(Available (Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)\w* \d{4}|Leased|Pending|Coming soon)$")   # not the "Available Now" filter
+    cards = {}
+    for p in files("mackinnondev", "available-html.html"):
+        ls = lines(p)
+        for i in range(1, len(ls) - 1):
+            if re.match(r"^\d+ beds?$", ls[i + 1]) and re.match(r"^\d", ls[i]):
+                c = dict(address=ls[i], status=ls[i - 1] if avail.match(ls[i - 1]) else "", beds=int(ls[i + 1].split()[0]))
+                for x in ls[i + 2:i + 7]:
+                    m = re.match(r"^([\d.]+) baths?$", x)
+                    if m:
+                        c["baths"] = float(m.group(1))
+                    m = re.match(r"^\$([\d,]+) / bed / month$", x)
+                    if m:
+                        c["per_bed"], c["rent_text"] = num(m.group(1)), x
+                        break
+                cards.setdefault(c["address"], c)
     out = {}
-    home = next(iter(files("mackinnondev", "mackinnondev-ca.html")), None)
-    if home is None:
-        return [], {}
-    s = soup(home)
-    hrefs = {norm(re.sub(r"\.html$", "", a["href"].split("/")[-1])): a["href"]
-             for a in s.find_all("a", href=True) if a["href"].endswith(".html")}
-    ls = lines(home)
-    status_words = re.compile(r"^(Available.*|Pending|Leased|Coming soon)$")
-    for i, l in enumerate(ls):
-        m = re.match(r"^(\d+) bedrooms?$", l)
-        if not m or i < 2:
+    for p in files("mackinnondev", "-html.html"):
+        slug = p.name[len("mackinnondev-ca-"):-len("-html.html")] if p.name.startswith("mackinnondev-ca-") else ""
+        if not re.match(r"^\d", slug) or "parking" in slug:
             continue
-        name = ls[i - 1]
-        j = i - 2
-        while j >= 0 and not status_words.match(ls[j]) and i - j < 4:
-            j -= 1
-        status = ls[j] if j >= 0 and status_words.match(ls[j]) else ""
-        href = hrefs.get(norm(name.replace(" 1/2", "-5")), "")
-        out[norm(name)] = L(f"mackinnondev|{norm(name)}", name, "", int(m.group(1)), None, None, "unit",
-                            status if status.startswith("Available") else "",
-                            status or "unstated", ("https://mackinnondev.ca" + href) if href.startswith("/") else href)
-    # unit pages: rent and baths
-    for p in files("mackinnondev", ".html"):
-        if p.name == "mackinnondev-ca.html":
-            continue
-        text = " ".join(lines(p))
-        total = re.search(r"\$([\d,]+)\s*/\s*month total", text)
-        per_bed = re.search(r"\$([\d,]+)\s*/\s*bed", text)
-        for rec in out.values():
-            stem = re.sub(r"(html)+$", "", norm(p.name.replace("mackinnondev-ca-", "")))
-            if rec["url"] and re.sub(r"html$", "", norm(rec["url"].split("/")[-1])) == stem:
-                beds = rec["beds"] or 0
-                rec["rent"] = clean_num(float(total.group(1).replace(",", ""))) if total else (
-                    clean_num(float(per_bed.group(1).replace(",", "")) * beds) if per_bed and beds else None)
-                if per_bed:
-                    rec["rent_text"] = f"${per_bed.group(1)} / bed / month"
-                b = re.search(r"(\d+(?:\.\d)?)\s*(?:bath|Bath)", text)
-                if b:
-                    rec["baths"] = clean_num(float(b.group(1)))
-                sq = re.search(r"([\d,]{3,6})\s*sq\s*ft", text)
-                if sq:
-                    rec["sqft"] = clean_num(float(sq.group(1).replace(",", "")))
+        s, ls = soup(p), lines(p)
+        h1 = s.find("h1")
+        name = re.sub(r"\s+", " ", h1.get_text(" ")).strip() if h1 else slug
+        c = cards.pop(name, {})
+        status = next((x for x in ls if avail.match(x)), "") or c.get("status", "")
+        total = next((num(m.group(1)) for x in ls for m in [re.match(r"^\$([\d,]+) / month total$", x)] if m), None)
+        sq = re.search(r"([\d,]{3,6})\s*sq\.? ?ft", " ".join(ls))
+        beds = c.get("beds") or next((int(x.split()[0]) for x in ls if re.match(r"^\d+ beds?$", x)), None)
+        baths = c.get("baths") or next((float(x.split()[0]) for x in ls if re.match(r"^[\d.]+ baths?$", x)), None)
+        is_av = status.lower().startswith("available")
+        rent = total or (c["per_bed"] * beds if c.get("per_bed") and beds else None)
+        out[name] = L(f"mackinnondev|{norm(name)}", name, "", beds, baths, rent if is_av else None, "unit",
+                      status if is_av else "", status or "unstated", f"https://mackinnondev.ca/{slug}.html",
+                      rent_text=c.get("rent_text"), sqft=clean_num(num(sq.group(1))) if sq else None)
+    for name, c in cards.items():   # a card with no unit page saved
+        is_av = c["status"].lower().startswith("available")
+        out[name] = L(f"mackinnondev|{norm(name)}", name, "", c["beds"], c.get("baths"),
+                      c["per_bed"] * c["beds"] if c.get("per_bed") and is_av else None, "unit",
+                      c["status"] if is_av else "", c["status"] or "unstated", "", rent_text=c.get("rent_text"))
     return list(out.values()), {}
 
 
